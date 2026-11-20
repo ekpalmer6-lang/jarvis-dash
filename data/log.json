@@ -18325,5 +18325,211 @@
     "level": "info",
     "msg": "SIDOOR 5m flow pressure 0.727 buyers 12 large-net $204.63 (0 large selling)",
     "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FtrmLR cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:38:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:38:33+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:38:33+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T22:38:43+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 113 mint mentions"
+  },
+  {
+    "t": "2026-11-20T22:38:46+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13146ms: 278 mints, 63 cheap rows, 41 moving"
+  },
+  {
+    "t": "2026-11-20T22:38:50+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoMoonShots/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:38:53+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SolanaMemeCoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:38:54+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for ViceTrend: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "Ew4jHKVaBEwHfzuzTr84ZW11TcpvzJpYRJTQ1Liqpump"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "FLIPCOIN 5m flow pressure 0.502 buyers 22 large-net $-413.88 (2 large selling)",
+    "mint": "89HGAw5cXt8XumbLPN7WD5bkNpxSMMCaDe6gbb1Ppump"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FtrmLR cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:38:56+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/solana/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:39:01+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/memecoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:39:01+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.587 buyers 76 large-net $832.01 (5 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T22:39:06+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:39:07+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoCurrency/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:39:09+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/pumpfun/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:39:12+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SatoshiStreetBets/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:39:12+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public RSS/Atom also failed or was rate-limited from this machine; no workaround used. The only legitimate alternative is a Reddit OAuth API app on the user's own Reddit account."
+  },
+  {
+    "t": "2026-11-20T22:39:12+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T22:39:17+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11073ms: 301 mints, 68 cheap rows, 38 moving"
+  },
+  {
+    "t": "2026-11-20T22:39:20+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 30.1% held by linked wallets",
+    "mint": "4pYJGgPSzg5LBY6uwq3idmUFACprh7wtUj2bpn1Apump",
+    "symbol": "FLIPCOIN",
+    "reason": "too bundled: 30.1% held by linked wallets",
+    "clustered_pct": 30.1,
+    "cluster_count": 1
   }
 ]

@@ -1245,5 +1245,87 @@
     "mc_usd": 120003,
     "url": "https://dexscreener.com/solana/58xqwpxdgp3gfu9dafxs8c1gjwtldhdqhjrofaf5ywtv",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:38:37+00:00",
+    "ts": 1795214317,
+    "kind": "spike",
+    "mint": "HkA3oGXXsUcMCTHZuwQ8io1ybABdRsyrWgc6P1D3pump",
+    "symbol": "PUm",
+    "msg": "PUm volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 0.05,
+    "prior_30m_avg_1m": 0.0,
+    "url": "https://dexscreener.com/solana/5zbjguwvtrdsusihjue6e2thhmbomzhzgsruz2v3m9dq",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:39:17+00:00",
+    "ts": 1795214357,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 8.9,
+        "stale": false,
+        "at": "2026-11-20T22:39:09+00:00",
+        "at_et": "Nov 21, 6:39 AM AWST",
+        "at_awst": "Nov 21, 6:39 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 55.7,
+        "stale": false,
+        "at": "2026-11-20T22:38:22+00:00",
+        "at_et": "Nov 21, 6:38 AM AWST",
+        "at_awst": "Nov 21, 6:38 AM AWST"
+      },
+      "scan": {
+        "age_s": 44.9,
+        "stale": false,
+        "at": "2026-11-20T22:38:33+00:00",
+        "at_et": "Nov 21, 6:38 AM AWST",
+        "at_awst": "Nov 21, 6:38 AM AWST"
+      },
+      "status": {
+        "age_s": 0.9,
+        "stale": false,
+        "at": "2026-11-20T22:39:17+00:00",
+        "at_et": "Nov 21, 6:39 AM AWST",
+        "at_awst": "Nov 21, 6:39 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:39:18+00:00",
+    "ts": 1795214358,
+    "kind": "fast",
+    "mint": "4pYJGgPSzg5LBY6uwq3idmUFACprh7wtUj2bpn1Apump",
+    "symbol": "FLIPCOIN",
+    "msg": "FLIPCOIN +350% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 350,
+    "mc_usd": 9185.64,
+    "url": "https://dexscreener.com/solana/8nutufpzyf5b6xrfuyr2byrlbrjf9mhf9z5m6ttzqenq",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:39:18+00:00",
+    "ts": 1795214358,
+    "kind": "fast",
+    "mint": "8638NDHHQE8HfrxPgbMGp5sMH25r1jTrp5vLn5bCpump",
+    "symbol": "$NUMB",
+    "msg": "$NUMB +43% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 42.95,
+    "mc_usd": 2764.92,
+    "url": "https://dexscreener.com/solana/anpsfefaefwykqtveecej1bdhsjcxttmk9ek9wdrbshd",
+    "watch": "scan"
   }
 ]
