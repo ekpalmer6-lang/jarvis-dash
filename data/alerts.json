@@ -3417,5 +3417,31 @@
     "mc_usd": 2747.91,
     "url": "https://dexscreener.com/solana/hocrxrvh2xyuommrfe4mfvj5xka5ijbkbnx2js9vdg6d",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:33:48+00:00",
+    "ts": 1795217628,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T23:34:07+00:00",
+    "ts": 1795217647,
+    "kind": "spike",
+    "mint": "FgLzBUDZTeNeQRWKAdxKzwQabBYY1d12u4A7XZufpump",
+    "symbol": "der",
+    "msg": "der volume spike 689.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 689.165,
+    "last_1m": 1858.99,
+    "prior_30m_avg_1m": 2.7,
+    "url": "https://dexscreener.com/solana/48tz3arcdlrkcgv38zqgvbhvtqkr7rxyk1the1onbc2k",
+    "watch": "scan"
   }
 ]
