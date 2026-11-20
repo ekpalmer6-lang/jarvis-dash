@@ -2957,5 +2957,32 @@
     "mc_usd": 3159.78,
     "url": "https://dexscreener.com/solana/79x6hsk2av9naudoncrasefxdarelwwbbrusogzukzgm",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:13:53+00:00",
+    "ts": 1795216433,
+    "kind": "fast",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "msg": "Trader +32% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 31.63,
+    "mc_usd": 481699,
+    "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:14:33+00:00",
+    "ts": 1795216473,
+    "kind": "spike",
+    "mint": "CnRrmhBssa2hJt8ABcyVB3UKiEWiXtZ2W3Hk3Sf6pump",
+    "symbol": "SIG",
+    "msg": "SIG volume spike 32.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 32.043,
+    "last_1m": 0.4,
+    "prior_30m_avg_1m": 0.01,
+    "url": "https://dexscreener.com/solana/bgb9r524y8cgvocvtimiwtlcacrwghk2hwykqx6by9b",
+    "watch": "scan"
   }
 ]
