@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T19:18:44Z",
+  "published_at": "2026-11-20T19:25:41Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -50,7 +50,26 @@
       "confident_position_usd": null,
       "sizing": "from whole balance by conviction; reinvest profits",
       "watch": "15s-1m candles, as long as needed",
-      "min_watch_seconds": 15
+      "min_watch_seconds": 15,
+      "stop_loss": {
+        "hard_pct": -20,
+        "trailing_pct": -25,
+        "trail_arm_pct": 30,
+        "time_stop_min": 25,
+        "max_loss_per_trade_pct_of_balance": 35,
+        "take_profit_partial": {
+          "at_gain_pct": 50,
+          "sell_fraction": 0.5
+        }
+      },
+      "swing_mode": {
+        "enabled": false,
+        "take_full_at_gain_pct": 50,
+        "rebuy_pullback_pct": 30,
+        "rebuy_confirm": "first green 1m candle after the pullback with buy-heavy 1m flow",
+        "max_rebuys_per_coin": 2,
+        "rebuy_window_min": 30
+      }
     },
     "equity": [
       {

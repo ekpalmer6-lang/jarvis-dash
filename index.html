@@ -267,6 +267,13 @@ html:not([data-theme=light]) .livedot{color:#31ca77}html:not([data-theme=light])
  html:not([data-theme=light]) .brand{font-size:19px}
  html:not([data-theme=light]) .card{border-radius:18px}
 }
+html:not([data-theme=light]) #orbit{--neon:#ff8118}
+html:not([data-theme=light]) .card.s8[data-tab=live] #chartBox{background:rgba(30,6,14,.28);border-radius:16px;border:1px solid rgba(255,220,200,.14)}
+html:not([data-theme=light]) a{color:#ff9a3c}
+.depbtn{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:13px 22px;border-radius:999px;background:linear-gradient(180deg,#3fdc87,#2bb86a);color:#052012!important;font:800 15px/1 Inter,system-ui,sans-serif;text-decoration:none!important;box-shadow:0 8px 26px rgba(49,202,119,.45),0 0 0 1px rgba(255,255,255,.25) inset;transition:transform .15s,box-shadow .2s}
+.depbtn:hover{transform:translateY(-1px);box-shadow:0 10px 32px rgba(49,202,119,.6),0 0 0 1px rgba(255,255,255,.35) inset}.depbtn span{font-size:13px;opacity:.75}
+html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shadow:0 6px 18px rgba(16,185,129,.3)}
+@media(max-width:560px){.depbtn{display:flex;justify-content:center;width:100%}}
 </style></head><body>
 <div id="splash"><div class="mark"><span>J</span></div><div class="brand">JARVIS TERMINAL</div><div class="sub" id="splashMsg">booting agents… loading real data</div></div>
 <canvas id="confetti"></canvas><div id="toasts"></div>
@@ -285,7 +292,7 @@ html:not([data-theme=light]) .livedot{color:#31ca77}html:not([data-theme=light])
 <div class="grid">
   <section class="card s8" data-tab="live">
     <div class="hero">
-      <div><div class="lbl" id="balLbl">Trading wallet · cash</div><div class="big" id="cash">$0.00</div><div class="pills"><span class="dp" id="deltaPill">–</span><span class="dp" id="multPill">–</span></div><div class="sub" id="inLine" style="margin-top:8px"></div><div class="sub" id="cashsrc" style="margin-top:4px"></div></div>
+      <div><div class="lbl" id="balLbl">Trading wallet · cash</div><div class="big" id="cash">$0.00</div><div class="pills"><span class="dp" id="deltaPill">–</span><span class="dp" id="multPill">–</span></div><div class="sub" id="inLine" style="margin-top:8px"></div><div class="sub" id="cashsrc" style="margin-top:4px"></div><a class="depbtn" id="depBtn" href="https://fomo.family/profile/ProudAngryFlea" target="_blank" rel="noopener noreferrer" title="Opens your Fomo profile; use the account menu there to deposit">＋ Deposit on Fomo <span>↗</span></a></div>
       <div class="kpis">
         <div class="kpi"><div class="lbl">Equity</div><b id="equity">–</b></div>
         <div class="kpi"><div class="lbl">Realised P&amp;L</div><b id="pnl">–</b></div>
@@ -355,9 +362,9 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const usd=(v,d=2)=>v==null||isNaN(v)?"–":(v<0?"-$":"$")+Math.abs(v).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
 const kfmt=v=>v==null?"–":v>=1e6?"$"+(v/1e6).toFixed(2)+"M":v>=1e3?"$"+(v/1e3).toFixed(1)+"k":"$"+Math.round(v);
 const px=v=>v==null||!v?"–":v>=1?"$"+v.toFixed(4):"$"+v.toPrecision(4);
-const TZ="Australia/Sydney";
-const tm=t=>t?new Date(t).toLocaleTimeString("en-AU",{timeZone:TZ,hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}):"–";
-const dt=t=>t?new Date(t).toLocaleString("en-AU",{timeZone:TZ,day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",hour12:false}):"–";
+const TZ="America/New_York";
+const tm=t=>t?new Date(t).toLocaleTimeString("en-US",{timeZone:TZ,hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true}):"–";
+const dt=t=>t?new Date(t).toLocaleString("en-US",{timeZone:TZ,month:"short",day:"numeric",hour:"numeric",minute:"2-digit",hour12:true}):"–";
 async function j(u){try{const r=await fetch(u,{cache:"no-store"});return r.ok?await r.json():null}catch(e){return null}}
 async function jl(u){try{const r=await fetch(u,{cache:"no-store"});if(!r.ok)return[];return(await r.text()).split("\n").filter(Boolean).map(l=>{try{return JSON.parse(l)}catch(e){return null}}).filter(Boolean)}catch(e){return[]}}
 // animated counters
@@ -416,7 +423,7 @@ const emptyBox=(title,sub)=>`<div class="empty"><div class="rad"></div><b>${titl
 const av=(sym,m)=>logos[m]?`<div class="av"><img src="${esc(logos[m])}" alt="" onerror="this.remove()"></div>`:`<div class="av">${esc((sym||"?").slice(0,3).toUpperCase())}</div>`;
 function chip(label,val,good,bad,suffix="%"){if(val==null)return`<span class="chip">${label} ?</span>`;const cls=val<=good?"ok":val>=bad?"bad":"mid";return`<span class="chip ${cls}">${label} ${val}${suffix}</span>`}
 async function tick(){
- $("clock").textContent=tm(Date.now())+" AEDT";
+ $("clock").textContent=tm(Date.now())+" ET";
  const base="/data/"+MODE+"/";
  const [bal,pos,trades,eq,status,log,limits,scan]=await Promise.all([j(base+"balance.json"),j(base+"positions.json"),jl(base+"trades.jsonl"),jl(base+"equity.jsonl"),j("/data/live/status.json"),jl("/data/live/log.jsonl"),j("/data/live/limits.json"),j("/data/latest.json")]);
  $("hb").className="pulse"+(status?"":" off");
@@ -429,7 +436,7 @@ async function tick(){
  // balance + equity
  let posVal=0;P.forEach(p=>{const q=live[p.mint];if(q&&q.price_usd)posVal+=p.qty*q.price_usd});
  const cash=bal?bal.cash_usd:null;count("cash",cash,v=>usd(v));count("equity",cash==null?null:cash+posVal,v=>usd(v));
- $("cashsrc").textContent=bal?`${bal.source||""} · as of ${dt(bal.as_of||bal.updated)} AEDT`:"no balance file";
+ $("cashsrc").textContent=bal?`${bal.source||""} · as of ${dt(bal.as_of||bal.updated)} ET`:"no balance file";
  const sells=trades.filter(t=>t.side==="sell"),buys=trades.filter(t=>t.side==="buy"),PL=pnl(trades,P,live),realised=PL.realised;LASTPL=PL;
  if(trades.length){count("pnl",realised,v=>(v>=0?"+":"")+usd(v));$("pnl").className=realised>0?"g":realised<0?"rd":""}else{$("pnl").textContent="–";$("pnl").className=""}
  $("openN").textContent=`${P.length} · ${PL.winRate==null?"–":Math.round(PL.winRate*100)+"%"}`;
@@ -479,7 +486,7 @@ async function tick(){
    :emptyBox("Scanning… no trade yet",MODE==="live"?"Live trading is off. Every real trade needs your go-ahead.":"No paper fills yet.");
  // scan cards
  if(scan&&scan.rows&&scan.rows.length){const c={candidate:0,watch:0,avoid:0};scan.rows.forEach(r=>c[r.verdict]++);
-  $("scanmeta").textContent=`${dt(scan.meta.scanned_at_utc)} AEDT · ${scan.meta.mints_discovered} found · ${c.candidate} candidate · ${c.watch} watch · ${c.avoid} avoid`;
+  $("scanmeta").textContent=`${dt(scan.meta.scanned_at_utc)} ET · ${scan.meta.mints_discovered} found · ${c.candidate} candidate · ${c.watch} watch · ${c.avoid} avoid`;
   $("scan").innerHTML=scan.rows.map(r=>{const bs=r.bundle_pct==null?null:+(r.bundle_pct+(r.sniper_pct||0)).toFixed(2);
    const wh=r.whales_selling==null?`<span class="chip">whales ?</span>`:`<span class="chip ${r.whales_selling>=2?"bad":r.whales_selling?"mid":"ok"}">whales ${r.whales_selling}↓ ${r.whales_accumulating||0}↑</span>`;
    const lp=r.lp_locked_pct==null?`<span class="chip">LP ?</span>`:`<span class="chip ${r.lp_locked_pct>=90?"ok":"bad"}">LP ${r.lp_locked_pct}%</span>`;
@@ -501,7 +508,7 @@ function renderRecap(){const R=RECAP;if(!R.trades||!R.trades.length){$("recapSub
  const t=R.trades,buys=t.filter(x=>x.side==="buy"),sells=t.filter(x=>x.side==="sell"),putIn=buys.reduce((a,x)=>a+(x.usd||0),0),coins=new Set(t.map(x=>x.mint)).size;
  const wins=sells.filter(x=>(x.realised_pnl_usd||0)>0).length,best=sells.slice().sort((a,b)=>(b.realised_pnl_usd||0)-(a.realised_pnl_usd||0))[0],worst=sells.slice().sort((a,b)=>(a.realised_pnl_usd||0)-(b.realised_pnl_usd||0))[0];
  const worth=R.start!=null&&R.equity!=null?R.equity:null,mult=R.start&&worth!=null?worth/R.start:null;
- $("recapSub").textContent=`${MODE==="live"?"LIVE":"PAPER"} · ${dt(t[0].t)} → ${dt(t[t.length-1].t)} AEDT`;
+ $("recapSub").textContent=`${MODE==="live"?"LIVE":"PAPER"} · ${dt(t[0].t)} → ${dt(t[t.length-1].t)} ET`;
  $("recapBody").innerHTML=`<div class="recap"><div><span class="lbl">Put in</span><b>${usd(putIn)}</b></div><div><span class="lbl">Now worth</span><b>${usd(worth)}</b></div><div><span class="lbl">Multiplier</span><b class="${mult>=1?"g":"rd"}">${mult==null?"–":mult.toFixed(2)+"x"}</b></div>
  <div><span class="lbl">Trades</span><b>${t.length}</b></div><div><span class="lbl">Coins</span><b>${coins}</b></div><div><span class="lbl">Win rate</span><b>${sells.length?Math.round(wins/sells.length*100)+"%":"–"}</b></div>
  <div style="grid-column:span 3"><span class="lbl">Best</span><b class="g">${best?esc(best.symbol)+" "+usd(best.realised_pnl_usd)+" · "+esc(best.reason||""):"–"}</b></div><div style="grid-column:span 3"><span class="lbl">Worst</span><b class="rd">${worst?esc(worst.symbol)+" "+usd(worst.realised_pnl_usd)+" · "+esc(worst.reason||""):"–"}</b></div></div>`;
