@@ -17645,5 +17645,147 @@
     "agent": "Paper",
     "level": "info",
     "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:33:13+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9583ms: 242 mints, 14 cheap rows, 7 moving"
+  },
+  {
+    "t": "2026-11-20T22:33:19+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Trader 5m flow pressure 0.505 buyers 93 large-net $-579.35 (6 large selling)",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
+  },
+  {
+    "t": "2026-11-20T22:33:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "chud 5m flow pressure 0.0 buyers 1 large-net $-219.59 (1 large selling)",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
+  },
+  {
+    "t": "2026-11-20T22:33:29+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "guard started, interval 20s"
+  },
+  {
+    "t": "2026-11-20T22:33:29+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scanloop started (24/7)"
+  },
+  {
+    "t": "2026-11-20T22:33:29+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:33:29+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T22:33:37+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:33:40+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 113 mint mentions"
+  },
+  {
+    "t": "2026-11-20T22:33:43+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13863ms: 261 mints, 41 cheap rows, 25 moving"
+  },
+  {
+    "t": "2026-11-20T22:33:46+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoMoonShots/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:33:49+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SolanaMemeCoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:33:52+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/solana/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:33:54+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "VCN 5m flow pressure 0.5 buyers 53 large-net $-889.7 (7 large selling)",
+    "mint": "77HfPLLwDSmFzf2qPXtn5rvr6Epv9sTevP3wjphepump"
+  },
+  {
+    "t": "2026-11-20T22:33:55+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/memecoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:33:57+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.518 buyers 127 large-net $1749.09 (5 large selling)",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
+  },
+  {
+    "t": "2026-11-20T22:33:58+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoCurrency/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:34:02+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/pumpfun/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:34:03+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:34:07+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: watching ApVCoL for 15s ($10, curve momentum)"
+  },
+  {
+    "t": "2026-11-20T22:34:08+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SatoshiStreetBets/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:34:08+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public RSS/Atom also failed or was rate-limited from this machine; no workaround used. The only legitimate alternative is a Reddit OAuth API app on the user's own Reddit account."
+  },
+  {
+    "t": "2026-11-20T22:34:08+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
   }
 ]
