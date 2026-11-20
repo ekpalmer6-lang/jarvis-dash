@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T20:31:29Z",
+  "published_at": "2026-11-20T20:32:32Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,8 +16,8 @@
     "status": {
       "Scanner": {
         "state": "idle",
-        "detail": "last scan finished: 12 evaluated",
-        "updated": "2026-11-20T20:18:27+00:00"
+        "detail": "tier 1 13560ms, 6 moving",
+        "updated": "2026-11-20T20:32:06+00:00"
       },
       "Executor": {
         "state": "off",
@@ -35,14 +35,14 @@
         "updated": "2026-11-20T20:18:27+00:00"
       },
       "Rug Check": {
-        "state": "idle",
-        "detail": "12 reports, 3 deep checks",
-        "updated": "2026-11-20T20:18:27+00:00"
+        "state": "running",
+        "detail": "deep check DCTY",
+        "updated": "2026-11-20T20:32:30+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 0 watched, 0 events",
-        "updated": "2026-11-20T20:31:18+00:00"
+        "updated": "2026-11-20T20:32:18+00:00"
       }
     },
     "limits": {

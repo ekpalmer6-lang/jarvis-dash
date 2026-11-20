@@ -2211,5 +2211,47 @@
     "agent": "Executor",
     "level": "info",
     "msg": "routine check: 0 open, 0 exit req, 0 rug alerts, 0 buy-ready, verdicts {'watch': 6, 'avoid': 6}"
+  },
+  {
+    "t": "2026-11-20T20:31:53+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T20:31:53+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:31:53+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:32:04+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 112 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:32:06+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13560ms: 219 mints, 12 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:32:27+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:32:27+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
   }
 ]
