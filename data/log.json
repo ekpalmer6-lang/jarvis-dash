@@ -2001,5 +2001,25 @@
     "level": "info",
     "msg": "HUSS: watch, size $0, dev: no prior launches on record, whales 0 selling / 3 accumulating",
     "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T20:04:30+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow pressure 0.696 buyers 23 large-net $1765.55 (2 large selling)",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:04:39+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "AI: avoid, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:04:59+00:00",
+    "agent": "Executor",
+    "level": "info",
+    "msg": "routine check: 0 open, 0 exit req, 0 rug alerts, 0 buy-ready, verdicts {'watch': 6, 'avoid': 3}"
   }
 ]
