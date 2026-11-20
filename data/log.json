@@ -3483,5 +3483,37 @@
     "level": "info",
     "msg": "Singularity 5m flow pressure 0.555 buyers 102 large-net $3058.64 (5 large selling)",
     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:55:41+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow pressure 0.318 buyers 45 large-net $-3650.24 (7 large selling)",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:55:48+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:55:58+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10543ms: 242 mints, 12 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:56:11+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: SELL 100% HUSS: hard stop -12% ($8.17)"
+  },
+  {
+    "t": "2026-11-20T20:56:29+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Trader 5m flow pressure 0.517 buyers 133 large-net $-226.54 (8 large selling)",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
   }
 ]

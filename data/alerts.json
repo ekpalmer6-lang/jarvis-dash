@@ -504,5 +504,19 @@
     "mc_usd": 164527,
     "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T20:55:49+00:00",
+    "ts": 1795208149,
+    "kind": "spike",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "msg": "Trader volume spike 22.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 22.171,
+    "last_1m": 14837.35,
+    "prior_30m_avg_1m": 669.23,
+    "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n",
+    "watch": "scan"
   }
 ]
