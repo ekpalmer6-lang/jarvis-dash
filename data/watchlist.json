@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T23:08:26+00:00",
-  "partial": true,
+  "updated": "2026-11-20T23:08:35+00:00",
+  "partial": false,
   "sources": {
     "telegram": {
       "ok": true,
@@ -42,8 +42,8 @@
       "error": "no live X API in feeds.py; optional out/x_raw.jsonl not present"
     },
     "onchain_flow": {
-      "ok": false,
-      "mints_measured": 0
+      "ok": true,
+      "mints_measured": 1
     },
     "dex_trending_count": 46
   },
@@ -74,7 +74,16 @@
           "t": "2026-11-20T22:07:20+00:00",
           "ticker": "$70"
         }
-      ]
+      ],
+      "symbol": "MONKE",
+      "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+      "dex": "raydium",
+      "flow": {
+        "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "3k5ssodruz8qgznfhmpckapue472jwngexrmemgsmyye",
@@ -137,7 +146,16 @@
           "t": "2026-11-20T21:17:41+00:00",
           "ticker": "$ENU"
         }
-      ]
+      ],
+      "symbol": "enu",
+      "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
@@ -179,7 +197,66 @@
           "t": "2026-11-20T21:16:20+00:00",
           "ticker": "$67"
         }
-      ]
+      ],
+      "symbol": "chud",
+      "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 3,
+            "buys": 0,
+            "sells": 3,
+            "buy_usd": 0,
+            "sell_usd": 93.25,
+            "buy_pressure": 0.0,
+            "unique_buyers": 0,
+            "unique_sellers": 3,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 5,
+            "buys": 0,
+            "sells": 5,
+            "buy_usd": 0,
+            "sell_usd": 95.93,
+            "buy_pressure": 0.0,
+            "unique_buyers": 0,
+            "unique_sellers": 5,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 24,
+            "buys": 10,
+            "sells": 14,
+            "buy_usd": 677.51,
+            "sell_usd": 798.68,
+            "buy_pressure": 0.459,
+            "unique_buyers": 8,
+            "unique_sellers": 14,
+            "large_wallets": 2,
+            "large_wallets_buying": 1,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": 3.25,
+            "max_buyer_share": 0.438,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
     },
     {
       "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
@@ -200,7 +277,16 @@
           "t": "2026-11-20T21:15:44+00:00",
           "ticker": "$SINGULARITY"
         }
-      ]
+      ],
+      "symbol": "Singularity",
+      "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",

@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T23:08:35Z",
+  "published_at": "2026-11-20T23:09:37Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,18 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check AI",
-        "updated": "2026-11-20T23:08:28+00:00"
+        "detail": "deep check CALM",
+        "updated": "2026-11-20T23:09:31+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T23:08:30+00:00"
+        "detail": "guard tick: 0 open, 0 watched, 0 events",
+        "updated": "2026-11-20T23:09:29+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 0 open across 4 books",
-        "updated": "2026-11-20T23:08:32+00:00"
+        "updated": "2026-11-20T23:09:32+00:00"
+      },
+      "Scanner": {
+        "state": "idle",
+        "detail": "tier 1 14598ms, 56 moving",
+        "updated": "2026-11-20T23:09:30+00:00"
       }
     },
     "limits": {

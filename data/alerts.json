@@ -2834,5 +2834,47 @@
     "prior_30m_avg_1m": 0.46,
     "url": "https://dexscreener.com/solana/nhspyeygacfancyxtgk5pxt16h1phdnfmxddhnud1d2",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:09:25+00:00",
+    "ts": 1795216165,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 15.9,
+        "stale": false,
+        "at": "2026-11-20T23:09:10+00:00",
+        "at_et": "Nov 21, 7:09 AM AWST",
+        "at_awst": "Nov 21, 7:09 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 48.6,
+        "stale": false,
+        "at": "2026-11-20T23:08:37+00:00",
+        "at_et": "Nov 21, 7:08 AM AWST",
+        "at_awst": "Nov 21, 7:08 AM AWST"
+      },
+      "scan": {
+        "age_s": 40.9,
+        "stale": false,
+        "at": "2026-11-20T23:08:45+00:00",
+        "at_et": "Nov 21, 7:08 AM AWST",
+        "at_awst": "Nov 21, 7:08 AM AWST"
+      },
+      "status": {
+        "age_s": 10.9,
+        "stale": false,
+        "at": "2026-11-20T23:09:15+00:00",
+        "at_et": "Nov 21, 7:09 AM AWST",
+        "at_awst": "Nov 21, 7:09 AM AWST"
+      }
+    }
   }
 ]
