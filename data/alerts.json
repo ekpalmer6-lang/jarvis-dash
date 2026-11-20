@@ -3813,5 +3813,19 @@
     "mc_usd": 4762.42,
     "url": "https://dexscreener.com/solana/2xzfvnkkdwzufd2pd9ctyge5mtaomez621a5te5lrmuy",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:47:37+00:00",
+    "ts": 1795218457,
+    "kind": "spike",
+    "mint": "DKdKaa9GZMMRkmzjUX5KikofZFY6d273i2BkA8rbpump",
+    "symbol": "WELF",
+    "msg": "WELF volume spike 34.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 34.405,
+    "last_1m": 44.04,
+    "prior_30m_avg_1m": 1.28,
+    "url": "https://dexscreener.com/solana/6scsjnqawtxktj6autecqccadvue5z5dn6wh2vxzbxhq",
+    "watch": "scan"
   }
 ]
