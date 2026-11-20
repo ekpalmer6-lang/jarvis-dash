@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T23:25:21Z",
+  "published_at": "2026-11-20T23:26:24Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,13 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check Jailbreak",
-        "updated": "2026-11-20T23:25:15+00:00"
+        "detail": "deep check DEXTER",
+        "updated": "2026-11-20T23:26:11+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 0 open across 4 books",
-        "updated": "2026-11-20T23:25:18+00:00"
+        "updated": "2026-11-20T23:26:19+00:00"
+      },
+      "Risk": {
+        "state": "idle",
+        "detail": "1 candidates scored; trading open; Growth mode: on until $100",
+        "updated": "2026-11-20T23:26:21+00:00"
+      },
+      "Scanner": {
+        "state": "idle",
+        "detail": "cycle 21.67s, 73 moving, 15 deep, 1 candidates, 0 buy-ready",
+        "updated": "2026-11-20T23:26:21+00:00"
       }
     },
     "limits": {
