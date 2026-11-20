@@ -285,6 +285,7 @@ html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shado
   <span class="livedot" id="livedot"><i></i>Live</span>
   <div class="seg"><button id="bLive" class="on">LIVE</button><button id="bPaper">PAPER</button></div>
   <button class="iconbtn" id="recapBtn">Night recap</button>
+  <button class="chip" id="swingChip" type="button" title="Swing mode. Click to toggle on the local app; read-only on the public site.">Swing mode OFF</button>
   <button class="iconbtn" id="themeBtn" aria-label="toggle theme">◐</button>
   <div class="pill"><span class="pulse" id="hb"></span><span id="clock" class="mono">–</span></div>
 </header>
@@ -345,6 +346,11 @@ html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shado
   </section>
   <section class="card s12" data-tab="trades">
     <h3>Trades<span class="r" id="tradesN"></span></h3><div id="trades"></div>
+    <div id="taxBox" style="margin-top:16px">
+      <a id="taxDownload" href="/api/tax.csv" download="tax_log.csv">Download tax log (CSV)</a>
+      <div class="sub" style="margin:6px 0 8px">Record-keeping only, not tax advice.</div>
+      <div id="taxList"></div>
+    </div>
   </section>
   <section class="card s12" data-tab="scan">
     <h3>Latest scan<span class="r" id="scanmeta"></span></h3><div class="coins" id="scan"></div>
@@ -422,6 +428,9 @@ let lastMc={},seen=null,eqKey="",logos={},closedSeen=null;
 const emptyBox=(title,sub)=>`<div class="empty"><div class="rad"></div><b>${title}</b><div class="sub">${sub}</div></div>`;
 const av=(sym,m)=>logos[m]?`<div class="av"><img src="${esc(logos[m])}" alt="" onerror="this.remove()"></div>`:`<div class="av">${esc((sym||"?").slice(0,3).toUpperCase())}</div>`;
 function chip(label,val,good,bad,suffix="%"){if(val==null)return`<span class="chip">${label} ?</span>`;const cls=val<=good?"ok":val>=bad?"bad":"mid";return`<span class="chip ${cls}">${label} ${val}${suffix}</span>`}
+function taxCsvHref(){return document.documentElement.dataset.static==="1"?"data/tax_log.csv":"/api/tax.csv"}
+function parseCsv(text){const rows=[];let row=[],cur="",q=false;for(let i=0;i<text.length;i++){const ch=text[i];if(q){if(ch==='"'&&text[i+1]==='"'){cur+='"';i++;}else if(ch==='"')q=false;else cur+=ch;}else{if(ch==='"')q=true;else if(ch===','){row.push(cur);cur="";}else if(ch==='\n'||ch==='\r'){if(ch==='\r'&&text[i+1]==='\n')i++;row.push(cur);if(row.some(x=>x!==""))rows.push(row);row=[];cur="";}else cur+=ch;}}if(cur||row.length){row.push(cur);if(row.some(x=>x!==""))rows.push(row);}return rows;}
+async function renderTax(){const a=$("taxDownload"),box=$("taxList");if(a)a.href=taxCsvHref();if(!box)return;try{const r=await fetch(taxCsvHref(),{cache:"no-store"});if(!r.ok)throw 0;const rows=parseCsv(await r.text()).filter(x=>x[0]&&!String(x[0]).startsWith("#"));if(rows.length<=1){box.innerHTML='<div class="sub">No trades in the tax log yet.</div>';return;}const hdr=rows[0],idx=Object.fromEntries(hdr.map((h,i)=>[h,i]));const body=rows.slice(1);box.innerHTML=`<div class="scroll"><table class="tbl"><tr><th>Time (ET)</th><th>Type</th><th>Coin</th><th>Qty</th><th>USD</th><th>Gain/loss</th><th>Hold</th></tr>${body.slice().reverse().slice(0,40).map(c=>{const g=c[idx.gain_loss_usd]||"",cls=g===""?"":(Number(g)>=0?"g":"rd");return `<tr><td class="mono sub">${esc(c[idx.date_time_ET]||"")}</td><td>${esc(c[idx.type]||"")}</td><td class="mono">${esc(c[idx.coin_symbol]||"")}</td><td class="mono">${esc(c[idx.quantity]||"")}</td><td class="mono">${esc(c[idx.usd_amount]||"")}</td><td class="mono ${cls}">${esc(g)}</td><td class="sub">${esc(c[idx.holding_period]||"")}</td></tr>`;}).join("")}</table></div>`;}catch(e){box.innerHTML='<div class="sub">Tax log unavailable.</div>';}}
 async function tick(){
  $("clock").textContent=tm(Date.now())+" ET";
  const base="/data/"+MODE+"/";
@@ -463,6 +472,7 @@ async function tick(){
    :emptyBox(buys.length?"Positions open · no exits yet":"Scanning… no trade yet",MODE==="live"?"Live trading is off until you approve a trade.":"Run papertrade.py to start a paper session.");
  if(closedSeen==null)closedSeen=sells.length;else if(sells.length>closedSeen){closedSeen=sells.length;if(realised>0)confetti()}
  $("limits").innerHTML=limits?[limits.per_position_usd!=null?`$${limits.per_position_usd} / position`:"no fixed $ per position",limits.max_position_usd!=null?`$${limits.max_position_usd} if very clean`:null,limits.total_cap_usd!=null?`$${limits.total_cap_usd} total cap`:"no total $ cap",limits.sizing?esc(limits.sizing):null,`${limits.watch_secs_before_buy??limits.min_watch_seconds??"?"}s watch before buy`].filter(Boolean).map(s=>`<span class="chip">${s}</span>`).join("")+`<span class="chip ${limits.live_trading_enabled?"bad":"mid"}">live trading ${limits.live_trading_enabled?"ON":"OFF"}</span>`+(limits.note?`<div class="note">${esc(limits.note)}</div>`:""):"";
+ paintSwing(limits);
  // agents
  const S=status||{};const eqAgent={state:cash==null?"off":"idle",detail:cash==null?"no balance file":`equity ${usd(cash+posVal)} · ${P.length} open`,updated:bal&&bal.updated};
  const A=[["SCANNER",S["Scanner"]],["SAFETY",S["Rug Check"]],["RISK",S["Sizer"]],["EXECUTOR",S["Executor"]||{state:"off",detail:"live trading not enabled"}],["LOGGER",S["Logger"]],["EQUITY",eqAgent]];
@@ -484,6 +494,7 @@ async function tick(){
  $("tradesN").textContent=trades.length?`${trades.length} fills`:"";
  $("trades").innerHTML=trades.length?`<div class="scroll"><table class="tbl"><tr><th>Time</th><th>Side</th><th>Token</th><th>Price</th><th>USD</th><th>P&amp;L</th><th>Reason</th></tr>${trades.slice().reverse().slice(0,80).map(t=>`<tr><td class="mono sub">${dt(t.t)}</td><td><span class="tg ${t.side==="buy"?"ENTRY":"EXIT"}">${t.side==="buy"?"ENTRY":"EXIT"}</span></td><td class="mono">${esc(t.symbol)}</td><td class="mono">${px(t.price_usd)}</td><td class="mono">${usd(t.usd)}</td><td class="mono ${(t.realised_pnl_usd||0)>=0?"g":"rd"}">${t.realised_pnl_usd==null?"":usd(t.realised_pnl_usd)}</td><td class="sub">${esc(t.reason)}${t.tx?` · <a target="_blank" href="https://solscan.io/tx/${esc(t.tx)}">tx</a>`:""}</td></tr>`).join("")}</table></div>`
    :emptyBox("Scanning… no trade yet",MODE==="live"?"Live trading is off. Every real trade needs your go-ahead.":"No paper fills yet.");
+ renderTax();
  // scan cards
  if(scan&&scan.rows&&scan.rows.length){const c={candidate:0,watch:0,avoid:0};scan.rows.forEach(r=>c[r.verdict]++);
   $("scanmeta").textContent=`${dt(scan.meta.scanned_at_utc)} ET · ${scan.meta.mints_discovered} found · ${c.candidate} candidate · ${c.watch} watch · ${c.avoid} avoid`;
@@ -501,6 +512,8 @@ async function tick(){
 }
 
 const savedTheme=new URLSearchParams(location.search).get("theme")||localStorage.getItem("jt-theme")||"dark";document.documentElement.dataset.theme=savedTheme;
+function paintSwing(limits){const el=$("swingChip");if(!el)return;const on=!!(limits&&limits.swing_mode&&limits.swing_mode.enabled);el.textContent="Swing mode "+(on?"ON":"OFF");el.className="chip "+(on?"ok":"mid");el.setAttribute("aria-pressed",on?"true":"false")}
+$("swingChip").onclick=async()=>{const r=await fetch("/api/toggle_swing",{method:"POST",headers:{"Content-Type":"application/json"},body:"{}"}).then(r=>r.json()).catch(()=>null);if(!r||!r.ok)return;paintSwing({swing_mode:r.swing_mode})};
 $("themeBtn").onclick=()=>{const t=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=t;localStorage.setItem("jt-theme",t);paint(1)};
 let RECAP={};$("recapBtn").onclick=()=>{renderRecap();$("sheet").classList.add("open")};$("recapClose").onclick=()=>$("sheet").classList.remove("open");
 $("sheet").onclick=e=>{if(e.target.id==="sheet")$("sheet").classList.remove("open")};

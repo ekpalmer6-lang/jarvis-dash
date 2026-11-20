@@ -671,5 +671,53 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "scan 19:12Z: 17 evaluated, 1 candidate (Singularity clone 7KUg..pump, -74% 5m, 4 whales selling, size $0), 0 buys"
+  },
+  {
+    "t": "2026-11-20T19:28:23+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "guard started, interval 20s"
+  },
+  {
+    "t": "2026-11-20T19:28:24+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "guard started, interval 20s"
+  },
+  {
+    "t": "2026-11-20T19:28:25+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T19:28:25+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T19:28:25+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T19:28:35+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 115 mint mentions"
+  },
+  {
+    "t": "2026-11-20T19:28:38+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "guard started, interval 20s"
+  },
+  {
+    "t": "2026-11-20T19:28:40+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 14781ms: 249 mints, 14 cheap rows, 8 moving"
   }
 ]

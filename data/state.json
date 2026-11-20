@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T19:27:46Z",
+  "published_at": "2026-11-20T19:28:49Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,8 +16,8 @@
     "status": {
       "Scanner": {
         "state": "idle",
-        "detail": "last scan finished: 17 evaluated",
-        "updated": "2026-11-20T19:15:48+00:00"
+        "detail": "tier 1 14781ms, 8 moving",
+        "updated": "2026-11-20T19:28:40+00:00"
       },
       "Executor": {
         "state": "off",
@@ -38,6 +38,11 @@
         "state": "idle",
         "detail": "17 reports, 8 deep checks",
         "updated": "2026-11-20T19:15:48+00:00"
+      },
+      "Risk": {
+        "state": "idle",
+        "detail": "guard tick: 0 open, 1 watched, 0 events",
+        "updated": "2026-11-20T19:28:38+00:00"
       }
     },
     "limits": {
@@ -64,12 +69,19 @@
       },
       "swing_mode": {
         "enabled": false,
-        "take_full_at_gain_pct": 50,
-        "rebuy_pullback_pct": 30,
+        "take_full_at_gain_pct": 50.0,
+        "rebuy_pullback_pct": 30.0,
         "rebuy_confirm": "first green 1m candle after the pullback with buy-heavy 1m flow",
         "max_rebuys_per_coin": 2,
-        "rebuy_window_min": 30
-      }
+        "rebuy_window_min": 30.0
+      },
+      "max_position_pct_of_balance": 50.0,
+      "liquidity_cap_pct_of_pool": 1.0,
+      "daily_loss_limit_pct": 30.0,
+      "max_consecutive_losses": 3,
+      "cooldown_after_loss_min": 10,
+      "cost_gate_max_round_trip_pct": 8.0,
+      "cost_gate_max_impact_pct": 3.0
     },
     "equity": [
       {
