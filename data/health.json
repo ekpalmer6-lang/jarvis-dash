@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T22:42:18+00:00",
-  "updated_et": "Nov 21, 6:42 AM AWST",
-  "updated_awst": "Nov 21, 6:42 AM AWST",
+  "updated": "2026-11-20T22:43:18+00:00",
+  "updated_et": "Nov 21, 6:43 AM AWST",
+  "updated_awst": "Nov 21, 6:43 AM AWST",
   "ok": false,
   "stale": true,
   "down": [],
@@ -21,9 +21,9 @@
       "port_ok": null,
       "stale": false,
       "age_s": 9.1,
-      "last": "2026-11-20T22:42:09+00:00",
-      "last_et": "Nov 21, 6:42 AM AWST",
-      "last_awst": "Nov 21, 6:42 AM AWST"
+      "last": "2026-11-20T22:43:09+00:00",
+      "last_et": "Nov 21, 6:43 AM AWST",
+      "last_awst": "Nov 21, 6:43 AM AWST"
     },
     "serve": {
       "alive": true,
@@ -36,7 +36,7 @@
       "cmd": "python3 /workspace/memescan/serve.py 8787",
       "port_ok": true,
       "stale": true,
-      "age_s": 9710.7,
+      "age_s": 9770.8,
       "last": "2026-11-20T20:00:27+00:00",
       "last_et": "Nov 21, 4:00 AM AWST",
       "last_awst": "Nov 21, 4:00 AM AWST"
@@ -52,10 +52,10 @@
       "cmd": "python3 /workspace/memescan/publish.py --loop 60",
       "port_ok": null,
       "stale": false,
-      "age_s": 48.3,
-      "last": "2026-11-20T22:41:29+00:00",
-      "last_et": "Nov 21, 6:41 AM AWST",
-      "last_awst": "Nov 21, 6:41 AM AWST"
+      "age_s": 45.6,
+      "last": "2026-11-20T22:42:32+00:00",
+      "last_et": "Nov 21, 6:42 AM AWST",
+      "last_awst": "Nov 21, 6:42 AM AWST"
     },
     "scanloop": {
       "alive": true,
@@ -68,10 +68,10 @@
       "cmd": "python3 /workspace/memescan/scanloop.py",
       "port_ok": null,
       "stale": false,
-      "age_s": 4.6,
-      "last": "2026-11-20T22:42:13+00:00",
-      "last_et": "Nov 21, 6:42 AM AWST",
-      "last_awst": "Nov 21, 6:42 AM AWST"
+      "age_s": 4.7,
+      "last": "2026-11-20T22:43:13+00:00",
+      "last_et": "Nov 21, 6:43 AM AWST",
+      "last_awst": "Nov 21, 6:43 AM AWST"
     },
     "papertrade": {
       "alive": true,
@@ -84,10 +84,10 @@
       "cmd": "python3 /workspace/memescan/papertrade.py --strategies all --loop --poll 15 --rescan-secs 30",
       "port_ok": null,
       "stale": false,
-      "age_s": 4.1,
-      "last": "2026-11-20T22:42:14+00:00",
-      "last_et": "Nov 21, 6:42 AM AWST",
-      "last_awst": "Nov 21, 6:42 AM AWST"
+      "age_s": 3.1,
+      "last": "2026-11-20T22:43:15+00:00",
+      "last_et": "Nov 21, 6:43 AM AWST",
+      "last_awst": "Nov 21, 6:43 AM AWST"
     },
     "notifier": {
       "alive": true,
@@ -100,40 +100,40 @@
       "cmd": "/workspace/memescan/.venv/bin/python /workspace/memescan/notifier.py",
       "port_ok": null,
       "stale": false,
-      "age_s": 2.2,
-      "last": "2026-11-20T22:42:15+00:00",
-      "last_et": "Nov 21, 6:42 AM AWST",
-      "last_awst": "Nov 21, 6:42 AM AWST"
+      "age_s": 8.9,
+      "last": "2026-11-20T22:43:09+00:00",
+      "last_et": "Nov 21, 6:43 AM AWST",
+      "last_awst": "Nov 21, 6:43 AM AWST"
     }
   },
   "freshness": {
     "guard": {
       "age_s": 9.1,
       "stale": false,
-      "at": "2026-11-20T22:42:09+00:00",
-      "at_et": "Nov 21, 6:42 AM AWST",
-      "at_awst": "Nov 21, 6:42 AM AWST"
+      "at": "2026-11-20T22:43:09+00:00",
+      "at_et": "Nov 21, 6:43 AM AWST",
+      "at_awst": "Nov 21, 6:43 AM AWST"
     },
     "publish_log": {
-      "age_s": 48.3,
+      "age_s": 45.6,
       "stale": false,
-      "at": "2026-11-20T22:41:29+00:00",
-      "at_et": "Nov 21, 6:41 AM AWST",
-      "at_awst": "Nov 21, 6:41 AM AWST"
+      "at": "2026-11-20T22:42:32+00:00",
+      "at_et": "Nov 21, 6:42 AM AWST",
+      "at_awst": "Nov 21, 6:42 AM AWST"
     },
     "scan": {
       "age_s": 36.1,
       "stale": false,
-      "at": "2026-11-20T22:41:42+00:00",
-      "at_et": "Nov 21, 6:41 AM AWST",
-      "at_awst": "Nov 21, 6:41 AM AWST"
+      "at": "2026-11-20T22:42:42+00:00",
+      "at_et": "Nov 21, 6:42 AM AWST",
+      "at_awst": "Nov 21, 6:42 AM AWST"
     },
     "status": {
       "age_s": 6.1,
       "stale": false,
-      "at": "2026-11-20T22:42:12+00:00",
-      "at_et": "Nov 21, 6:42 AM AWST",
-      "at_awst": "Nov 21, 6:42 AM AWST"
+      "at": "2026-11-20T22:43:12+00:00",
+      "at_et": "Nov 21, 6:43 AM AWST",
+      "at_awst": "Nov 21, 6:43 AM AWST"
     }
   },
   "reconcile": {
@@ -146,7 +146,7 @@
     "expected_portfolio_usd": 19.5
   },
   "paper_strategies": {
-    "updated": "2026-11-20T22:42:14+00:00",
+    "updated": "2026-11-20T22:43:15+00:00",
     "best": "grad_pullback",
     "best_reason": "grad_pullback has the highest average realised P&L after Fomo fees ($-0.3371/trade, win rate 0.429, 14 closed)",
     "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
@@ -185,7 +185,7 @@
       }
     ],
     "loop": {
-      "updated": "2026-11-20T22:42:14+00:00",
+      "updated": "2026-11-20T22:43:15+00:00",
       "open_positions": 2,
       "pid": 198883
     }

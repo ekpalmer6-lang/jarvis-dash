@@ -1450,5 +1450,19 @@
     "mc_usd": 2740.18,
     "url": "https://dexscreener.com/solana/7a6sq4dgrbdrnyrznfbiwaeatshj4dpaqaxsr98knuzc",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:43:21+00:00",
+    "ts": 1795214601,
+    "kind": "spike",
+    "mint": "CV5x2dg7UiCCCGLdTnRLVZJviD1hk6WdZgfGwiyfpump",
+    "symbol": "COOLDOG",
+    "msg": "COOLDOG volume spike 8.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 8.331,
+    "last_1m": 0.41,
+    "prior_30m_avg_1m": 0.05,
+    "url": "https://dexscreener.com/solana/ffdqpb1mpebrabfmn7tbmwxq7yfgfegwqgvdjvvzef1w",
+    "watch": "scan"
   }
 ]

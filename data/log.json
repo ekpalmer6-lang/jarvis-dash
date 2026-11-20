@@ -19031,5 +19031,167 @@
     "agent": "Paper",
     "level": "info",
     "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:42:32+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 14.03% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 14.03% held by linked wallets",
+    "clustered_pct": 14.03,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:42:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:42:53+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10658ms: 304 mints, 85 cheap rows, 55 moving"
+  },
+  {
+    "t": "2026-11-20T22:42:54+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for 11ty: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "bH5oq821WTa3Rfz2gcW4Dj3rngqAY5rzjXiJHP5pump"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2ZaV5N cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:42:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:43:04+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "risk-off: risk-off: new-launch 5m vol $169,498 vs prior $629,394 (down 73%)",
+    "sol_chg1h": 0.44,
+    "launch_volume": {
+      "current": 169498.0,
+      "previous": 629394.0,
+      "drop_pct": 73.1,
+      "current_n": 81,
+      "previous_n": 84,
+      "reason": "new-launch 5m vol $169,498 vs prior $629,394 (down 73%)"
+    }
+  },
+  {
+    "t": "2026-11-20T22:43:12+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:43:22+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10054ms: 317 mints, 85 cheap rows, 54 moving"
+  },
+  {
+    "t": "2026-11-20T22:43:24+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "11ty 5m flow pressure 0.5 buyers 5 large-net $-12.45 (1 large selling)",
+    "mint": "bH5oq821WTa3Rfz2gcW4Dj3rngqAY5rzjXiJHP5pump"
+  },
+  {
+    "t": "2026-11-20T22:43:24+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "ty 5m flow pressure 0.498 buyers 19 large-net $-38.49 (1 large selling)",
+    "mint": "86FPf5argR7oWCEEkjV6VumXMnpBP8PQ1cSUJ6F7pump"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Et9hLY cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:43:30+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:43:31+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.211 buyers 63 large-net $-6256.91 (16 large selling)",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
   }
 ]
