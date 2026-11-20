@@ -2,21 +2,21 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T23:50:03+00:00",
-    "confidence": 71,
+    "updated": "2026-11-20T23:51:11+00:00",
+    "confidence": 60,
     "size_usd": 0.0,
-    "verdict": "Do not buy Trader (confidence 71/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+    "verdict": "Do not buy Trader (confidence 60/100). Chart signals (1m): 28/100 but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend) | timing: wait pullback.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.08
+      "sol_chg1h": -0.18
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.68,
-      "impact_pct": 2.1798,
+      "rt_cost_pct": 8.719,
+      "impact_pct": 2.2192,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -29,56 +29,64 @@
         "label": "Safety checks",
         "status": "warn",
         "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
-        "pts": 21.0,
-        "max": 25
+        "pts": 15.75,
+        "max": 18.75
       },
       {
         "id": "cluster",
         "label": "Cluster / sniper hold",
         "status": "warn",
         "value": "launch block not measured",
-        "pts": 6.0,
-        "max": 15
+        "pts": 4.5,
+        "max": 11.25
       },
       {
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$103,095",
-        "pts": 15.0,
-        "max": 15
+        "value": "$107,151",
+        "pts": 11.25,
+        "max": 11.25
       },
       {
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "58% buys in 5m",
-        "pts": 8.25,
-        "max": 15
+        "value": "59% buys in 5m",
+        "pts": 6.19,
+        "max": 11.25
       },
       {
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
         "value": "+10.1% in 5m, steady",
-        "pts": 10.0,
-        "max": 10
+        "pts": 7.5,
+        "max": 7.5
       },
       {
         "id": "caller",
         "label": "Caller quality / first-call",
         "status": "warn",
         "value": "no caller / first-call data",
-        "pts": 5.0,
-        "max": 10
+        "pts": 3.75,
+        "max": 7.5
       },
       {
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 8.68%, impact 2.18% (tight)",
-        "pts": 6.0,
-        "max": 10
+        "value": "RT 8.63%, impact 2.13% (tight)",
+        "pts": 4.5,
+        "max": 7.5
+      },
+      {
+        "id": "chart_signals",
+        "label": "Chart signals (1m)",
+        "status": "fail",
+        "value": "28/100 but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend) | timing: wait pullback",
+        "pts": 7.0,
+        "max": 25
       },
       {
         "id": "pause",
@@ -129,15 +137,24 @@
       "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
     },
     "chart": {
-      "score": 50,
-      "verdict": "no_data",
-      "timing": "wait",
-      "timing_why": null,
+      "score": 28,
+      "verdict": "unfavorable",
+      "timing": "wait_pullback",
+      "timing_why": [
+        "running: wait for a pullback toward EMA20/VWAP instead of chasing"
+      ],
       "exit_hints": [],
-      "summary": "no chart data",
-      "bars": 0,
+      "summary": "but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend)",
+      "bars": 180,
       "tf": "1m",
-      "signals": []
+      "signals": [
+        "price above VWAP (most holders in profit, chasing)",
+        "pullback to support with a bullish confirm candle",
+        "EMA9 above EMA20 and price above both (uptrend)",
+        "EMA9 just crossed above EMA20",
+        "bullish engulfing candle",
+        "pulled back to EMA20/support and held"
+      ]
     }
   }
 }

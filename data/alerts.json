@@ -3853,5 +3853,31 @@
     "prior_30m_avg_1m": 9.45,
     "url": "https://dexscreener.com/solana/cmojt3c668w2ay8rnbc6a7i3bqyjw48agg3rdoc5fsdp",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:50:38+00:00",
+    "ts": 1795218638,
+    "kind": "fast",
+    "mint": "DKdKaa9GZMMRkmzjUX5KikofZFY6d273i2BkA8rbpump",
+    "symbol": "WELF",
+    "msg": "WELF +28% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 28.43,
+    "mc_usd": 2915.94,
+    "url": "https://dexscreener.com/solana/6scsjnqawtxktj6autecqccadvue5z5dn6wh2vxzbxhq",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:51:19+00:00",
+    "ts": 1795218679,
+    "kind": "fast",
+    "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
+    "symbol": "SBS",
+    "msg": "SBS +94% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 93.93,
+    "mc_usd": 59287,
+    "url": "https://dexscreener.com/solana/asztn7gufcodmjnfkcqgarc2bb6qniup9hzy4j2pkkl2",
+    "watch": "scan"
   }
 ]
