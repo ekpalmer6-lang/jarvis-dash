@@ -2998,5 +2998,32 @@
     "prior_30m_avg_1m": 0.03,
     "url": "https://dexscreener.com/solana/dmv1ouaplrmez5nnqljxd6gcfng3zxw8kxlatzt6kf8e",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:16:35+00:00",
+    "ts": 1795216595,
+    "kind": "fast",
+    "mint": "CTerwsBK7QFQBJWgTTSKV9LUYYJhRUouHPd8ijKXpump",
+    "symbol": "FARM",
+    "msg": "FARM +36% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 35.55,
+    "mc_usd": 71633,
+    "url": "https://dexscreener.com/solana/get9b6rj1uydqk9fk3bjatgsoggjvadibetfcouwu144",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:16:35+00:00",
+    "ts": 1795216595,
+    "kind": "spike",
+    "mint": "Mjj6QKJ1yJk9to8V1UMuDaXX7AsBnWwXS3zsej3pump",
+    "symbol": "Chibi",
+    "msg": "Chibi volume spike 10.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.92,
+    "last_1m": 0.27,
+    "prior_30m_avg_1m": 0.02,
+    "url": "https://dexscreener.com/solana/88e2zuggpysnd7bp2reqiamcfqvnqpinqmbpmwvqzfqv",
+    "watch": "scan"
   }
 ]
