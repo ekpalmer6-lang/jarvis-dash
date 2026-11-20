@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T19:28:49Z",
+  "published_at": "2026-11-20T19:29:51Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,8 +16,8 @@
     "status": {
       "Scanner": {
         "state": "idle",
-        "detail": "tier 1 14781ms, 8 moving",
-        "updated": "2026-11-20T19:28:40+00:00"
+        "detail": "hype feed: 75 watchlist mints",
+        "updated": "2026-11-20T19:29:15+00:00"
       },
       "Executor": {
         "state": "off",
@@ -35,14 +35,14 @@
         "updated": "2026-11-20T19:15:48+00:00"
       },
       "Rug Check": {
-        "state": "idle",
-        "detail": "17 reports, 8 deep checks",
-        "updated": "2026-11-20T19:15:48+00:00"
+        "state": "running",
+        "detail": "deep check FIENA",
+        "updated": "2026-11-20T19:29:30+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T19:28:38+00:00"
+        "updated": "2026-11-20T19:29:38+00:00"
       }
     },
     "limits": {

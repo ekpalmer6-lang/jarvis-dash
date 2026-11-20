@@ -719,5 +719,76 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 done in 14781ms: 249 mints, 14 cheap rows, 8 moving"
+  },
+  {
+    "t": "2026-11-20T19:28:59+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T19:28:59+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T19:29:05+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T19:29:08+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 40 buys / 29 sells, pressure 0.606, 35 unique buyers, large-wallet net $526.64",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T19:29:10+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow: 10 buys / 11 sells, pressure 0.494, 8 unique buyers, large-wallet net $-363.69",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:29:12+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T19:29:15+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DOOMSDAY 5m flow: 13 buys / 18 sells, pressure 0.471, 7 unique buyers, large-wallet net $10.04",
+    "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump"
+  },
+  {
+    "t": "2026-11-20T19:29:15+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 75 mints, 0 under 30s, 0 coordinated, 67 early-vs-trending, 5 with flow"
+  },
+  {
+    "t": "2026-11-20T19:29:30+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 23.0% held by linked wallets",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump",
+    "symbol": "DYSON",
+    "reason": "too bundled: 23.0% held by linked wallets",
+    "clustered_pct": 23.0,
+    "cluster_count": 5
+  },
+  {
+    "t": "2026-11-20T19:29:30+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "DYSON: avoid, size $0, dev: bad: serial launcher, most coins dead, whales 4 selling / 0 accumulating",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
   }
 ]
