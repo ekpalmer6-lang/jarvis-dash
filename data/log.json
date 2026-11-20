@@ -3273,5 +3273,61 @@
     "level": "info",
     "msg": "DCTY 5m flow pressure 0.433 buyers 42 large-net $-491.25 (4 large selling)",
     "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:51:18+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:51:28+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9785ms: 220 mints, 10 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:51:37+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] loop start, books=['curve_momentum', 'grad_pullback', 'call_early', 'x_narrative'], resumed 0 open"
+  },
+  {
+    "t": "2026-11-20T20:51:37+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 7DQQej for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T20:51:39+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.553 buyers 119 large-net $146.09 (3 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:51:52+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: BUY DCTY $10 at 7.55e-05 (post-graduation pullback; held up over 15s (price +0.0%, 80/41 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T20:51:52+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 3umHFk for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T20:52:08+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: BUY HUSS $10 at 5.48e-05 (post-graduation pullback; held up over 15s (price +0.0%, 7/6 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T20:52:19+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AMC  5m flow pressure 0.462 buyers 7 large-net $263.98 (2 large selling)",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
   }
 ]

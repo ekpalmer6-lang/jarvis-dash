@@ -4,8 +4,8 @@
   "day_end_awst": "2026-11-21T08:00:00+08:00",
   "timezone": "Australia/Perth",
   "timezone_label": "AWST",
-  "built_at": "2026-11-20T20:51:07+00:00",
-  "built_at_awst": "Nov 21, 4:51:07 AM AWST",
+  "built_at": "2026-11-20T20:51:28+00:00",
+  "built_at_awst": "Nov 21, 4:51:28 AM AWST",
   "no_trades": true,
   "trades": [],
   "trade_count": 0,
@@ -29,8 +29,8 @@
     "unique_coins": 53,
     "candidate_sightings": 3,
     "unique_candidates": 3,
-    "avoid_sightings": 73,
-    "watch_sightings": 111,
+    "avoid_sightings": 72,
+    "watch_sightings": 112,
     "top_reject_reasons": [
       {
         "reason": "LP not locked enough",
@@ -131,8 +131,8 @@
       }
     }
   },
-  "headline": "No trades today. Cash $9.69 \u2192 $19.50. Portfolio $20.41.",
-  "summary": "No trades on 2026-11-20. Cash $9.69 \u2192 $19.50. Portfolio $20.41. (Start portfolio $20.41, end portfolio $20.41). The scanner ran 14 times on 53 coins, 3 candidates. Best skipped: Singularity (score 62.8). no strategy has 5+ closed paper trades yet curve_momentum \u2014 win, \u2014/trade after fees (0 closed); grad_pullback \u2014 win, \u2014/trade after fees (0 closed); call_early \u2014 win, \u2014/trade after fees (0 closed); x_narrative \u2014 win, \u2014/trade after fees (0 closed).",
-  "push_body": "No trades today. Cash $9.69 \u2192 $19.50. Portfolio $20.41.",
+  "headline": "No trades today. Cash $19.50. Portfolio $20.41.",
+  "summary": "No trades on 2026-11-20. Cash $19.50. Portfolio $20.41. (Start portfolio $20.41, end portfolio $20.41). The scanner ran 14 times on 53 coins, 3 candidates. Best skipped: Singularity (score 62.8). no strategy has 5+ closed paper trades yet curve_momentum \u2014 win, \u2014/trade after fees (0 closed); grad_pullback \u2014 win, \u2014/trade after fees (0 closed); call_early \u2014 win, \u2014/trade after fees (0 closed); x_narrative \u2014 win, \u2014/trade after fees (0 closed).",
+  "push_body": "No trades today. Cash $19.50. Portfolio $20.41.",
   "push_title": "JARVIS \u00b7 Daily digest"
 }
