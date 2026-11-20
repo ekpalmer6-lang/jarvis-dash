@@ -1901,5 +1901,74 @@
     "prior_30m_avg_1m": 0.26,
     "url": "https://dexscreener.com/solana/wdoqraqij63cq2zd5rupyshrngduznkcnmqj5qxdha9",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:54:06+00:00",
+    "ts": 1795215246,
+    "kind": "fast",
+    "mint": "t9h7zR4zr4ET6wYttDtzcfdP88StrhdQTE7Jgi2pump",
+    "symbol": "CHAROC",
+    "msg": "CHAROC +204% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 204,
+    "mc_usd": 5926.37,
+    "url": "https://dexscreener.com/solana/8qc6akjn5v2ujxk8eityxkjy9g3up6prrq4njpnyj8e9",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:54:06+00:00",
+    "ts": 1795215246,
+    "kind": "spike",
+    "mint": "3AMGroio9dcTnG4rfjoQzNAytA4bKZwDTVH1fs3xWGhh",
+    "symbol": "TOMORROW",
+    "msg": "TOMORROW volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 4.76,
+    "prior_30m_avg_1m": 0.43,
+    "url": "https://dexscreener.com/solana/g98abn76kuehi5qmhureejqt5xc8lzbxvsp6qgsgyoqv",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:54:24+00:00",
+    "ts": 1795215264,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 14.7,
+        "stale": false,
+        "at": "2026-11-20T22:54:10+00:00",
+        "at_et": "Nov 21, 6:54 AM AWST",
+        "at_awst": "Nov 21, 6:54 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 24.4,
+        "stale": false,
+        "at": "2026-11-20T22:54:00+00:00",
+        "at_et": "Nov 21, 6:54 AM AWST",
+        "at_awst": "Nov 21, 6:54 AM AWST"
+      },
+      "scan": {
+        "age_s": 32.7,
+        "stale": false,
+        "at": "2026-11-20T22:53:52+00:00",
+        "at_et": "Nov 21, 6:53 AM AWST",
+        "at_awst": "Nov 21, 6:53 AM AWST"
+      },
+      "status": {
+        "age_s": 2.7,
+        "stale": false,
+        "at": "2026-11-20T22:54:22+00:00",
+        "at_et": "Nov 21, 6:54 AM AWST",
+        "at_awst": "Nov 21, 6:54 AM AWST"
+      }
+    }
   }
 ]
