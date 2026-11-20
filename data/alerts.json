@@ -1218,5 +1218,32 @@
     "mc_usd": 5257.5,
     "url": "https://dexscreener.com/solana/6my4fvjs4amcgwzyvydddpzwsl98vccwgrrocsn27j5y",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:37:37+00:00",
+    "ts": 1795214257,
+    "kind": "spike",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump",
+    "symbol": "SIDOOR",
+    "msg": "SIDOOR volume spike 123.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 123.104,
+    "last_1m": 226.44,
+    "prior_30m_avg_1m": 1.84,
+    "url": "https://dexscreener.com/solana/98ow3tarbpkqykir2oiqjemh1gvpe819adtevgmq5d16",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:37:37+00:00",
+    "ts": 1795214257,
+    "kind": "fast",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+    "symbol": "Singularity",
+    "msg": "Singularity +25% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 25.34,
+    "mc_usd": 120003,
+    "url": "https://dexscreener.com/solana/58xqwpxdgp3gfu9dafxs8c1gjwtldhdqhjrofaf5ywtv",
+    "watch": "scan"
   }
 ]

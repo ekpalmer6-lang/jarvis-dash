@@ -18176,5 +18176,154 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:37:18+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15831ms: 266 mints, 57 cheap rows, 36 moving"
+  },
+  {
+    "t": "2026-11-20T22:37:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "GHOST 5m flow pressure 0.536 buyers 9 large-net $29.25 (1 large selling)",
+    "mint": "6eoi3vqru2ZnatNg5LR5vLk8pyCuKvEsFzk21p5opump"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5GNQQc cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:37:25+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:37:26+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Trader 5m flow pressure 0.596 buyers 102 large-net $-476.63 (3 large selling)",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
+  },
+  {
+    "t": "2026-11-20T22:37:33+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:37:43+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10226ms: 276 mints, 58 cheap rows, 36 moving"
+  },
+  {
+    "t": "2026-11-20T22:37:51+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.616 buyers 123 large-net $651.48 (5 large selling)",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:37:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:38:03+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:38:12+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9551ms: 283 mints, 60 cheap rows, 38 moving"
+  },
+  {
+    "t": "2026-11-20T22:38:12+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for UK: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "Gw7H9A3VKhZ6ELi6fUTene7funGX1wgPA58hPGtmpump"
+  },
+  {
+    "t": "2026-11-20T22:38:14+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "SIDOOR 5m flow pressure 0.727 buyers 12 large-net $204.63 (0 large selling)",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
   }
 ]
