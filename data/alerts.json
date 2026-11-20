@@ -3404,5 +3404,18 @@
     "prior_30m_avg_1m": 6.06,
     "url": "https://dexscreener.com/solana/3yuuoptcachnx3z8pnkmhyrktynveeqb2gjnozl7lx76",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:33:07+00:00",
+    "ts": 1795217587,
+    "kind": "fast",
+    "mint": "936nTctQshsamGbNcoBcogdp1xBd5ZtyUMkFD1xHpump",
+    "symbol": "NESS",
+    "msg": "NESS +41% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 41.26,
+    "mc_usd": 2747.91,
+    "url": "https://dexscreener.com/solana/hocrxrvh2xyuommrfe4mfvj5xka5ijbkbnx2js9vdg6d",
+    "watch": "scan"
   }
 ]
