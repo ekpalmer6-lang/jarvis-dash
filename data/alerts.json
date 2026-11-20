@@ -584,5 +584,32 @@
         "at_awst": "Nov 21, 5:06 AM AWST"
       }
     }
+  },
+  {
+    "t": "2026-11-20T21:07:05+00:00",
+    "ts": 1795208825,
+    "kind": "fast",
+    "mint": "GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump",
+    "symbol": "Singularity",
+    "msg": "Singularity +911% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 911,
+    "mc_usd": 374858,
+    "url": "https://dexscreener.com/solana/5x5k1nfk2qdd46692o4a1dh15wfrympccjphogs7eibg",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:07:05+00:00",
+    "ts": 1795208825,
+    "kind": "pressure",
+    "mint": "GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump",
+    "symbol": "Singularity",
+    "msg": "Singularity buy pressure 1496/360 buys/sells in 5m ($78,883)",
+    "source": "api.dexscreener.com",
+    "buys5m": 1496,
+    "sells5m": 360,
+    "vol5m": 78883.44,
+    "url": "https://dexscreener.com/solana/5x5k1nfk2qdd46692o4a1dh15wfrympccjphogs7eibg",
+    "watch": "scan"
   }
 ]
