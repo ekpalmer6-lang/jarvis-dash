@@ -135,6 +135,25 @@
       const s = await snap("stats.json");
       return jsonResp(s || { empty: true });
     }
+    if (path === "/api/health") {
+      const h = await snap("health.json");
+      return jsonResp(h || { ok: false, empty: true });
+    }
+    if (path === "/api/checklist") {
+      const mint = q.get("mint") || "";
+      const all = (await snap("checklists.json")) || {};
+      const doc = all[mint];
+      if (!doc) return jsonResp({ error: "no checklist for this mint" }, 404);
+      return jsonResp(doc);
+    }
+    if (path === "/api/checklists") {
+      const all = (await snap("checklists.json")) || {};
+      const want = (q.get("mints") || "").split(",").map((m) => m.trim()).filter(Boolean);
+      if (!want.length) return jsonResp(all);
+      const out = {};
+      want.forEach((m) => { if (all[m]) out[m] = all[m]; });
+      return jsonResp(out);
+    }
     if (path === "/api/ohlcv") {
       const pool = q.get("pool") || "";
       const d = (await snap("ohlcv.json")) || {};
@@ -153,6 +172,9 @@
       "/data/live/balance.json": async () => jsonResp(live.balance || null),
       "/data/live/positions.json": async () => jsonResp(live.positions || []),
       "/data/live/status.json": async () => jsonResp(live.status || {}),
+      "/data/live/health.json": async () => jsonResp((await snap("health.json")) || { ok: false, empty: true }),
+      "/data/live/stats.json": async () => jsonResp((await snap("stats.json")) || { empty: true }),
+      "/data/live/trading_paused.json": async () => jsonResp((await snap("trading_paused.json")) || {}),
       "/data/live/limits.json": async () => jsonResp(live.limits || {}),
       "/data/live/pinned.json": async () => jsonResp((await snap("pinned.json")) || { pins: [] }),
       "/data/live/trades.jsonl": async () => asJsonl(((await snap("trades.json")) || {}).live || []),
@@ -167,9 +189,14 @@
       "/data/paper/limits.json": async () => jsonResp(paper.limits || live.limits || {}),
       "/data/paper/pinned.json": async () => jsonResp((await snap("pinned.json")) || { pins: [] }),
       "/data/paper/alerts.jsonl": async () => asJsonl((await snap("alerts.json")) || []),
-      "/data/paper/log.jsonl": async () => asJsonl((await snap("log.json")) || [])
+      "/data/paper/log.jsonl": async () => asJsonl((await snap("log.json")) || []),
+      "/data/push_public.json": async () => jsonResp((await snap("push_public.json")) || {}),
+      "/data/digest_latest.json": async () => jsonResp((await snap("digest_latest.json")) || null),
+      "/data/digests.json": async () => jsonResp((await snap("digests.json")) || { days: [] })
     };
     if (map[path]) return map[path]();
+    const digestDay = path.match(/^\/data\/digests\/(\d{4}-\d{2}-\d{2})\.json$/);
+    if (digestDay) return jsonResp((await snap("digests/" + digestDay[1] + ".json")) || null);
     return null;
   }
 
