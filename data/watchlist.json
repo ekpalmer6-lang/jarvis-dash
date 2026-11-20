@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T23:34:38+00:00",
-  "partial": true,
+  "updated": "2026-11-20T23:34:47+00:00",
+  "partial": false,
   "sources": {
     "telegram": {
       "ok": true,
@@ -74,7 +74,16 @@
           "t": "2026-11-20T22:07:20+00:00",
           "ticker": "$70"
         }
-      ]
+      ],
+      "symbol": "MONKE",
+      "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+      "dex": "raydium",
+      "flow": {
+        "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "3k5ssodruz8qgznfhmpckapue472jwngexrmemgsmyye",
@@ -137,7 +146,16 @@
           "t": "2026-11-20T21:17:41+00:00",
           "ticker": "$ENU"
         }
-      ]
+      ],
+      "symbol": "enu",
+      "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
@@ -179,7 +197,16 @@
           "t": "2026-11-20T21:16:20+00:00",
           "ticker": "$67"
         }
-      ]
+      ],
+      "symbol": "chud",
+      "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
@@ -200,7 +227,16 @@
           "t": "2026-11-20T21:15:44+00:00",
           "ticker": "$SINGULARITY"
         }
-      ]
+      ],
+      "symbol": "Singularity",
+      "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
