@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T22:49:43+00:00",
-  "partial": true,
+  "updated": "2026-11-20T22:49:53+00:00",
+  "partial": false,
   "sources": {
     "telegram": {
       "ok": true,
@@ -42,8 +42,8 @@
       "error": "no live X API in feeds.py; optional out/x_raw.jsonl not present"
     },
     "onchain_flow": {
-      "ok": false,
-      "mints_measured": 0
+      "ok": true,
+      "mints_measured": 1
     },
     "dex_trending_count": 46
   },
@@ -74,7 +74,16 @@
           "t": "2026-11-20T22:07:20+00:00",
           "ticker": "$70"
         }
-      ]
+      ],
+      "symbol": "MONKE",
+      "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+      "dex": "raydium",
+      "flow": {
+        "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "3k5ssodruz8qgznfhmpckapue472jwngexrmemgsmyye",
@@ -137,7 +146,16 @@
           "t": "2026-11-20T21:17:41+00:00",
           "ticker": "$ENU"
         }
-      ]
+      ],
+      "symbol": "enu",
+      "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
@@ -179,7 +197,16 @@
           "t": "2026-11-20T21:16:20+00:00",
           "ticker": "$67"
         }
-      ]
+      ],
+      "symbol": "chud",
+      "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
@@ -200,7 +227,66 @@
           "t": "2026-11-20T21:15:44+00:00",
           "ticker": "$SINGULARITY"
         }
-      ]
+      ],
+      "symbol": "Singularity",
+      "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 40,
+            "buys": 19,
+            "sells": 21,
+            "buy_usd": 618.52,
+            "sell_usd": 1139.38,
+            "buy_pressure": 0.352,
+            "unique_buyers": 18,
+            "unique_sellers": 21,
+            "large_wallets": 2,
+            "large_wallets_buying": 1,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": -345.24,
+            "max_buyer_share": 0.422,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 268,
+            "buys": 159,
+            "sells": 109,
+            "buy_usd": 6084.02,
+            "sell_usd": 5682.7,
+            "buy_pressure": 0.517,
+            "unique_buyers": 101,
+            "unique_sellers": 89,
+            "large_wallets": 14,
+            "large_wallets_buying": 9,
+            "large_wallets_selling": 5,
+            "large_wallet_net_usd": 495.2,
+            "max_buyer_share": 0.099,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 300,
+            "buys": 182,
+            "sells": 118,
+            "buy_usd": 7351.94,
+            "sell_usd": 6220.26,
+            "buy_pressure": 0.542,
+            "unique_buyers": 115,
+            "unique_sellers": 97,
+            "large_wallets": 17,
+            "large_wallets_buying": 11,
+            "large_wallets_selling": 6,
+            "large_wallet_net_usd": 1242.67,
+            "max_buyer_share": 0.121,
+            "window_complete": false
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
     },
     {
       "mint": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
