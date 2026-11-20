@@ -2594,5 +2594,164 @@
     "agent": "Hype Meter",
     "level": "warn",
     "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:40:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T20:40:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:40:55+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:40:56+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow: 124 buys / 70 sells, pressure 0.398, 52 unique buyers, large-wallet net $-1608.7",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:40:58+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:41:00+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 27 buys / 37 sells, pressure 0.516, 17 unique buyers, large-wallet net $321.23",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:41:04+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 8887ms: 223 mints, 9 cheap rows, 4 moving"
+  },
+  {
+    "t": "2026-11-20T20:41:05+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 110 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:41:06+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "DCTY: watch, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:41:06+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DOOMSDAY 5m flow: 45 buys / 15 sells, pressure 0.656, 17 unique buyers, large-wallet net $245.82",
+    "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump"
+  },
+  {
+    "t": "2026-11-20T20:41:06+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 66 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 4 with flow"
+  },
+  {
+    "t": "2026-11-20T20:41:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.477 buyers 79 large-net $-245.97 (1 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:41:25+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:41:25+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:41:26+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:41:30+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow: 126 buys / 55 sells, pressure 0.426, 53 unique buyers, large-wallet net $-1159.7",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:41:33+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:41:35+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 20 buys / 22 sells, pressure 0.32, 14 unique buyers, large-wallet net $-200.67",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:41:37+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.537 buyers 115 large-net $836.85 (4 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:41:38+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DCTY 5m flow pressure 0.706 buyers 152 large-net $9213.79 (14 large selling)",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:41:39+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T20:41:41+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 4 with flow"
+  },
+  {
+    "t": "2026-11-20T20:41:43+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "Singularity: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:41:44+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "DCTY: watch, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
   }
 ]
