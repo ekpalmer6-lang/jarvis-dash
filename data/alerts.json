@@ -235,5 +235,32 @@
     "mc_usd": 68420,
     "url": "https://dexscreener.com/solana/m7xsxp1z6w4cnsbwr2voaifvddcrqef4cpjdhqyxxhy",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T20:01:43+00:00",
+    "ts": 1795204903,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: notifier; restarted",
+    "key": "down:notifier",
+    "processes": [
+      "notifier"
+    ],
+    "restarted": [
+      "notifier"
+    ]
+  },
+  {
+    "t": "2026-11-20T20:01:43+00:00",
+    "ts": 1795204903,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
   }
 ]

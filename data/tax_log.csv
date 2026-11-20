@@ -1,0 +1,2 @@
+# Record-keeping only, not tax advice.
+date_time_AWST,type,coin_symbol,mint,quantity,usd_amount,fee_usd,cost_basis_usd,proceeds_usd,gain_loss_usd,holding_period,tx_ref,reason

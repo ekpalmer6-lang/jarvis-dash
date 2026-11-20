@@ -1833,5 +1833,95 @@
     "mint": "Mint1111111111111111111111111111111111111",
     "strategy": "test",
     "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL AAA $7.00 \u2014 test sell",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 swing rebuy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:19+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:19+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:19+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL AAA $7.00 \u2014 test sell",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:19+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 swing rebuy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:19+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
   }
 ]

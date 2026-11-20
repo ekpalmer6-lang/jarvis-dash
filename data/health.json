@@ -1,0 +1,119 @@
+{
+  "updated": "2026-11-20T20:02:03+00:00",
+  "updated_et": "Nov 21, 4:02 AM AWST",
+  "updated_awst": "Nov 21, 4:02 AM AWST",
+  "ok": true,
+  "stale": false,
+  "down": [],
+  "stale_processes": [],
+  "processes": {
+    "guard": {
+      "alive": true,
+      "present": true,
+      "optional": false,
+      "pid": 103996,
+      "pids": [
+        103996
+      ],
+      "cmd": "python3 /workspace/memescan/guard.py",
+      "port_ok": null,
+      "stale": false,
+      "age_s": 5.3,
+      "last": "2026-11-20T20:01:58+00:00",
+      "last_et": "Nov 21, 4:01 AM AWST",
+      "last_awst": "Nov 21, 4:01 AM AWST"
+    },
+    "serve": {
+      "alive": true,
+      "present": true,
+      "optional": false,
+      "pid": 162479,
+      "pids": [
+        162479
+      ],
+      "cmd": "python3 /workspace/memescan/serve.py 8787",
+      "port_ok": true,
+      "stale": false,
+      "age_s": 95.9,
+      "last": "2026-11-20T20:00:27+00:00",
+      "last_et": "Nov 21, 4:00 AM AWST",
+      "last_awst": "Nov 21, 4:00 AM AWST"
+    },
+    "publish": {
+      "alive": true,
+      "present": true,
+      "optional": false,
+      "pid": 162480,
+      "pids": [
+        162480
+      ],
+      "cmd": "python3 /workspace/memescan/publish.py --loop 60",
+      "port_ok": null,
+      "stale": false,
+      "age_s": 19.4,
+      "last": "2026-11-20T20:01:43+00:00",
+      "last_et": "Nov 21, 4:01 AM AWST",
+      "last_awst": "Nov 21, 4:01 AM AWST"
+    },
+    "notifier": {
+      "alive": true,
+      "present": true,
+      "optional": true,
+      "pid": 162484,
+      "pids": [
+        162484
+      ],
+      "cmd": "python3 /workspace/memescan/notifier.py",
+      "port_ok": null,
+      "stale": false,
+      "age_s": 19.2,
+      "last": "2026-11-20T20:01:44+00:00",
+      "last_et": "Nov 21, 4:01 AM AWST",
+      "last_awst": "Nov 21, 4:01 AM AWST"
+    }
+  },
+  "freshness": {
+    "guard": {
+      "age_s": 5.3,
+      "stale": false,
+      "at": "2026-11-20T20:01:58+00:00",
+      "at_et": "Nov 21, 4:01 AM AWST",
+      "at_awst": "Nov 21, 4:01 AM AWST"
+    },
+    "publish_log": {
+      "age_s": 19.4,
+      "stale": false,
+      "at": "2026-11-20T20:01:43+00:00",
+      "at_et": "Nov 21, 4:01 AM AWST",
+      "at_awst": "Nov 21, 4:01 AM AWST"
+    },
+    "scan": {
+      "age_s": 349.6,
+      "stale": false,
+      "at": "2026-11-20T19:56:13+00:00",
+      "at_et": "Nov 21, 3:56 AM AWST",
+      "at_awst": "Nov 21, 3:56 AM AWST"
+    },
+    "status": {
+      "age_s": 5.3,
+      "stale": false,
+      "at": "2026-11-20T20:01:58+00:00",
+      "at_et": "Nov 21, 4:01 AM AWST",
+      "at_awst": "Nov 21, 4:01 AM AWST"
+    }
+  },
+  "reconcile": {
+    "ok": false,
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ],
+    "cash_usd": 19.5,
+    "portfolio_usd": 20.41,
+    "expected_portfolio_usd": 19.5
+  },
+  "thresholds": {
+    "stale_s": 300,
+    "restart_cooldown_s": 600,
+    "alert_cooldown_s": 900
+  }
+}

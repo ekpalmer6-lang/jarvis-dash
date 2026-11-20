@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-20",
+  "day_start_awst": "2026-11-20T08:00:00+08:00",
+  "day_end_awst": "2026-11-21T08:00:00+08:00",
+  "timezone": "Australia/Perth",
+  "timezone_label": "AWST",
+  "built_at": "2026-11-20T20:01:43+00:00",
+  "built_at_awst": "Nov 21, 4:01:43 AM AWST",
+  "no_trades": true,
+  "trades": [],
+  "trade_count": 0,
+  "buys": 0,
+  "sells": 0,
+  "realized_pnl_usd": 0,
+  "realized_pnl_pct": 0.0,
+  "win_rate": null,
+  "wins": 0,
+  "losses": 0,
+  "start_balance_usd": 20.41,
+  "end_balance_usd": 20.41,
+  "scanner": {
+    "scans": 9,
+    "unique_coins": 47,
+    "candidate_sightings": 2,
+    "unique_candidates": 2,
+    "avoid_sightings": 52,
+    "watch_sightings": 80,
+    "top_reject_reasons": [
+      {
+        "reason": "LP not locked enough",
+        "count": 36
+      },
+      {
+        "reason": "insider/bundle holdings",
+        "count": 8
+      },
+      {
+        "reason": "dev reputation",
+        "count": 6
+      },
+      {
+        "reason": "marked rugged",
+        "count": 2
+      }
+    ],
+    "best_skipped": {
+      "mint": "7KUg78hyohckj8i728YuCu6CweTArxhwRrVrFyvHpump",
+      "symbol": "Singularity",
+      "score": 62.8,
+      "verdict": "candidate",
+      "size_usd": 0,
+      "mc_usd": 54777,
+      "why": "top10 27.87% | no insider networks flagged | 2710 holders | sell route exists | fresh (0.19h) | 5m vol $65,515 | buys 90% of 5m txns"
+    },
+    "rug_alerts": 0,
+    "spike_alerts": 2
+  },
+  "alerts": {
+    "rug": 0,
+    "spike": 2,
+    "total": 20
+  },
+  "headline": "No trades today. Cash $20.41.",
+  "summary": "No trades on 2026-11-20. Start $20.41, end $20.41. The scanner ran 9 times on 47 coins, 2 candidates. Best skipped: Singularity (score 62.8).",
+  "push_body": "No trades today. Cash $20.41.",
+  "push_title": "JARVIS \u00b7 Daily digest"
+}
