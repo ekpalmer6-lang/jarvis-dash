@@ -3329,5 +3329,46 @@
     "level": "info",
     "msg": "AMC  5m flow pressure 0.462 buyers 7 large-net $263.98 (2 large selling)",
     "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
+  },
+  {
+    "t": "2026-11-20T20:52:24+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "risk-off: risk-off: new-launch 5m vol $27,811 vs prior $81,456 (down 66%)",
+    "sol_chg1h": -0.97,
+    "launch_volume": {
+      "current": 27811.0,
+      "previous": 81456.0,
+      "drop_pct": 65.9,
+      "current_n": 3,
+      "previous_n": 4,
+      "reason": "new-launch 5m vol $27,811 vs prior $81,456 (down 66%)"
+    }
+  },
+  {
+    "t": "2026-11-20T20:52:25+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:52:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10620ms: 241 mints, 14 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:52:44+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Trader 5m flow pressure 0.573 buyers 95 large-net $2996.89 (13 large selling)",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
+  },
+  {
+    "t": "2026-11-20T20:53:05+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.336 buyers 75 large-net $-209.06 (1 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
   }
 ]
