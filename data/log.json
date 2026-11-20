@@ -1,232 +1,5 @@
 [
   {
-    "t": "2026-11-20T22:35:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 28nGQM cash"
-  },
-  {
-    "t": "2026-11-20T22:35:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip GM92oG cash"
-  },
-  {
-    "t": "2026-11-20T22:35:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip Hz7ufJ cash"
-  },
-  {
-    "t": "2026-11-20T22:35:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
-  },
-  {
-    "t": "2026-11-20T22:35:33+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T22:35:43+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 10211ms: 268 mints, 46 cheap rows, 29 moving"
-  },
-  {
-    "t": "2026-11-20T22:35:45+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "GHOST 5m flow pressure 0.54 buyers 8 large-net $29.25 (1 large selling)",
-    "mint": "6eoi3vqru2ZnatNg5LR5vLk8pyCuKvEsFzk21p5opump"
-  },
-  {
-    "t": "2026-11-20T22:35:45+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "VCN 5m flow pressure 0.0 buyers 0 large-net $-203.38 (1 large selling)",
-    "mint": "77HfPLLwDSmFzf2qPXtn5rvr6Epv9sTevP3wjphepump"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 8panWM cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 28nGQM cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip DAwLAF cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip Hz7ufJ cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip 7DQQej cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
-  },
-  {
-    "t": "2026-11-20T22:35:54+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
-  },
-  {
-    "t": "2026-11-20T22:36:03+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T22:36:12+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 9753ms: 288 mints, 51 cheap rows, 36 moving"
-  },
-  {
-    "t": "2026-11-20T22:36:14+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "SIDOOR 5m flow pressure 0.888 buyers 18 large-net $0 (0 large selling)",
-    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip FtrmLR cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip MnnXS9 cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
-  },
-  {
-    "t": "2026-11-20T22:36:24+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
-  },
-  {
-    "t": "2026-11-20T22:36:33+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T22:36:42+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 9494ms: 286 mints, 55 cheap rows, 40 moving"
-  },
-  {
-    "t": "2026-11-20T22:36:44+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "YIN PEPE 5m flow pressure 1.0 buyers 1 large-net $0 (0 large selling)",
-    "mint": "G1EKFTpRezUKgZsRNKsAMuvAuvvNSXkYAHyUqQqxpump"
-  },
-  {
-    "t": "2026-11-20T22:36:50+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Singularity 5m flow pressure 0.429 buyers 49 large-net $-135.5 (4 large selling)",
-    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 5GNQQc cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
-  },
-  {
-    "t": "2026-11-20T22:36:55+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
-  },
-  {
     "t": "2026-11-20T22:37:03+00:00",
     "agent": "Scanner",
     "level": "info",
@@ -29829,5 +29602,240 @@
     "agent": "Hype Meter",
     "level": "warn",
     "msg": "reddit: HTTP 429 on https://www.reddit.com/r/memecoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T23:45:14+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoCurrency/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T23:45:16+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T23:45:17+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/pumpfun/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T23:45:20+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SatoshiStreetBets/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T23:45:20+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public RSS/Atom also failed or was rate-limited from this machine; no workaround used. The only legitimate alternative is a Reddit OAuth API app on the user's own Reddit account."
+  },
+  {
+    "t": "2026-11-20T23:45:20+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T23:45:28+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "enu 5m flow: 13 buys / 9 sells, pressure 0.711, 12 unique buyers, large-wallet net $0",
+    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
+  },
+  {
+    "t": "2026-11-20T23:45:32+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15755ms: 417 mints, 175 cheap rows, 92 moving"
+  },
+  {
+    "t": "2026-11-20T23:45:32+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for BTC: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "HVdRHLUAmD78MwZ1WQVjZwDVaQkRCzn3WuwFaxcApump"
+  },
+  {
+    "t": "2026-11-20T23:45:32+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 68 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 1 with flow"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Cyz8kq cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip H34pHs cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2dP9Ap cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip DKdKaa cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8w5qxK cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 7R4MP6 cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CKhLon cash"
+  },
+  {
+    "t": "2026-11-20T23:45:36+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 5kqi4k cash"
+  },
+  {
+    "t": "2026-11-20T23:45:39+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.45 buyers 116 large-net $-1390.67 (5 large selling)",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump"
+  },
+  {
+    "t": "2026-11-20T23:45:39+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 12.3% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 12.3% held by linked wallets",
+    "clustered_pct": 12.3,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T23:45:46+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T23:45:56+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10238ms: 420 mints, 173 cheap rows, 96 moving"
+  },
+  {
+    "t": "2026-11-20T23:45:56+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for TERK : [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "3X9EBHx7Hiqt1i5E1f5p74W3avHHN4BWwMBdkMZypump"
+  },
+  {
+    "t": "2026-11-20T23:45:58+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MUSKHAO 5m flow pressure 0.507 buyers 27 large-net $-67.17 (1 large selling)",
+    "mint": "GyWzbz7Ecr37WdYSaec6H3K5naLWBNPX3ZYfzhGgpump"
+  },
+  {
+    "t": "2026-11-20T23:45:58+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BTC 5m flow pressure 0.232 buyers 8 large-net $0 (0 large selling)",
+    "mint": "HVdRHLUAmD78MwZ1WQVjZwDVaQkRCzn3WuwFaxcApump"
+  },
+  {
+    "t": "2026-11-20T23:46:01+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "chud 5m flow pressure 0.636 buyers 13 large-net $1233.95 (3 large selling)",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
+  },
+  {
+    "t": "2026-11-20T23:46:02+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "der 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "Cn81znNkkezG3va7so1PErEkmPmu1Rq5Xo4deWMBpump"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Cyz8kq cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip H34pHs cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2dP9Ap cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip CEYHCg cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip DKdKaa cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 7R4MP6 cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T23:46:06+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 5kqi4k cash"
+  },
+  {
+    "t": "2026-11-20T23:46:16+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
   }
 ]

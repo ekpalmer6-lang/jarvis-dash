@@ -3760,5 +3760,31 @@
     "prior_30m_avg_1m": 0.84,
     "url": "https://dexscreener.com/solana/3atlhk9wnru6tb9odivhuzi7hzjb65zh9pvfyhri9xhn",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:45:16+00:00",
+    "ts": 1795218316,
+    "kind": "fast",
+    "mint": "CEYHCgp9dpGBb8gjKk4tnXmNgBTNjH9vnzic4JCHpump",
+    "symbol": "HEDGE",
+    "msg": "HEDGE +35% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 35.39,
+    "mc_usd": 2748.45,
+    "url": "https://dexscreener.com/solana/ffsimff4uabcavozqkqc5r3ssqt9kwcqqbz1esk4twc5",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:45:56+00:00",
+    "ts": 1795218356,
+    "kind": "fast",
+    "mint": "2dP9ApzkvjRYXKrh6V88q4atdtU4keG8gB64kdkfoNfL",
+    "symbol": "MunchCat",
+    "msg": "MunchCat +44% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 44.35,
+    "mc_usd": 3370.87,
+    "url": "https://dexscreener.com/solana/fgtlpgbxnsyghnmyfxk9w68sf6yxpwe2zlgke47cff5n",
+    "watch": "scan"
   }
 ]
