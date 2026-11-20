@@ -3104,5 +3104,19 @@
     "prior_30m_avg_1m": 24.36,
     "url": "https://dexscreener.com/solana/37kvdt6rkoxvxkbfrd4wu4rbiktpsseklxhsxd8kggyr",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:20:37+00:00",
+    "ts": 1795216837,
+    "kind": "spike",
+    "mint": "GwyenmPAtJZcsgVvBwQSJkih8vLiKA3YJSjAyNtj3nNJ",
+    "symbol": "JENSEN",
+    "msg": "JENSEN volume spike 10.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.564,
+    "last_1m": 59.69,
+    "prior_30m_avg_1m": 5.65,
+    "url": "https://dexscreener.com/solana/edf56ksnujqwremgym3c6eq3urpdf9ypbm28szfkyqtp",
+    "watch": "scan"
   }
 ]
