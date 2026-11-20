@@ -2852,26 +2852,6 @@
     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
   },
   {
-    "t": "2026-11-20T20:42:38+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "buy-ready TEST: size $4.87, confidence 72",
-    "mint": "Mint111111111111111111111111111111111111111",
-    "symbol": "TEST",
-    "size_usd": 4.87,
-    "confidence": 72
-  },
-  {
-    "t": "2026-11-20T20:42:38+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "buy-ready TEST: size $4.87, confidence 72",
-    "mint": "Mint111111111111111111111111111111111111111",
-    "symbol": "TEST",
-    "size_usd": 4.87,
-    "confidence": 72
-  },
-  {
     "t": "2026-11-20T20:42:44+00:00",
     "agent": "Wallet Watch",
     "level": "info",
@@ -3223,5 +3203,44 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 3 with flow"
+  },
+  {
+    "t": "2026-11-20T20:49:18+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:49:28+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10026ms: 239 mints, 11 cheap rows, 4 moving"
+  },
+  {
+    "t": "2026-11-20T20:49:28+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "risk-off: risk-off: new-launch 5m vol $36,715 vs prior $113,776 (down 68%)",
+    "sol_chg1h": -0.58,
+    "launch_volume": {
+      "current": 36715.0,
+      "previous": 113776.0,
+      "drop_pct": 67.7,
+      "current_n": 4,
+      "previous_n": 5,
+      "reason": "new-launch 5m vol $36,715 vs prior $113,776 (down 68%)"
+    }
+  },
+  {
+    "t": "2026-11-20T20:49:48+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:49:57+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 8859ms: 193 mints, 10 cheap rows, 4 moving"
   }
 ]
