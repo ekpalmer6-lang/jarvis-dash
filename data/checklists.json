@@ -1,35 +1,37 @@
 {
-  "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M": {
-    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
-    "symbol": "MONKE",
-    "updated": "2026-11-20T22:28:40+00:00",
-    "confidence": 61,
+  "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "updated": "2026-11-20T22:29:52+00:00",
+    "confidence": 43,
     "size_usd": 0.0,
-    "verdict": "Do not buy MONKE (confidence 61/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+    "verdict": "Do not buy Trader (confidence 43/100). Safety checks: large wallets selling.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 1.89
+      "sol_chg1h": 1.76
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.536,
-      "impact_pct": 2.036,
+      "rt_cost_pct": 8.528,
+      "impact_pct": 2.0282,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
       "source": "lite-api.jup.ag"
     },
-    "notes": [],
+    "notes": [
+      "safety/avoid cap 45"
+    ],
     "checks": [
       {
         "id": "safety",
         "label": "Safety checks",
-        "status": "warn",
-        "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
-        "pts": 15.75,
+        "status": "fail",
+        "value": "large wallets selling",
+        "pts": 0.0,
         "max": 18.75
       },
       {
@@ -44,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$64,963",
+        "value": "$79,191",
         "pts": 9.0,
         "max": 11.25
       },
@@ -52,16 +54,16 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "61% buys in 5m",
+        "value": "64% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
       {
         "id": "chart",
         "label": "Chart steadiness",
-        "status": "warn",
-        "value": "+19.8% in 5m",
-        "pts": 4.5,
+        "status": "pass",
+        "value": "+10.9% in 5m, steady",
+        "pts": 7.5,
         "max": 7.5
       },
       {
@@ -76,16 +78,16 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 7.98%, impact 1.48% (tight)",
+        "value": "RT 8.53%, impact 2.03% (tight)",
         "pts": 4.5,
         "max": 7.5
       },
       {
         "id": "chart_signals",
         "label": "Chart signals (1m)",
-        "status": "warn",
-        "value": "50/100 only 18 one-minute bars, chart not readable yet | timing: wait",
-        "pts": 12.5,
+        "status": "fail",
+        "value": "29/100 lower highs but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry",
+        "pts": 7.25,
         "max": 25
       },
       {
@@ -104,7 +106,7 @@
         "id": "organic",
         "label": "Organic activity",
         "status": "warn",
-        "value": "empty-SOL holder check unavailable"
+        "value": "empty-SOL holder check unavailable; largest wallet is 33% of 15m buy volume"
       },
       {
         "id": "theme",
@@ -116,7 +118,7 @@
         "id": "buzz",
         "label": "Buzz sources",
         "status": "warn",
-        "value": "telegram"
+        "value": "no independent 30m sources"
       },
       {
         "id": "entry",
@@ -126,15 +128,26 @@
       }
     ],
     "chart": {
-      "score": 50,
-      "verdict": "too_young",
-      "timing": "wait",
-      "timing_why": null,
+      "score": 29,
+      "verdict": "unfavorable",
+      "timing": "avoid_entry",
+      "timing_why": [
+        "bearish rejection candle at resistance"
+      ],
       "exit_hints": [],
-      "summary": "only 18 one-minute bars, chart not readable yet",
-      "bars": 18,
+      "summary": "lower highs but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend)",
+      "bars": 99,
       "tf": "1m",
-      "signals": []
+      "signals": [
+        "price above VWAP (most holders in profit, chasing)",
+        "pullback to support with a bullish confirm candle",
+        "EMA9 above EMA20 and price above both (uptrend)",
+        "EMA9 just crossed above EMA20",
+        "lower highs",
+        "long lower wick at support (buyers defending)",
+        "pulled back to EMA20/support and held",
+        "long upper rejection wick at resistance (sell pressure)"
+      ]
     }
   }
 }
