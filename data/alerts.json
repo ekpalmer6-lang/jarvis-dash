@@ -3211,5 +3211,61 @@
     "mc_usd": 2888.55,
     "url": "https://dexscreener.com/solana/6ubjzwc8c9vyygkmmxpkhvndz4k1agmgmdcnkczdo2dg",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:24:27+00:00",
+    "ts": 1795217067,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 17.2,
+        "stale": false,
+        "at": "2026-11-20T23:24:10+00:00",
+        "at_et": "Nov 21, 7:24 AM AWST",
+        "at_awst": "Nov 21, 7:24 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 6.4,
+        "stale": false,
+        "at": "2026-11-20T23:24:20+00:00",
+        "at_et": "Nov 21, 7:24 AM AWST",
+        "at_awst": "Nov 21, 7:24 AM AWST"
+      },
+      "scan": {
+        "age_s": 39.2,
+        "stale": false,
+        "at": "2026-11-20T23:23:48+00:00",
+        "at_et": "Nov 21, 7:23 AM AWST",
+        "at_awst": "Nov 21, 7:23 AM AWST"
+      },
+      "status": {
+        "age_s": 9.2,
+        "stale": false,
+        "at": "2026-11-20T23:24:18+00:00",
+        "at_et": "Nov 21, 7:24 AM AWST",
+        "at_awst": "Nov 21, 7:24 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T23:25:01+00:00",
+    "ts": 1795217101,
+    "kind": "spike",
+    "mint": "BmipgXvXXe2DGnHYVYQBi8rM9bJi6YbYT3rV7QUapump",
+    "symbol": "SMM",
+    "msg": "SMM volume spike 7.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.897,
+    "last_1m": 0.06,
+    "prior_30m_avg_1m": 0.01,
+    "url": "https://dexscreener.com/solana/4qaxcylxbfppswq891ake8tkqpiasmdzrkcfmo5dc1gi",
+    "watch": "scan"
   }
 ]

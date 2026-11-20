@@ -2,7 +2,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T23:24:10+00:00",
+    "updated": "2026-11-20T23:24:58+00:00",
     "confidence": 60,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 60/100). Chart signals (1m): 37/100 but price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend), higher lows | timing: wait pullback.",
@@ -10,13 +10,13 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.16
+      "sol_chg1h": 0.19
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 9.287,
-      "impact_pct": 2.7871,
+      "rt_cost_pct": 8.512,
+      "impact_pct": 2.0122,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 8.64%, impact 2.14% (tight)",
+        "value": "RT 8.51%, impact 2.01% (tight)",
         "pts": 4.5,
         "max": 7.5
       },
