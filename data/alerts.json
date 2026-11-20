@@ -3707,5 +3707,31 @@
     "mc_usd": 7251.93,
     "url": "https://dexscreener.com/solana/c35gvubvwqksc7zsmccgqjr5kxzi5dfnjavk9zlbj1mt",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:42:34+00:00",
+    "ts": 1795218154,
+    "kind": "fast",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump",
+    "symbol": "chud",
+    "msg": "chud +26% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 26.1,
+    "mc_usd": 102761,
+    "url": "https://dexscreener.com/solana/hqbft5frsdkj1scauc62uqvxrzrm4f9fhoot9u4pcfj2",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:42:54+00:00",
+    "ts": 1795218174,
+    "kind": "fast",
+    "mint": "CLBeFokDgArXrP6cxNFgcLd5vdZm9UmXVviEYw34pump",
+    "symbol": "BISCUITS",
+    "msg": "BISCUITS +57% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 56.54,
+    "mc_usd": 3178.84,
+    "url": "https://dexscreener.com/solana/9ukwkr9qx7no67fqaozppyaqfwjzgdmpcxqgxapxxqzf",
+    "watch": "scan"
   }
 ]
