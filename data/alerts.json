@@ -518,5 +518,17 @@
     "prior_30m_avg_1m": 669.23,
     "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:00:42+00:00",
+    "ts": 1795208442,
+    "kind": "pass",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "msg": "Trader passed all safety checks \u00b7 size $0.0",
+    "source": "out/latest.json",
+    "mc_usd": 150505,
+    "liq_usd": 66702,
+    "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n"
   }
 ]
