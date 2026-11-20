@@ -2232,5 +2232,32 @@
     "prior_30m_avg_1m": 0.38,
     "url": "https://dexscreener.com/solana/3e5ne8gpuoxyjb47suquk11tejkytkhbrwpycjnye1jv",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:58:27+00:00",
+    "ts": 1795215507,
+    "kind": "spike",
+    "mint": "9zThyY9hPCAfSNjYEjjuEyX51hs2Vp3wFysGRiSEpump",
+    "symbol": "HASSAN",
+    "msg": "HASSAN volume spike 6.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 6.483,
+    "last_1m": 99.97,
+    "prior_30m_avg_1m": 15.42,
+    "url": "https://dexscreener.com/solana/c332froyjj5cfs2c7fynnrkiquz98tpyr1edfxem9hxe",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:58:47+00:00",
+    "ts": 1795215527,
+    "kind": "fast",
+    "mint": "Bb4Nxjiiw4Sw8ms3LJTeknMYRKZQLUph2bGYDXe8pump",
+    "symbol": "Goyim",
+    "msg": "Goyim +152% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 152,
+    "mc_usd": 4969.89,
+    "url": "https://dexscreener.com/solana/3wsohg4x83r6kp6isqcpszjfp8pzgwnqpczrhf1trggo",
+    "watch": "scan"
   }
 ]

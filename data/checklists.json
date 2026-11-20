@@ -2,7 +2,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T22:58:08+00:00",
+    "updated": "2026-11-20T22:58:42+00:00",
     "confidence": 44,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 44/100). Safety checks: large wallets selling.",
@@ -10,13 +10,13 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.45
+      "sol_chg1h": 0.48
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.518,
-      "impact_pct": 2.0182,
+      "rt_cost_pct": 8.651,
+      "impact_pct": 2.1509,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -46,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$92,839",
+        "value": "$91,240",
         "pts": 9.0,
         "max": 11.25
       },
@@ -54,7 +54,7 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "64% buys in 5m",
+        "value": "63% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
@@ -62,7 +62,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+1.4% in 5m, steady",
+        "value": "-9.1% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -78,7 +78,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 8.52%, impact 2.02% (tight)",
+        "value": "RT 8.65%, impact 2.15% (tight)",
         "pts": 4.5,
         "max": 7.5
       },
@@ -86,8 +86,8 @@
         "id": "chart_signals",
         "label": "Chart signals (1m)",
         "status": "fail",
-        "value": "33/100 but hanging man at the high, price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry",
-        "pts": 8.25,
+        "value": "34/100 but price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry",
+        "pts": 8.5,
         "max": 25
       },
       {
@@ -139,19 +139,21 @@
       "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
     },
     "chart": {
-      "score": 33,
+      "score": 34,
       "verdict": "unfavorable",
       "timing": "avoid_entry",
       "timing_why": [
         "topping signal (hanging man / bearish divergence)"
       ],
-      "exit_hints": [],
-      "summary": "but hanging man at the high, price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend)",
-      "bars": 127,
+      "exit_hints": [
+        "bearish RSI divergence: momentum fading at the high"
+      ],
+      "summary": "but price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high), EMA9 above EMA20 and price above both (uptrend)",
+      "bars": 128,
       "tf": "1m",
       "signals": [
-        "hanging man at the high",
         "price above VWAP (most holders in profit, chasing)",
+        "bearish RSI divergence (higher high, RSI lower high)",
         "EMA9 above EMA20 and price above both (uptrend)",
         "pulled back to EMA20/support and held"
       ]

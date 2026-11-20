@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T22:58:09Z",
+  "published_at": "2026-11-20T22:59:11Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,23 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check BTA6",
-        "updated": "2026-11-20T22:57:59+00:00"
+        "detail": "deep check CLAUDIO",
+        "updated": "2026-11-20T22:59:03+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 2 open across 4 books",
-        "updated": "2026-11-20T22:57:57+00:00"
+        "updated": "2026-11-20T22:58:58+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "1 candidates scored; trading open; Growth mode: on until $100",
-        "updated": "2026-11-20T22:58:08+00:00"
+        "detail": "guard tick: 0 open, 1 watched, 0 events",
+        "updated": "2026-11-20T22:59:10+00:00"
       },
       "Scanner": {
         "state": "idle",
-        "detail": "cycle 24.66s, 93 moving, 4 deep, 1 candidates, 0 buy-ready",
-        "updated": "2026-11-20T22:58:08+00:00"
+        "detail": "tier 1 18762ms, 89 moving",
+        "updated": "2026-11-20T22:59:02+00:00"
       }
     },
     "limits": {
