@@ -3322,5 +3322,32 @@
     "prior_30m_avg_1m": 3.98,
     "url": "https://dexscreener.com/solana/fvgpmufuck36ytjyordnohkffuc8osrbdzgfm773qh2v",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:27:43+00:00",
+    "ts": 1795217263,
+    "kind": "fast",
+    "mint": "EUerLXMvnNyMp4A7EhueM5DuJkdRzkiHpAjnD6DXpump",
+    "symbol": "Rockstar",
+    "msg": "Rockstar +26% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 26.04,
+    "mc_usd": 57700,
+    "url": "https://dexscreener.com/solana/3x24fpombvh45qsrqat2cn4a5zlm5po8inesezebs1jh",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:27:43+00:00",
+    "ts": 1795217263,
+    "kind": "spike",
+    "mint": "EUerLXMvnNyMp4A7EhueM5DuJkdRzkiHpAjnD6DXpump",
+    "symbol": "Rockstar",
+    "msg": "Rockstar volume spike 9.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 9.894,
+    "last_1m": 607.46,
+    "prior_30m_avg_1m": 61.4,
+    "url": "https://dexscreener.com/solana/3x24fpombvh45qsrqat2cn4a5zlm5po8inesezebs1jh",
+    "watch": "scan"
   }
 ]
