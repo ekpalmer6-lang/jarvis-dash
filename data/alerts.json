@@ -3568,5 +3568,33 @@
     "prior_30m_avg_1m": 2.2,
     "url": "https://dexscreener.com/solana/frv6z3spbgldjqwtjq6jd185kddcqu8ajp5qpttqavjh",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:38:11+00:00",
+    "ts": 1795217891,
+    "kind": "spike",
+    "mint": "D8CLbZ5Cn5KStGvo76v71ihLoAMyLdiej3RNxThQpump",
+    "symbol": "BALDIA",
+    "msg": "BALDIA volume spike 12.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 12.002,
+    "last_1m": 70.65,
+    "prior_30m_avg_1m": 5.89,
+    "url": "https://dexscreener.com/solana/2x5g6xopsysej1xatavfvmh67xmxt225ic4k3n4yladm",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:38:31+00:00",
+    "ts": 1795217911,
+    "kind": "spike",
+    "mint": "8AjYZETv8PcXcHTCvNjcBMtRqLkXZcjJtVw8YzZRpump",
+    "symbol": "NOSE",
+    "msg": "NOSE volume spike 5.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.416,
+    "last_1m": 4.86,
+    "prior_30m_avg_1m": 0.9,
+    "url": "https://dexscreener.com/solana/ayhwmtqlc1su3ecechfd8aurm8rpdqxvhcr2cdmwyzna",
+    "watch": "scan"
   }
 ]
