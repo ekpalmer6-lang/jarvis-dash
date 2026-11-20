@@ -19423,5 +19423,96 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 1 with flow"
+  },
+  {
+    "t": "2026-11-20T22:44:46+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on BTC: sell-heavy 5m flow (390 buys / 579 sells)"
+  },
+  {
+    "t": "2026-11-20T22:44:50+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4uTJDe cash"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip BWuGqn cash"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip GiGgCX cash"
+  },
+  {
+    "t": "2026-11-20T22:45:01+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching CUfphq for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:45:05+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15765ms: 319 mints, 101 cheap rows, 56 moving"
+  },
+  {
+    "t": "2026-11-20T22:45:08+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "ty 5m flow pressure 0.498 buyers 19 large-net $-38.49 (1 large selling)",
+    "mint": "86FPf5argR7oWCEEkjV6VumXMnpBP8PQ1cSUJ6F7pump"
+  },
+  {
+    "t": "2026-11-20T22:45:17+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on BTC: sell-heavy 5m flow (437 buys / 638 sells)"
+  },
+  {
+    "t": "2026-11-20T22:45:17+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 7DQQej for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:45:32+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on DCTY: sell-heavy 5m flow (11 buys / 16 sells)"
+  },
+  {
+    "t": "2026-11-20T22:45:32+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching EV7J2Q for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:45:34+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
   }
 ]
