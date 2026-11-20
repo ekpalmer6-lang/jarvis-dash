@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T22:56:03Z",
+  "published_at": "2026-11-20T22:57:06Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,23 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check ZEN",
-        "updated": "2026-11-20T22:55:43+00:00"
+        "detail": "deep check CALM",
+        "updated": "2026-11-20T22:56:46+00:00"
       },
       "Paper": {
         "state": "running",
-        "detail": "[PAPER-LOOP] 2 open across 4 books",
-        "updated": "2026-11-20T22:55:56+00:00"
+        "detail": "[PAPER-LOOP] 1 open across 4 books",
+        "updated": "2026-11-20T22:56:41+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "1 candidates scored; trading open; Growth mode: on until $100",
-        "updated": "2026-11-20T22:55:52+00:00"
+        "detail": "guard tick: 0 open, 1 watched, 0 events",
+        "updated": "2026-11-20T22:56:50+00:00"
       },
       "Scanner": {
-        "state": "running",
-        "detail": "tier 1 fast pass",
-        "updated": "2026-11-20T22:55:57+00:00"
+        "state": "idle",
+        "detail": "tier 1 17696ms, 96 moving",
+        "updated": "2026-11-20T22:56:45+00:00"
       }
     },
     "limits": {

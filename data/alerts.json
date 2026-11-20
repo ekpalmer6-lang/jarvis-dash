@@ -2108,5 +2108,73 @@
     "prior_30m_avg_1m": 0.09,
     "url": "https://dexscreener.com/solana/5lbhsazxh7lqkrars5epd3hienjdqtqqqd5d4faunlrw",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:56:07+00:00",
+    "ts": 1795215367,
+    "kind": "fast",
+    "mint": "8vNY9X1xYCqHhCRHSdJ4V6BBbYKMZbY2weLDyAdZpump",
+    "symbol": "$EXHALE",
+    "msg": "$EXHALE +79% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 78.99,
+    "mc_usd": 3467.19,
+    "url": "https://dexscreener.com/solana/dyaxwv3urxsvsmpetlqfmdf4mlhbcsatwomnn69k7q5x",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:56:27+00:00",
+    "ts": 1795215387,
+    "kind": "spike",
+    "mint": "8ie1DUFGQycm69zEzPrKWmze6BQ7UwtbmfyfsdfHpump",
+    "symbol": "$DCTY",
+    "msg": "$DCTY volume spike 7465.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7465.546,
+    "last_1m": 1846.03,
+    "prior_30m_avg_1m": 0.25,
+    "url": "https://dexscreener.com/solana/d1kpjvfnzbpddrpb85fhqz6md94fl4bth3wixdhl7smm",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:56:27+00:00",
+    "ts": 1795215387,
+    "kind": "spike",
+    "mint": "8EyCFk35UxYBYyKJUEUBAx6rz9PfVWaAV5WBLAjXpump",
+    "symbol": "CLAUDIO",
+    "msg": "CLAUDIO volume spike 45.7x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 45.707,
+    "last_1m": 123.13,
+    "prior_30m_avg_1m": 2.69,
+    "url": "https://dexscreener.com/solana/5yajuytpbzjw8e5vdrsd7ll4ep6yb3jtjmbql4ny6ym3",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:56:27+00:00",
+    "ts": 1795215387,
+    "kind": "spike",
+    "mint": "J4SzcamvwvC6wWrjb3dyqAzNtk1DSnB25DyZHkpEpump",
+    "symbol": "GOD",
+    "msg": "GOD volume spike 28.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 28.391,
+    "last_1m": 27.34,
+    "prior_30m_avg_1m": 0.96,
+    "url": "https://dexscreener.com/solana/8ka9e5lneuydmqjhkzhqcytlfbwg7t9bzrf61vebwvzh",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:56:27+00:00",
+    "ts": 1795215387,
+    "kind": "fast",
+    "mint": "GjqpmpsR4zjTSrDzoQcpo7BRvi59X7uLpyb5AVYppump",
+    "symbol": "sponge",
+    "msg": "sponge +38% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 38.07,
+    "mc_usd": 2752.42,
+    "url": "https://dexscreener.com/solana/bnamhpnq9i7zet6p7mk2xyfxjwup31df4iv2jhiodwh3",
+    "watch": "scan"
   }
 ]
