@@ -1382,5 +1382,73 @@
     "prior_30m_avg_1m": 0.12,
     "url": "https://dexscreener.com/solana/3hkbq7paiddbesylptr4g4ubnl9bi9e7btfhcvqf8khx",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:41:40+00:00",
+    "ts": 1795214500,
+    "kind": "spike",
+    "mint": "G1EKFTpRezUKgZsRNKsAMuvAuvvNSXkYAHyUqQqxpump",
+    "symbol": "YIN PEPE",
+    "msg": "YIN PEPE volume spike 13.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 13.007,
+    "last_1m": 19.3,
+    "prior_30m_avg_1m": 1.48,
+    "url": "https://dexscreener.com/solana/jb9fdz3qcbghqjhzxirzhbqzue8gxfvsqb4pghho6vhg",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:41:40+00:00",
+    "ts": 1795214500,
+    "kind": "spike",
+    "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+    "symbol": "Bust",
+    "msg": "Bust volume spike 17.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 17.051,
+    "last_1m": 2441.57,
+    "prior_30m_avg_1m": 143.19,
+    "url": "https://dexscreener.com/solana/dxusprkbwt81ib46q2m5a9yumo1j1dnymu6tbmhvhjw9",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:41:40+00:00",
+    "ts": 1795214500,
+    "kind": "fast",
+    "mint": "72qYAWwXd8pTFMh85nH3AozBnkQFj4RL6UZKUSiSpump",
+    "symbol": "bwp",
+    "msg": "bwp +49% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 49.12,
+    "mc_usd": 3099.46,
+    "url": "https://dexscreener.com/solana/hg66c5azknrzvncynzj3bdd2g7vyuzslydkpeme5kqti",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:41:40+00:00",
+    "ts": 1795214500,
+    "kind": "spike",
+    "mint": "FGMLBGpmGuuykwfC8PSpxypHMKofPeYAk6NKJXMMpump",
+    "symbol": "TrevorGTA",
+    "msg": "TrevorGTA volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 4.76,
+    "prior_30m_avg_1m": 0.43,
+    "url": "https://dexscreener.com/solana/asygrh8gacogvhbjyu5npx6d1kmpsr6ub6k3aakd5mam",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:42:20+00:00",
+    "ts": 1795214540,
+    "kind": "fast",
+    "mint": "Et9hLYMSJJsYNRX8GwYdA8PqDdtoTS5CJXuA5UN8pump",
+    "symbol": "CUNT",
+    "msg": "CUNT +41% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 40.84,
+    "mc_usd": 2740.18,
+    "url": "https://dexscreener.com/solana/7a6sq4dgrbdrnyrznfbiwaeatshj4dpaqaxsr98knuzc",
+    "watch": "scan"
   }
 ]

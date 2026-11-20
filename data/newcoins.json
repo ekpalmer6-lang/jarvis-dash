@@ -1,8 +1,29 @@
 {
   "source": "wss://pumpportal.fun/api/data",
   "method": "subscribeNewToken",
-  "updated": "2026-11-20T22:41:25Z",
+  "updated": "2026-11-20T22:41:54Z",
   "tokens": [
+    {
+      "mint": "bH5oq821WTa3Rfz2gcW4Dj3rngqAY5rzjXiJHP5pump",
+      "received_at": "2026-11-20T22:41:54Z",
+      "source": "pumpportal.fun",
+      "name": "11ty",
+      "symbol": "11ty",
+      "uri": "https://meta.uxento.io/data/54fb3fdb-abb0-4f07-8d44-8443c6728c4c",
+      "marketCapSol": 31.762049165059267,
+      "vSolInBondingCurve": 31.975308639999987,
+      "vTokensInBondingCurve": 1006714285.776477,
+      "solAmount": 1.97530864,
+      "initialBuy": 66285714.223523,
+      "bondingCurveKey": "4KwFNCxa8qK2LquKEsGS8685ELphDrb5RhwyBXQns7CJ",
+      "pool": "pump",
+      "is_mayhem_mode": false,
+      "traderPublicKey": "FXuxSLuQASGnn4zbL3vuEyX8ydTH9L4NrPAn1UvFcmYT",
+      "last_tx": "create",
+      "last_tx_at": "2026-11-20T22:41:54Z",
+      "txType": "create",
+      "curve_pct": 2.3238925176470437
+    },
     {
       "mint": "4mmEcjPwGXsDY7yo8BJC5w6P5e35G221Xr7CcDzUpump",
       "received_at": "2026-11-20T22:41:25Z",

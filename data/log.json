@@ -18817,5 +18817,219 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 done in 13523ms: 306 mints, 80 cheap rows, 52 moving"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 30.1% held by linked wallets",
+    "mint": "4pYJGgPSzg5LBY6uwq3idmUFACprh7wtUj2bpn1Apump",
+    "symbol": "FLIPCOIN",
+    "reason": "too bundled: 30.1% held by linked wallets",
+    "clustered_pct": 30.1,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7ex9oz cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip CV5x2d cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip CnBkqy cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:41:28+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:41:32+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Bust 5m flow pressure None buyers 0 large-net $0 (0 large selling)",
+    "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump"
+  },
+  {
+    "t": "2026-11-20T22:41:32+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "ty 5m flow pressure 0.577 buyers 18 large-net $-38.49 (1 large selling)",
+    "mint": "86FPf5argR7oWCEEkjV6VumXMnpBP8PQ1cSUJ6F7pump"
+  },
+  {
+    "t": "2026-11-20T22:41:32+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "ViceTrend 5m flow pressure 0.5 buyers 33 large-net $-203.9 (3 large selling)",
+    "mint": "Ew4jHKVaBEwHfzuzTr84ZW11TcpvzJpYRJTQ1Liqpump"
+  },
+  {
+    "t": "2026-11-20T22:41:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:41:53+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10832ms: 309 mints, 88 cheap rows, 56 moving"
+  },
+  {
+    "t": "2026-11-20T22:41:56+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "SIDOOR 5m flow pressure 0.539 buyers 27 large-net $324.26 (0 large selling)",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:41:56+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "1000X 5m flow pressure 0.513 buyers 37 large-net $-52.95 (1 large selling)",
+    "mint": "WNUUVPaaWF8aSaGgq5TF5bJVJCLU4BjwdmqmARKpump"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8fkyzH cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:41:59+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:42:12+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:42:26+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13076ms: 310 mints, 88 cheap rows, 53 moving"
+  },
+  {
+    "t": "2026-11-20T22:42:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "FLIPCOIN 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "7RLKQF8r8t5UVxb6MHwdvBQwPGJMioMFnERJCjFspump"
+  },
+  {
+    "t": "2026-11-20T22:42:28+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 17.15% held by linked wallets",
+    "mint": "72qYAWwXd8pTFMh85nH3AozBnkQFj4RL6UZKUSiSpump",
+    "symbol": "bwp",
+    "reason": "too bundled: 17.15% held by linked wallets",
+    "clustered_pct": 17.15,
+    "cluster_count": 2
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8fkyzH cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2ZaV5N cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:42:29+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
   }
 ]
