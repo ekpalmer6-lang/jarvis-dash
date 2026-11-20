@@ -102,5 +102,31 @@
     "mc_usd": 46362,
     "url": "https://dexscreener.com/solana/7vwks5yxdn1k3cebe2jf3jdrzbct9rdreoszczf5wv2a",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T19:17:51+00:00",
+    "ts": 1795202271,
+    "kind": "fast",
+    "mint": "7KUg78hyohckj8i728YuCu6CweTArxhwRrVrFyvHpump",
+    "symbol": "Singularity",
+    "msg": "Singularity +32% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 31.7,
+    "mc_usd": 80892,
+    "url": "https://dexscreener.com/solana/mab81litf3cj5xuw5vxnvqdetwequsumqhbx1vwstfh",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T19:17:51+00:00",
+    "ts": 1795202271,
+    "kind": "fast",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump",
+    "symbol": "AI",
+    "msg": "AI +31% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 31.01,
+    "mc_usd": 145778,
+    "url": "https://dexscreener.com/solana/dunrwsxga63cunxqznwqhdynzsqzgiqbaojwaxbl5wu2",
+    "watch": "scan"
   }
 ]
