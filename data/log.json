@@ -19622,5 +19622,110 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:46:47+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 12606ms: 340 mints, 113 cheap rows, 61 moving"
+  },
+  {
+    "t": "2026-11-20T22:46:49+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on chud: sell-heavy 5m flow (4 buys / 5 sells)"
+  },
+  {
+    "t": "2026-11-20T22:46:49+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "bwp 5m flow pressure 0.197 buyers 7 large-net $-389.64 (2 large selling)",
+    "mint": "72qYAWwXd8pTFMh85nH3AozBnkQFj4RL6UZKUSiSpump"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4uTJDe cash"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip BWuGqn cash"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5GDPVE cash"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 7DQQej for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:47:04+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:47:19+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 14780ms: 351 mints, 112 cheap rows, 60 moving"
+  },
+  {
+    "t": "2026-11-20T22:47:19+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on DCTY: sell-heavy 5m flow (5 buys / 7 sells)"
+  },
+  {
+    "t": "2026-11-20T22:47:20+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching EV7J2Q for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:47:21+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AGENT 5m flow pressure 0.5 buyers 25 large-net $-25.95 (3 large selling)",
+    "mint": "13adWn9WM68prEVFkXGLjCxCvdK4Gk2rx1Gm3Tm7pump"
+  },
+  {
+    "t": "2026-11-20T22:47:25+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.59 buyers 79 large-net $1081.84 (5 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T22:47:34+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:47:35+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: BUY chud $10 at 8.01e-05 (post-graduation pullback; held up over 15s (price +0.0%, 7/6 buys/sells 5m))"
   }
 ]

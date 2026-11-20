@@ -1532,5 +1532,61 @@
     "prior_30m_avg_1m": 0.03,
     "url": "https://dexscreener.com/solana/48shjygy7jdaesysbnxp1ksoxcgzxahrikvnc7edwc1e",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:46:43+00:00",
+    "ts": 1795214803,
+    "kind": "spike",
+    "mint": "Et9hLYMSJJsYNRX8GwYdA8PqDdtoTS5CJXuA5UN8pump",
+    "symbol": "CUNT",
+    "msg": "CUNT volume spike 140.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 140.069,
+    "last_1m": 17.39,
+    "prior_30m_avg_1m": 0.12,
+    "url": "https://dexscreener.com/solana/7a6sq4dgrbdrnyrznfbiwaeatshj4dpaqaxsr98knuzc",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:46:43+00:00",
+    "ts": 1795214803,
+    "kind": "spike",
+    "mint": "5ArZRb1aGiGyJ66zK6s7jac4TCXr2cCDnnUbU3wHpump",
+    "symbol": "ggggg",
+    "msg": "ggggg volume spike 37.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 37.311,
+    "last_1m": 6.02,
+    "prior_30m_avg_1m": 0.16,
+    "url": "https://dexscreener.com/solana/4pjydefjxvptscwhyrxmwqwypexqg4cthdgtxrqvzcr7",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:47:03+00:00",
+    "ts": 1795214823,
+    "kind": "spike",
+    "mint": "2ZaV5NGLFc2Pmnskdu3pRJRNJN7t8Z24CjwebRq6pump",
+    "symbol": "FREE",
+    "msg": "FREE volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.997,
+    "last_1m": 6.83,
+    "prior_30m_avg_1m": 0.62,
+    "url": "https://dexscreener.com/solana/9djrhprrqn8takueewnuukagpddkh62depu7sqzrbxsq",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:47:03+00:00",
+    "ts": 1795214823,
+    "kind": "spike",
+    "mint": "C9maHMZ5ptnCiwBytqyzUuX3iJxPu39NiyxnV9Xrpump",
+    "symbol": "NEWBITCOIN",
+    "msg": "NEWBITCOIN volume spike 12.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 12.024,
+    "last_1m": 4.51,
+    "prior_30m_avg_1m": 0.37,
+    "url": "https://dexscreener.com/solana/f1aad8pfk4pfssgvhrfyclpobyhfv3e9avnxvs9c6xxe",
+    "watch": "scan"
   }
 ]
