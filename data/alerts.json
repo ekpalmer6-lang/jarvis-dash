@@ -1640,5 +1640,19 @@
     "flags": [
       "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
     ]
+  },
+  {
+    "t": "2026-11-20T22:49:04+00:00",
+    "ts": 1795214944,
+    "kind": "spike",
+    "mint": "7JMZJ3B1L8kdPcZZNHXoef8UkQvQSFwop252EdqDpump",
+    "symbol": "ANSCAM",
+    "msg": "ANSCAM volume spike 11.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.843,
+    "last_1m": 4.49,
+    "prior_30m_avg_1m": 0.38,
+    "url": "https://dexscreener.com/solana/7l8k11ketkajjqztm9zdhou3enxnju7ikn41ium9lvzc",
+    "watch": "scan"
   }
 ]

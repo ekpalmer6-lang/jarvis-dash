@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:48:36+00:00",
+  "updated": "2026-11-20T22:49:37+00:00",
   "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
   "min_closed_to_rank": 5,
   "best": "grad_pullback",
