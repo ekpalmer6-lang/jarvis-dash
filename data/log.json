@@ -19514,5 +19514,113 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:45:48+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on chud: sell-heavy 5m flow (5 buys / 6 sells)"
+  },
+  {
+    "t": "2026-11-20T22:45:48+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13904ms: 308 mints, 105 cheap rows, 63 moving"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4uTJDe cash"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip BWuGqn cash"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5GDPVE cash"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7JMZJ3 cash"
+  },
+  {
+    "t": "2026-11-20T22:46:03+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching EoV9JQ for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:46:04+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:46:18+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on Bust: price fell 16.2% during watch"
+  },
+  {
+    "t": "2026-11-20T22:46:18+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 7DQQej for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:46:18+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 14114ms: 314 mints, 112 cheap rows, 62 moving"
+  },
+  {
+    "t": "2026-11-20T22:46:25+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.494 buyers 146 large-net $-7049.93 (6 large selling)",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump"
+  },
+  {
+    "t": "2026-11-20T22:46:26+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 15.86% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 15.86% held by linked wallets",
+    "clustered_pct": 15.86,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:46:33+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on DCTY: sell-heavy 5m flow (7 buys / 14 sells)"
+  },
+  {
+    "t": "2026-11-20T22:46:33+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching EV7J2Q for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:46:34+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
   }
 ]
