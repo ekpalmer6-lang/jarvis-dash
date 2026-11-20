@@ -3071,5 +3071,36 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 done in 11248ms: 229 mints, 13 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:46:16+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AMC  5m flow pressure 0.565 buyers 20 large-net $-48.51 (2 large selling)",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
+  },
+  {
+    "t": "2026-11-20T20:46:23+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:46:32+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9460ms: 237 mints, 14 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:46:53+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:47:02+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9462ms: 229 mints, 14 cheap rows, 8 moving"
   }
 ]
