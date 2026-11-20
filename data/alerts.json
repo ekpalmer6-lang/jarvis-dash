@@ -3746,5 +3746,19 @@
     "mc_usd": 3138.9,
     "url": "https://dexscreener.com/solana/hwrjbve3mamqej2smqizm5agbnu6vhhafkftfz8xskc2",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:44:55+00:00",
+    "ts": 1795218295,
+    "kind": "spike",
+    "mint": "39rfJHBLWXApcMazmQMFmTEC5t85RgzUD2pk6pYzpump",
+    "symbol": "VCB",
+    "msg": "VCB volume spike 7.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.842,
+    "last_1m": 6.55,
+    "prior_30m_avg_1m": 0.84,
+    "url": "https://dexscreener.com/solana/3atlhk9wnru6tb9odivhuzi7hzjb65zh9pvfyhri9xhn",
+    "watch": "scan"
   }
 ]
