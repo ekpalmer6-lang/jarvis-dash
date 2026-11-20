@@ -500,7 +500,7 @@ function paintHealth(h){
   const procs=h.processes||{}, names=["guard","serve","publish"].concat(procs.notifier?["notifier"]:[]);
   const bits=names.map(n=>{const p=procs[n]||{};const cls=p.alive&&!p.stale?"ok":p.alive?"mid":"bad";const lab=p.alive?(p.stale?" stale":""):" down";return `<span class="hitem ${cls}"><i></i>${n}${lab}</span>`}).join("");
   el.className="hstrip"+(h.ok?" ok":" bad");
-  el.innerHTML=`${bits}<span class="sub"> · ${h.ok?"all green":"attention"} · last update ${esc(h.updated_et||((h.updated?dt(h.updated)+" AWST":"–")))}</span>`;
+  el.innerHTML=`${bits}<span class="sub"> · ${h.ok?"all green":"attention"} · last update ${esc(h.updated_awst||h.updated_et||((h.updated?dt(h.updated)+" AWST":"–")))}</span>`;
 }
 function paintStale(health,scan){
   const el=$("staleBanner");if(!el)return;
@@ -749,17 +749,19 @@ async function paintNotif(){
   setChip("Notifications OFF");window.__jarvisPush.status="off";
 }
 async function enablePush(){
-  if(iosNeedsHomeScreen()){await paintNotif();return}
-  const cfg=await loadPushPublic();
-  if(!cfg||!cfg.vapidPublicKey||!cfg.mailbox){if($("notifSt"))$("notifSt").textContent="Notifications aren't set up on the desk yet.";return}
-  let perm=Notification.permission;
-  if(perm!=="granted"){try{perm=await Notification.requestPermission()}catch(e){}}
-  if(perm!=="granted"){await paintNotif();return}
-  const reg=await navigator.serviceWorker.ready;
-  let sub=await reg.pushManager.getSubscription();
-  if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64urlToBytes(cfg.vapidPublicKey)});
-  await postMailbox(cfg,{type:"subscribe",subscription:sub.toJSON(),ua:navigator.userAgent,t:new Date().toISOString()});
-  localStorage.setItem("jt-push-on","1");window.__jarvisPush.sub=sub.toJSON();await paintNotif();
+  try{
+    if(iosNeedsHomeScreen()){await paintNotif();return}
+    const cfg=await loadPushPublic();
+    if(!cfg||!cfg.vapidPublicKey||!cfg.mailbox){if($("notifSt"))$("notifSt").textContent="Notifications aren't set up on the desk yet.";return}
+    let perm=Notification.permission;
+    if(perm!=="granted"){try{perm=await Notification.requestPermission()}catch(e){}}
+    if(perm!=="granted"){await paintNotif();return}
+    const reg=await navigator.serviceWorker.ready;
+    let sub=await reg.pushManager.getSubscription();
+    if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64urlToBytes(cfg.vapidPublicKey)});
+    await postMailbox(cfg,{type:"subscribe",subscription:sub.toJSON(),ua:navigator.userAgent,t:new Date().toISOString()});
+    localStorage.setItem("jt-push-on","1");window.__jarvisPush.sub=sub.toJSON();await paintNotif();
+  }catch(e){if($("notifSt"))$("notifSt").textContent="Couldn't subscribe: "+((e&&e.message)||e);window.__jarvisPush.status="error";window.__jarvisPush.error=String((e&&e.message)||e)}
 }
 async function disablePush(){
   const cfg=await loadPushPublic();const sub=await currentSub();

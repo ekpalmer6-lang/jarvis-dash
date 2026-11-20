@@ -1723,5 +1723,115 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:00:09+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 113 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:00:15+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15966ms: 231 mints, 11 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:00:35+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:00:35+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:00:41+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "PATRICK 5m flow: 161 buys / 139 sells, pressure 0.49, 131 unique buyers, large-wallet net $-1349.14",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T20:00:43+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:00:45+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 27 buys / 23 sells, pressure 0.528, 26 unique buyers, large-wallet net $-206.37",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:00:49+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T20:00:51+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DOOMSDAY 5m flow: 40 buys / 29 sells, pressure 0.754, 27 unique buyers, large-wallet net $443.98",
+    "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump"
+  },
+  {
+    "t": "2026-11-20T20:00:51+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 68 mints, 0 under 30s, 0 coordinated, 62 early-vs-trending, 5 with flow"
+  },
+  {
+    "t": "2026-11-20T20:01:05+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:05+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 test buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:05+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL AAA $7.00 \u2014 test sell",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:05+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 swing rebuy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:01:05+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY AAA $5.00 \u2014 buy",
+    "mint": "Mint1111111111111111111111111111111111111",
+    "strategy": "test",
+    "fee_usd": 0.1
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:57:02+00:00",
+  "updated": "2026-11-20T20:00:51+00:00",
   "partial": false,
   "sources": {
     "telegram": {
@@ -39,7 +39,7 @@
     },
     "onchain_flow": {
       "ok": true,
-      "mints_measured": 2
+      "mints_measured": 5
     },
     "dex_trending_count": 42
   },
@@ -52,232 +52,17 @@
   },
   "calls": [
     {
-      "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump",
-      "ticker": "$55",
-      "first_seen": "2026-11-20T18:56:35+00:00",
-      "last_seen": "2026-11-20T18:56:35+00:00",
-      "age_sec": 3615,
-      "n_sources": 1,
-      "flags": [
-        "stale_over_30s",
-        "early_before_dex_trending"
-      ],
-      "sources": [
-        {
-          "kind": "telegram",
-          "source": "thealphatable",
-          "url": "https://t.me/thealphatable",
-          "t": "2026-11-20T18:56:35+00:00",
-          "ticker": "$55"
-        }
-      ],
-      "symbol": "Singularity",
-      "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
-      "dex": "pumpswap",
-      "flow": {
-        "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
-        "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {
-          "1m": {
-            "trades": 0,
-            "buys": 0,
-            "sells": 0,
-            "buy_usd": 0,
-            "sell_usd": 0,
-            "buy_pressure": null,
-            "unique_buyers": 0,
-            "unique_sellers": 0,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": null,
-            "window_complete": false
-          },
-          "5m": {
-            "trades": 0,
-            "buys": 0,
-            "sells": 0,
-            "buy_usd": 0,
-            "sell_usd": 0,
-            "buy_pressure": null,
-            "unique_buyers": 0,
-            "unique_sellers": 0,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": null,
-            "window_complete": false
-          },
-          "15m": {
-            "trades": 0,
-            "buys": 0,
-            "sells": 0,
-            "buy_usd": 0,
-            "sell_usd": 0,
-            "buy_pressure": null,
-            "unique_buyers": 0,
-            "unique_sellers": 0,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": null,
-            "window_complete": false
-          }
-        },
-        "error": null,
-        "trades_returned": 0
-      }
-    },
-    {
-      "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
-      "ticker": "$HUSS",
-      "first_seen": "2026-11-20T18:35:36+00:00",
-      "last_seen": "2026-11-20T18:35:36+00:00",
-      "age_sec": 4874,
-      "n_sources": 1,
-      "flags": [
-        "stale_over_30s"
-      ],
-      "sources": [
-        {
-          "kind": "telegram",
-          "source": "michacalls",
-          "url": "https://t.me/michacalls",
-          "t": "2026-11-20T18:35:36+00:00",
-          "ticker": "$HUSS"
-        }
-      ],
-      "symbol": "Huss",
-      "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
-      "dex": "pumpswap",
-      "flow": {
-        "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
-        "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {
-          "1m": {
-            "trades": 2,
-            "buys": 1,
-            "sells": 1,
-            "buy_usd": 0.3,
-            "sell_usd": 14.32,
-            "buy_pressure": 0.02,
-            "unique_buyers": 1,
-            "unique_sellers": 1,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": 1.0,
-            "window_complete": true
-          },
-          "5m": {
-            "trades": 67,
-            "buys": 52,
-            "sells": 15,
-            "buy_usd": 1025.2,
-            "sell_usd": 1268.2,
-            "buy_pressure": 0.447,
-            "unique_buyers": 52,
-            "unique_sellers": 15,
-            "large_wallets": 2,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 2,
-            "large_wallet_net_usd": -899.53,
-            "max_buyer_share": 0.126,
-            "window_complete": true
-          },
-          "15m": {
-            "trades": 177,
-            "buys": 111,
-            "sells": 66,
-            "buy_usd": 4086.15,
-            "sell_usd": 4093.11,
-            "buy_pressure": 0.5,
-            "unique_buyers": 98,
-            "unique_sellers": 55,
-            "large_wallets": 13,
-            "large_wallets_buying": 5,
-            "large_wallets_selling": 8,
-            "large_wallet_net_usd": -752.03,
-            "max_buyer_share": 0.164,
-            "window_complete": true
-          }
-        },
-        "error": null,
-        "trades_returned": 300
-      }
-    },
-    {
-      "mint": "gkhcyzexdi2sveqnagsg3qxrkzshdr5dxrd482km2hxx",
-      "ticker": "$HUSS",
-      "first_seen": "2026-11-20T18:35:36+00:00",
-      "last_seen": "2026-11-20T18:35:36+00:00",
-      "age_sec": 4874,
-      "n_sources": 1,
-      "flags": [
-        "stale_over_30s",
-        "early_before_dex_trending"
-      ],
-      "sources": [
-        {
-          "kind": "telegram",
-          "source": "michacalls",
-          "url": "https://t.me/michacalls",
-          "t": "2026-11-20T18:35:36+00:00",
-          "ticker": "$HUSS"
-        }
-      ]
-    },
-    {
       "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
       "ticker": "$25",
-      "first_seen": "2026-11-20T18:17:40+00:00",
-      "last_seen": "2026-11-20T19:53:57+00:00",
-      "age_sec": 5950,
+      "first_seen": "2026-11-20T19:26:12+00:00",
+      "last_seen": "2026-11-20T19:59:38+00:00",
+      "age_sec": 2066,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
         "early_before_dex_trending"
       ],
       "sources": [
-        {
-          "kind": "telegram",
-          "source": "minibangcall",
-          "url": "https://t.me/minibangcall",
-          "t": "2026-11-20T18:17:40+00:00",
-          "ticker": "$25"
-        },
-        {
-          "kind": "telegram",
-          "source": "minibangcall",
-          "url": "https://t.me/minibangcall",
-          "t": "2026-11-20T19:20:43+00:00",
-          "ticker": "$12"
-        },
-        {
-          "kind": "telegram",
-          "source": "minibangcall",
-          "url": "https://t.me/minibangcall",
-          "t": "2026-11-20T19:20:44+00:00",
-          "ticker": "$25"
-        },
-        {
-          "kind": "telegram",
-          "source": "minibangcall",
-          "url": "https://t.me/minibangcall",
-          "t": "2026-11-20T19:24:29+00:00",
-          "ticker": "$PATRICK"
-        },
-        {
-          "kind": "telegram",
-          "source": "minibangcall",
-          "url": "https://t.me/minibangcall",
-          "t": "2026-11-20T19:24:55+00:00",
-          "ticker": "$25"
-        },
         {
           "kind": "telegram",
           "source": "minibangcall",
@@ -382,6 +167,41 @@
           "url": "https://t.me/minibangcall",
           "t": "2026-11-20T19:53:57+00:00",
           "ticker": "$12"
+        },
+        {
+          "kind": "telegram",
+          "source": "minibangcall",
+          "url": "https://t.me/minibangcall",
+          "t": "2026-11-20T19:56:25+00:00",
+          "ticker": "$PATRICK"
+        },
+        {
+          "kind": "telegram",
+          "source": "minibangcall",
+          "url": "https://t.me/minibangcall",
+          "t": "2026-11-20T19:57:08+00:00",
+          "ticker": "$PATRICK"
+        },
+        {
+          "kind": "telegram",
+          "source": "minibangcall",
+          "url": "https://t.me/minibangcall",
+          "t": "2026-11-20T19:59:32+00:00",
+          "ticker": "$PATRICK"
+        },
+        {
+          "kind": "telegram",
+          "source": "minibangcall",
+          "url": "https://t.me/minibangcall",
+          "t": "2026-11-20T19:59:37+00:00",
+          "ticker": "$12"
+        },
+        {
+          "kind": "telegram",
+          "source": "minibangcall",
+          "url": "https://t.me/minibangcall",
+          "t": "2026-11-20T19:59:38+00:00",
+          "ticker": "$25"
         }
       ],
       "symbol": "PATRICK",
@@ -390,16 +210,246 @@
       "flow": {
         "pair": "BCgR8mwLDXeg9Sh9HWGzk9kMbuVN6bQ3TjUnUgfbZ6Bz",
         "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {},
-        "error": "HTTP 429"
+        "windows": {
+          "1m": {
+            "trades": 300,
+            "buys": 161,
+            "sells": 139,
+            "buy_usd": 5688.64,
+            "sell_usd": 5911.59,
+            "buy_pressure": 0.49,
+            "unique_buyers": 131,
+            "unique_sellers": 80,
+            "large_wallets": 16,
+            "large_wallets_buying": 7,
+            "large_wallets_selling": 9,
+            "large_wallet_net_usd": -1349.14,
+            "max_buyer_share": 0.118,
+            "window_complete": false
+          },
+          "5m": {
+            "trades": 300,
+            "buys": 161,
+            "sells": 139,
+            "buy_usd": 5688.64,
+            "sell_usd": 5911.59,
+            "buy_pressure": 0.49,
+            "unique_buyers": 131,
+            "unique_sellers": 80,
+            "large_wallets": 16,
+            "large_wallets_buying": 7,
+            "large_wallets_selling": 9,
+            "large_wallet_net_usd": -1349.14,
+            "max_buyer_share": 0.118,
+            "window_complete": false
+          },
+          "15m": {
+            "trades": 300,
+            "buys": 161,
+            "sells": 139,
+            "buy_usd": 5688.64,
+            "sell_usd": 5911.59,
+            "buy_pressure": 0.49,
+            "unique_buyers": 131,
+            "unique_sellers": 80,
+            "large_wallets": 16,
+            "large_wallets_buying": 7,
+            "large_wallets_selling": 9,
+            "large_wallet_net_usd": -1349.14,
+            "max_buyer_share": 0.118,
+            "window_complete": false
+          }
+        },
+        "error": null,
+        "trades_returned": 300
       }
+    },
+    {
+      "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump",
+      "ticker": "$55",
+      "first_seen": "2026-11-20T18:56:35+00:00",
+      "last_seen": "2026-11-20T18:56:35+00:00",
+      "age_sec": 3843,
+      "n_sources": 1,
+      "flags": [
+        "stale_over_30s",
+        "early_before_dex_trending"
+      ],
+      "sources": [
+        {
+          "kind": "telegram",
+          "source": "thealphatable",
+          "url": "https://t.me/thealphatable",
+          "t": "2026-11-20T18:56:35+00:00",
+          "ticker": "$55"
+        }
+      ],
+      "symbol": "Singularity",
+      "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          },
+          "5m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          },
+          "15m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          }
+        },
+        "error": null,
+        "trades_returned": 0
+      }
+    },
+    {
+      "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+      "ticker": "$HUSS",
+      "first_seen": "2026-11-20T18:35:36+00:00",
+      "last_seen": "2026-11-20T18:35:36+00:00",
+      "age_sec": 5102,
+      "n_sources": 1,
+      "flags": [
+        "stale_over_30s"
+      ],
+      "sources": [
+        {
+          "kind": "telegram",
+          "source": "michacalls",
+          "url": "https://t.me/michacalls",
+          "t": "2026-11-20T18:35:36+00:00",
+          "ticker": "$HUSS"
+        }
+      ],
+      "symbol": "Huss",
+      "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 4,
+            "buys": 0,
+            "sells": 4,
+            "buy_usd": 0,
+            "sell_usd": 228.85,
+            "buy_pressure": 0.0,
+            "unique_buyers": 0,
+            "unique_sellers": 4,
+            "large_wallets": 1,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": -206.37,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 50,
+            "buys": 27,
+            "sells": 23,
+            "buy_usd": 768.08,
+            "sell_usd": 685.68,
+            "buy_pressure": 0.528,
+            "unique_buyers": 26,
+            "unique_sellers": 22,
+            "large_wallets": 1,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": -206.37,
+            "max_buyer_share": 0.221,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 165,
+            "buys": 107,
+            "sells": 58,
+            "buy_usd": 2761.33,
+            "sell_usd": 2748.81,
+            "buy_pressure": 0.501,
+            "unique_buyers": 101,
+            "unique_sellers": 51,
+            "large_wallets": 6,
+            "large_wallets_buying": 1,
+            "large_wallets_selling": 5,
+            "large_wallet_net_usd": -1196.09,
+            "max_buyer_share": 0.153,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
+    },
+    {
+      "mint": "gkhcyzexdi2sveqnagsg3qxrkzshdr5dxrd482km2hxx",
+      "ticker": "$HUSS",
+      "first_seen": "2026-11-20T18:35:36+00:00",
+      "last_seen": "2026-11-20T18:35:36+00:00",
+      "age_sec": 5102,
+      "n_sources": 1,
+      "flags": [
+        "stale_over_30s",
+        "early_before_dex_trending"
+      ],
+      "sources": [
+        {
+          "kind": "telegram",
+          "source": "michacalls",
+          "url": "https://t.me/michacalls",
+          "t": "2026-11-20T18:35:36+00:00",
+          "ticker": "$HUSS"
+        }
+      ]
     },
     {
       "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump",
       "ticker": "$CATPOOP",
       "first_seen": "2026-11-20T17:42:21+00:00",
       "last_seen": "2026-11-20T17:42:21+00:00",
-      "age_sec": 8069,
+      "age_sec": 8297,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -420,8 +470,58 @@
       "flow": {
         "pair": "AYzjWPga74yrpQsKqC6JurNfifWCBk3LKBCuSpAg4W2p",
         "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {},
-        "error": "HTTP 429"
+        "windows": {
+          "1m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
       }
     },
     {
@@ -429,7 +529,7 @@
       "ticker": "$CATPOOP",
       "first_seen": "2026-11-20T17:42:21+00:00",
       "last_seen": "2026-11-20T17:42:21+00:00",
-      "age_sec": 8069,
+      "age_sec": 8297,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -450,7 +550,7 @@
       "ticker": "$DOOMSDAY",
       "first_seen": "2026-11-20T17:26:38+00:00",
       "last_seen": "2026-11-20T17:26:38+00:00",
-      "age_sec": 9012,
+      "age_sec": 9240,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -471,8 +571,58 @@
       "flow": {
         "pair": "G81JD3ALyy4y1yknAyYyCz3aRZkQEEma2sH1oQcMx33h",
         "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {},
-        "error": "HTTP 429"
+        "windows": {
+          "1m": {
+            "trades": 11,
+            "buys": 3,
+            "sells": 8,
+            "buy_usd": 38.24,
+            "sell_usd": 204.17,
+            "buy_pressure": 0.158,
+            "unique_buyers": 2,
+            "unique_sellers": 4,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": 0.899,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 69,
+            "buys": 40,
+            "sells": 29,
+            "buy_usd": 1386.18,
+            "sell_usd": 453.13,
+            "buy_pressure": 0.754,
+            "unique_buyers": 27,
+            "unique_sellers": 12,
+            "large_wallets": 3,
+            "large_wallets_buying": 2,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": 443.98,
+            "max_buyer_share": 0.212,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 189,
+            "buys": 105,
+            "sells": 84,
+            "buy_usd": 2658.64,
+            "sell_usd": 3277.24,
+            "buy_pressure": 0.448,
+            "unique_buyers": 54,
+            "unique_sellers": 42,
+            "large_wallets": 6,
+            "large_wallets_buying": 2,
+            "large_wallets_selling": 4,
+            "large_wallet_net_usd": -874.2,
+            "max_buyer_share": 0.266,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
       }
     },
     {
@@ -480,7 +630,7 @@
       "ticker": "$DOOMSDAY",
       "first_seen": "2026-11-20T17:26:38+00:00",
       "last_seen": "2026-11-20T17:26:38+00:00",
-      "age_sec": 9012,
+      "age_sec": 9240,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -501,7 +651,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T17:21:52+00:00",
       "last_seen": "2026-11-20T17:21:52+00:00",
-      "age_sec": 9298,
+      "age_sec": 9526,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -522,7 +672,7 @@
       "ticker": "$H4CK",
       "first_seen": "2026-11-20T17:19:15+00:00",
       "last_seen": "2026-11-20T17:19:15+00:00",
-      "age_sec": 9455,
+      "age_sec": 9683,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -543,7 +693,7 @@
       "ticker": "$H4CK",
       "first_seen": "2026-11-20T17:19:15+00:00",
       "last_seen": "2026-11-20T17:19:15+00:00",
-      "age_sec": 9455,
+      "age_sec": 9683,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -564,7 +714,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T17:18:46+00:00",
       "last_seen": "2026-11-20T17:18:46+00:00",
-      "age_sec": 9484,
+      "age_sec": 9712,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -585,7 +735,7 @@
       "ticker": "$BITCAT",
       "first_seen": "2026-11-20T17:11:22+00:00",
       "last_seen": "2026-11-20T17:11:22+00:00",
-      "age_sec": 9928,
+      "age_sec": 10156,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -606,7 +756,7 @@
       "ticker": "$BITCAT",
       "first_seen": "2026-11-20T17:11:22+00:00",
       "last_seen": "2026-11-20T17:11:22+00:00",
-      "age_sec": 9928,
+      "age_sec": 10156,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -627,7 +777,7 @@
       "ticker": "$115K",
       "first_seen": "2026-11-20T17:05:46+00:00",
       "last_seen": "2026-11-20T17:05:46+00:00",
-      "age_sec": 10264,
+      "age_sec": 10492,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -648,7 +798,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T17:05:15+00:00",
       "last_seen": "2026-11-20T17:05:15+00:00",
-      "age_sec": 10295,
+      "age_sec": 10523,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -669,7 +819,7 @@
       "ticker": "$NIO",
       "first_seen": "2026-11-20T16:41:09+00:00",
       "last_seen": "2026-11-20T16:41:09+00:00",
-      "age_sec": 11741,
+      "age_sec": 11969,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -690,7 +840,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T16:21:22+00:00",
       "last_seen": "2026-11-20T16:21:22+00:00",
-      "age_sec": 12928,
+      "age_sec": 13156,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -711,7 +861,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T16:16:41+00:00",
       "last_seen": "2026-11-20T17:21:52+00:00",
-      "age_sec": 13209,
+      "age_sec": 13437,
       "n_sources": 2,
       "flags": [
         "stale_over_30s",
@@ -760,7 +910,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T15:16:02+00:00",
       "last_seen": "2026-11-20T15:16:02+00:00",
-      "age_sec": 16848,
+      "age_sec": 17076,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -781,7 +931,7 @@
       "ticker": "$91",
       "first_seen": "2026-11-20T15:00:30+00:00",
       "last_seen": "2026-11-20T15:00:30+00:00",
-      "age_sec": 17780,
+      "age_sec": 18008,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -802,7 +952,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:55:37+00:00",
       "last_seen": "2026-11-20T14:55:37+00:00",
-      "age_sec": 18073,
+      "age_sec": 18301,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -823,7 +973,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:30:40+00:00",
       "last_seen": "2026-11-20T14:30:40+00:00",
-      "age_sec": 19570,
+      "age_sec": 19798,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -844,7 +994,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:30:01+00:00",
       "last_seen": "2026-11-20T17:52:58+00:00",
-      "age_sec": 19609,
+      "age_sec": 19837,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -872,7 +1022,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T12:16:44+00:00",
       "last_seen": "2026-11-20T12:16:44+00:00",
-      "age_sec": 27606,
+      "age_sec": 27834,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -893,7 +1043,7 @@
       "ticker": "$ZOL",
       "first_seen": "2026-11-20T11:40:17+00:00",
       "last_seen": "2026-11-20T11:40:17+00:00",
-      "age_sec": 29793,
+      "age_sec": 30021,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -914,7 +1064,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T10:46:51+00:00",
       "last_seen": "2026-11-20T10:46:51+00:00",
-      "age_sec": 32999,
+      "age_sec": 33227,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -935,7 +1085,7 @@
       "ticker": "$AMC",
       "first_seen": "2026-11-20T10:39:17+00:00",
       "last_seen": "2026-11-20T10:58:59+00:00",
-      "age_sec": 33453,
+      "age_sec": 33681,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -963,7 +1113,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T09:25:32+00:00",
       "last_seen": "2026-11-20T09:25:32+00:00",
-      "age_sec": 37878,
+      "age_sec": 38106,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -984,7 +1134,7 @@
       "ticker": "$enu",
       "first_seen": "2026-11-20T08:52:48+00:00",
       "last_seen": "2026-11-20T08:52:48+00:00",
-      "age_sec": 39842,
+      "age_sec": 40070,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1005,7 +1155,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T08:47:41+00:00",
       "last_seen": "2026-11-20T08:52:22+00:00",
-      "age_sec": 40149,
+      "age_sec": 40377,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1033,7 +1183,7 @@
       "ticker": "$APCY",
       "first_seen": "2026-11-20T07:52:38+00:00",
       "last_seen": "2026-11-20T07:52:38+00:00",
-      "age_sec": 43452,
+      "age_sec": 43680,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1054,7 +1204,7 @@
       "ticker": "$APCY",
       "first_seen": "2026-11-20T07:52:38+00:00",
       "last_seen": "2026-11-20T07:52:38+00:00",
-      "age_sec": 43452,
+      "age_sec": 43680,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1075,7 +1225,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T07:02:07+00:00",
       "last_seen": "2026-11-20T07:02:07+00:00",
-      "age_sec": 46483,
+      "age_sec": 46711,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1096,7 +1246,7 @@
       "ticker": "$89",
       "first_seen": "2026-11-20T00:00:44+00:00",
       "last_seen": "2026-11-20T00:00:44+00:00",
-      "age_sec": 71766,
+      "age_sec": 71994,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1117,7 +1267,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T23:27:14+00:00",
       "last_seen": "2026-11-19T23:27:14+00:00",
-      "age_sec": 73776,
+      "age_sec": 74004,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1138,7 +1288,7 @@
       "ticker": "$WTA6",
       "first_seen": "2026-11-19T22:34:22+00:00",
       "last_seen": "2026-11-19T22:54:03+00:00",
-      "age_sec": 76948,
+      "age_sec": 77176,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1180,7 +1330,7 @@
       "ticker": "$WTA6",
       "first_seen": "2026-11-19T22:34:22+00:00",
       "last_seen": "2026-11-19T22:34:22+00:00",
-      "age_sec": 76948,
+      "age_sec": 77176,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1201,7 +1351,7 @@
       "ticker": "$FIONA",
       "first_seen": "2026-11-19T21:51:54+00:00",
       "last_seen": "2026-11-20T18:23:55+00:00",
-      "age_sec": 79496,
+      "age_sec": 79724,
       "n_sources": 2,
       "flags": [
         "stale_over_30s"
@@ -1284,7 +1434,7 @@
       "ticker": "$370",
       "first_seen": "2026-11-19T20:53:17+00:00",
       "last_seen": "2026-11-19T20:53:17+00:00",
-      "age_sec": 83013,
+      "age_sec": 83241,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1305,7 +1455,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T20:16:16+00:00",
       "last_seen": "2026-11-19T20:16:16+00:00",
-      "age_sec": 85234,
+      "age_sec": 85462,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1326,7 +1476,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T17:11:25+00:00",
       "last_seen": "2026-11-19T23:13:28+00:00",
-      "age_sec": 96325,
+      "age_sec": 96553,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1361,7 +1511,7 @@
       "ticker": "$AI",
       "first_seen": "2026-11-19T16:50:29+00:00",
       "last_seen": "2026-11-19T16:50:29+00:00",
-      "age_sec": 97581,
+      "age_sec": 97809,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1382,7 +1532,7 @@
       "ticker": "$LUCKYCOIN",
       "first_seen": "2026-11-19T16:38:44+00:00",
       "last_seen": "2026-11-19T16:38:44+00:00",
-      "age_sec": 98286,
+      "age_sec": 98514,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1403,7 +1553,7 @@
       "ticker": "$83",
       "first_seen": "2026-11-19T16:36:19+00:00",
       "last_seen": "2026-11-19T16:36:19+00:00",
-      "age_sec": 98431,
+      "age_sec": 98659,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1424,7 +1574,7 @@
       "ticker": "$110",
       "first_seen": "2026-11-19T16:33:39+00:00",
       "last_seen": "2026-11-19T16:33:39+00:00",
-      "age_sec": 98591,
+      "age_sec": 98819,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1445,7 +1595,7 @@
       "ticker": "$150",
       "first_seen": "2026-11-19T16:31:45+00:00",
       "last_seen": "2026-11-19T16:31:45+00:00",
-      "age_sec": 98705,
+      "age_sec": 98933,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -1465,7 +1615,7 @@
       "ticker": "$159",
       "first_seen": "2026-11-19T16:31:07+00:00",
       "last_seen": "2026-11-19T16:31:07+00:00",
-      "age_sec": 98743,
+      "age_sec": 98971,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1486,7 +1636,7 @@
       "ticker": "$AI",
       "first_seen": "2026-11-19T16:19:39+00:00",
       "last_seen": "2026-11-19T16:19:39+00:00",
-      "age_sec": 99431,
+      "age_sec": 99659,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1507,7 +1657,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T12:00:21+00:00",
       "last_seen": "2026-11-19T12:00:21+00:00",
-      "age_sec": 114989,
+      "age_sec": 115217,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1528,7 +1678,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T11:46:28+00:00",
       "last_seen": "2026-11-19T11:46:28+00:00",
-      "age_sec": 115822,
+      "age_sec": 116050,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1549,7 +1699,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T08:47:23+00:00",
       "last_seen": "2026-11-19T08:47:23+00:00",
-      "age_sec": 126567,
+      "age_sec": 126795,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1570,7 +1720,7 @@
       "ticker": "$79",
       "first_seen": "2026-11-19T08:44:35+00:00",
       "last_seen": "2026-11-20T14:07:16+00:00",
-      "age_sec": 126735,
+      "age_sec": 126963,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -1597,7 +1747,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T08:30:18+00:00",
       "last_seen": "2026-11-19T08:30:18+00:00",
-      "age_sec": 127592,
+      "age_sec": 127820,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1618,7 +1768,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T08:16:57+00:00",
       "last_seen": "2026-11-19T08:16:57+00:00",
-      "age_sec": 128393,
+      "age_sec": 128621,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -1638,7 +1788,7 @@
       "ticker": "$DCTY",
       "first_seen": "2026-11-19T08:13:35+00:00",
       "last_seen": "2026-11-19T08:13:35+00:00",
-      "age_sec": 128595,
+      "age_sec": 128823,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1659,7 +1809,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T05:09:47+00:00",
       "last_seen": "2026-11-19T05:10:11+00:00",
-      "age_sec": 139623,
+      "age_sec": 139851,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1687,7 +1837,7 @@
       "ticker": "$CRIME",
       "first_seen": "2026-11-18T21:30:07+00:00",
       "last_seen": "2026-11-18T21:30:07+00:00",
-      "age_sec": 167203,
+      "age_sec": 167431,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1708,7 +1858,7 @@
       "ticker": "$DCTY",
       "first_seen": "2026-11-18T16:40:54+00:00",
       "last_seen": "2026-11-18T17:24:41+00:00",
-      "age_sec": 184556,
+      "age_sec": 184784,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -1735,7 +1885,7 @@
       "ticker": null,
       "first_seen": "2026-11-18T16:29:25+00:00",
       "last_seen": "2026-11-18T16:29:25+00:00",
-      "age_sec": 185245,
+      "age_sec": 185473,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1756,7 +1906,7 @@
       "ticker": "$108",
       "first_seen": "2026-11-18T16:00:30+00:00",
       "last_seen": "2026-11-18T16:00:30+00:00",
-      "age_sec": 186980,
+      "age_sec": 187208,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1777,7 +1927,7 @@
       "ticker": "$HUGH",
       "first_seen": "2026-11-18T13:41:34+00:00",
       "last_seen": "2026-11-18T13:41:34+00:00",
-      "age_sec": 195316,
+      "age_sec": 195544,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1798,7 +1948,7 @@
       "ticker": "$225",
       "first_seen": "2026-11-18T11:10:33+00:00",
       "last_seen": "2026-11-18T11:10:33+00:00",
-      "age_sec": 204377,
+      "age_sec": 204605,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1819,7 +1969,7 @@
       "ticker": "$65",
       "first_seen": "2026-11-18T11:03:12+00:00",
       "last_seen": "2026-11-18T11:06:18+00:00",
-      "age_sec": 204818,
+      "age_sec": 205046,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1847,7 +1997,7 @@
       "ticker": "$398",
       "first_seen": "2026-11-16T19:04:53+00:00",
       "last_seen": "2026-11-16T19:05:45+00:00",
-      "age_sec": 348717,
+      "age_sec": 348945,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1875,7 +2025,7 @@
       "ticker": "$59",
       "first_seen": "2026-11-16T16:58:41+00:00",
       "last_seen": "2026-11-16T16:58:41+00:00",
-      "age_sec": 356289,
+      "age_sec": 356517,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1896,7 +2046,7 @@
       "ticker": "$119",
       "first_seen": "2026-11-16T04:56:32+00:00",
       "last_seen": "2026-11-16T04:56:32+00:00",
-      "age_sec": 399618,
+      "age_sec": 399846,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1917,7 +2067,7 @@
       "ticker": "$139",
       "first_seen": "2026-11-15T23:45:44+00:00",
       "last_seen": "2026-11-15T23:45:44+00:00",
-      "age_sec": 418266,
+      "age_sec": 418494,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
