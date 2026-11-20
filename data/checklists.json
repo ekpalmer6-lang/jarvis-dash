@@ -2,21 +2,21 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T23:05:16+00:00",
-    "confidence": 53,
+    "updated": "2026-11-20T23:06:21+00:00",
+    "confidence": 59,
     "size_usd": 0.0,
-    "verdict": "Do not buy Trader (confidence 53/100). Cost gate: round-trip cost 10.34% > 10%.",
+    "verdict": "Do not buy Trader (confidence 59/100). Chart signals (1m): 30/100 red engulfing candle (sellers flushed) but just under resistance (swing high / round MC), price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high) | timing: avoid entry.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.75
+      "sol_chg1h": 0.53
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.552,
-      "impact_pct": 2.0523,
+      "rt_cost_pct": 8.588,
+      "impact_pct": 2.0877,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$99,802",
+        "value": "$98,881",
         "pts": 9.0,
         "max": 11.25
       },
@@ -52,7 +52,7 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "58% buys in 5m",
+        "value": "59% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
@@ -60,7 +60,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+4.5% in 5m, steady",
+        "value": "+10.0% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -75,17 +75,17 @@
       {
         "id": "cost",
         "label": "Cost gate",
-        "status": "fail",
-        "value": "round-trip cost 10.34% > 10%",
-        "pts": 0.0,
+        "status": "warn",
+        "value": "RT 8.59%, impact 2.09% (tight)",
+        "pts": 4.5,
         "max": 7.5
       },
       {
         "id": "chart_signals",
         "label": "Chart signals (1m)",
         "status": "fail",
-        "value": "26/100 but just under resistance (swing high / round MC), price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high) | timing: avoid entry",
-        "pts": 6.5,
+        "value": "30/100 red engulfing candle (sellers flushed) but just under resistance (swing high / round MC), price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high) | timing: avoid entry",
+        "pts": 7.5,
         "max": 25
       },
       {
@@ -137,7 +137,7 @@
       "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
     },
     "chart": {
-      "score": 26,
+      "score": 30,
       "verdict": "unfavorable",
       "timing": "avoid_entry",
       "timing_why": [
@@ -145,17 +145,18 @@
         "topping signal (hanging man / bearish divergence)"
       ],
       "exit_hints": [
-        "bearish RSI divergence: momentum fading at the high"
+        "bearish RSI divergence: momentum fading at the high",
+        "bearish reversal candle at resistance"
       ],
-      "summary": "but just under resistance (swing high / round MC), price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high)",
-      "bars": 134,
+      "summary": "red engulfing candle (sellers flushed) but just under resistance (swing high / round MC), price above VWAP (most holders in profit, chasing), bearish RSI divergence (higher high, RSI lower high)",
+      "bars": 136,
       "tf": "1m",
       "signals": [
         "just under resistance (swing high / round MC)",
         "price above VWAP (most holders in profit, chasing)",
         "bearish RSI divergence (higher high, RSI lower high)",
         "EMA9 above EMA20 and price above both (uptrend)",
-        "bullish engulfing candle"
+        "red engulfing candle (sellers flushed)"
       ]
     }
   }
