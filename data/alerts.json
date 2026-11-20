@@ -2176,5 +2176,61 @@
     "mc_usd": 2752.42,
     "url": "https://dexscreener.com/solana/bnamhpnq9i7zet6p7mk2xyfxjwup31df4iv2jhiodwh3",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:57:07+00:00",
+    "ts": 1795215427,
+    "kind": "spike",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
+    "symbol": "RUDY",
+    "msg": "RUDY volume spike 5.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.369,
+    "last_1m": 581.88,
+    "prior_30m_avg_1m": 108.39,
+    "url": "https://dexscreener.com/solana/8i183k6czxhn17umkrcr6zjc9bxgn2nnqdqanykgvko6",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:57:07+00:00",
+    "ts": 1795215427,
+    "kind": "spike",
+    "mint": "4VrpGx2JcdbrjRJRFaK76KP6gs6Z2nksiPXjr5jepump",
+    "symbol": "SCRVAN",
+    "msg": "SCRVAN volume spike 59.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 59.199,
+    "last_1m": 167.7,
+    "prior_30m_avg_1m": 2.83,
+    "url": "https://dexscreener.com/solana/6a5vdtkswomxsargb9vdwvc5m9ku6qv3uxpblmbhzc2a",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:57:07+00:00",
+    "ts": 1795215427,
+    "kind": "spike",
+    "mint": "8gkZLRXgLa8szu2mJv1pGNkkjgRrnhrGuvJY8o5bpump",
+    "symbol": "GTA VI",
+    "msg": "GTA VI volume spike 10.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.879,
+    "last_1m": 27.24,
+    "prior_30m_avg_1m": 2.5,
+    "url": "https://dexscreener.com/solana/5tgqjumsgtf8y8kj6hy5ghm3kt3ztibkjag5qrnx4h46",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:57:47+00:00",
+    "ts": 1795215467,
+    "kind": "spike",
+    "mint": "2zeQE5Z8YchZn3KqA6v6qWGDYnCJk17vHK5FnRgbLvzJ",
+    "symbol": "MONKE",
+    "msg": "MONKE volume spike 10.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.81,
+    "last_1m": 4.09,
+    "prior_30m_avg_1m": 0.38,
+    "url": "https://dexscreener.com/solana/3e5ne8gpuoxyjb47suquk11tejkytkhbrwpycjnye1jv",
+    "watch": "scan"
   }
 ]

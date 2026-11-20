@@ -2,21 +2,21 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T22:56:20+00:00",
-    "confidence": 45,
+    "updated": "2026-11-20T22:58:08+00:00",
+    "confidence": 44,
     "size_usd": 0.0,
-    "verdict": "Do not buy Trader (confidence 45/100). Safety checks: large wallets selling.",
+    "verdict": "Do not buy Trader (confidence 44/100). Safety checks: large wallets selling.",
     "scan_verdict": "candidate",
     "regime": {
-      "risk_off": true,
-      "reason": "risk-off: new-launch 5m vol $174,455 vs prior $392,897 (down 56%)",
-      "sol_chg1h": 0.39
+      "risk_off": false,
+      "reason": "risk-on",
+      "sol_chg1h": 0.45
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.524,
-      "impact_pct": 2.0244,
+      "rt_cost_pct": 8.518,
+      "impact_pct": 2.0182,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -46,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$95,735",
+        "value": "$92,839",
         "pts": 9.0,
         "max": 11.25
       },
@@ -62,7 +62,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+8.1% in 5m, steady",
+        "value": "+1.4% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -85,9 +85,9 @@
       {
         "id": "chart_signals",
         "label": "Chart signals (1m)",
-        "status": "warn",
-        "value": "43/100 spinning top (indecision) but price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend), long upper rejection wick at resistance (sell pressure) | timing: avoid entry",
-        "pts": 10.75,
+        "status": "fail",
+        "value": "33/100 but hanging man at the high, price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry",
+        "pts": 8.25,
         "max": 25
       },
       {
@@ -99,14 +99,14 @@
       {
         "id": "regime",
         "label": "Market regime",
-        "status": "warn",
-        "value": "risk-off: new-launch 5m vol $174,455 vs prior $392,897 (down 56%)"
+        "status": "pass",
+        "value": "risk-on"
       },
       {
         "id": "organic",
         "label": "Organic activity",
         "status": "warn",
-        "value": "empty-SOL holder check unavailable; largest wallet is 41% of 15m buy volume"
+        "value": "empty-SOL holder check unavailable"
       },
       {
         "id": "theme",
@@ -139,21 +139,21 @@
       "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
     },
     "chart": {
-      "score": 43,
-      "verdict": "neutral",
+      "score": 33,
+      "verdict": "unfavorable",
       "timing": "avoid_entry",
       "timing_why": [
-        "long upper rejection wick at resistance"
+        "topping signal (hanging man / bearish divergence)"
       ],
       "exit_hints": [],
-      "summary": "spinning top (indecision) but price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend), long upper rejection wick at resistance (sell pressure)",
-      "bars": 124,
+      "summary": "but hanging man at the high, price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend)",
+      "bars": 127,
       "tf": "1m",
       "signals": [
+        "hanging man at the high",
         "price above VWAP (most holders in profit, chasing)",
         "EMA9 above EMA20 and price above both (uptrend)",
-        "spinning top (indecision)",
-        "long upper rejection wick at resistance (sell pressure)"
+        "pulled back to EMA20/support and held"
       ]
     }
   }
