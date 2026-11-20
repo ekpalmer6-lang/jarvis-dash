@@ -3019,5 +3019,31 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 1 with flow"
+  },
+  {
+    "t": "2026-11-20T20:44:29+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow pressure 0.425 buyers 30 large-net $-812.48 (3 large selling)",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:44:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:44:46+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10797ms: 230 mints, 12 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:44:59+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.295 buyers 71 large-net $-498.89 (2 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
   }
 ]
