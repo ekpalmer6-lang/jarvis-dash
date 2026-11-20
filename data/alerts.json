@@ -222,5 +222,18 @@
     "vol5m": 12826.96,
     "url": "https://dexscreener.com/solana/m7xsxp1z6w4cnsbwr2voaifvddcrqef4cpjdhqyxxhy",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T19:41:58+00:00",
+    "ts": 1795203718,
+    "kind": "fast",
+    "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump",
+    "symbol": "FIENA",
+    "msg": "FIENA +38% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 37.59,
+    "mc_usd": 68420,
+    "url": "https://dexscreener.com/solana/m7xsxp1z6w4cnsbwr2voaifvddcrqef4cpjdhqyxxhy",
+    "watch": "scan"
   }
 ]
