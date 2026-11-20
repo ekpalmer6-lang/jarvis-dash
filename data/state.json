@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T19:29:51Z",
+  "published_at": "2026-11-20T19:30:54Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -36,13 +36,13 @@
       },
       "Rug Check": {
         "state": "running",
-        "detail": "deep check FIENA",
-        "updated": "2026-11-20T19:29:30+00:00"
+        "detail": "deep check LOOSY",
+        "updated": "2026-11-20T19:30:42+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T19:29:38+00:00"
+        "updated": "2026-11-20T19:30:38+00:00"
       }
     },
     "limits": {

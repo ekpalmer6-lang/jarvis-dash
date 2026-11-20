@@ -790,5 +790,162 @@
     "level": "warn",
     "msg": "DYSON: avoid, size $0, dev: bad: serial launcher, most coins dead, whales 4 selling / 0 accumulating",
     "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T19:30:11+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "FIENA: watch, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump"
+  },
+  {
+    "t": "2026-11-20T19:30:24+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MATHISOVER 5m flow pressure 0.48 buyers 270 large-net $-199.98 (2 large selling)",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:30:35+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Singularity (confidence 42/100). Safety checks: 4 whales selling.",
+    "mint": "7KUg78hyohckj8i728YuCu6CweTArxhwRrVrFyvHpump",
+    "symbol": "Singularity",
+    "confidence": 42,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "7KUg78hyohckj8i728YuCu6CweTArxhwRrVrFyvHpump",
+      "symbol": "Singularity",
+      "updated": "2026-11-20T19:30:35+00:00",
+      "confidence": 42,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Singularity (confidence 42/100). Safety checks: 4 whales selling.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": -1.99
+      },
+      "paused": false,
+      "cost": null,
+      "notes": [
+        "safety/avoid cap 45",
+        "choppy-chart cap 55"
+      ],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "fail",
+          "value": "4 whales selling",
+          "pts": 0.0,
+          "max": 25
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "pass",
+          "value": "bundle+sniper 0.0%, insiders 0%",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "warn",
+          "value": "$15,425 thin",
+          "pts": 3.0,
+          "max": 15
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "pass",
+          "value": "90% buys in 5m",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "fail",
+          "value": "-74% in 5m (dumping)",
+          "pts": 0.0,
+          "max": 10
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 5.0,
+          "max": 10
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "cost not quoted yet",
+          "pts": 4.0,
+          "max": 10
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        }
+      ]
+    }
+  },
+  {
+    "t": "2026-11-20T19:30:35+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY TESTCOIN $10.20 \u2014 Bought: passed safety, confidence 78, first Telegram call 12s old",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.2
+  },
+  {
+    "t": "2026-11-20T19:30:35+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL TESTCOIN $5.00 \u2014 Sold: took a partial at +30%",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:30:35+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL TESTCOIN $3.00 \u2014 Sold: stop-loss hit at -20%",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:30:35+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY LOSER $4.00 \u2014 Bought: test loss 1",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:30:42+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MATHISOVER: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
   }
 ]
