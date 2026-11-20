@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:59:43+00:00",
+  "updated": "2026-11-20T23:01:15+00:00",
   "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
   "min_closed_to_rank": 5,
   "best": "grad_pullback",
@@ -25,8 +25,8 @@
       "avg_pnl_usd": -0.551,
       "sum_pnl_usd": -9.3676,
       "expectancy_usd": -0.551,
-      "open_positions": 1,
-      "cash_usd": 10.6324,
+      "open_positions": 2,
+      "cash_usd": 0.6324,
       "equity_usd": 20.6324,
       "label": "Post-graduation pullback"
     },
