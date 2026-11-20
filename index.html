@@ -146,7 +146,7 @@ html[data-theme=light] .chip{background:#fff}html[data-theme=light] .sheet .grab
 #tabs{display:none}
 @media(max-width:560px){
  body{padding-bottom:84px}.card[data-tab]{display:none}
- body[data-tab=live] .card[data-tab=live],body[data-tab=agents] .card[data-tab=agents],body[data-tab=trades] .card[data-tab=trades],body[data-tab=scan] .card[data-tab~=scan],body[data-tab=alerts] .card[data-tab~=alerts]{display:block}
+ body[data-tab=live] .card[data-tab=live],body[data-tab=agents] .card[data-tab=agents],body[data-tab=trades] .card[data-tab=trades],body[data-tab=scan] .card[data-tab~=scan],body[data-tab=alerts] .card[data-tab~=alerts],body[data-tab=new] .card[data-tab~=new]{display:block}
  #tabs{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(8,12,20,.86);backdrop-filter:blur(20px);border-top:1px solid var(--line)}
  #tabs button{flex:1;border:0;background:none;color:var(--mute);font:600 11px Inter,system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;gap:4px;padding:6px 0;cursor:pointer}
  #tabs button i{font-style:normal;font-size:19px;line-height:1}#tabs button.on{color:var(--neon)}
@@ -172,7 +172,7 @@ html[data-theme=light] .btn{background:#0b0b0c;color:#fff}
 #pnlBox{position:relative;height:170px;margin-top:12px}#pnlChart{width:100%;height:100%}
 .note{font-size:11.5px;color:var(--mute);margin-top:8px}
 @media(max-width:560px){.pnlk{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(2,1fr)!important}
- #tabs button{font-size:10.5px}}
+ #tabs button{font-size:10px;padding:6px 2px}}
 
 /* ---- v3.0: "Grok Bot · blood moon" look (ref: TikTok @nfp.paid 7703347674744900882) ---- */
 :root{--bg:#1a0811;--bg2:#2a0d18;--glass:rgba(38,11,26,.82);--glass2:rgba(52,17,34,.78);--line:rgba(255,128,90,.13);--txt:#fff5f2;--dim:#d7a9a6;--mute:#9a6f74;
@@ -311,6 +311,56 @@ html[data-theme=light] .digestk div{background:#fff}
 .stratg div{padding:10px 12px;border-radius:12px;background:var(--glass2);border:1px solid var(--line)}
 .stratg b{display:block;font:800 15px/1.2 Inter,system-ui,sans-serif;margin-top:2px}
 @media(max-width:560px){.hstrip{font-size:11px}}
+
+/* ---- New Coins live board ---- */
+.nc-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.nc-tog{display:inline-flex;align-items:center;gap:6px;font:600 12px Inter,system-ui,sans-serif;color:var(--dim);cursor:pointer;user-select:none}
+.nc-tog input{accent-color:var(--org,#ff8118)}
+.nc-info{border:1px solid var(--line);background:var(--glass2);color:var(--txt);border-radius:999px;padding:6px 10px;font:700 11px Inter,system-ui,sans-serif;cursor:pointer}
+.nc-info[aria-expanded=true]{border-color:rgba(255,129,24,.5);color:var(--amb)}
+.nc-pop{position:relative;margin:0 0 12px;padding:12px 14px;border-radius:14px;background:var(--glass2);border:1px solid var(--line);font:500 12.5px/1.5 Inter,system-ui,sans-serif;color:var(--dim);max-width:52rem}
+.nc-pop h4{margin:0 0 6px;font:800 13px Inter,system-ui,sans-serif;color:var(--txt)}
+.nc-pop ul{margin:6px 0 8px;padding-left:18px}
+.nc-pop li{margin:3px 0}
+.nc-live{display:inline-flex;align-items:center;gap:6px;font:700 11px/1 ui-monospace,monospace;color:var(--neon);letter-spacing:.06em;text-transform:uppercase}
+.nc-live.mid{color:var(--amb)}
+.nc-list{max-height:min(70vh,720px);overflow:auto;scrollbar-width:thin;border-top:1px solid var(--line)}
+.nc-row{display:grid;grid-template-columns:40px minmax(0,1.4fr) minmax(88px,auto) auto;gap:10px 12px;align-items:center;padding:10px 6px;border-bottom:1px solid var(--line);cursor:pointer}
+.nc-row:hover{background:rgba(255,255,255,.03)}
+.nc-row.open{background:rgba(255,129,24,.06)}
+.nc-id{min-width:0}
+.nc-id b{display:block;font:800 14px Inter,system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nc-id span.mono{font-size:11.5px;color:var(--dim)}
+.nc-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.nc-jarvis{display:inline-flex;align-items:center;font:700 9.5px/1 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:999px;color:#052012;background:var(--neon);box-shadow:0 0 10px rgba(49,202,119,.35)}
+.nc-m{display:flex;flex-direction:column;align-items:flex-end;gap:1px;font:600 12px/1.3 ui-monospace,monospace;white-space:nowrap}
+.nc-age{color:var(--amb);font-weight:800}
+.nc-scores{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.nc-pct{font:800 11px/1 ui-monospace,monospace;padding:5px 8px;border-radius:999px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+.nc-pct.ok{color:#052012;background:var(--neon);border-color:var(--neon)}
+.nc-pct.mid{color:#2a0b00;background:var(--amb);border-color:var(--amb)}
+.nc-pct.bad{color:#fff;background:var(--red);border-color:var(--red)}
+.nc-pct.dim{color:var(--dim);background:rgba(255,255,255,.05)}
+.nc-pct.unk{color:var(--mute);font-weight:700}
+.nc-detail{grid-column:1/-1;padding:8px 4px 4px;display:flex;flex-direction:column;gap:8px}
+.nc-links{display:flex;flex-wrap:wrap;gap:10px}
+.nc-links a{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass);font:700 12px Inter,system-ui,sans-serif;color:var(--txt)!important;text-decoration:none!important}
+.nc-links a:hover{border-color:rgba(255,129,24,.55)}
+.nc-break{padding:8px 10px;border-radius:12px;background:var(--glass);border:1px solid var(--line)}
+.nc-break-h{font:800 12px Inter,system-ui,sans-serif;color:var(--txt);margin-bottom:6px}
+.nc-part{display:grid;grid-template-columns:1fr auto;gap:2px 10px;font:500 11.5px Inter,system-ui,sans-serif;color:var(--dim);padding:2px 0;border-top:1px solid var(--line)}
+.nc-part:first-of-type{border-top:0}
+.nc-part b{font:700 11.5px/1.3 ui-monospace,monospace;color:var(--txt)}
+.nc-part i{grid-column:1/-1;font-style:normal;font-size:11px;color:var(--mute)}
+@media(max-width:560px){
+  .nc-row{grid-template-columns:36px minmax(0,1fr) auto;gap:8px}
+  .nc-m{grid-column:2;align-items:flex-start;flex-direction:row;gap:8px}
+  .nc-scores{grid-column:1/-1;flex-direction:row;justify-content:flex-start}
+}
+html:not([data-theme=light]) .nc-pop,html:not([data-theme=light]) .nc-break{background:rgba(22,6,16,.55);border-color:rgba(255,128,90,.12)}
+html:not([data-theme=light]) .nc-row:hover{background:rgba(255,129,24,.06)}
+html[data-theme=light] .nc-pct.ok{color:#052012}html[data-theme=light] .nc-jarvis{color:#052012}
+
 </style></head><body>
 <div id="splash"><div class="mark"><span>J</span></div><div class="brand">JARVIS TERMINAL</div><div class="sub" id="splashMsg">booting agents… loading real data</div></div>
 <canvas id="confetti"></canvas><div id="toasts"></div>
@@ -323,6 +373,8 @@ html[data-theme=light] .digestk div{background:#fff}
   <div class="seg"><button id="bLive" class="on">LIVE</button><button id="bPaper">PAPER</button></div>
   <button class="iconbtn" id="recapBtn">Night recap</button>
   <button class="chip" id="swingChip" type="button" title="Swing mode. Click to toggle on the local app; read-only on the public site.">Swing mode OFF</button>
+  <span class="chip ok" id="growthChip" title="Larger size while equity is under the growth-mode threshold; auto-reverts to tighter sizing at or above it.">Growth mode: on until $100</span>
+  <button class="chip" id="newCoinsChip" type="button" title="Live feed of brand-new Solana launches">New coins</button>
   <button class="chip mid" id="pushChip" type="button" title="Turn on phone notifications for trades and alerts">Notifications OFF</button>
   <button class="iconbtn" id="themeBtn" aria-label="toggle theme">◐</button>
   <div class="pill"><span class="pulse" id="hb"></span><span id="clock" class="mono">–</span></div>
@@ -348,6 +400,27 @@ html[data-theme=light] .digestk div{background:#fff}
     <h3><span class="pulse idle"></span>Session summary<span class="r" id="sumWhen"></span></h3>
     <div id="summary"></div>
     <h3 style="margin-top:16px">Risk limits</h3><div class="limits" id="limits"></div>
+  </section>
+  <section class="card s12" data-tab="new" id="newCoinsCard">
+    <h3><span class="pulse idle" id="ncPulse"></span>New coins <span class="nc-live mid" id="ncLiveLab">connecting</span><span class="r" id="ncMeta">connecting…</span></h3>
+    <div class="nc-toolbar">
+      <label class="nc-tog"><input type="checkbox" id="ncHideRisk"> Hide high risk</label>
+      <label class="nc-tog"><input type="checkbox" id="ncSortReward"> Sort by reward</label>
+      <button type="button" class="nc-info" id="ncHowBtn" aria-expanded="false">How scored</button>
+    </div>
+    <div class="nc-pop" id="ncHow" hidden>
+      <h4>How Risk % and Reward % are scored</h4>
+      <p>Each score is a weighted average of <b>known</b> facts only. If fewer than two facts are known, the score is a dash (—). Nothing is filled in or estimated.</p>
+      <ul>
+        <li><b>Risk</b> (higher is more dangerous): age, mint/freeze authority, dev holdings, top-10 concentration, liquidity, sniper share, 5-minute sell pressure, and LP lock. A rug flag sets risk to at least 95%.</li>
+        <li><b>Reward</b> (higher is a stronger setup, not a promise): 5-minute momentum, buy/sell ratio, unique buyers, 5-minute volume vs market cap, bonding-curve progress, and buzz from Jarvis feeds.</li>
+        <li>Bonding-curve % uses PumpPortal virtual SOL: start at 30 virtual SOL, 85 real SOL to graduate, so progress is (vSol − 30) / 85. Migrated coins show 100%.</li>
+        <li>Colour: risk under 40% is green, 40–69% amber, 70%+ red. Reward under 40% is muted, 40–69% amber, 70%+ green. “Hide high risk” hides 70%+ risk only.</li>
+      </ul>
+      <p>Tap a row for the breakdown and links to Fomo and DexScreener. This page does not buy or sell. Research tool, not financial advice. Times are AWST (Australia/Perth).</p>
+    </div>
+    <div class="nc-list" id="ncList"></div>
+    <div class="note">Brand-new Solana launches stream live from PumpPortal. Prices and flow update from DexScreener about every 8 seconds, with GeckoTerminal new pools as a backup. Jarvis badges come from the published scan when a coin has been checked. Real data only; a dash means the field is unknown.</div>
   </section>
   <section class="card s12" data-tab="live" id="digestCard">
     <h3>Today · Daily digest<span class="r" id="digestWhen"></span></h3>
@@ -409,9 +482,9 @@ html[data-theme=light] .digestk div{background:#fff}
     <h3>Latest scan<span class="r" id="scanmeta"></span></h3><div class="coins" id="scan"></div>
   </section>
 </div>
-<div class="sub mono" style="text-align:center;margin-top:18px">Real data only: state/*.json, out/latest.json, DexScreener. Research tool, not financial advice.</div>
+<div class="sub mono" style="text-align:center;margin-top:18px">Real data only: state/*.json, out/latest.json, PumpPortal, DexScreener, GeckoTerminal. Research tool, not financial advice.</div>
 </div>
-<nav id="tabs"><button data-t="live" class="on"><i>◉</i>Live</button><button data-t="agents"><i>⌬</i>Agents</button><button data-t="trades"><i>⇅</i>Trades</button><button data-t="scan"><i>⌕</i>Scan</button><button data-t="alerts"><i>🔔</i>Alerts</button></nav>
+<nav id="tabs"><button data-t="live" class="on"><i>◉</i>Live</button><button data-t="agents"><i>⌬</i>Agents</button><button data-t="trades"><i>⇅</i>Trades</button><button data-t="scan"><i>⌕</i>Scan</button><button data-t="new"><i>✦</i>New</button><button data-t="alerts"><i>🔔</i>Alerts</button></nav>
 <div class="sheet" id="sheet"><div class="pane"><div class="grab"></div><h3 style="margin:0 0 4px;font:800 20px Inter,system-ui,sans-serif">Night recap</h3><div class="coresub" id="recapSub" style="margin-bottom:14px"></div><div id="recapBody"></div><div style="text-align:center;margin-top:16px"><button class="iconbtn" id="recapClose">Close</button></div></div></div>
 <script src="static-fallback.js"></script>
 <script>
@@ -588,6 +661,7 @@ async function tick(){
  if(closedSeen==null)closedSeen=sells.length;else if(sells.length>closedSeen){closedSeen=sells.length;if(realised>0)confetti()}
  $("limits").innerHTML=limits?[limits.per_position_usd!=null?`$${limits.per_position_usd} / position`:"no fixed $ per position",limits.max_position_usd!=null?`$${limits.max_position_usd} if very clean`:null,limits.total_cap_usd!=null?`$${limits.total_cap_usd} total cap`:"no total $ cap",limits.sizing?esc(limits.sizing):null,`${limits.watch_secs_before_buy??limits.min_watch_seconds??"?"}s watch before buy`].filter(Boolean).map(s=>`<span class="chip">${s}</span>`).join("")+`<span class="chip ${limits.live_trading_enabled?"bad":"mid"}">live trading ${limits.live_trading_enabled?"ON":"OFF"}</span>`+(limits.note?`<div class="note">${esc(limits.note)}</div>`:""):"";
  paintSwing(limits);
+ paintGrowth(limits,bal,posVal);
  // agents
  const S=status||{};const eqAgent={state:cash==null?"off":"idle",detail:cash==null?"no balance file":`equity ${usd(cash+posVal)} · ${P.length} open`,updated:bal&&bal.updated};
  const A=[["SCANNER",S["Scanner"]],["SAFETY",S["Rug Check"]],["RISK",S["Sizer"]],["EXECUTOR",S["Executor"]||{state:"off",detail:"live trading not enabled"}],["LOGGER",S["Logger"]],["EQUITY",eqAgent]];
@@ -615,7 +689,7 @@ async function tick(){
   $("scanmeta").textContent=`${dt(scan.meta.scanned_at_utc)} AWST · ${scan.meta.mints_discovered} found · ${c.candidate} candidate · ${c.watch} watch · ${c.avoid} avoid`;
   $("scan").innerHTML=scan.rows.map(r=>{const bs=r.bundle_pct==null?null:+(r.bundle_pct+(r.sniper_pct||0)).toFixed(2);
    const wh=r.whales_selling==null?`<span class="chip">whales ?</span>`:`<span class="chip ${r.whales_selling>=2?"bad":r.whales_selling?"mid":"ok"}">whales ${r.whales_selling}↓ ${r.whales_accumulating||0}↑</span>`;
-   const lp=r.lp_locked_pct==null?`<span class="chip">LP ?</span>`:`<span class="chip ${r.lp_locked_pct>=90?"ok":"bad"}">LP ${r.lp_locked_pct}%</span>`;
+   const lp=r.lp_locked_pct==null?`<span class="chip">LP ?</span>`:`<span class="chip ${r.lp_locked_pct>=80?"ok":"bad"}">LP ${r.lp_locked_pct}%</span>`;
    const devrep=r.dev_label?`<span class="chip ${r.dev_label.startsWith("bad")?"bad":r.dev_label.startsWith("mixed")?"mid":"ok"}">dev ${r.dev_label.startsWith("bad")?"bad":r.dev_label.startsWith("mixed")?"mixed":"clean"}</span>`:"";
    const ch=r.chg1h;
    return`<div class="coin"><div class="hd">${av(r.symbol,r.mint)}<div class="nm"><b>${esc(r.symbol)}</b><span>${esc(r.name||"")} · ${r.age_h??"?"}h old</span></div><span class="badge b-${esc(r.verdict)}">${esc(r.verdict.toUpperCase())}</span></div>
@@ -627,6 +701,7 @@ async function tick(){
 }
 
 const savedTheme=new URLSearchParams(location.search).get("theme")||localStorage.getItem("jt-theme")||"dark";document.documentElement.dataset.theme=savedTheme;
+function paintGrowth(limits,bal,posVal){const el=$("growthChip");if(!el)return;const until=Number((limits&&limits.growth_mode_until_usd!=null)?limits.growth_mode_until_usd:100);const cash=(bal&&bal.cash_usd!=null)?+bal.cash_usd:null;const port=(bal&&bal.portfolio_usd!=null)?+bal.portfolio_usd:null;const eq=Math.max(port!=null?port:-Infinity, cash!=null?cash+(posVal||0):-Infinity);const on=until>0 && isFinite(eq) && eq<until;el.textContent=on?("Growth mode: on until $"+Math.round(until)):((isFinite(eq)?("Growth mode: off (equity $"+eq.toFixed(0)+" ≥ $"+Math.round(until)+")"):"Growth mode: off"));el.className="chip "+(on?"ok":"mid");el.title=on?("Sizing 30/40/50% of cash until equity reaches $"+Math.round(until)+". Stops stay tight."):("Conservative sizing 15/20/25% of cash, max 25%. Threshold is configurable in limits.json (growth_mode_until_usd).");}
 function paintSwing(limits){const el=$("swingChip");if(!el)return;const on=!!(limits&&limits.swing_mode&&limits.swing_mode.enabled);el.textContent="Swing mode "+(on?"ON":"OFF");el.className="chip "+(on?"ok":"mid");el.setAttribute("aria-pressed",on?"true":"false")}
 $("swingChip").onclick=async()=>{const r=await fetch("/api/toggle_swing",{method:"POST",headers:{"Content-Type":"application/json"},body:"{}"}).then(r=>r.json()).catch(()=>null);if(!r||!r.ok)return;paintSwing({swing_mode:r.swing_mode})};
 $("themeBtn").onclick=()=>{const t=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=t;localStorage.setItem("jt-theme",t);paint(1)};
@@ -865,4 +940,5 @@ function renderPins(live){const L=[...PINS.values()];
 loadPins().then(()=>{setMode(MODE);paintNotif();refreshDigest()});setInterval(()=>loadPins(),15000);setInterval(tick,5000);setInterval(refreshDigest,60000);
 if(new URLSearchParams(location.search).get("recap"))setTimeout(()=>{renderRecap();$("sheet").classList.add("open")},1500);
 if(new URLSearchParams(location.search).get("digest"))setTimeout(()=>{document.body.dataset.tab="live";document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.t==="live"));const card=$("digestCard");if(card)card.scrollIntoView({behavior:"smooth",block:"start"})},1200);
-</script></body></html>
+</script>
+<script src="newcoins.js"></script></body></html>

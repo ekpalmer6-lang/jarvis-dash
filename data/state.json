@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T21:14:05Z",
+  "published_at": "2026-11-20T22:28:47Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -15,9 +15,9 @@
     "positions": [],
     "status": {
       "Scanner": {
-        "state": "running",
-        "detail": "refreshing hype feed",
-        "updated": "2026-11-20T21:13:46+00:00"
+        "state": "idle",
+        "detail": "cycle 8.91s, 7 moving, 0 deep, 1 candidates, 0 buy-ready",
+        "updated": "2026-11-20T22:28:40+00:00"
       },
       "Executor": {
         "state": "off",
@@ -36,18 +36,18 @@
       },
       "Rug Check": {
         "state": "running",
-        "detail": "deep check DCTY",
-        "updated": "2026-11-20T21:13:26+00:00"
+        "detail": "deep check PATRICK",
+        "updated": "2026-11-20T22:28:11+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T21:14:05+00:00"
+        "updated": "2026-11-20T22:28:40+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 1 open across 4 books",
-        "updated": "2026-11-20T21:13:48+00:00"
+        "updated": "2026-11-20T22:28:18+00:00"
       }
     },
     "limits": {
@@ -62,13 +62,13 @@
       "watch": "15s-1m candles, as long as needed",
       "min_watch_seconds": 15,
       "stop_loss": {
-        "hard_pct": -20,
-        "trailing_pct": -25,
-        "trail_arm_pct": 30,
-        "time_stop_min": 25,
+        "hard_pct": -12,
+        "trailing_pct": -15,
+        "trail_arm_pct": 20,
+        "time_stop_min": 15,
         "max_loss_per_trade_pct_of_balance": 35,
         "take_profit_partial": {
-          "at_gain_pct": 50,
+          "at_gain_pct": 40,
           "sell_fraction": 0.5
         }
       },
@@ -80,13 +80,16 @@
         "max_rebuys_per_coin": 2,
         "rebuy_window_min": 30.0
       },
-      "max_position_pct_of_balance": 50.0,
+      "max_position_pct_of_balance": 25.0,
       "liquidity_cap_pct_of_pool": 1.0,
-      "daily_loss_limit_pct": 30.0,
+      "daily_loss_limit_pct": 25.0,
       "max_consecutive_losses": 3,
       "cooldown_after_loss_min": 10,
-      "cost_gate_max_round_trip_pct": 8.0,
-      "cost_gate_max_impact_pct": 3.0
+      "cost_gate_max_round_trip_pct": 10.0,
+      "cost_gate_max_impact_pct": 4.0,
+      "growth_mode_until_usd": 100.0,
+      "growth_max_position_pct_of_balance": 50.0,
+      "conservative_max_position_pct_of_balance": 25.0
     },
     "equity": [
       {

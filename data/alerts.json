@@ -611,5 +611,464 @@
     "vol5m": 78883.44,
     "url": "https://dexscreener.com/solana/5x5k1nfk2qdd46692o4a1dh15wfrympccjphogs7eibg",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:18:09+00:00",
+    "ts": 1795209489,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T21:18:29+00:00",
+    "ts": 1795209509,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: publish; restarted",
+    "key": "down:publish",
+    "processes": [
+      "publish"
+    ],
+    "restarted": [
+      "publish"
+    ]
+  },
+  {
+    "t": "2026-11-20T21:20:09+00:00",
+    "ts": 1795209609,
+    "kind": "fast",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k",
+    "symbol": "DCTY",
+    "msg": "DCTY +34% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 34.08,
+    "mc_usd": 102478,
+    "url": "https://dexscreener.com/solana/fxqzww9jf2rup6xntwgrtked9ngxqu2xojrz4gdyttoj",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:21:30+00:00",
+    "ts": 1795209690,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 2.1,
+        "stale": false,
+        "at": "2026-11-20T21:21:28+00:00",
+        "at_et": "Nov 21, 5:21 AM AWST",
+        "at_awst": "Nov 21, 5:21 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 178.6,
+        "stale": false,
+        "at": "2026-11-20T21:18:31+00:00",
+        "at_et": "Nov 21, 5:18 AM AWST",
+        "at_awst": "Nov 21, 5:18 AM AWST"
+      },
+      "scan": {
+        "age_s": 464.1,
+        "stale": false,
+        "at": "2026-11-20T21:13:46+00:00",
+        "at_et": "Nov 21, 5:13 AM AWST",
+        "at_awst": "Nov 21, 5:13 AM AWST"
+      },
+      "status": {
+        "age_s": 2.1,
+        "stale": false,
+        "at": "2026-11-20T21:21:28+00:00",
+        "at_et": "Nov 21, 5:21 AM AWST",
+        "at_awst": "Nov 21, 5:21 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T21:22:11+00:00",
+    "ts": 1795209731,
+    "kind": "spike",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump",
+    "symbol": "chud",
+    "msg": "chud volume spike 15.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 15.34,
+    "last_1m": 17008.56,
+    "prior_30m_avg_1m": 1108.74,
+    "url": "https://dexscreener.com/solana/hqbft5frsdkj1scauc62uqvxrzrm4f9fhoot9u4pcfj2",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:24:42+00:00",
+    "ts": 1795209882,
+    "kind": "fast",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump",
+    "symbol": "chud",
+    "msg": "chud +49% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 48.81,
+    "mc_usd": 62326,
+    "url": "https://dexscreener.com/solana/hqbft5frsdkj1scauc62uqvxrzrm4f9fhoot9u4pcfj2",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:33:09+00:00",
+    "ts": 1795210389,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T21:33:29+00:00",
+    "ts": 1795210409,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: publish",
+    "key": "down:publish",
+    "processes": [
+      "publish"
+    ],
+    "restarted": []
+  },
+  {
+    "t": "2026-11-20T21:36:49+00:00",
+    "ts": 1795210609,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve; data older than 5 minutes",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 9.3,
+        "stale": false,
+        "at": "2026-11-20T21:36:40+00:00",
+        "at_et": "Nov 21, 5:36 AM AWST",
+        "at_awst": "Nov 21, 5:36 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 457.4,
+        "stale": true,
+        "at": "2026-11-20T21:29:11+00:00",
+        "at_et": "Nov 21, 5:29 AM AWST",
+        "at_awst": "Nov 21, 5:29 AM AWST"
+      },
+      "scan": {
+        "age_s": 61.3,
+        "stale": false,
+        "at": "2026-11-20T21:35:48+00:00",
+        "at_et": "Nov 21, 5:35 AM AWST",
+        "at_awst": "Nov 21, 5:35 AM AWST"
+      },
+      "status": {
+        "age_s": 8.3,
+        "stale": false,
+        "at": "2026-11-20T21:36:41+00:00",
+        "at_et": "Nov 21, 5:36 AM AWST",
+        "at_awst": "Nov 21, 5:36 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T21:42:58+00:00",
+    "ts": 1795210978,
+    "kind": "spike",
+    "mint": "A6tuVRQaWWkXoPzE7SQry3YK995tJVt4NdgduQuBpump",
+    "symbol": "SANTA",
+    "msg": "SANTA volume spike 5.7x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.658,
+    "last_1m": 125.15,
+    "prior_30m_avg_1m": 22.12,
+    "url": "https://dexscreener.com/solana/3cjfqxctydumu4tekay7rkdoftiyta2sgfdu9tkze8ma",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T21:48:28+00:00",
+    "ts": 1795211308,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T21:48:48+00:00",
+    "ts": 1795211328,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: publish",
+    "key": "down:publish",
+    "processes": [
+      "publish"
+    ],
+    "restarted": []
+  },
+  {
+    "t": "2026-11-20T21:54:03+00:00",
+    "ts": 1795211643,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 1.5,
+        "stale": false,
+        "at": "2026-11-20T21:54:02+00:00",
+        "at_et": "Nov 21, 5:54 AM AWST",
+        "at_awst": "Nov 21, 5:54 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 191.2,
+        "stale": false,
+        "at": "2026-11-20T21:50:52+00:00",
+        "at_et": "Nov 21, 5:50 AM AWST",
+        "at_awst": "Nov 21, 5:50 AM AWST"
+      },
+      "scan": {
+        "age_s": 402.5,
+        "stale": false,
+        "at": "2026-11-20T21:47:21+00:00",
+        "at_et": "Nov 21, 5:47 AM AWST",
+        "at_awst": "Nov 21, 5:47 AM AWST"
+      },
+      "status": {
+        "age_s": 1.5,
+        "stale": false,
+        "at": "2026-11-20T21:54:02+00:00",
+        "at_et": "Nov 21, 5:54 AM AWST",
+        "at_awst": "Nov 21, 5:54 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:03:35+00:00",
+    "ts": 1795212215,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T22:03:55+00:00",
+    "ts": 1795212235,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: publish",
+    "key": "down:publish",
+    "processes": [
+      "publish"
+    ],
+    "restarted": []
+  },
+  {
+    "t": "2026-11-20T22:09:15+00:00",
+    "ts": 1795212555,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve; data older than 5 minutes",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 1.9,
+        "stale": false,
+        "at": "2026-11-20T22:09:14+00:00",
+        "at_et": "Nov 21, 6:09 AM AWST",
+        "at_awst": "Nov 21, 6:09 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 498.9,
+        "stale": true,
+        "at": "2026-11-20T22:00:57+00:00",
+        "at_et": "Nov 21, 6:00 AM AWST",
+        "at_awst": "Nov 21, 6:00 AM AWST"
+      },
+      "scan": {
+        "age_s": 52.9,
+        "stale": false,
+        "at": "2026-11-20T22:08:23+00:00",
+        "at_et": "Nov 21, 6:08 AM AWST",
+        "at_awst": "Nov 21, 6:08 AM AWST"
+      },
+      "status": {
+        "age_s": 1.9,
+        "stale": false,
+        "at": "2026-11-20T22:09:14+00:00",
+        "at_et": "Nov 21, 6:09 AM AWST",
+        "at_awst": "Nov 21, 6:09 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:11:17+00:00",
+    "ts": 1795212677,
+    "kind": "pass",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "msg": "Trader passed all safety checks \u00b7 size $4.875 \u00b7 confidence 59",
+    "source": "scanloop",
+    "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n",
+    "size_usd": 4.875,
+    "confidence": 59,
+    "checklist": "state/checklists/BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX.json",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:11:26+00:00",
+    "ts": 1795212686,
+    "kind": "fast",
+    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
+    "symbol": "enu",
+    "msg": "enu +26% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 26,
+    "mc_usd": 156989,
+    "url": "https://dexscreener.com/solana/f8ykd7drw4ytfnpg9l5r7xrrhwoysnxffr469u3lvjgp",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:14:10+00:00",
+    "ts": 1795212850,
+    "kind": "pass",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+    "symbol": "MONKE",
+    "msg": "MONKE passed all safety checks \u00b7 size $4.875 \u00b7 confidence 54",
+    "source": "scanloop",
+    "url": "https://dexscreener.com/solana/9cvvdqjibjfki8129xvbagk11kjlucrhx8ww2vhwzdhd",
+    "size_usd": 4.875,
+    "confidence": 54,
+    "checklist": "state/checklists/CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M.json",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:14:29+00:00",
+    "ts": 1795212869,
+    "kind": "spike",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+    "symbol": "MONKE",
+    "msg": "MONKE volume spike 21.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 21.337,
+    "last_1m": 15313.99,
+    "prior_30m_avg_1m": 717.71,
+    "url": "https://dexscreener.com/solana/9cvvdqjibjfki8129xvbagk11kjlucrhx8ww2vhwzdhd",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:15:09+00:00",
+    "ts": 1795212909,
+    "kind": "fast",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+    "symbol": "MONKE",
+    "msg": "MONKE +25% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 25.31,
+    "mc_usd": 114693,
+    "url": "https://dexscreener.com/solana/9cvvdqjibjfki8129xvbagk11kjlucrhx8ww2vhwzdhd",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:18:36+00:00",
+    "ts": 1795213116,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T22:18:56+00:00",
+    "ts": 1795213136,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Process down: publish",
+    "key": "down:publish",
+    "processes": [
+      "publish"
+    ],
+    "restarted": []
+  },
+  {
+    "t": "2026-11-20T22:24:16+00:00",
+    "ts": 1795213456,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 2.9,
+        "stale": false,
+        "at": "2026-11-20T22:24:14+00:00",
+        "at_et": "Nov 21, 6:24 AM AWST",
+        "at_awst": "Nov 21, 6:24 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 198.8,
+        "stale": false,
+        "at": "2026-11-20T22:20:58+00:00",
+        "at_et": "Nov 21, 6:20 AM AWST",
+        "at_awst": "Nov 21, 6:20 AM AWST"
+      },
+      "scan": {
+        "age_s": 28.9,
+        "stale": false,
+        "at": "2026-11-20T22:23:48+00:00",
+        "at_et": "Nov 21, 6:23 AM AWST",
+        "at_awst": "Nov 21, 6:23 AM AWST"
+      },
+      "status": {
+        "age_s": 2.9,
+        "stale": false,
+        "at": "2026-11-20T22:24:14+00:00",
+        "at_et": "Nov 21, 6:24 AM AWST",
+        "at_awst": "Nov 21, 6:24 AM AWST"
+      }
+    }
   }
 ]

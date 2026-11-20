@@ -1,8 +1,8 @@
 // JARVIS TERMINAL service worker: caches the app shell only.
 // Data (/data, /api, data/*.json) is always fetched live, never cached.
 // Paths are relative to the SW scope so this works at / and at /jarvis-dash/.
-const CACHE = "jarvis-shell-v5-push";
-const SHELL = ["./","manifest.json","static-fallback.js","icons/icon-192.png","icons/icon-512.png","icons/apple-touch-icon.png"];
+const CACHE = "jarvis-shell-v6-newcoins";
+const SHELL = ["./","manifest.json","static-fallback.js","newcoins.js","icons/icon-192.png","icons/icon-512.png","icons/apple-touch-icon.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)));
   self.skipWaiting();
