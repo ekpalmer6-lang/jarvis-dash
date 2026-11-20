@@ -1,0 +1,57 @@
+{
+  "updated": "2026-11-20T19:03:36+00:00",
+  "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
+  "min_closed_to_rank": 5,
+  "best": null,
+  "best_reason": "no strategy has 5+ closed paper trades yet",
+  "strategies": {
+    "curve_momentum": {
+      "closed_trades": 0,
+      "wins": 0,
+      "win_rate": null,
+      "avg_pnl_usd": null,
+      "sum_pnl_usd": 0.0,
+      "open_positions": 0,
+      "cash_usd": null,
+      "equity_usd": null,
+      "label": "Fresh-launch momentum (bonding curve)",
+      "note": "need 5 closed trades before this book can be crowned best (have 0)"
+    },
+    "grad_pullback": {
+      "closed_trades": 0,
+      "wins": 0,
+      "win_rate": null,
+      "avg_pnl_usd": null,
+      "sum_pnl_usd": 0.0,
+      "open_positions": 0,
+      "cash_usd": null,
+      "equity_usd": null,
+      "label": "Post-graduation pullback",
+      "note": "need 5 closed trades before this book can be crowned best (have 0)"
+    },
+    "call_early": {
+      "closed_trades": 0,
+      "wins": 0,
+      "win_rate": null,
+      "avg_pnl_usd": null,
+      "sum_pnl_usd": 0.0,
+      "open_positions": 0,
+      "cash_usd": null,
+      "equity_usd": null,
+      "label": "Call-group early entry (Telegram, <30s, not coordinated)",
+      "note": "need 5 closed trades before this book can be crowned best (have 0)"
+    },
+    "x_narrative": {
+      "closed_trades": 0,
+      "wins": 0,
+      "win_rate": null,
+      "avg_pnl_usd": null,
+      "sum_pnl_usd": 0.0,
+      "open_positions": 0,
+      "cash_usd": null,
+      "equity_usd": null,
+      "label": "Trending narrative from X/Reddit",
+      "note": "need 5 closed trades before this book can be crowned best (have 0)"
+    }
+  }
+}

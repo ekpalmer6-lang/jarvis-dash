@@ -1,0 +1,675 @@
+[
+  {
+    "t": "2026-11-20T18:25:43+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started"
+  },
+  {
+    "t": "2026-11-20T18:26:16+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "balance seeded from fomo reading: $9.69 cash (21 Nov 05:18 AEDT)"
+  },
+  {
+    "t": "2026-11-20T18:26:35+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "288 mints discovered, 20 pass liquidity/age prefilter"
+  },
+  {
+    "t": "2026-11-20T18:27:16+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T18:27:31+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MAYA: watch, size $0, bundle 0.0%+0.0%, dev: no prior launches on record",
+    "mint": "4MXzvR9PX8kVQNQuYQn7inJoGMiWbgPLNgoxyjprpump"
+  },
+  {
+    "t": "2026-11-20T18:27:40+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "BIGFOOT: watch, size $0, dev: no prior launches on record",
+    "mint": "Aykavwa4Z1Z2pW3CRuRpXBXrNZAtuhzAskgBFXFgpump"
+  },
+  {
+    "t": "2026-11-20T18:27:53+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "BTC: watch, size $0, bundle 0.0%+0.02%, dev: no prior launches on record",
+    "mint": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump"
+  },
+  {
+    "t": "2026-11-20T18:28:08+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "MATHISOVER: avoid, size $0, bundle 82.25%+1.15%, dev: no prior launches on record",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T18:28:20+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "FIONA: avoid, size $0, dev: no prior launches on record",
+    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump"
+  },
+  {
+    "t": "2026-11-20T18:28:36+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "OGTA: watch, size $0, dev: no prior launches on record",
+    "mint": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0, dev: no prior launches on record",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0, dev: no prior launches on record",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AI: watch, size $0, dev: no prior launches on record",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "AMC : avoid, size $0, dev: no prior launches on record",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "ONI: watch, size $0, dev: no prior launches on record",
+    "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ZOL: avoid, size $0, dev: no prior launches on record",
+    "mint": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "CATPOOP: avoid, size $0, dev: bad: serial launcher, most coins dead",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "BIGFOOT: avoid, size $0, dev: no prior launches on record",
+    "mint": "EZLKKy3QyrPsnhJqqNUngwsynjSJ5SejkuR9hRg2BPhe"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "BIGFOOT: avoid, size $0, dev: no prior launches on record",
+    "mint": "14YjHZAMa2LqVNsyqtujaoWHui1M7Do3jKs3K8co4N7m"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "Cupsea: avoid, size $0, dev: no prior launches on record",
+    "mint": "7qPhP3WDVB1WBFwAhNenRD5C2DMkpLkS4F8h4KPGTNSy"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "Cupsea: avoid, size $0, dev: no prior launches on record",
+    "mint": "8tgZnPyhp6TpHvhJP9FaTNxUwdyyqm2g3nHNszymn3hs"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "CUPSEA: avoid, size $0, dev: no prior launches on record",
+    "mint": "6LyfSjmM1FTE4Be1H2fPHi8RSqwAnzpeCtMoXxQnMVLq"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "TRYU: avoid, size $0, dev: no prior launches on record",
+    "mint": "HevZYqjQw3wV9QnrmxNfkxGYbxP12dk3wQfLMGuNJbKy"
+  },
+  {
+    "t": "2026-11-20T18:28:51+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 20 evaluated, 0 candidate, 9 watch, 11 avoid"
+  },
+  {
+    "t": "2026-11-20T18:56:30+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started"
+  },
+  {
+    "t": "2026-11-20T18:57:15+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "336 mints discovered, 20 pass liquidity/age prefilter"
+  },
+  {
+    "t": "2026-11-20T18:58:22+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "Singularity: candidate, size $10, dev: no prior launches on record, whales 0 selling / 0 accumulating",
+    "mint": "FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx"
+  },
+  {
+    "t": "2026-11-20T18:58:59+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "DYSON: avoid, size $0, bundle 0.0%+0.01%, dev: bad: serial launcher, most coins dead, whales 5 selling / 0 accumulating",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T18:59:17+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MIC: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "G6H8DjYRPomfmG5KrEAMpxoUU2uRLxdeTrkxnSiXpump"
+  },
+  {
+    "t": "2026-11-20T18:59:33+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "BTC: watch, size $0, bundle 0.0%+0.02%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump"
+  },
+  {
+    "t": "2026-11-20T18:59:44+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MATHISOVER: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:01:27+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "BIGFOOT: watch, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
+    "mint": "Aykavwa4Z1Z2pW3CRuRpXBXrNZAtuhzAskgBFXFgpump"
+  },
+  {
+    "t": "2026-11-20T19:01:40+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 1 selling / 2 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "FIONA: avoid, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
+    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "FIONAWIF: watch, size $0, dev: no prior launches on record",
+    "mint": "B4C3Jbueio385X9zH3ezXRLZpuAKJcVcjH2ZaDhapump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "ONI: watch, size $0, dev: no prior launches on record",
+    "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ZOL: avoid, size $0, dev: no prior launches on record",
+    "mint": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0, dev: no prior launches on record",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AI: watch, size $0, dev: no prior launches on record",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0, dev: no prior launches on record",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ty: avoid, size $0, dev: no prior launches on record",
+    "mint": "6XtYZTDFWZeAonP7Qya4n1p6DTTumDCsxiqPwxw6Mbsp"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "TY: avoid, size $0, dev: no prior launches on record",
+    "mint": "BG6kq35fC5ZbxFNhFkeV2EzLFrwHL35pGvZgJMUTj42X"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "shep: avoid, size $0, dev: no prior launches on record",
+    "mint": "GGZykoBE61E4k98H3dAs4eYw5uaEp7nW72S5ChzBBM1G"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ty: avoid, size $0, dev: no prior launches on record",
+    "mint": "FY17dgFxz5SfLEYXmJbUUXeyciw8AKFHNEh5ec8qbnpu"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ty: avoid, size $0, dev: no prior launches on record",
+    "mint": "6ioxJT43zToTBe7xytkGh1NV5tYds7pthdnWU6C6iQn2"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ty: avoid, size $0, dev: no prior launches on record",
+    "mint": "5z2SUwNnwmgAMe8VfDpitn2W3246sLTrZ46cHU8W7pKi"
+  },
+  {
+    "t": "2026-11-20T19:01:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 20 evaluated, 1 candidate, 10 watch, 9 avoid"
+  },
+  {
+    "t": "2026-11-20T19:02:23.400Z",
+    "agent": "Sizer",
+    "level": "info",
+    "msg": "Singularity: candidate, BUY request sent to parent, suggested $6 of $9.69 (thin liq, +90% 5m, launch block unmeasured)",
+    "mint": "FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx"
+  },
+  {
+    "t": "2026-11-20T19:03:50+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "SKIP Singularity FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx: post-grad chase already topping. PumpSwap price fell from ~$0.000120 (MC $120k at 1:58pm ET) to ~$0.000102 (MC $102k). 1m candle at 19:02 UTC wicked $0.000142->$0.000090. Liquidity $28.6k and falling (below $60k). Gecko 5m sells 434 vs buys 415."
+  },
+  {
+    "t": "2026-11-20T19:04:10+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T19:04:20+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 118 mint mentions"
+  },
+  {
+    "t": "2026-11-20T14:04:21-05:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "SKIP confirmed Singularity FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx after live watch. 14:02 ET 1m candle wicked $0.000142 to $0.000090 (37%). Price then whipped $0.000102 to $0.000142 (MC ~$102k to $142k) in under two minutes. Liquidity still ~$29-32k. Too choppy and thin for a 1-2 minute Fomo fill."
+  },
+  {
+    "t": "2026-11-20T19:04:42+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T19:04:42+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T19:08:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T19:08:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T19:08:42+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T19:08:54+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 118 mint mentions"
+  },
+  {
+    "t": "2026-11-20T19:08:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 12901ms: 157 mints, 15 cheap rows, 10 moving"
+  },
+  {
+    "t": "2026-11-20T19:08:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 15 evaluated, 0 candidate, 12 watch, 3 avoid"
+  },
+  {
+    "t": "2026-11-20T19:09:49+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T19:10:00+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 118 mint mentions"
+  },
+  {
+    "t": "2026-11-20T19:10:24+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T19:10:24+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T19:10:34+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 81 mints, 0 under 30s, 0 coordinated, 72 early-vs-trending, 0 with flow"
+  },
+  {
+    "t": "2026-11-20T19:12:58+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T19:12:58+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T19:12:58+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T19:13:08+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 118 mint mentions"
+  },
+  {
+    "t": "2026-11-20T19:13:09+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11931ms: 229 mints, 17 cheap rows, 9 moving"
+  },
+  {
+    "t": "2026-11-20T19:13:27+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T19:13:27+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T19:13:34+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T19:13:37+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 61 buys / 29 sells, pressure 0.717, 44 unique buyers, large-wallet net $627.7",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T19:13:41+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow: 32 buys / 25 sells, pressure 0.56, 27 unique buyers, large-wallet net $0.81",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:13:43+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T19:13:45+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DOOMSDAY 5m flow: 23 buys / 34 sells, pressure 0.445, 13 unique buyers, large-wallet net $59.68",
+    "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump"
+  },
+  {
+    "t": "2026-11-20T19:13:45+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 81 mints, 0 under 30s, 0 coordinated, 72 early-vs-trending, 5 with flow"
+  },
+  {
+    "t": "2026-11-20T19:13:49+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "Singularity: candidate, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 4 selling / 0 accumulating",
+    "mint": "7KUg78hyohckj8i728YuCu6CweTArxhwRrVrFyvHpump"
+  },
+  {
+    "t": "2026-11-20T19:14:07+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DYSON 5m flow pressure 0.387 buyers 163 large-net $-2300.69 (4 large selling)",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T19:14:09+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "DYSON: avoid, size $0, bundle 0.0%+0.01%, dev: bad: serial launcher, most coins dead, whales 5 selling / 0 accumulating",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T19:14:24+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "FIONAWIF: watch, size $0, bundle 0.0%+0.01%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "B4C3Jbueio385X9zH3ezXRLZpuAKJcVcjH2ZaDhapump"
+  },
+  {
+    "t": "2026-11-20T19:14:41+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BTC 5m flow pressure 0.436 buyers 198 large-net $-917.89 (3 large selling)",
+    "mint": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump"
+  },
+  {
+    "t": "2026-11-20T19:14:43+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "BTC: watch, size $0, bundle 0.0%+0.02%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump"
+  },
+  {
+    "t": "2026-11-20T19:14:54+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MATHISOVER 5m flow pressure 0.579 buyers 281 large-net $13.3 (2 large selling)",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:14:56+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MATHISOVER: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:15:11+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MIC: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "G6H8DjYRPomfmG5KrEAMpxoUU2uRLxdeTrkxnSiXpump"
+  },
+  {
+    "t": "2026-11-20T19:15:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.326 buyers 79 large-net $0 (0 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T19:15:29+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0, dev: no prior launches on record, whales 0 selling / 3 accumulating",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AI: watch, size $0, dev: no prior launches on record",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "PATRICK: watch, size $0",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "enu: watch, size $0",
+    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "ONI: watch, size $0",
+    "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AMC : watch, size $0",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "ICEWIZ: avoid, size $0",
+    "mint": "D8XzdmfW7yegGkgCbH2BBFC9kyxugtweZ82C4UUobonk"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "FIONA: avoid, size $0",
+    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "SANTA: avoid, size $0",
+    "mint": "A6tuVRQaWWkXoPzE7SQry3YK995tJVt4NdgduQuBpump"
+  },
+  {
+    "t": "2026-11-20T19:15:48+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 17 evaluated, 1 candidate, 12 watch, 4 avoid"
+  },
+  {
+    "t": "2026-11-20T19:15:55.755Z",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan 19:12Z: 17 evaluated, 1 candidate (Singularity clone 7KUg..pump, -74% 5m, 4 whales selling, size $0), 0 buys"
+  }
+]

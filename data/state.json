@@ -1,0 +1,72 @@
+{
+  "published_at": "2026-11-20T19:17:21Z",
+  "live": {
+    "balance": {
+      "mode": "live",
+      "cash_usd": 19.5,
+      "currency": "USD (USDC on fomo)",
+      "source": "user's fomo account balance, read by the user",
+      "as_of": "2026-11-20T19:13:02Z",
+      "updated": "2026-11-20T18:18:00+00:00",
+      "portfolio_usd": 20.41,
+      "account": "ProudAngryFlea",
+      "note": "+$9.81 deposit received Nov 20 (user added $10)"
+    },
+    "positions": [],
+    "status": {
+      "Scanner": {
+        "state": "idle",
+        "detail": "last scan finished: 17 evaluated",
+        "updated": "2026-11-20T19:15:48+00:00"
+      },
+      "Executor": {
+        "state": "off",
+        "detail": "live trading not enabled; no wallet connected",
+        "updated": "2026-11-20T18:31:01+00:00"
+      },
+      "Logger": {
+        "state": "idle",
+        "detail": "writing state/trades.jsonl, log.jsonl",
+        "updated": "2026-11-20T18:26:16+00:00"
+      },
+      "Sizer": {
+        "state": "idle",
+        "detail": "0 tokens sized above $0",
+        "updated": "2026-11-20T19:15:48+00:00"
+      },
+      "Rug Check": {
+        "state": "idle",
+        "detail": "17 reports, 8 deep checks",
+        "updated": "2026-11-20T19:15:48+00:00"
+      }
+    },
+    "limits": {
+      "per_position_usd": null,
+      "max_position_usd": null,
+      "total_cap_usd": null,
+      "watch_secs_before_buy": 15,
+      "live_trading_enabled": true,
+      "note": "User gave full control (2026-11-20): size from whole balance, reinvest profits, no dollar cap beyond available cash.",
+      "confident_position_usd": null,
+      "sizing": "from whole balance by conviction; reinvest profits",
+      "watch": "15s-1m candles, as long as needed",
+      "min_watch_seconds": 15
+    },
+    "equity": [
+      {
+        "t": "2026-11-20T18:18:00+00:00",
+        "equity_usd": 9.69,
+        "cash_usd": 9.69,
+        "positions_usd": 0,
+        "source": "seed: fomo balance reading"
+      }
+    ]
+  },
+  "paper": {
+    "balance": null,
+    "positions": [],
+    "status": {},
+    "limits": {},
+    "equity": []
+  }
+}
