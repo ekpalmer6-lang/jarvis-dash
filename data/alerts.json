@@ -3065,5 +3065,44 @@
     "prior_30m_avg_1m": 7.71,
     "url": "https://dexscreener.com/solana/79x6hsk2av9naudoncrasefxdarelwwbbrusogzukzgm",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:18:46+00:00",
+    "ts": 1795216726,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-20T23:18:56+00:00",
+    "ts": 1795216736,
+    "kind": "fast",
+    "mint": "7i8AXjBdKGjGpRo4Ex5aDKUaX55xed5Hrgoww1G9pump",
+    "symbol": "LRS",
+    "msg": "LRS +60% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 59.75,
+    "mc_usd": 65128,
+    "url": "https://dexscreener.com/solana/37kvdt6rkoxvxkbfrd4wu4rbiktpsseklxhsxd8kggyr",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:18:56+00:00",
+    "ts": 1795216736,
+    "kind": "spike",
+    "mint": "7i8AXjBdKGjGpRo4Ex5aDKUaX55xed5Hrgoww1G9pump",
+    "symbol": "LRS",
+    "msg": "LRS volume spike 30.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 30.385,
+    "last_1m": 740.2,
+    "prior_30m_avg_1m": 24.36,
+    "url": "https://dexscreener.com/solana/37kvdt6rkoxvxkbfrd4wu4rbiktpsseklxhsxd8kggyr",
+    "watch": "scan"
   }
 ]
