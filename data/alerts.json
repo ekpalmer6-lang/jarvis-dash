@@ -4030,5 +4030,44 @@
     "prior_30m_avg_1m": 16.89,
     "url": "https://dexscreener.com/solana/ft1uqzexxws19bypfpwvedkpdda6aphudxrh2mrm4jjs",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:58:04+00:00",
+    "ts": 1795219084,
+    "kind": "pass",
+    "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
+    "symbol": "WEZID",
+    "msg": "WEZID passed all safety checks \u00b7 size $0.0",
+    "source": "out/latest.json",
+    "mc_usd": 52948,
+    "liq_usd": 15222,
+    "url": "https://dexscreener.com/solana/4s84ssdkklvwvfwkkg3jpbysz44f5bpw1mt1urni3gvy"
+  },
+  {
+    "t": "2026-11-20T23:58:04+00:00",
+    "ts": 1795219084,
+    "kind": "fast",
+    "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
+    "symbol": "WEZID",
+    "msg": "WEZID +62% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 62.43,
+    "mc_usd": 51986,
+    "url": "https://dexscreener.com/solana/4s84ssdkklvwvfwkkg3jpbysz44f5bpw1mt1urni3gvy",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:58:04+00:00",
+    "ts": 1795219084,
+    "kind": "spike",
+    "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
+    "symbol": "WEZID",
+    "msg": "WEZID volume spike 583.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 583.853,
+    "last_1m": 15629.42,
+    "prior_30m_avg_1m": 26.77,
+    "url": "https://dexscreener.com/solana/4s84ssdkklvwvfwkkg3jpbysz44f5bpw1mt1urni3gvy",
+    "watch": "scan"
   }
 ]
