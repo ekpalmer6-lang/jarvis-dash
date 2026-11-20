@@ -1588,5 +1588,57 @@
     "prior_30m_avg_1m": 0.37,
     "url": "https://dexscreener.com/solana/f1aad8pfk4pfssgvhrfyclpobyhfv3e9avnxvs9c6xxe",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:47:44+00:00",
+    "ts": 1795214864,
+    "kind": "fast",
+    "mint": "CaNeWALewcaKAX1SGsnhRTYXdks29JPDLafgDcZppump",
+    "symbol": "SHITBOT",
+    "msg": "SHITBOT +174% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 174,
+    "mc_usd": 5365.78,
+    "url": "https://dexscreener.com/solana/am6hckp9t776kycinnfxzvtwvfczmudquat92dke1xbb",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:48:04+00:00",
+    "ts": 1795214884,
+    "kind": "spike",
+    "mint": "5GDPVEQLmKnyK2141RfMigJY4k5eCuDNQNXEkFpEpump",
+    "symbol": "SHITBOT",
+    "msg": "SHITBOT volume spike 57.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 57.776,
+    "last_1m": 15.61,
+    "prior_30m_avg_1m": 0.27,
+    "url": "https://dexscreener.com/solana/b1wtvwfi718njn8mid31wx6v4aoad8ciwtwpj82hbsyv",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:48:04+00:00",
+    "ts": 1795214884,
+    "kind": "fast",
+    "mint": "GuEiaxbHTGiLKejMSCrYPg1KyYfqSY9MNyY2NkjVsdgg",
+    "symbol": "TSQRL",
+    "msg": "TSQRL +49% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 48.6,
+    "mc_usd": 2884.97,
+    "url": "https://dexscreener.com/solana/ctawa6wmckzwcyci7pbdcqxepmeth2eh4r2fjrxwurvc",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:48:38+00:00",
+    "ts": 1795214918,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
   }
 ]
