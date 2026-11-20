@@ -2,7 +2,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T23:03:19+00:00",
+    "updated": "2026-11-20T23:03:47+00:00",
     "confidence": 42,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 42/100). Safety checks: large wallets selling.",
@@ -10,13 +10,13 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.85
+      "sol_chg1h": 0.62
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.512,
-      "impact_pct": 2.0121,
+      "rt_cost_pct": 8.528,
+      "impact_pct": 2.0277,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -46,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$97,000",
+        "value": "$95,890",
         "pts": 9.0,
         "max": 11.25
       },
@@ -62,7 +62,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+7.8% in 5m, steady",
+        "value": "+6.1% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -78,7 +78,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 8.51%, impact 2.01% (tight)",
+        "value": "RT 8.53%, impact 2.03% (tight)",
         "pts": 4.5,
         "max": 7.5
       },

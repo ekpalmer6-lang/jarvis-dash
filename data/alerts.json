@@ -2507,5 +2507,58 @@
     "prior_30m_avg_1m": 0.16,
     "url": "https://dexscreener.com/solana/euxwg76im41ndkshwtgeu1ybtpkpznmhg3pj7efvmrle",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:03:29+00:00",
+    "ts": 1795215809,
+    "kind": "spike",
+    "mint": "Bb4Nxjiiw4Sw8ms3LJTeknMYRKZQLUph2bGYDXe8pump",
+    "symbol": "Goyim",
+    "msg": "Goyim volume spike 10.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.619,
+    "last_1m": 790.03,
+    "prior_30m_avg_1m": 74.4,
+    "url": "https://dexscreener.com/solana/3wsohg4x83r6kp6isqcpszjfp8pzgwnqpczrhf1trggo",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:03:29+00:00",
+    "ts": 1795215809,
+    "kind": "fast",
+    "mint": "5Hxbur6mLduVMjZD83cNFWifoghkJsJdBgJzgs1Spump",
+    "symbol": "R",
+    "msg": "R +596% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 596,
+    "mc_usd": 13530.76,
+    "url": "https://dexscreener.com/solana/epzkkqur1vyvh7czwrkphqngqj9nfgs8ri3gystvcudv",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:03:29+00:00",
+    "ts": 1795215809,
+    "kind": "spike",
+    "mint": "4WyCMU2uBa5NRnXXNb2X5v1qZqWsQjdKjpFVkEPgpump",
+    "symbol": "DOGG",
+    "msg": "DOGG volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 0.16,
+    "prior_30m_avg_1m": 0.01,
+    "url": "https://dexscreener.com/solana/5afrlappchwfk6zducrcosx4cl4n1gmseovqa8e8e9jt",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:03:45+00:00",
+    "ts": 1795215825,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
   }
 ]
