@@ -2820,5 +2820,19 @@
     "prior_30m_avg_1m": 0.06,
     "url": "https://dexscreener.com/solana/8zfnab22bc4cg1nwswtpaaamnh5yzecfmnfupkbxsze6",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:08:09+00:00",
+    "ts": 1795216089,
+    "kind": "spike",
+    "mint": "J4uJFe6WE8sfANpg5KCH23JSbnE6ywGKC8kEiKp2Koyv",
+    "symbol": "SOROSES",
+    "msg": "SOROSES volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.026,
+    "last_1m": 5.05,
+    "prior_30m_avg_1m": 0.46,
+    "url": "https://dexscreener.com/solana/nhspyeygacfancyxtgk5pxt16h1phdnfmxddhnud1d2",
+    "watch": "scan"
   }
 ]
