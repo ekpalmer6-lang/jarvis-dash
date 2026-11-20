@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:01:59+00:00",
+  "updated": "2026-11-20T21:03:00+00:00",
   "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
   "min_closed_to_rank": 5,
   "best": null,
@@ -25,8 +25,8 @@
       "avg_pnl_usd": -1.8313,
       "sum_pnl_usd": -1.8313,
       "expectancy_usd": -1.8313,
-      "open_positions": 1,
-      "cash_usd": 18.1687,
+      "open_positions": 2,
+      "cash_usd": 8.1687,
       "equity_usd": 28.1687,
       "label": "Post-graduation pullback",
       "note": "need 5 closed trades before this book can be crowned best (have 1)"

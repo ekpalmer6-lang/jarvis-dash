@@ -2,7 +2,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T21:00:35+00:00",
+    "updated": "2026-11-20T21:02:57+00:00",
     "confidence": 45,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 45/100). Safety checks: large wallets selling.",
@@ -10,7 +10,7 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": -1.19
+      "sol_chg1h": -0.73
     },
     "paused": false,
     "cost": null,
@@ -24,63 +24,55 @@
         "status": "fail",
         "value": "large wallets selling",
         "pts": 0.0,
-        "max": 18.75
+        "max": 25
       },
       {
         "id": "cluster",
         "label": "Cluster / sniper hold",
         "status": "pass",
         "value": "bundle+sniper 5.3%, insiders 0%",
-        "pts": 11.25,
-        "max": 11.25
+        "pts": 15.0,
+        "max": 15
       },
       {
         "id": "liquidity",
         "label": "Liquidity depth",
-        "status": "pass",
-        "value": "$66,702",
-        "pts": 9.0,
-        "max": 11.25
+        "status": "warn",
+        "value": "$56,224 below $60k rule",
+        "pts": 6.75,
+        "max": 15
       },
       {
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "63% buys in 5m",
-        "pts": 6.19,
-        "max": 11.25
+        "value": "61% buys in 5m",
+        "pts": 8.25,
+        "max": 15
       },
       {
         "id": "chart",
         "label": "Chart steadiness",
-        "status": "warn",
-        "value": "+27.2% in 5m",
-        "pts": 4.5,
-        "max": 7.5
+        "status": "pass",
+        "value": "-9.2% in 5m, steady",
+        "pts": 10.0,
+        "max": 10
       },
       {
         "id": "caller",
         "label": "Caller quality / first-call",
         "status": "warn",
         "value": "no caller / first-call data",
-        "pts": 3.75,
-        "max": 7.5
+        "pts": 5.0,
+        "max": 10
       },
       {
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
         "value": "cost not quoted yet",
-        "pts": 3.0,
-        "max": 7.5
-      },
-      {
-        "id": "chart_signals",
-        "label": "Chart signals (1m)",
-        "status": "warn",
-        "value": "50/100 only 10 one-minute bars, chart not readable yet | timing: wait",
-        "pts": 12.5,
-        "max": 25
+        "pts": 4.0,
+        "max": 10
       },
       {
         "id": "pause",
@@ -109,12 +101,12 @@
     ],
     "chart": {
       "score": 50,
-      "verdict": "too_young",
+      "verdict": "no_data",
       "timing": "wait",
       "timing_why": null,
       "exit_hints": [],
-      "summary": "only 10 one-minute bars, chart not readable yet",
-      "bars": 10,
+      "summary": "no chart data",
+      "bars": 0,
       "tf": "1m",
       "signals": []
     }
