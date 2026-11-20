@@ -2253,5 +2253,60 @@
     "agent": "Hype Meter",
     "level": "warn",
     "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:32:34+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:32:37+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 29 buys / 19 sells, pressure 0.573, 23 unique buyers, large-wallet net $0",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:32:40+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T20:32:43+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DOOMSDAY 5m flow: 46 buys / 48 sells, pressure 0.53, 26 unique buyers, large-wallet net $389.8",
+    "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump"
+  },
+  {
+    "t": "2026-11-20T20:32:43+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 59 early-vs-trending, 4 with flow"
+  },
+  {
+    "t": "2026-11-20T20:32:52+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "DCTY: candidate, size $10, dev: no prior launches on record, whales 1 selling / 0 accumulating",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:33:05+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.533 buyers 131 large-net $87.16 (3 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:33:14+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "Singularity: watch, size $0, dev: no prior launches on record, whales 1 selling / 0 accumulating",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
   }
 ]
