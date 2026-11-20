@@ -2876,5 +2876,46 @@
         "at_awst": "Nov 21, 7:09 AM AWST"
       }
     }
+  },
+  {
+    "t": "2026-11-20T23:09:50+00:00",
+    "ts": 1795216190,
+    "kind": "spike",
+    "mint": "C9kB3rkbUNmCA2sVUCC8BpvjjjABciJEvZeva9bupump",
+    "symbol": "ZOO",
+    "msg": "ZOO volume spike 15.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 14.981,
+    "last_1m": 18.97,
+    "prior_30m_avg_1m": 1.27,
+    "url": "https://dexscreener.com/solana/6twc2d2dvxjjwrc3nnrk3fheckzpagfqdxs8bah5wc71",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:09:50+00:00",
+    "ts": 1795216190,
+    "kind": "spike",
+    "mint": "GppaGZbvGFPMzq7etLKYtRG6HwNysr5qUfCQwUKpump",
+    "symbol": "Rasonque",
+    "msg": "Rasonque volume spike 153.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 153.177,
+    "last_1m": 578.95,
+    "prior_30m_avg_1m": 3.78,
+    "url": "https://dexscreener.com/solana/e3dy8od97z1qiksbwx5yaly9my3ctpgiypuatqzhn1em",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:10:31+00:00",
+    "ts": 1795216231,
+    "kind": "fast",
+    "mint": "tzqY6xbCCtjACWsDnzrdzdh8g9bSUNG2ha3vhigpump",
+    "symbol": "GTAFK",
+    "msg": "GTAFK +44% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 43.62,
+    "mc_usd": 3770.21,
+    "url": "https://dexscreener.com/solana/bebqbwkzaknj3qplvhdemupdabz3iabe4bwhah1of9wk",
+    "watch": "scan"
   }
 ]
