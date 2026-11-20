@@ -1063,5 +1063,37 @@
     "level": "info",
     "msg": "ONI: watch, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
     "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj"
+  },
+  {
+    "t": "2026-11-20T19:33:04+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow pressure 0.815 buyers 13 large-net $697.67 (0 large selling)",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:33:11+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0, dev: no prior launches on record, whales 0 selling / 2 accumulating",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T19:33:57+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan started (tiered)"
+  },
+  {
+    "t": "2026-11-20T19:33:57+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T19:33:57+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
   }
 ]
