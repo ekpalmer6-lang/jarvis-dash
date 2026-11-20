@@ -1873,5 +1873,33 @@
     "mc_usd": 2678.87,
     "url": "https://dexscreener.com/solana/5yajuytpbzjw8e5vdrsd7ll4ep6yb3jtjmbql4ny6ym3",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:53:26+00:00",
+    "ts": 1795215206,
+    "kind": "spike",
+    "mint": "2WDqphyMUSrh4HzLHgR32YMDPcM8ZaU5FqMGoTdHpump",
+    "symbol": "ROACH",
+    "msg": "ROACH volume spike 20.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 20.892,
+    "last_1m": 121.39,
+    "prior_30m_avg_1m": 5.81,
+    "url": "https://dexscreener.com/solana/6xspwdrugkbqhbw5cms9kxzzaya4vjodzujvrcq3dfim",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:53:26+00:00",
+    "ts": 1795215206,
+    "kind": "spike",
+    "mint": "yywmAgTiNPNFJuA1yMKFJW21kRUuqLrmErBRDTjpump",
+    "symbol": "CUNT",
+    "msg": "CUNT volume spike 19.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 18.984,
+    "last_1m": 4.86,
+    "prior_30m_avg_1m": 0.26,
+    "url": "https://dexscreener.com/solana/wdoqraqij63cq2zd5rupyshrngduznkcnmqj5qxdha9",
+    "watch": "scan"
   }
 ]

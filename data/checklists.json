@@ -2,7 +2,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T22:52:44+00:00",
+    "updated": "2026-11-20T22:53:48+00:00",
     "confidence": 61,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 61/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
@@ -10,13 +10,13 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": 0.11
+      "sol_chg1h": 0.24
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.565,
-      "impact_pct": 2.0654,
+      "rt_cost_pct": 8.504,
+      "impact_pct": 2.0038,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$91,322",
+        "value": "$90,377",
         "pts": 9.0,
         "max": 11.25
       },
@@ -52,7 +52,7 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "61% buys in 5m",
+        "value": "64% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
@@ -60,7 +60,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+7.0% in 5m, steady",
+        "value": "+4.9% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 8.57%, impact 2.07% (tight)",
+        "value": "RT 8.51%, impact 2.01% (tight)",
         "pts": 4.5,
         "max": 7.5
       },
@@ -150,166 +150,6 @@
       "signals": [
         "price above VWAP (most holders in profit, chasing)",
         "EMA9 above EMA20 and price above both (uptrend)"
-      ]
-    }
-  },
-  "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M": {
-    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
-    "symbol": "MONKE",
-    "updated": "2026-11-20T22:52:44+00:00",
-    "confidence": 46,
-    "size_usd": 0.0,
-    "verdict": "Do not buy MONKE (confidence 46/100). Buy pressure: 49% buys (sell-heavy).",
-    "scan_verdict": "candidate",
-    "regime": {
-      "risk_off": false,
-      "reason": "risk-on",
-      "sol_chg1h": 0.11
-    },
-    "paused": false,
-    "cost": {
-      "ok": true,
-      "rt_cost_pct": 8.538,
-      "impact_pct": 2.0377,
-      "min_sensible_size": 3.64,
-      "reason": "passes cost gate",
-      "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
-      "source": "lite-api.jup.ag"
-    },
-    "notes": [
-      "choppy-chart cap 55"
-    ],
-    "checks": [
-      {
-        "id": "safety",
-        "label": "Safety checks",
-        "status": "warn",
-        "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
-        "pts": 15.75,
-        "max": 18.75
-      },
-      {
-        "id": "cluster",
-        "label": "Cluster / sniper hold",
-        "status": "warn",
-        "value": "launch block not measured",
-        "pts": 4.5,
-        "max": 11.25
-      },
-      {
-        "id": "liquidity",
-        "label": "Liquidity depth",
-        "status": "warn",
-        "value": "$58,496 below $60k rule",
-        "pts": 5.06,
-        "max": 11.25
-      },
-      {
-        "id": "pressure",
-        "label": "Buy pressure",
-        "status": "fail",
-        "value": "49% buys (sell-heavy)",
-        "pts": 0.0,
-        "max": 11.25
-      },
-      {
-        "id": "chart",
-        "label": "Chart steadiness",
-        "status": "fail",
-        "value": "-17.7% in 5m; -47% in 1h",
-        "pts": 0.0,
-        "max": 7.5
-      },
-      {
-        "id": "caller",
-        "label": "Caller quality / first-call",
-        "status": "warn",
-        "value": "no caller / first-call data",
-        "pts": 3.75,
-        "max": 7.5
-      },
-      {
-        "id": "cost",
-        "label": "Cost gate",
-        "status": "warn",
-        "value": "RT 8.54%, impact 2.04% (tight)",
-        "pts": 4.5,
-        "max": 7.5
-      },
-      {
-        "id": "chart_signals",
-        "label": "Chart signals (1m)",
-        "status": "warn",
-        "value": "50/100 price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC) | timing: avoid entry",
-        "pts": 12.5,
-        "max": 25
-      },
-      {
-        "id": "pause",
-        "label": "Trading pause",
-        "status": "pass",
-        "value": "not paused"
-      },
-      {
-        "id": "regime",
-        "label": "Market regime",
-        "status": "pass",
-        "value": "risk-on"
-      },
-      {
-        "id": "organic",
-        "label": "Organic activity",
-        "status": "warn",
-        "value": "empty-SOL holder check unavailable"
-      },
-      {
-        "id": "theme",
-        "label": "Theme leader",
-        "status": "pass",
-        "value": "only mint or cluster leader"
-      },
-      {
-        "id": "buzz",
-        "label": "Buzz sources",
-        "status": "warn",
-        "value": "no independent 30m sources"
-      },
-      {
-        "id": "entry",
-        "label": "Entry timing",
-        "status": "fail",
-        "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
-      },
-      {
-        "id": "exit_profile",
-        "label": "Exit profile",
-        "status": "pass",
-        "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
-      }
-    ],
-    "exit_profile": "standard",
-    "exit_plan": {
-      "profile": "standard",
-      "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
-    },
-    "chart": {
-      "score": 50,
-      "verdict": "neutral",
-      "timing": "avoid_entry",
-      "timing_why": [
-        "right under resistance"
-      ],
-      "exit_hints": [
-        "bearish reversal candle at resistance"
-      ],
-      "summary": "price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC)",
-      "bars": 39,
-      "tf": "1m",
-      "signals": [
-        "just under resistance (swing high / round MC)",
-        "price below VWAP (cooled off, not chasing)",
-        "red engulfing candle (sellers flushed)",
-        "EMA9 below EMA20 and price below EMA20 (downtrend)"
       ]
     }
   }
