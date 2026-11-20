@@ -3390,5 +3390,19 @@
     "prior_30m_avg_1m": 1.42,
     "url": "https://dexscreener.com/solana/7clewzmidte1kmvttphgu92gfmizagtjsemzzeujtjyb",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:31:26+00:00",
+    "ts": 1795217486,
+    "kind": "spike",
+    "mint": "amVqy3v6ZLCLmtFZNgu9SkxMTXa7Qk77DJsJcT1JtmL",
+    "symbol": "FARM",
+    "msg": "FARM volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.004,
+    "last_1m": 66.67,
+    "prior_30m_avg_1m": 6.06,
+    "url": "https://dexscreener.com/solana/3yuuoptcachnx3z8pnkmhyrktynveeqb2gjnozl7lx76",
+    "watch": "scan"
   }
 ]
