@@ -18684,5 +18684,138 @@
     "level": "info",
     "msg": "MONKE 5m flow pressure 0.555 buyers 126 large-net $522.39 (6 large selling)",
     "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip WNUUVP cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5SH8Rj cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7ex9oz cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:40:27+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: SELL 100% Singularity: time stop 15m ($12.11)"
+  },
+  {
+    "t": "2026-11-20T22:40:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:40:48+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 12647ms: 307 mints, 76 cheap rows, 43 moving"
+  },
+  {
+    "t": "2026-11-20T22:40:50+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "FLIPCOIN 5m flow pressure 0.502 buyers 22 large-net $-413.88 (2 large selling)",
+    "mint": "89HGAw5cXt8XumbLPN7WD5bkNpxSMMCaDe6gbb1Ppump"
+  },
+  {
+    "t": "2026-11-20T22:40:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip WNUUVP cash"
+  },
+  {
+    "t": "2026-11-20T22:40:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:40:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5SH8Rj cash"
+  },
+  {
+    "t": "2026-11-20T22:40:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:40:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7ex9oz cash"
+  },
+  {
+    "t": "2026-11-20T22:40:58+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching 7R4MP6 for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:41:12+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:41:13+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: BUY Singularity $10 at 0.000127 (post-graduation pullback; held up over 15s (price -2.0%, 108/105 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T22:41:13+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:41:13+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:41:26+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13523ms: 306 mints, 80 cheap rows, 52 moving"
   }
 ]

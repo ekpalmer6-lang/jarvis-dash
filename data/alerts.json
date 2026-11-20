@@ -1354,5 +1354,33 @@
     "mc_usd": 6453.99,
     "url": "https://dexscreener.com/solana/8pm9yfzguvvwu3mvgpdciaa3iqa8lguptwxut14whsox",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:40:39+00:00",
+    "ts": 1795214439,
+    "kind": "spike",
+    "mint": "2v1FjWoA9XzhADWE42QYxhP9esiCVc3iofyrgpVUpump",
+    "symbol": "$GTMA",
+    "msg": "$GTMA volume spike 43.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 42.988,
+    "last_1m": 6.37,
+    "prior_30m_avg_1m": 0.15,
+    "url": "https://dexscreener.com/solana/7e1ksyafskws5p9wpb1wjq78wozjw52ngtx1tk8ntlnm",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:40:59+00:00",
+    "ts": 1795214459,
+    "kind": "spike",
+    "mint": "DAwLAFt5qP8nj1hrBarYLeowk4vgLZtqjugbRvC5pump",
+    "symbol": "ESPR",
+    "msg": "ESPR volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 1.36,
+    "prior_30m_avg_1m": 0.12,
+    "url": "https://dexscreener.com/solana/3hkbq7paiddbesylptr4g4ubnl9bi9e7btfhcvqf8khx",
+    "watch": "scan"
   }
 ]
