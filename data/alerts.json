@@ -194,5 +194,19 @@
     "mc_usd": 49786,
     "url": "https://dexscreener.com/solana/77bgjzs6ifrusfjvoxsyam4crjrrivcspu9cb7xfzebe",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T19:34:55+00:00",
+    "ts": 1795203295,
+    "kind": "spike",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump",
+    "symbol": "AMC ",
+    "msg": "AMC  volume spike 5.7x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.682,
+    "last_1m": 669.39,
+    "prior_30m_avg_1m": 117.81,
+    "url": "https://dexscreener.com/solana/77bgjzs6ifrusfjvoxsyam4crjrrivcspu9cb7xfzebe",
+    "watch": "scan"
   }
 ]
