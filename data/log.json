@@ -2308,5 +2308,44 @@
     "level": "info",
     "msg": "Singularity: watch, size $0, dev: no prior launches on record, whales 1 selling / 0 accumulating",
     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:33:43+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 27.56% held by linked wallets",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
+    "symbol": "GTA",
+    "reason": "too bundled: 27.56% held by linked wallets",
+    "clustered_pct": 27.56,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T20:33:47+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "GTA: avoid, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
+  },
+  {
+    "t": "2026-11-20T20:34:03+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.31 buyers 27 large-net $-2378.35 (10 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:34:15+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:34:33+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AMC  5m flow pressure 0.322 buyers 15 large-net $-841.03 (2 large selling)",
+    "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump"
   }
 ]
