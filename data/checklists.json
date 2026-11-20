@@ -2,27 +2,29 @@
   "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu": {
     "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
     "symbol": "SBS",
-    "updated": "2026-11-20T23:55:04+00:00",
-    "confidence": 56,
+    "updated": "2026-11-20T23:56:11+00:00",
+    "confidence": 52,
     "size_usd": 0.0,
-    "verdict": "Do not buy SBS (confidence 56/100). Cost gate: round-trip cost 11.12% > 10%; price impact 4.62% > 4%.",
+    "verdict": "Do not buy SBS (confidence 52/100). Chart steadiness: -32% in 5m (dumping).",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": -0.58
+      "sol_chg1h": -0.67
     },
     "paused": false,
     "cost": {
       "ok": false,
-      "rt_cost_pct": 12.571,
-      "impact_pct": 4.5768,
+      "rt_cost_pct": 11.644,
+      "impact_pct": 3.6492,
       "min_sensible_size": 3.64,
-      "reason": "round-trip cost 12.57% > 10%; price impact 4.58% > 4%",
+      "reason": "round-trip cost 11.64% > 10%",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
       "source": "lite-api.jup.ag"
     },
-    "notes": [],
+    "notes": [
+      "choppy-chart cap 55"
+    ],
     "checks": [
       {
         "id": "safety",
@@ -44,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "warn",
-        "value": "$17,449 thin",
+        "value": "$15,466 thin",
         "pts": 2.25,
         "max": 11.25
       },
@@ -52,16 +54,16 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "59% buys in 5m",
+        "value": "57% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
       {
         "id": "chart",
         "label": "Chart steadiness",
-        "status": "warn",
-        "value": "+22.0% in 5m",
-        "pts": 4.5,
+        "status": "fail",
+        "value": "-32% in 5m (dumping)",
+        "pts": 0.0,
         "max": 7.5
       },
       {
@@ -76,7 +78,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "fail",
-        "value": "round-trip cost 11.12% > 10%; price impact 4.62% > 4%",
+        "value": "round-trip cost 11.15% > 10%; price impact 4.65% > 4%",
         "pts": 0.0,
         "max": 7.5
       },

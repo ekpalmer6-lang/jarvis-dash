@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T23:55:41Z",
+  "published_at": "2026-11-20T23:56:44Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,23 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check Rasonque",
-        "updated": "2026-11-20T23:55:36+00:00"
+        "detail": "deep check MONKE",
+        "updated": "2026-11-20T23:56:44+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 0 open across 4 books",
-        "updated": "2026-11-20T23:55:37+00:00"
+        "updated": "2026-11-20T23:56:40+00:00"
+      },
+      "Scanner": {
+        "state": "idle",
+        "detail": "tier 1 9954ms, 66 moving",
+        "updated": "2026-11-20T23:56:35+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T23:55:30+00:00"
-      },
-      "Scanner": {
-        "state": "idle",
-        "detail": "tier 1 15942ms, 75 moving",
-        "updated": "2026-11-20T23:55:28+00:00"
+        "updated": "2026-11-20T23:56:30+00:00"
       }
     },
     "limits": {

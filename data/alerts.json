@@ -3988,5 +3988,19 @@
     "prior_30m_avg_1m": 16.48,
     "url": "https://dexscreener.com/solana/fsa6m8r1cusvmi8zbmfeabahphzbjrp7dq8zdffroafu",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:56:23+00:00",
+    "ts": 1795218983,
+    "kind": "spike",
+    "mint": "AhMKN3iUtDPFBDZas1pu27t74nBnoc9avdFXVBqYpump",
+    "symbol": "GHOSTSOL",
+    "msg": "GHOSTSOL volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.0,
+    "last_1m": 4.08,
+    "prior_30m_avg_1m": 0.37,
+    "url": "https://dexscreener.com/solana/dvurktditlnb46viiasd536wfvytakovute46vg6jd3d",
+    "watch": "scan"
   }
 ]
