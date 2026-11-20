@@ -3349,5 +3349,46 @@
     "prior_30m_avg_1m": 61.4,
     "url": "https://dexscreener.com/solana/3x24fpombvh45qsrqat2cn4a5zlm5po8inesezebs1jh",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:29:44+00:00",
+    "ts": 1795217384,
+    "kind": "fast",
+    "mint": "FgLzBUDZTeNeQRWKAdxKzwQabBYY1d12u4A7XZufpump",
+    "symbol": "der",
+    "msg": "der +49% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 48.76,
+    "mc_usd": 3200.97,
+    "url": "https://dexscreener.com/solana/48tz3arcdlrkcgv38zqgvbhvtqkr7rxyk1the1onbc2k",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:29:44+00:00",
+    "ts": 1795217384,
+    "kind": "spike",
+    "mint": "6ZZkUaafe8tayc9WpWu3PjNZ3xtaHMimpjVszTumpump",
+    "symbol": "THANKS",
+    "msg": "THANKS volume spike 13.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 13.463,
+    "last_1m": 158.41,
+    "prior_30m_avg_1m": 11.77,
+    "url": "https://dexscreener.com/solana/5yaufcpaqsw1fepi9shpqghn9zdt2ucx6j3taafuexun",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:29:44+00:00",
+    "ts": 1795217384,
+    "kind": "spike",
+    "mint": "HVdRHLUAmD78MwZ1WQVjZwDVaQkRCzn3WuwFaxcApump",
+    "symbol": "BTC",
+    "msg": "BTC volume spike 7.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.262,
+    "last_1m": 10.29,
+    "prior_30m_avg_1m": 1.42,
+    "url": "https://dexscreener.com/solana/7clewzmidte1kmvttphgu92gfmizagtjsemzzeujtjyb",
+    "watch": "scan"
   }
 ]

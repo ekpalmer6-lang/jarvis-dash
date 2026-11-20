@@ -1,243 +1,5 @@
 [
   {
-    "t": "2026-11-20T21:44:02+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "LOOSY 5m flow pressure 0.546 buyers 86 large-net $0 (0 large selling)",
-    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
-  },
-  {
-    "t": "2026-11-20T21:44:09+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T21:44:09+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "feed refresh started"
-  },
-  {
-    "t": "2026-11-20T21:44:19+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "telegram: 8/8 channels, 114 mint mentions"
-  },
-  {
-    "t": "2026-11-20T21:44:22+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 13101ms: 236 mints, 12 cheap rows, 8 moving"
-  },
-  {
-    "t": "2026-11-20T21:44:37+00:00",
-    "agent": "Hype Meter",
-    "level": "warn",
-    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
-  },
-  {
-    "t": "2026-11-20T21:44:37+00:00",
-    "agent": "Hype Meter",
-    "level": "warn",
-    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
-  },
-  {
-    "t": "2026-11-20T21:44:41+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Singularity 5m flow pressure 0.529 buyers 124 large-net $1158.21 (11 large selling)",
-    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
-  },
-  {
-    "t": "2026-11-20T21:44:43+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "enu 5m flow: 16 buys / 27 sells, pressure 0.177, 12 unique buyers, large-wallet net $0",
-    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
-  },
-  {
-    "t": "2026-11-20T21:44:46+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "chud 5m flow: 174 buys / 126 sells, pressure 0.463, 81 unique buyers, large-wallet net $-712.08",
-    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
-  },
-  {
-    "t": "2026-11-20T21:44:50+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 2 with flow"
-  },
-  {
-    "t": "2026-11-20T21:46:54+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "BTC 5m flow pressure 0.848 buyers 116 large-net $269.67 (0 large selling)",
-    "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump"
-  },
-  {
-    "t": "2026-11-20T21:46:56+00:00",
-    "agent": "Risk",
-    "level": "warn",
-    "msg": "too bundled: 35.24% held by linked wallets",
-    "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
-    "symbol": "BTC",
-    "reason": "too bundled: 35.24% held by linked wallets",
-    "clustered_pct": 35.24,
-    "cluster_count": 1
-  },
-  {
-    "t": "2026-11-20T21:47:15+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "AI 5m flow pressure 0.517 buyers 28 large-net $-298.48 (1 large selling)",
-    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
-  },
-  {
-    "t": "2026-11-20T21:47:21+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T21:47:31+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 10065ms: 243 mints, 13 cheap rows, 7 moving"
-  },
-  {
-    "t": "2026-11-20T21:47:44+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "chud 5m flow pressure 0.395 buyers 32 large-net $-855.19 (5 large selling)",
-    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
-  },
-  {
-    "t": "2026-11-20T21:48:04+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "DCTY 5m flow pressure 0.147 buyers 10 large-net $-1916.62 (5 large selling)",
-    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
-  },
-  {
-    "t": "2026-11-20T21:48:24+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "LOOSY 5m flow pressure 0.364 buyers 28 large-net $-1229.02 (7 large selling)",
-    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
-  },
-  {
-    "t": "2026-11-20T21:48:43+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "enu 5m flow pressure 0.357 buyers 26 large-net $-1373.83 (3 large selling)",
-    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
-  },
-  {
-    "t": "2026-11-20T21:48:49+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T21:48:59+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 9600ms: 245 mints, 12 cheap rows, 8 moving"
-  },
-  {
-    "t": "2026-11-20T21:49:04+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: SELL 100% DCTY: time stop 15m ($11.44)"
-  },
-  {
-    "t": "2026-11-20T21:49:12+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Trader 5m flow pressure 0.546 buyers 86 large-net $288.43 (8 large selling)",
-    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
-  },
-  {
-    "t": "2026-11-20T21:51:08+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "RUDY 5m flow pressure 0.967 buyers 15 large-net $236.78 (0 large selling)",
-    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
-  },
-  {
-    "t": "2026-11-20T21:54:15+00:00",
-    "agent": "Risk",
-    "level": "warn",
-    "msg": "risk-off: risk-off: new-launch 5m vol $118,073 vs prior $304,494 (down 61%)",
-    "sol_chg1h": 2.14,
-    "launch_volume": {
-      "current": 118073.0,
-      "previous": 304494.0,
-      "drop_pct": 61.2,
-      "current_n": 6,
-      "previous_n": 7,
-      "reason": "new-launch 5m vol $118,073 vs prior $304,494 (down 61%)"
-    }
-  },
-  {
-    "t": "2026-11-20T21:54:16+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 started"
-  },
-  {
-    "t": "2026-11-20T21:54:16+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "feed refresh started"
-  },
-  {
-    "t": "2026-11-20T21:54:26+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "telegram: 8/8 channels, 114 mint mentions"
-  },
-  {
-    "t": "2026-11-20T21:54:30+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 13987ms: 246 mints, 14 cheap rows, 5 moving"
-  },
-  {
-    "t": "2026-11-20T21:54:43+00:00",
-    "agent": "Hype Meter",
-    "level": "warn",
-    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
-  },
-  {
-    "t": "2026-11-20T21:54:43+00:00",
-    "agent": "Hype Meter",
-    "level": "warn",
-    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
-  },
-  {
-    "t": "2026-11-20T21:55:12+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "chud 5m flow: 40 buys / 37 sells, pressure 0.424, 25 unique buyers, large-wallet net $-580.36",
-    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
-  },
-  {
-    "t": "2026-11-20T21:55:14+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Singularity 5m flow: 184 buys / 116 sells, pressure 0.454, 93 unique buyers, large-wallet net $-1093.94",
-    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
-  },
-  {
-    "t": "2026-11-20T21:55:16+00:00",
-    "agent": "Hype Meter",
-    "level": "info",
-    "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 2 with flow"
-  },
-  {
     "t": "2026-11-20T21:55:48+00:00",
     "agent": "Risk",
     "level": "warn",
@@ -34109,5 +33871,548 @@
     "reason": "too bundled: 19.6% held by linked wallets",
     "clustered_pct": 19.6,
     "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip ByQDru cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip A3c6mS cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip GvidL6 cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 6bc2zJ cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip DbhDvA cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CKhLon cash"
+  },
+  {
+    "t": "2026-11-20T23:29:34+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 58/100). Cost gate: round-trip cost 10.51% > 10%; price impact 4.01% > 4%.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 58,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T23:29:34+00:00",
+      "confidence": 58,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 58/100). Cost gate: round-trip cost 10.51% > 10%; price impact 4.01% > 4%.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.1
+      },
+      "paused": false,
+      "cost": {
+        "ok": false,
+        "rt_cost_pct": 10.002,
+        "impact_pct": 2.0078,
+        "min_sensible_size": 3.64,
+        "reason": "round-trip cost 10.00% > 10%",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 15.75,
+          "max": 18.75
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 4.5,
+          "max": 11.25
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "pass",
+          "value": "$102,517",
+          "pts": 11.25,
+          "max": 11.25
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "pass",
+          "value": "70% buys in 5m",
+          "pts": 11.25,
+          "max": 11.25
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "warn",
+          "value": "-16.0% in 5m",
+          "pts": 4.5,
+          "max": 7.5
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 3.75,
+          "max": 7.5
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "fail",
+          "value": "round-trip cost 10.51% > 10%; price impact 4.01% > 4%",
+          "pts": 0.0,
+          "max": 7.5
+        },
+        {
+          "id": "chart_signals",
+          "label": "Chart signals (1m)",
+          "status": "fail",
+          "value": "30/100 lower highs but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend) | timing: wait pullback",
+          "pts": 7.5,
+          "max": 25
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 30,
+        "verdict": "unfavorable",
+        "timing": "wait_pullback",
+        "timing_why": [
+          "running: wait for a pullback toward EMA20/VWAP instead of chasing"
+        ],
+        "exit_hints": [],
+        "summary": "lower highs but price above VWAP (most holders in profit, chasing), pullback to support with a bullish confirm candle, EMA9 above EMA20 and price above both (uptrend)",
+        "bars": 158,
+        "tf": "1m",
+        "signals": [
+          "price above VWAP (most holders in profit, chasing)",
+          "pullback to support with a bullish confirm candle",
+          "EMA9 above EMA20 and price above both (uptrend)",
+          "higher lows",
+          "lower highs",
+          "long lower wick at support (buyers defending)",
+          "pulled back to EMA20/support and held",
+          "dragonfly doji (dip bought)"
+        ]
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T23:29:39+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T23:29:55+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15477ms: 402 mints, 182 cheap rows, 73 moving"
+  },
+  {
+    "t": "2026-11-20T23:29:55+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for UNEMPLOYED: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "FkHKtDRbKENSgnzYjco5ahoUyucw6bQyiFsMjKyRpump"
+  },
+  {
+    "t": "2026-11-20T23:30:01+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 22.78% held by linked wallets",
+    "mint": "EUerLXMvnNyMp4A7EhueM5DuJkdRzkiHpAjnD6DXpump",
+    "symbol": "Rockstar",
+    "reason": "too bundled: 22.78% held by linked wallets",
+    "clustered_pct": 22.78,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T23:30:01+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BANDANA 5m flow pressure 0.408 buyers 87 large-net $-512.36 (7 large selling)",
+    "mint": "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx"
+  },
+  {
+    "t": "2026-11-20T23:30:02+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 12.72% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 12.72% held by linked wallets",
+    "clustered_pct": 12.72,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip ByQDru cash"
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip A3c6mS cash"
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip GvidL6 cash"
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FgLzBU cash"
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip DbhDvA cash"
+  },
+  {
+    "t": "2026-11-20T23:30:04+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CKhLon cash"
+  },
+  {
+    "t": "2026-11-20T23:30:06+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 74/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 74,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T23:30:06+00:00",
+      "confidence": 74,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 74/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.18
+      },
+      "paused": false,
+      "cost": {
+        "ok": true,
+        "rt_cost_pct": 6.5,
+        "impact_pct": 0.0,
+        "min_sensible_size": 3.64,
+        "reason": "passes cost gate",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 21.0,
+          "max": 25
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 6.0,
+          "max": 15
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "pass",
+          "value": "$102,517",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "pass",
+          "value": "70% buys in 5m",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "warn",
+          "value": "-16.0% in 5m",
+          "pts": 6.0,
+          "max": 10
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 5.0,
+          "max": 10
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "RT 8.63%, impact 2.13% (tight)",
+          "pts": 6.0,
+          "max": 10
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 50,
+        "verdict": "no_data",
+        "timing": "wait",
+        "timing_why": null,
+        "exit_hints": [],
+        "summary": "no chart data",
+        "bars": 0,
+        "tf": "1m",
+        "signals": []
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T23:30:09+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T23:30:26+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 16778ms: 381 mints, 178 cheap rows, 72 moving"
+  },
+  {
+    "t": "2026-11-20T23:30:27+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "snipers still hold 14.26% of supply",
+    "mint": "Cst14FYdsf7irXWq65rP1oWC7gSZr76DXTwWuS71u3D5",
+    "symbol": "JAILBREAK",
+    "still_holding": 14.26,
+    "sniper_wallets": 0
+  },
+  {
+    "t": "2026-11-20T23:30:27+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "launch wallets still hold 14.26% of supply",
+    "mint": "Cst14FYdsf7irXWq65rP1oWC7gSZr76DXTwWuS71u3D5",
+    "symbol": "JAILBREAK",
+    "launch_wallets_still_holding_pct": 14.26
+  },
+  {
+    "t": "2026-11-20T23:30:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DADIENG 5m flow pressure None buyers 0 large-net $0 (0 large selling)",
+    "mint": "A3c6mSQFZY27pAgDe29cs3zmTH8roBEWvv9VsAZ5JebL"
+  },
+  {
+    "t": "2026-11-20T23:30:28+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "JAILBREAK 5m flow pressure 0.992 buyers 5 large-net $318.55 (0 large selling)",
+    "mint": "Cst14FYdsf7irXWq65rP1oWC7gSZr76DXTwWuS71u3D5"
+  },
+  {
+    "t": "2026-11-20T23:30:28+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MENTALIST 5m flow pressure None buyers 0 large-net $0 (0 large selling)",
+    "mint": "FfKuZKnAichYH9mn5PrE6dK5qDWcXU3MJjLbweNQDd4k"
+  },
+  {
+    "t": "2026-11-20T23:30:29+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "PACKS 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "AxkbrDdSReLYJwyBycuLkvZ7mMV36Q8obkMY5pKKip2M"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow pressure 0.589 buyers 86 large-net $906.1 (9 large selling)",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip ByQDru cash"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip A3c6mS cash"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip GvidL6 cash"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FgLzBU cash"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip DbhDvA cash"
+  },
+  {
+    "t": "2026-11-20T23:30:34+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CKhLon cash"
   }
 ]
