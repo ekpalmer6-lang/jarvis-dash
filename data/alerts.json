@@ -2560,5 +2560,46 @@
     "flags": [
       "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
     ]
+  },
+  {
+    "t": "2026-11-20T23:04:29+00:00",
+    "ts": 1795215869,
+    "kind": "spike",
+    "mint": "GiQveVWe4kMSiuws7WrMaybEJeadS5dhCCrWtc5jpump",
+    "symbol": "G6L",
+    "msg": "G6L volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.032,
+    "last_1m": 2.73,
+    "prior_30m_avg_1m": 0.25,
+    "url": "https://dexscreener.com/solana/cvuhnkab5rrh1g6qf2iawfkc4psnbbh2cvos4iodlbaf",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:04:49+00:00",
+    "ts": 1795215889,
+    "kind": "spike",
+    "mint": "6BxTiDtAPTxvRhZfqFrEVYahTEswcB6d23wnW5m5pump",
+    "symbol": "cap",
+    "msg": "cap volume spike 30.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 29.978,
+    "last_1m": 11.07,
+    "prior_30m_avg_1m": 0.37,
+    "url": "https://dexscreener.com/solana/fsdckah1ikxvqdun6w6cncmxqdeuz7yxks88jsdekxpd",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:04:49+00:00",
+    "ts": 1795215889,
+    "kind": "fast",
+    "mint": "92TdQeJZymwh8eWPjJHSJvLRmkSxKpzWP2APNGgfpump",
+    "symbol": "BOTSHIT",
+    "msg": "BOTSHIT +107% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 107,
+    "mc_usd": 4046.77,
+    "url": "https://dexscreener.com/solana/5rwkx4ptq7fjspgr8ey6oztmbj9sazsoapatmzpfm3r9",
+    "watch": "scan"
   }
 ]
