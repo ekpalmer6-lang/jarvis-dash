@@ -1153,5 +1153,58 @@
     "level": "info",
     "msg": "FIENA: watch, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 0 selling / 4 accumulating",
     "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump"
+  },
+  {
+    "t": "2026-11-20T19:35:21+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DYSON 5m flow pressure 0.932 buyers 87 large-net $575.6 (0 large selling)",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T19:35:23+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 21.78% held by linked wallets",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump",
+    "symbol": "DYSON",
+    "reason": "too bundled: 21.78% held by linked wallets",
+    "clustered_pct": 21.78,
+    "cluster_count": 5
+  },
+  {
+    "t": "2026-11-20T19:35:23+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "DYSON: avoid, size $0, dev: bad: serial launcher, most coins dead, whales 5 selling / 0 accumulating",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T19:35:34+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MATHISOVER 5m flow pressure 0.545 buyers 269 large-net $117.11 (2 large selling)",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:35:38+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "MATHISOVER: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:35:51+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.316 buyers 104 large-net $-643.05 (2 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T19:35:56+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 1 selling / 3 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
   }
 ]
