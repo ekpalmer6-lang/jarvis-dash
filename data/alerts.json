@@ -262,5 +262,47 @@
     "flags": [
       "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
     ]
+  },
+  {
+    "t": "2026-11-20T20:05:36+00:00",
+    "ts": 1795205136,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 18.7,
+        "stale": false,
+        "at": "2026-11-20T20:05:18+00:00",
+        "at_et": "Nov 21, 4:05 AM AWST",
+        "at_awst": "Nov 21, 4:05 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 10.6,
+        "stale": false,
+        "at": "2026-11-20T20:05:26+00:00",
+        "at_et": "Nov 21, 4:05 AM AWST",
+        "at_awst": "Nov 21, 4:05 AM AWST"
+      },
+      "scan": {
+        "age_s": 563.1,
+        "stale": false,
+        "at": "2026-11-20T19:56:13+00:00",
+        "at_et": "Nov 21, 3:56 AM AWST",
+        "at_awst": "Nov 21, 3:56 AM AWST"
+      },
+      "status": {
+        "age_s": 18.7,
+        "stale": false,
+        "at": "2026-11-20T20:05:18+00:00",
+        "at_et": "Nov 21, 4:05 AM AWST",
+        "at_awst": "Nov 21, 4:05 AM AWST"
+      }
+    }
   }
 ]
