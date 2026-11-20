@@ -947,5 +947,100 @@
     "level": "info",
     "msg": "MATHISOVER: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
     "mint": "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump"
+  },
+  {
+    "t": "2026-11-20T19:31:04+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.455 buyers 81 large-net $0 (0 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY TESTCOIN $10.20 \u2014 Bought: passed safety, confidence 78, first Telegram call 12s old",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.2
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL TESTCOIN $5.00 \u2014 Sold: took a partial at +30%",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL TESTCOIN $3.00 \u2014 Sold: stop-loss hit at -20%",
+    "mint": "TestMint1111111111111111111111111111111111",
+    "strategy": "discretionary",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY LOSER $4.00 \u2014 Bought: test loss 1",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL LOSER $3.00 \u2014 Sold: stop-loss hit at -20%",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY LOSER $4.00 \u2014 Bought: test loss 2",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL LOSER $3.00 \u2014 Sold: stop-loss hit at -20%",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "BUY LOSER $4.00 \u2014 Bought: test loss 3",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:11+00:00",
+    "agent": "Logger",
+    "level": "info",
+    "msg": "SELL LOSER $2.50 \u2014 Sold: stop-loss hit at -20%",
+    "mint": "TestMint2222222222222222222222222222222222",
+    "strategy": "momentum",
+    "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T19:31:21+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
   }
 ]
