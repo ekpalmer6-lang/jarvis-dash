@@ -22670,5 +22670,877 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4zsCQf cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 59LXRk cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip EQeu9J cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7zz2zp cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:51:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 7DQQej cash"
+  },
+  {
+    "t": "2026-11-20T22:52:05+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 13232ms: 381 mints, 147 cheap rows, 77 moving"
+  },
+  {
+    "t": "2026-11-20T22:52:07+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "GTA 5m flow pressure 0.974 buyers 9 large-net $0 (0 large selling)",
+    "mint": "4Q5iPoCqHU96Zm3x4dsQZLVi71h2ZSdjynqukpLMpump"
+  },
+  {
+    "t": "2026-11-20T22:52:10+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "TRAVIS 5m flow pressure 0.366 buyers 17 large-net $-82.57 (1 large selling)",
+    "mint": "6fciA2irZLjjuQCMn87p3dgnmaWEG6BxP2dqD1Hnpump"
+  },
+  {
+    "t": "2026-11-20T22:52:12+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 14.2% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 14.2% held by linked wallets",
+    "clustered_pct": 14.2,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:52:15+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 59/100). Chart signals (1m): 31/100 but just under resistance (prior high), price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 59,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T22:52:15+00:00",
+      "confidence": 59,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 59/100). Chart signals (1m): 31/100 but just under resistance (prior high), price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.38
+      },
+      "paused": false,
+      "cost": {
+        "ok": true,
+        "rt_cost_pct": 8.518,
+        "impact_pct": 2.0176,
+        "min_sensible_size": 3.64,
+        "reason": "passes cost gate",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 15.75,
+          "max": 18.75
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 4.5,
+          "max": 11.25
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "pass",
+          "value": "$91,322",
+          "pts": 9.0,
+          "max": 11.25
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "warn",
+          "value": "61% buys in 5m",
+          "pts": 6.19,
+          "max": 11.25
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "pass",
+          "value": "+7.0% in 5m, steady",
+          "pts": 7.5,
+          "max": 7.5
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 3.75,
+          "max": 7.5
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "RT 7.14%, impact 0.64% (tight)",
+          "pts": 4.5,
+          "max": 7.5
+        },
+        {
+          "id": "chart_signals",
+          "label": "Chart signals (1m)",
+          "status": "fail",
+          "value": "31/100 but just under resistance (prior high), price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: avoid entry",
+          "pts": 7.75,
+          "max": 25
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 31,
+        "verdict": "unfavorable",
+        "timing": "avoid_entry",
+        "timing_why": [
+          "right under resistance"
+        ],
+        "exit_hints": [],
+        "summary": "but just under resistance (prior high), price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend)",
+        "bars": 120,
+        "tf": "1m",
+        "signals": [
+          "just under resistance (prior high)",
+          "price above VWAP (most holders in profit, chasing)",
+          "EMA9 above EMA20 and price above both (uptrend)",
+          "bullish engulfing candle",
+          "full-body green candle"
+        ]
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:52:15+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy MONKE (confidence 46/100). Buy pressure: 49% buys (sell-heavy).",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+    "symbol": "MONKE",
+    "confidence": 46,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+      "symbol": "MONKE",
+      "updated": "2026-11-20T22:52:15+00:00",
+      "confidence": 46,
+      "size_usd": 0.0,
+      "verdict": "Do not buy MONKE (confidence 46/100). Buy pressure: 49% buys (sell-heavy).",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.38
+      },
+      "paused": false,
+      "cost": {
+        "ok": true,
+        "rt_cost_pct": 8.529,
+        "impact_pct": 2.0293,
+        "min_sensible_size": 3.64,
+        "reason": "passes cost gate",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [
+        "choppy-chart cap 55"
+      ],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 15.75,
+          "max": 18.75
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 4.5,
+          "max": 11.25
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "warn",
+          "value": "$58,496 below $60k rule",
+          "pts": 5.06,
+          "max": 11.25
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "fail",
+          "value": "49% buys (sell-heavy)",
+          "pts": 0.0,
+          "max": 11.25
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "fail",
+          "value": "-17.7% in 5m; -47% in 1h",
+          "pts": 0.0,
+          "max": 7.5
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 3.75,
+          "max": 7.5
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "RT 8.53%, impact 2.03% (tight)",
+          "pts": 4.5,
+          "max": 7.5
+        },
+        {
+          "id": "chart_signals",
+          "label": "Chart signals (1m)",
+          "status": "warn",
+          "value": "50/100 price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC) | timing: avoid entry",
+          "pts": 12.5,
+          "max": 25
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 50,
+        "verdict": "neutral",
+        "timing": "avoid_entry",
+        "timing_why": [
+          "right under resistance"
+        ],
+        "exit_hints": [
+          "bearish reversal candle at resistance"
+        ],
+        "summary": "price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC)",
+        "bars": 39,
+        "tf": "1m",
+        "signals": [
+          "just under resistance (swing high / round MC)",
+          "price below VWAP (cooled off, not chasing)",
+          "red engulfing candle (sellers flushed)",
+          "EMA9 below EMA20 and price below EMA20 (downtrend)"
+        ]
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:52:22+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4zsCQf cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 59LXRk cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip EQeu9J cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7zz2zp cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EoV9JQ cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:52:23+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 7DQQej cash"
+  },
+  {
+    "t": "2026-11-20T22:52:33+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10454ms: 385 mints, 153 cheap rows, 85 moving"
+  },
+  {
+    "t": "2026-11-20T22:52:34+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "$DCTY 5m flow pressure 0.5 buyers 1 large-net $0 (0 large selling)",
+    "mint": "8ie1DUFGQycm69zEzPrKWmze6BQ7UwtbmfyfsdfHpump"
+  },
+  {
+    "t": "2026-11-20T22:52:35+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Bridge 5m flow pressure 0.589 buyers 72 large-net $0 (0 large selling)",
+    "mint": "7UEfmK8x9DuxxvPTd7wz2nz3u5deDJ4CfaUmhRkypump"
+  },
+  {
+    "t": "2026-11-20T22:52:44+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 61/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 61,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T22:52:44+00:00",
+      "confidence": 61,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 61/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.11
+      },
+      "paused": false,
+      "cost": {
+        "ok": true,
+        "rt_cost_pct": 8.565,
+        "impact_pct": 2.0654,
+        "min_sensible_size": 3.64,
+        "reason": "passes cost gate",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 15.75,
+          "max": 18.75
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 4.5,
+          "max": 11.25
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "pass",
+          "value": "$91,322",
+          "pts": 9.0,
+          "max": 11.25
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "warn",
+          "value": "61% buys in 5m",
+          "pts": 6.19,
+          "max": 11.25
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "pass",
+          "value": "+7.0% in 5m, steady",
+          "pts": 7.5,
+          "max": 7.5
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 3.75,
+          "max": 7.5
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "RT 8.57%, impact 2.07% (tight)",
+          "pts": 4.5,
+          "max": 7.5
+        },
+        {
+          "id": "chart_signals",
+          "label": "Chart signals (1m)",
+          "status": "warn",
+          "value": "41/100 but price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend) | timing: wait pullback",
+          "pts": 10.25,
+          "max": 25
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 41,
+        "verdict": "neutral",
+        "timing": "wait_pullback",
+        "timing_why": [
+          "running: wait for a pullback toward EMA20/VWAP instead of chasing"
+        ],
+        "exit_hints": [],
+        "summary": "but price above VWAP (most holders in profit, chasing), EMA9 above EMA20 and price above both (uptrend)",
+        "bars": 122,
+        "tf": "1m",
+        "signals": [
+          "price above VWAP (most holders in profit, chasing)",
+          "EMA9 above EMA20 and price above both (uptrend)"
+        ]
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:52:44+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy MONKE (confidence 46/100). Buy pressure: 49% buys (sell-heavy).",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+    "symbol": "MONKE",
+    "confidence": 46,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
+      "symbol": "MONKE",
+      "updated": "2026-11-20T22:52:44+00:00",
+      "confidence": 46,
+      "size_usd": 0.0,
+      "verdict": "Do not buy MONKE (confidence 46/100). Buy pressure: 49% buys (sell-heavy).",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": 0.11
+      },
+      "paused": false,
+      "cost": {
+        "ok": true,
+        "rt_cost_pct": 8.538,
+        "impact_pct": 2.0377,
+        "min_sensible_size": 3.64,
+        "reason": "passes cost gate",
+        "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+        "source": "lite-api.jup.ag"
+      },
+      "notes": [
+        "choppy-chart cap 55"
+      ],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "warn",
+          "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+          "pts": 15.75,
+          "max": 18.75
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "warn",
+          "value": "launch block not measured",
+          "pts": 4.5,
+          "max": 11.25
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "warn",
+          "value": "$58,496 below $60k rule",
+          "pts": 5.06,
+          "max": 11.25
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "fail",
+          "value": "49% buys (sell-heavy)",
+          "pts": 0.0,
+          "max": 11.25
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "fail",
+          "value": "-17.7% in 5m; -47% in 1h",
+          "pts": 0.0,
+          "max": 7.5
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 3.75,
+          "max": 7.5
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "RT 8.54%, impact 2.04% (tight)",
+          "pts": 4.5,
+          "max": 7.5
+        },
+        {
+          "id": "chart_signals",
+          "label": "Chart signals (1m)",
+          "status": "warn",
+          "value": "50/100 price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC) | timing: avoid entry",
+          "pts": 12.5,
+          "max": 25
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz sources",
+          "status": "warn",
+          "value": "no independent 30m sources"
+        },
+        {
+          "id": "entry",
+          "label": "Entry timing",
+          "status": "fail",
+          "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+        },
+        {
+          "id": "exit_profile",
+          "label": "Exit profile",
+          "status": "pass",
+          "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+        }
+      ],
+      "exit_profile": "standard",
+      "exit_plan": {
+        "profile": "standard",
+        "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      },
+      "chart": {
+        "score": 50,
+        "verdict": "neutral",
+        "timing": "avoid_entry",
+        "timing_why": [
+          "right under resistance"
+        ],
+        "exit_hints": [
+          "bearish reversal candle at resistance"
+        ],
+        "summary": "price below VWAP (cooled off, not chasing) + red engulfing candle (sellers flushed) but just under resistance (swing high / round MC)",
+        "bars": 39,
+        "tf": "1m",
+        "signals": [
+          "just under resistance (swing high / round MC)",
+          "price below VWAP (cooled off, not chasing)",
+          "red engulfing candle (sellers flushed)",
+          "EMA9 below EMA20 and price below EMA20 (downtrend)"
+        ]
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T22:52:52+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8ie1DU cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7UEfmK cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4zsCQf cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 59LXRk cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip EQeu9J cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EoV9JQ cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:52:54+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip 7DQQej cash"
   }
 ]
