@@ -126,6 +126,15 @@
         return p ? jsonResp(p) : jsonResp({ t: Date.now() / 1000, source: "snapshot", prices: {} });
       }
     }
+    if (path === "/api/tax.csv") {
+      const r = await origFetch(new URL("data/tax_log.csv", ROOT), { cache: "no-store" });
+      if (!r.ok) return new Response("# Record-keeping only, not tax advice.\ndate_time_ET,type,coin_symbol,mint,quantity,usd_amount,fee_usd,cost_basis_usd,proceeds_usd,gain_loss_usd,holding_period,tx_ref,reason\n", { status: 200, headers: { "Content-Type": "text/csv; charset=utf-8", "Cache-Control": "no-store" } });
+      return r;
+    }
+    if (path === "/api/stats") {
+      const s = await snap("stats.json");
+      return jsonResp(s || { empty: true });
+    }
     if (path === "/api/ohlcv") {
       const pool = q.get("pool") || "";
       const d = (await snap("ohlcv.json")) || {};
