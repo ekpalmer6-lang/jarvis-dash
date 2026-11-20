@@ -3295,5 +3295,32 @@
     "prior_30m_avg_1m": 0.31,
     "url": "https://dexscreener.com/solana/4ih7c6sxunqathvchnriqvqtpkbxckc5xtdmgiphmzql",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:27:22+00:00",
+    "ts": 1795217242,
+    "kind": "fast",
+    "mint": "7c6XxyxxMZCXvkd1yFpMzsDrRqfj6rocGzPqZvKWpump",
+    "symbol": "der",
+    "msg": "der +38% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 38.33,
+    "mc_usd": 2953.28,
+    "url": "https://dexscreener.com/solana/dx1p5c68tl716jhwino6kgc5hsn4yvi7jcjjenhdhgru",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:27:22+00:00",
+    "ts": 1795217242,
+    "kind": "spike",
+    "mint": "GCK5obQC1UxH8ywD7z5NnZS7BYDJ8xbvSXcpWsDhpump",
+    "symbol": "TRILLION",
+    "msg": "TRILLION volume spike 9.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 9.51,
+    "last_1m": 37.82,
+    "prior_30m_avg_1m": 3.98,
+    "url": "https://dexscreener.com/solana/fvgpmufuck36ytjyordnohkffuc8osrbdzgfm773qh2v",
+    "watch": "scan"
   }
 ]
