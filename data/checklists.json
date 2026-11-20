@@ -2,10 +2,10 @@
   "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu": {
     "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
     "symbol": "SBS",
-    "updated": "2026-11-20T23:54:38+00:00",
-    "confidence": 54,
+    "updated": "2026-11-20T23:55:04+00:00",
+    "confidence": 56,
     "size_usd": 0.0,
-    "verdict": "Do not buy SBS (confidence 54/100). Cost gate: round-trip cost 11.10% > 10%; price impact 4.60% > 4%.",
+    "verdict": "Do not buy SBS (confidence 56/100). Cost gate: round-trip cost 11.12% > 10%; price impact 4.62% > 4%.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
@@ -15,10 +15,10 @@
     "paused": false,
     "cost": {
       "ok": false,
-      "rt_cost_pct": 12.56,
-      "impact_pct": 4.5654,
+      "rt_cost_pct": 12.571,
+      "impact_pct": 4.5768,
       "min_sensible_size": 3.64,
-      "reason": "round-trip cost 12.56% > 10%; price impact 4.57% > 4%",
+      "reason": "round-trip cost 12.57% > 10%; price impact 4.58% > 4%",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
       "source": "lite-api.jup.ag"
     },
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "warn",
-        "value": "$18,545 thin",
+        "value": "$17,449 thin",
         "pts": 2.25,
         "max": 11.25
       },
@@ -60,8 +60,8 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "warn",
-        "value": "+109% in 5m (chasing)",
-        "pts": 2.25,
+        "value": "+22.0% in 5m",
+        "pts": 4.5,
         "max": 7.5
       },
       {
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "fail",
-        "value": "round-trip cost 11.10% > 10%; price impact 4.60% > 4%",
+        "value": "round-trip cost 11.12% > 10%; price impact 4.62% > 4%",
         "pts": 0.0,
         "max": 7.5
       },

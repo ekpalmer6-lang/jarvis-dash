@@ -3962,5 +3962,31 @@
         "at_awst": "Nov 21, 7:54 AM AWST"
       }
     }
+  },
+  {
+    "t": "2026-11-20T23:54:41+00:00",
+    "ts": 1795218881,
+    "kind": "pass",
+    "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
+    "symbol": "SBS",
+    "msg": "SBS passed all safety checks \u00b7 size $0.0",
+    "source": "out/latest.json",
+    "mc_usd": 68409,
+    "liq_usd": 18545,
+    "url": "https://dexscreener.com/solana/asztn7gufcodmjnfkcqgarc2bb6qniup9hzy4j2pkkl2"
+  },
+  {
+    "t": "2026-11-20T23:55:22+00:00",
+    "ts": 1795218922,
+    "kind": "spike",
+    "mint": "Hv8VJYCsKHeDfJLvodaQYA3rMiThv92wn75YpmNEpump",
+    "symbol": "DOMINU",
+    "msg": "DOMINU volume spike 17.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 17.112,
+    "last_1m": 281.97,
+    "prior_30m_avg_1m": 16.48,
+    "url": "https://dexscreener.com/solana/fsa6m8r1cusvmi8zbmfeabahphzbjrp7dq8zdffroafu",
+    "watch": "scan"
   }
 ]
