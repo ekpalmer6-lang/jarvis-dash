@@ -4,8 +4,8 @@
   "day_end_awst": "2026-11-21T08:00:00+08:00",
   "timezone": "Australia/Perth",
   "timezone_label": "AWST",
-  "built_at": "2026-11-20T20:01:43+00:00",
-  "built_at_awst": "Nov 21, 4:01:43 AM AWST",
+  "built_at": "2026-11-20T20:51:07+00:00",
+  "built_at_awst": "Nov 21, 4:51:07 AM AWST",
   "no_trades": true,
   "trades": [],
   "trade_count": 0,
@@ -18,29 +18,39 @@
   "losses": 0,
   "start_balance_usd": 20.41,
   "end_balance_usd": 20.41,
+  "start_cash_usd": 9.69,
+  "end_cash_usd": 19.5,
+  "start_portfolio_usd": 20.41,
+  "end_portfolio_usd": 20.41,
+  "cash_usd": 19.5,
+  "portfolio_usd": 20.41,
   "scanner": {
-    "scans": 9,
-    "unique_coins": 47,
-    "candidate_sightings": 2,
-    "unique_candidates": 2,
-    "avoid_sightings": 52,
-    "watch_sightings": 80,
+    "scans": 14,
+    "unique_coins": 53,
+    "candidate_sightings": 3,
+    "unique_candidates": 3,
+    "avoid_sightings": 73,
+    "watch_sightings": 111,
     "top_reject_reasons": [
       {
         "reason": "LP not locked enough",
-        "count": 36
+        "count": 50
       },
       {
         "reason": "insider/bundle holdings",
-        "count": 8
+        "count": 12
       },
       {
         "reason": "dev reputation",
-        "count": 6
+        "count": 7
       },
       {
         "reason": "marked rugged",
         "count": 2
+      },
+      {
+        "reason": "too few holders",
+        "count": 1
       }
     ],
     "best_skipped": {
@@ -58,10 +68,71 @@
   "alerts": {
     "rug": 0,
     "spike": 2,
-    "total": 20
+    "total": 29
   },
-  "headline": "No trades today. Cash $20.41.",
-  "summary": "No trades on 2026-11-20. Start $20.41, end $20.41. The scanner ran 9 times on 47 coins, 2 candidates. Best skipped: Singularity (score 62.8).",
-  "push_body": "No trades today. Cash $20.41.",
+  "paper_strategies": {
+    "updated": "2026-11-20T20:51:07+00:00",
+    "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
+    "min_closed_to_rank": 5,
+    "best": null,
+    "best_reason": "no strategy has 5+ closed paper trades yet",
+    "strategies": {
+      "curve_momentum": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_pnl_usd": null,
+        "sum_pnl_usd": 0.0,
+        "expectancy_usd": null,
+        "open_positions": 0,
+        "cash_usd": null,
+        "equity_usd": null,
+        "label": "Fresh-launch momentum (bonding curve)",
+        "note": "need 5 closed trades before this book can be crowned best (have 0)"
+      },
+      "grad_pullback": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_pnl_usd": null,
+        "sum_pnl_usd": 0.0,
+        "expectancy_usd": null,
+        "open_positions": 0,
+        "cash_usd": null,
+        "equity_usd": null,
+        "label": "Post-graduation pullback",
+        "note": "need 5 closed trades before this book can be crowned best (have 0)"
+      },
+      "call_early": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_pnl_usd": null,
+        "sum_pnl_usd": 0.0,
+        "expectancy_usd": null,
+        "open_positions": 0,
+        "cash_usd": null,
+        "equity_usd": null,
+        "label": "Call-group early entry (Telegram, <30s, not coordinated)",
+        "note": "need 5 closed trades before this book can be crowned best (have 0)"
+      },
+      "x_narrative": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_pnl_usd": null,
+        "sum_pnl_usd": 0.0,
+        "expectancy_usd": null,
+        "open_positions": 0,
+        "cash_usd": null,
+        "equity_usd": null,
+        "label": "Trending narrative from X/Reddit",
+        "note": "need 5 closed trades before this book can be crowned best (have 0)"
+      }
+    }
+  },
+  "headline": "No trades today. Cash $9.69 \u2192 $19.50. Portfolio $20.41.",
+  "summary": "No trades on 2026-11-20. Cash $9.69 \u2192 $19.50. Portfolio $20.41. (Start portfolio $20.41, end portfolio $20.41). The scanner ran 14 times on 53 coins, 3 candidates. Best skipped: Singularity (score 62.8). no strategy has 5+ closed paper trades yet curve_momentum \u2014 win, \u2014/trade after fees (0 closed); grad_pullback \u2014 win, \u2014/trade after fees (0 closed); call_early \u2014 win, \u2014/trade after fees (0 closed); x_narrative \u2014 win, \u2014/trade after fees (0 closed).",
+  "push_body": "No trades today. Cash $9.69 \u2192 $19.50. Portfolio $20.41.",
   "push_title": "JARVIS \u00b7 Daily digest"
 }
