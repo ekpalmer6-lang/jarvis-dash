@@ -2964,5 +2964,60 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:43:01+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 110 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:43:02+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 12050ms: 232 mints, 18 cheap rows, 7 moving"
+  },
+  {
+    "t": "2026-11-20T20:43:19+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.326 buyers 243 large-net $-8811.09 (5 large selling)",
+    "mint": "FBNGgWxjcBNx5BeMdgc2aMK7M9PMV8C3ZDJiEBWWpump"
+  },
+  {
+    "t": "2026-11-20T20:43:21+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:43:21+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:43:25+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 64.07% held by linked wallets",
+    "mint": "FBNGgWxjcBNx5BeMdgc2aMK7M9PMV8C3ZDJiEBWWpump",
+    "symbol": "Singularity",
+    "reason": "too bundled: 64.07% held by linked wallets",
+    "clustered_pct": 64.07,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T20:43:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow: 52 buys / 59 sells, pressure 0.398, 45 unique buyers, large-wallet net $-1158.26",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:43:36+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 1 with flow"
   }
 ]
