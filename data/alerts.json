@@ -4069,5 +4069,19 @@
     "prior_30m_avg_1m": 26.77,
     "url": "https://dexscreener.com/solana/4s84ssdkklvwvfwkkg3jpbysz44f5bpw1mt1urni3gvy",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:59:04+00:00",
+    "ts": 1795219144,
+    "kind": "spike",
+    "mint": "BEhpHrsQxkbt4jJxb4gxbgpCmg69G8wK5fUmSeYypump",
+    "symbol": "TERK",
+    "msg": "TERK volume spike 6.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.968,
+    "last_1m": 16.45,
+    "prior_30m_avg_1m": 2.76,
+    "url": "https://dexscreener.com/solana/63pzh3wj4zkyswxgndjxbnngy3dp6jqepzkudpxeyblq",
+    "watch": "scan"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:58:40+00:00",
+  "updated": "2026-11-20T23:59:41+00:00",
   "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
   "min_closed_to_rank": 5,
   "best": "grad_pullback",
@@ -13,8 +13,8 @@
       "sum_pnl_usd": -30.0393,
       "expectancy_usd": -10.0131,
       "open_positions": 0,
-      "cash_usd": -0.0393,
-      "equity_usd": -0.0393,
+      "cash_usd": 30.0,
+      "equity_usd": 30.0,
       "label": "Fresh-launch momentum (bonding curve)",
       "note": "need 5 closed trades before this book can be crowned best (have 3)"
     },
