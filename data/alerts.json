@@ -3512,5 +3512,61 @@
     "mc_usd": 2920.6,
     "url": "https://dexscreener.com/solana/ewnxondthjzqopd71fk15x19nmdhvuyr9xg9jkx5dxya",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:37:30+00:00",
+    "ts": 1795217850,
+    "kind": "spike",
+    "mint": "EWBvUzBSyTJP11sf8EnRWHYE2LXnKd6wvrkjg3hkJuK8",
+    "symbol": "QUAKE",
+    "msg": "QUAKE volume spike 8.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 8.309,
+    "last_1m": 0.35,
+    "prior_30m_avg_1m": 0.04,
+    "url": "https://dexscreener.com/solana/8qzxmhdyochxai8kdvlrt4bnjtlpywqkqavf5rnzsnvd",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:37:30+00:00",
+    "ts": 1795217850,
+    "kind": "spike",
+    "mint": "936nTctQshsamGbNcoBcogdp1xBd5ZtyUMkFD1xHpump",
+    "symbol": "NESS",
+    "msg": "NESS volume spike 12.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 12.912,
+    "last_1m": 601.11,
+    "prior_30m_avg_1m": 46.55,
+    "url": "https://dexscreener.com/solana/hocrxrvh2xyuommrfe4mfvj5xka5ijbkbnx2js9vdg6d",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:37:30+00:00",
+    "ts": 1795217850,
+    "kind": "spike",
+    "mint": "AFcgtFddaKngxWu7nkuEHFEs23jrBs6rHm4ZwhYirN1D",
+    "symbol": "JENSEN",
+    "msg": "JENSEN volume spike 11.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.264,
+    "last_1m": 62.28,
+    "prior_30m_avg_1m": 5.53,
+    "url": "https://dexscreener.com/solana/gktafjuxlxaptghlbegwani7bknnzhyaedshdzg6mj6p",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:37:30+00:00",
+    "ts": 1795217850,
+    "kind": "spike",
+    "mint": "CZi2adeofMB2pF8r3Kk4B1Ec4J1gQTVMPqfWEKdjzwqA",
+    "symbol": "GTA",
+    "msg": "GTA volume spike 27.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 27.607,
+    "last_1m": 60.62,
+    "prior_30m_avg_1m": 2.2,
+    "url": "https://dexscreener.com/solana/frv6z3spbgldjqwtjq6jd185kddcqu8ajp5qpttqavjh",
+    "watch": "scan"
   }
 ]
