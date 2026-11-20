@@ -4027,5 +4027,281 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 done in 11109ms: 239 mints, 11 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T21:03:24+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.717 buyers 83 large-net $0 (0 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T21:03:29+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 45/100). Safety checks: large wallets selling.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 45,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T21:03:29+00:00",
+      "confidence": 45,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 45/100). Safety checks: large wallets selling.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": -0.8
+      },
+      "paused": false,
+      "cost": null,
+      "notes": [
+        "safety/avoid cap 45"
+      ],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "fail",
+          "value": "large wallets selling",
+          "pts": 0.0,
+          "max": 25
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "pass",
+          "value": "bundle+sniper 5.3%, insiders 0%",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "warn",
+          "value": "$56,224 below $60k rule",
+          "pts": 6.75,
+          "max": 15
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "warn",
+          "value": "61% buys in 5m",
+          "pts": 8.25,
+          "max": 15
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "pass",
+          "value": "-9.2% in 5m, steady",
+          "pts": 10.0,
+          "max": 10
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 5.0,
+          "max": 10
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "cost not quoted yet",
+          "pts": 4.0,
+          "max": 10
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        }
+      ],
+      "chart": {
+        "score": 50,
+        "verdict": "no_data",
+        "timing": "wait",
+        "timing_why": null,
+        "exit_hints": [],
+        "summary": "no chart data",
+        "bars": 0,
+        "tf": "1m",
+        "signals": []
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T21:03:30+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T21:03:40+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10407ms: 233 mints, 12 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T21:03:40+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "Do not buy Trader (confidence 39/100). Safety checks: large wallets selling.",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "confidence": 39,
+    "size_usd": 0.0,
+    "checklist": {
+      "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+      "symbol": "Trader",
+      "updated": "2026-11-20T21:03:40+00:00",
+      "confidence": 39,
+      "size_usd": 0.0,
+      "verdict": "Do not buy Trader (confidence 39/100). Safety checks: large wallets selling.",
+      "scan_verdict": "candidate",
+      "regime": {
+        "risk_off": false,
+        "reason": "risk-on",
+        "sol_chg1h": -0.87
+      },
+      "paused": false,
+      "cost": null,
+      "notes": [
+        "safety/avoid cap 45",
+        "choppy-chart cap 55"
+      ],
+      "checks": [
+        {
+          "id": "safety",
+          "label": "Safety checks",
+          "status": "fail",
+          "value": "large wallets selling",
+          "pts": 0.0,
+          "max": 25
+        },
+        {
+          "id": "cluster",
+          "label": "Cluster / sniper hold",
+          "status": "pass",
+          "value": "bundle+sniper 5.3%, insiders 0%",
+          "pts": 15.0,
+          "max": 15
+        },
+        {
+          "id": "liquidity",
+          "label": "Liquidity depth",
+          "status": "warn",
+          "value": "$48,389 below $60k rule",
+          "pts": 6.75,
+          "max": 15
+        },
+        {
+          "id": "pressure",
+          "label": "Buy pressure",
+          "status": "warn",
+          "value": "59% buys in 5m",
+          "pts": 8.25,
+          "max": 15
+        },
+        {
+          "id": "chart",
+          "label": "Chart steadiness",
+          "status": "fail",
+          "value": "-39% in 5m (dumping)",
+          "pts": 0.0,
+          "max": 10
+        },
+        {
+          "id": "caller",
+          "label": "Caller quality / first-call",
+          "status": "warn",
+          "value": "no caller / first-call data",
+          "pts": 5.0,
+          "max": 10
+        },
+        {
+          "id": "cost",
+          "label": "Cost gate",
+          "status": "warn",
+          "value": "cost not quoted yet",
+          "pts": 4.0,
+          "max": 10
+        },
+        {
+          "id": "pause",
+          "label": "Trading pause",
+          "status": "pass",
+          "value": "not paused"
+        },
+        {
+          "id": "regime",
+          "label": "Market regime",
+          "status": "pass",
+          "value": "risk-on"
+        },
+        {
+          "id": "organic",
+          "label": "Organic activity",
+          "status": "warn",
+          "value": "empty-SOL holder check unavailable"
+        },
+        {
+          "id": "theme",
+          "label": "Theme leader",
+          "status": "pass",
+          "value": "only mint or cluster leader"
+        }
+      ],
+      "chart": {
+        "score": 50,
+        "verdict": "no_data",
+        "timing": "wait",
+        "timing_why": null,
+        "exit_hints": [],
+        "summary": "no chart data",
+        "bars": 0,
+        "tf": "1m",
+        "signals": []
+      }
+    }
+  },
+  {
+    "t": "2026-11-20T21:04:00+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T21:04:10+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10614ms: 220 mints, 14 cheap rows, 7 moving"
   }
 ]
