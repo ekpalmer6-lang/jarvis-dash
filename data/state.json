@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T21:05:17Z",
+  "published_at": "2026-11-20T21:06:20Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,8 +16,8 @@
     "status": {
       "Scanner": {
         "state": "idle",
-        "detail": "tier 1 10077ms, 6 moving",
-        "updated": "2026-11-20T21:04:46+00:00"
+        "detail": "tier 1 8992ms, 8 moving",
+        "updated": "2026-11-20T21:05:45+00:00"
       },
       "Executor": {
         "state": "off",
@@ -36,18 +36,18 @@
       },
       "Rug Check": {
         "state": "running",
-        "detail": "deep check Trader",
-        "updated": "2026-11-20T21:05:04+00:00"
+        "detail": "deep check DCTY",
+        "updated": "2026-11-20T21:06:13+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T21:05:10+00:00"
+        "detail": "guard tick: 0 open, 0 watched, 0 events",
+        "updated": "2026-11-20T21:06:10+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 2 open across 4 books",
-        "updated": "2026-11-20T21:05:17+00:00"
+        "updated": "2026-11-20T21:06:18+00:00"
       }
     },
     "limits": {

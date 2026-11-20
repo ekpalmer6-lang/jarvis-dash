@@ -4481,5 +4481,69 @@
     "level": "info",
     "msg": "Trader 5m flow pressure 0.69 buyers 135 large-net $3721.42 (8 large selling)",
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
+  },
+  {
+    "t": "2026-11-20T21:05:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T21:05:36+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T21:05:45+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 8992ms: 234 mints, 14 cheap rows, 8 moving"
+  },
+  {
+    "t": "2026-11-20T21:05:47+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 110 mint mentions"
+  },
+  {
+    "t": "2026-11-20T21:06:04+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T21:06:04+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T21:06:05+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.5 buyers 91 large-net $-88.07 (7 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T21:06:13+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "PACS 5m flow: 1 buys / 0 sells, pressure 1.0, 1 unique buyers, large-wallet net $0",
+    "mint": "64tbhe6oprWwoaSMzNAHtZanzWGyaZhV8JLvuVQ6pump"
+  },
+  {
+    "t": "2026-11-20T21:06:17+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow: 29 buys / 16 sells, pressure 0.414, 29 unique buyers, large-wallet net $-546.2",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T21:06:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
   }
 ]
