@@ -3452,5 +3452,36 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 3 with flow"
+  },
+  {
+    "t": "2026-11-20T20:54:32+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:54:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9227ms: 223 mints, 10 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:55:03+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:55:11+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 8865ms: 227 mints, 10 cheap rows, 6 moving"
+  },
+  {
+    "t": "2026-11-20T20:55:22+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.555 buyers 102 large-net $3058.64 (5 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
   }
 ]
