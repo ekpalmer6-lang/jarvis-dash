@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-20T22:58:58+00:00",
+  "updated": "2026-11-20T22:59:43+00:00",
   "window": "all closed paper trades in each book, P&L after modeled Fomo + pool fees",
   "min_closed_to_rank": 5,
   "best": "grad_pullback",
-  "best_reason": "grad_pullback has the highest average realised P&L after Fomo fees ($-0.4658/trade, win rate 0.438, 16 closed)",
+  "best_reason": "grad_pullback has the highest average realised P&L after Fomo fees ($-0.551/trade, win rate 0.412, 17 closed)",
   "strategies": {
     "curve_momentum": {
       "closed_trades": 3,
@@ -19,15 +19,15 @@
       "note": "need 5 closed trades before this book can be crowned best (have 3)"
     },
     "grad_pullback": {
-      "closed_trades": 16,
+      "closed_trades": 17,
       "wins": 7,
-      "win_rate": 0.438,
-      "avg_pnl_usd": -0.4658,
-      "sum_pnl_usd": -7.4532,
-      "expectancy_usd": -0.4658,
-      "open_positions": 2,
-      "cash_usd": 2.5468,
-      "equity_usd": 22.5468,
+      "win_rate": 0.412,
+      "avg_pnl_usd": -0.551,
+      "sum_pnl_usd": -9.3676,
+      "expectancy_usd": -0.551,
+      "open_positions": 1,
+      "cash_usd": 10.6324,
+      "equity_usd": 20.6324,
       "label": "Post-graduation pullback"
     },
     "call_early": {
