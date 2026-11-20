@@ -3879,5 +3879,19 @@
     "mc_usd": 59287,
     "url": "https://dexscreener.com/solana/asztn7gufcodmjnfkcqgarc2bb6qniup9hzy4j2pkkl2",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:52:19+00:00",
+    "ts": 1795218739,
+    "kind": "spike",
+    "mint": "CGufRi7JR4mRt1vNBZpGccxhG6o4GFRe1L2VeTbYpump",
+    "symbol": "score",
+    "msg": "score volume spike 14.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 14.353,
+    "last_1m": 20.1,
+    "prior_30m_avg_1m": 1.4,
+    "url": "https://dexscreener.com/solana/6axrt6rgrfzsm2jh8chswcnch2fbvuzhoepb9bbygpm7",
+    "watch": "scan"
   }
 ]
