@@ -274,6 +274,20 @@ html:not([data-theme=light]) a{color:#ff9a3c}
 .depbtn:hover{transform:translateY(-1px);box-shadow:0 10px 32px rgba(49,202,119,.6),0 0 0 1px rgba(255,255,255,.35) inset}.depbtn span{font-size:13px;opacity:.75}
 html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shadow:0 6px 18px rgba(16,185,129,.3)}
 @media(max-width:560px){.depbtn{display:flex;justify-content:center;width:100%}}
+
+.nbtn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border:0;border-radius:999px;background:linear-gradient(180deg,#3fdc87,#2bb86a);color:#052012;font:800 14px/1 Inter,system-ui,sans-serif;cursor:pointer;box-shadow:0 6px 20px rgba(49,202,119,.35)}
+.nbtn.ghost{background:rgba(255,255,255,.06);color:var(--txt);box-shadow:none;border:1px solid var(--line)}
+.nbtn:disabled{opacity:.55;cursor:default}
+.notifrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.notifhelp{display:none;font:600 12px/1.45 Inter,system-ui,sans-serif;color:var(--dim);margin:0 0 10px;max-width:42rem}
+.digestk{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px;margin:10px 0}
+.digestk div{background:rgba(22,6,16,.55);border:1px solid rgba(255,128,90,.12);border-radius:16px;padding:10px 12px}
+.digestk .lbl{font:600 11px/1 Inter,system-ui,sans-serif;color:var(--dim);margin-bottom:4px}
+.digestk b{font:800 16px/1.2 Inter,system-ui,sans-serif}
+#digestHist{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+html[data-theme=light] .nbtn{background:#10B981;color:#fff}html[data-theme=light] .nbtn.ghost{background:#fff;color:#0b0b0c}
+html[data-theme=light] .digestk div{background:#fff}
+@media(max-width:560px){.nbtn{width:100%}}
 </style></head><body>
 <div id="splash"><div class="mark"><span>J</span></div><div class="brand">JARVIS TERMINAL</div><div class="sub" id="splashMsg">booting agents… loading real data</div></div>
 <canvas id="confetti"></canvas><div id="toasts"></div>
@@ -286,6 +300,7 @@ html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shado
   <div class="seg"><button id="bLive" class="on">LIVE</button><button id="bPaper">PAPER</button></div>
   <button class="iconbtn" id="recapBtn">Night recap</button>
   <button class="chip" id="swingChip" type="button" title="Swing mode. Click to toggle on the local app; read-only on the public site.">Swing mode OFF</button>
+  <button class="chip mid" id="pushChip" type="button" title="Turn on phone notifications for trades and alerts">Notifications OFF</button>
   <button class="iconbtn" id="themeBtn" aria-label="toggle theme">◐</button>
   <div class="pill"><span class="pulse" id="hb"></span><span id="clock" class="mono">–</span></div>
 </header>
@@ -308,9 +323,15 @@ html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shado
     <div id="summary"></div>
     <h3 style="margin-top:16px">Risk limits</h3><div class="limits" id="limits"></div>
   </section>
+  <section class="card s12" data-tab="live" id="digestCard">
+    <h3>Today · Daily digest<span class="r" id="digestWhen"></span></h3>
+    <div id="digestBody"></div>
+    <div id="digestHist" style="margin-top:12px"></div>
+  </section>
   <section class="card s6" data-tab="alerts">
     <h3><span class="pulse warn"></span>Alerts<span class="r" id="alertN"></span></h3>
-    <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap"><button class="btn" id="notifBtn">Enable notifications</button><span class="sub" id="notifSt"></span></div>
+    <div class="notifrow"><button class="nbtn" id="notifBtn" type="button">Turn on notifications</button><button class="nbtn ghost" id="notifTest" type="button" style="display:none">Send test</button><button class="nbtn ghost" id="notifOff" type="button" style="display:none">Turn off</button><span class="sub" id="notifSt"></span></div>
+    <p class="notifhelp" id="notifHelp"></p>
     <div class="alist" id="alerts"></div>
     <div class="note">Fires when a scanned coin passes every safety check, moves +25% in 5m, or shows heavy 5m buy pressure. One alert per coin per type every 2h (state/alerts.jsonl).</div>
   </section>
@@ -531,7 +552,7 @@ function renderRecap(){const R=RECAP;if(!R.trades||!R.trades.length){$("recapSub
 document.body.dataset.tab="live";
 document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));document.body.dataset.tab=b.dataset.t;scrollTo(0,0);setTimeout(()=>{paint(1);drawOrbit();drawCandles()},50)});
 {const t0=new URLSearchParams(location.search).get("tab");const b0=t0&&document.querySelector(`#tabs button[data-t="${t0}"]`);if(b0)b0.click()}
-if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost"))navigator.serviceWorker.register(new URL("sw.js", document.baseURI)).catch(()=>{});
+if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost"||location.hostname==="127.0.0.1"))navigator.serviceWorker.register(new URL("sw.js", document.baseURI)).catch(()=>{});
 const NODES=[["Reporter","📣",e=>e.agent==="Logger"||/scan done/.test(e.msg)],["New Pairs","🆕",e=>/mints discovered|scan started/.test(e.msg)],["Wallet Watch","🐋",e=>/whale/i.test(e.msg)],
  ["Hype Meter","📡",e=>e.agent==="Hype Meter"],["Contract Scan","🧪",e=>e.agent==="Rug Check"],["Bundle Filter","📦",e=>/bundle/i.test(e.msg)],["Sizer","⚖️",e=>/size \$|sized/.test(e.msg)||e.agent==="Sizer"],
  ["Executor","⚡",e=>e.agent==="Executor"&&/BUY|watching|pass on/.test(e.msg)],["Exit Planner","🎯",e=>/SELL|TP1|TP2|trailing/.test(e.msg)],["Drawdown Guard","🛡️",e=>/stop|cap reached/.test(e.msg)]];
@@ -606,16 +627,130 @@ function renderPnl(PL){$("pnlMode").textContent=MODE==="live"?"LIVE":"PAPER";
   const col=pts[pts.length-1]>=0?"#31ca77":"#ff4d5e";x.strokeStyle=col;x.lineWidth=2.2;x.beginPath();pts.forEach((v,i)=>i?x.lineTo(X(i),Y(v)):x.moveTo(X(i),Y(v)));x.stroke();
   x.fillStyle="#c99a98";x.font="11px ui-monospace,monospace";x.textAlign="left";x.fillText(usd(hi),W-56,14);x.fillText(usd(lo),W-56,H-6)})}
 // alerts
-function notifState(){if(!("Notification" in window)){$("notifSt").textContent="This browser has no notifications";$("notifBtn").style.display="none";return}
- const p=Notification.permission;$("notifSt").textContent=p==="granted"?"Notifications on":p==="denied"?"Blocked in browser settings":"Off";$("notifBtn").style.display=p==="default"?"":"none"}
-$("notifBtn").onclick=async()=>{try{await Notification.requestPermission()}catch(e){}notifState()};
+// ---- Web Push (OS notifications, works when the app is closed) ----
+window.__jarvisPush={last:null,sub:null,status:null};
+function isIOS(){return /iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)}
+function isStandalone(){return window.matchMedia("(display-mode: standalone)").matches||window.navigator.standalone===true}
+function iosNeedsHomeScreen(){return isIOS()&&!isStandalone()}
+function b64urlToBytes(s){s=(s||"").replace(/-/g,"+").replace(/_/g,"/");while(s.length%4)s+="=";const bin=atob(s);const u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return u}
+function bytesToB64url(buf){const u=buf instanceof Uint8Array?buf:new Uint8Array(buf);let s="";for(let i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"")}
+async function loadPushPublic(){return (await j("/data/push_public.json"))||(await j("data/push_public.json"))}
+async function encryptForBox(publicB64,obj){
+  const serverKey=await crypto.subtle.importKey("raw",b64urlToBytes(publicB64),{name:"ECDH",namedCurve:"P-256"},true,[]);
+  const eph=await crypto.subtle.generateKey({name:"ECDH",namedCurve:"P-256"},true,["deriveBits"]);
+  const bits=await crypto.subtle.deriveBits({name:"ECDH",public:serverKey},eph.privateKey,256);
+  const aes=await crypto.subtle.importKey("raw",bits,{name:"AES-GCM"},false,["encrypt"]);
+  const iv=crypto.getRandomValues(new Uint8Array(12));
+  const ct=await crypto.subtle.encrypt({name:"AES-GCM",iv},aes,new TextEncoder().encode(JSON.stringify(obj)));
+  const epk=await crypto.subtle.exportKey("raw",eph.publicKey);
+  return {v:1,iv:bytesToB64url(iv),epk:bytesToB64url(epk),ct:bytesToB64url(ct)};
+}
+async function postMailbox(cfg,obj){const env=await encryptForBox(cfg.vapidPublicKey,obj);return fetch(cfg.mailbox,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(env)})}
+async function currentSub(){if(!("serviceWorker" in navigator)||!("PushManager" in window))return null;try{const reg=await navigator.serviceWorker.ready;return await reg.pushManager.getSubscription()}catch(e){return null}}
+async function paintNotif(){
+  const st=$("notifSt"),btn=$("notifBtn"),test=$("notifTest"),off=$("notifOff"),help=$("notifHelp"),chip=$("pushChip");
+  const setChip=txt=>{if(!chip)return;chip.textContent=txt;chip.className="chip "+(/\bON\b/.test(txt)?"ok":"mid")};
+  if(!("Notification" in window)||!("serviceWorker" in navigator)){
+    if(st)st.textContent="This browser can't receive notifications";
+    if(btn)btn.style.display="none";if(test)test.style.display="none";if(off)off.style.display="none";
+    setChip("Notifications n/a");window.__jarvisPush.status="unavailable";return}
+  if(iosNeedsHomeScreen()){
+    if(st)st.textContent="Off · add to Home Screen first";
+    if(help){help.style.display="";help.textContent="On iPhone, add this app to your Home Screen first (Share → Add to Home Screen), open it from the icon, then tap Turn on notifications. Needs iOS 16.4 or later."}
+    if(btn){btn.style.display="";btn.disabled=false}if(test)test.style.display="none";if(off)off.style.display="none";
+    setChip("Notifications OFF");window.__jarvisPush.status="ios-home-screen";return}
+  if(help)help.style.display="none";
+  const perm=Notification.permission;const sub=await currentSub();
+  window.__jarvisPush.sub=sub?sub.toJSON():null;
+  if(perm==="denied"){
+    if(st)st.textContent="Blocked in browser settings";
+    if(btn)btn.style.display="none";if(test)test.style.display="none";if(off)off.style.display="none";
+    setChip("Notifications blocked");window.__jarvisPush.status="blocked";return}
+  if(perm==="granted"&&sub){
+    if(st)st.textContent="Notifications on";
+    if(btn)btn.style.display="none";if(test)test.style.display="";if(off)off.style.display="";
+    setChip("Notifications ON");window.__jarvisPush.status="on";return}
+  if(st)st.textContent="Off";
+  if(btn){btn.style.display="";btn.disabled=false;btn.textContent="Turn on notifications"}
+  if(test)test.style.display="none";if(off)off.style.display="none";
+  setChip("Notifications OFF");window.__jarvisPush.status="off";
+}
+async function enablePush(){
+  if(iosNeedsHomeScreen()){await paintNotif();return}
+  const cfg=await loadPushPublic();
+  if(!cfg||!cfg.vapidPublicKey||!cfg.mailbox){if($("notifSt"))$("notifSt").textContent="Notifications aren't set up on the desk yet.";return}
+  let perm=Notification.permission;
+  if(perm!=="granted"){try{perm=await Notification.requestPermission()}catch(e){}}
+  if(perm!=="granted"){await paintNotif();return}
+  const reg=await navigator.serviceWorker.ready;
+  let sub=await reg.pushManager.getSubscription();
+  if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64urlToBytes(cfg.vapidPublicKey)});
+  await postMailbox(cfg,{type:"subscribe",subscription:sub.toJSON(),ua:navigator.userAgent,t:new Date().toISOString()});
+  localStorage.setItem("jt-push-on","1");window.__jarvisPush.sub=sub.toJSON();await paintNotif();
+}
+async function disablePush(){
+  const cfg=await loadPushPublic();const sub=await currentSub();
+  if(sub){if(cfg)try{await postMailbox(cfg,{type:"unsubscribe",endpoint:sub.endpoint})}catch(e){}try{await sub.unsubscribe()}catch(e){}}
+  localStorage.removeItem("jt-push-on");await paintNotif();
+}
+async function sendPushTest(){
+  try{const reg=await navigator.serviceWorker.ready;await reg.showNotification("JARVIS · Test",{body:"Notifications are on. A second test from the desk should arrive in a few seconds.",icon:"icons/icon-192.png",tag:"jarvis-test-local",data:{url:"./?tab=alerts"}})}catch(e){}
+  const cfg=await loadPushPublic();if(cfg)await postMailbox(cfg,{type:"test",t:new Date().toISOString()});
+  if($("notifSt"))$("notifSt").textContent="Test sent";
+}
+if("serviceWorker" in navigator)navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data&&ev.data.type==="jarvis-push")window.__jarvisPush.last=ev.data.payload||ev.data});
+$("notifBtn").onclick=()=>enablePush();
+if($("notifTest"))$("notifTest").onclick=()=>sendPushTest();
+if($("notifOff"))$("notifOff").onclick=()=>disablePush();
+if($("pushChip"))$("pushChip").onclick=()=>{document.body.dataset.tab="alerts";document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.t==="alerts"));if(window.__jarvisPush.status==="off"||window.__jarvisPush.status==="ios-home-screen")enablePush();else{const el=$("notifBtn");if(el)el.scrollIntoView({behavior:"smooth",block:"center"})}};
+
+function digestBase(){return document.documentElement.dataset.static==="1"?"data/":"/data/"}
+async function fetchDigest(date){const base=digestBase();const rel=date?"digests/"+date+".json":"digest_latest.json";return (await j(base+rel))||(await j("data/"+rel))}
+function renderDigest(latest,idx,focusDate){
+  const body=$("digestBody"),hist=$("digestHist"),when=$("digestWhen");if(!body)return;
+  const days=(idx&&idx.days)||[];
+  const d=(window.__digestDoc&&focusDate&&window.__digestDoc.date===focusDate)?window.__digestDoc:latest;
+  if(!d){body.innerHTML=emptyBox("No digest yet","The daily digest is sent around 10:00 PM ET. It will show today's trades, P&amp;L and what the scanner flagged.");if(when)when.textContent="Daily digest";if(hist)hist.innerHTML="";return}
+  if(when)when.textContent=(d.date||"")+" · day starts 8:00 AM ET";
+  const wr=d.win_rate==null?"—":Math.round(d.win_rate*100)+"%";
+  const pnl=d.realized_pnl_usd,cls=pnl>0?"g":pnl<0?"rd":"";
+  const scan=d.scanner||{};
+  const rejects=(scan.top_reject_reasons||[]).map(r=>esc(r.reason)+" ("+r.count+")").join(" · ")||"none";
+  const skip=scan.best_skipped,trades=d.trades||[];
+  const pnlTxt=pnl==null?"–":((pnl>=0?"+":"")+usd(pnl))+(d.realized_pnl_pct!=null?` (${d.realized_pnl_pct>=0?"+":""}${d.realized_pnl_pct}%)`:"");
+  body.innerHTML=`<div class="sub">${esc(d.headline||"")}</div>
+    <div class="digestk"><div><div class="lbl">Start</div><b>${usd(d.start_balance_usd)}</b></div><div><div class="lbl">End</div><b>${usd(d.end_balance_usd)}</b></div><div><div class="lbl">Realised P&amp;L</div><b class="${cls}">${pnlTxt}</b></div><div><div class="lbl">Win rate</div><b>${wr}</b></div></div>
+    ${trades.length?`<div class="scroll" style="margin-top:10px"><table class="tbl"><tr><th>Time (ET)</th><th>Side</th><th>Coin</th><th>USD</th><th>Reason</th></tr>${trades.slice().reverse().map(tr=>`<tr><td class="mono sub">${esc(tr.t_et||dt(tr.t))}</td><td>${esc((tr.side||"").toUpperCase())}</td><td class="mono">${esc(tr.symbol)}</td><td class="mono">${usd(tr.usd)}</td><td class="sub">${esc(tr.reason||"")}</td></tr>`).join("")}</table></div>`:`<div class="sub" style="margin-top:8px">${esc(d.summary||"No trades today.")}</div>`}
+    <div class="sub" style="margin-top:10px">Scanner: ${scan.scans||0} pass${(scan.scans||0)===1?"":"es"} · ${scan.unique_coins||0} coins · ${scan.unique_candidates||0} candidate${(scan.unique_candidates||0)===1?"":"s"} · ${scan.avoid_sightings||0} rejects. Rugs ${scan.rug_alerts||0} · volume spikes ${scan.spike_alerts||0}. Top reject reasons: ${rejects}.</div>
+    ${skip?`<div class="sub">Best skipped: <b>${esc(skip.symbol)}</b> (score ${esc(skip.score)})${skip.why?` — ${esc(skip.why)}`:""}. Not bought.</div>`:""}`;
+  if(hist){hist.innerHTML=days.length?`<div class="lbl" style="width:100%;margin-bottom:4px">History</div>`+days.map(x=>`<button class="chip ${x.date===(d.date)?"ok":""}" data-digest="${esc(x.date)}" type="button">${esc(x.date)} · ${esc((x.headline||"").slice(0,48))}</button>`).join(""):"";
+    hist.querySelectorAll("[data-digest]").forEach(b=>b.onclick=()=>openDigest(b.getAttribute("data-digest")))}
+}
+async function openDigest(date){
+  document.body.dataset.tab="live";
+  document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.t==="live"));
+  const doc=(!date|| (window.__digestLatest&&window.__digestLatest.date===date))?window.__digestLatest:await fetchDigest(date);
+  if(doc)window.__digestDoc=doc;
+  renderDigest(window.__digestLatest,window.__digestIdx,date|| (doc&&doc.date));
+  const card=$("digestCard");if(card)setTimeout(()=>card.scrollIntoView({behavior:"smooth",block:"start"}),80);
+}
+async function refreshDigest(){
+  const latest=await fetchDigest();
+  const idx=(await j(digestBase()+"digests.json"))||(await j("data/digests.json"))||{days:[]};
+  window.__digestLatest=latest;window.__digestIdx=idx;
+  const q=new URLSearchParams(location.search).get("digest");
+  const focus=(q&&q!=="1")?q:(latest&&latest.date);
+  if(q&&latest&&q!=="1"&&q!==latest.date){const doc=await fetchDigest(q);if(doc)window.__digestDoc=doc}
+  renderDigest(latest,idx,focus);
+}
+
 async function loadAlerts(){const A=await jl("/data/live/alerts.jsonl");$("alertN").textContent=A.length?`${A.length} total`:"";
  $("alerts").innerHTML=A.length?A.slice().reverse().slice(0,60).map(a=>`<div class="al"><span class="k k-${esc(a.kind)}">${esc(String(a.kind).toUpperCase())}</span><div style="min-width:0;flex:1"><b>${esc(a.symbol||a.mint.slice(0,6))}</b><div class="m">${esc(a.msg)}${a.watch?` · from ${esc(a.watch)}`:""}</div></div><div class="ti">${tm(a.t)}<br>${a.url?`<a target="_blank" href="${esc(a.url)}">chart ↗</a>`:""}</div></div>`).join("")
   :emptyBox("No alerts yet","You'll get one when a coin passes every check or moves fast.");
  if(alertSeen==null){alertSeen=A.length;return}
  if(A.length>alertSeen){A.slice(alertSeen).forEach(a=>{const el=document.createElement("div");el.className="ios";el.innerHTML=`<div class="ic">!</div><div style="flex:1;min-width:0"><div class="tt">JARVIS · ALERT<span>${tm(a.t)}</span></div><b>${esc(a.symbol||"")} · ${esc(String(a.kind).toUpperCase())}</b><p>${esc(a.msg)}</p></div>`;
    $("toasts").prepend(el);setTimeout(()=>{el.style.transition=".4s";el.style.opacity=0;setTimeout(()=>el.remove(),400)},7000);
-   if("Notification" in window&&Notification.permission==="granted"){try{new Notification("JARVIS · "+(a.symbol||"alert"),{body:a.msg,icon:"icons/icon-192.png",tag:a.mint+":"+a.kind})}catch(e){}}});alertSeen=A.length}}
+   if(window.__jarvisPush.status!=="on"&&"Notification" in window&&Notification.permission==="granted"){try{new Notification("JARVIS · "+(a.symbol||"alert"),{body:a.msg,icon:"icons/icon-192.png",tag:a.mint+":"+a.kind})}catch(e){}}});alertSeen=A.length}}
 // pins
 async function loadPins(){const d=await j("/data/live/pinned.json");PINS=new Map(((d&&d.pins)||[]).map(p=>[p.mint,p]))}
 async function pinReq(path,mint,symbol){const r=await fetch(path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({mint,symbol})}).then(r=>r.json()).catch(()=>({ok:false,error:"server unreachable"}));
@@ -630,6 +765,7 @@ function renderPins(live){const L=[...PINS.values()];
  $("pins").innerHTML=L.length?L.map(p=>{const q=live[p.mint]||{},c=q.chg5m;return`<div class="prow">${av(q.symbol||p.symbol,p.mint)}<div style="min-width:0"><b class="mono">${esc(q.symbol||p.symbol||p.mint.slice(0,6))}</b><div class="st2">${px(q.price_usd)} · MC ${kfmt(q.mc_usd)} · liq ${kfmt(q.liq_usd)}</div></div><div class="mono ${c==null?"":c>=0?"g":"rd"}">${c==null?"–":(c>=0?"+":"")+(+c).toFixed(1)+"% 5m"}</div><button class="x" title="unpin" onclick="togglePin('${esc(p.mint)}','')">✕</button></div>`}).join("")
   :emptyBox("Nothing pinned","Paste a mint or ticker, or tap 📌 on a scan card.")}
 
-loadPins().then(()=>{setMode(MODE);notifState()});setInterval(()=>loadPins(),15000);setInterval(tick,5000);
+loadPins().then(()=>{setMode(MODE);paintNotif();refreshDigest()});setInterval(()=>loadPins(),15000);setInterval(tick,5000);setInterval(refreshDigest,60000);
 if(new URLSearchParams(location.search).get("recap"))setTimeout(()=>{renderRecap();$("sheet").classList.add("open")},1500);
+if(new URLSearchParams(location.search).get("digest"))setTimeout(()=>{document.body.dataset.tab="live";document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.t==="live"));const card=$("digestCard");if(card)card.scrollIntoView({behavior:"smooth",block:"start"})},1200);
 </script></body></html>
