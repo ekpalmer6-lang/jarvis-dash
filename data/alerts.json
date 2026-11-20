@@ -1327,5 +1327,32 @@
     "mc_usd": 2764.92,
     "url": "https://dexscreener.com/solana/anpsfefaefwykqtveecej1bdhsjcxttmk9ek9wdrbshd",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:39:38+00:00",
+    "ts": 1795214378,
+    "kind": "spike",
+    "mint": "Hz7ufJNcaSxJVmqrA51rvKVQMMExf7rxCosyZqK1pump",
+    "symbol": "FIONA",
+    "msg": "FIONA volume spike 105.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 105.471,
+    "last_1m": 1.3,
+    "prior_30m_avg_1m": 0.01,
+    "url": "https://dexscreener.com/solana/2gzwh4qpsnzthicmte4uxusizftwvkian77gfegkhjz2",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:39:58+00:00",
+    "ts": 1795214398,
+    "kind": "fast",
+    "mint": "GF6hi6auNDaqcKesKwVCNfWxeyezi7Emr85VuTYhpump",
+    "symbol": "BATHROOM",
+    "msg": "BATHROOM +235% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 235,
+    "mc_usd": 6453.99,
+    "url": "https://dexscreener.com/solana/8pm9yfzguvvwu3mvgpdciaa3iqa8lguptwxut14whsox",
+    "watch": "scan"
   }
 ]

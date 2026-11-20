@@ -18531,5 +18531,158 @@
     "reason": "too bundled: 30.1% held by linked wallets",
     "clustered_pct": 30.1,
     "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:39:24+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 0 with flow"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 4pYJGg cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FtrmLR cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7ex9oz cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:39:26+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:39:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:39:47+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11344ms: 260 mints, 71 cheap rows, 41 moving"
+  },
+  {
+    "t": "2026-11-20T22:39:50+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "1000X 5m flow pressure 0.513 buyers 37 large-net $-52.95 (1 large selling)",
+    "mint": "WNUUVPaaWF8aSaGgq5TF5bJVJCLU4BjwdmqmARKpump"
+  },
+  {
+    "t": "2026-11-20T22:39:55+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 14.03% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 14.03% held by linked wallets",
+    "clustered_pct": 14.03,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 7ex9oz cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8638ND cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Hz7ufJ cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip CV5x2d cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:39:57+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:40:06+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:40:17+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11132ms: 304 mints, 76 cheap rows, 43 moving"
+  },
+  {
+    "t": "2026-11-20T22:40:18+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "FLIPCOIN 5m flow pressure 0.501 buyers 10 large-net $-133.06 (1 large selling)",
+    "mint": "7RLKQF8r8t5UVxb6MHwdvBQwPGJMioMFnERJCjFspump"
+  },
+  {
+    "t": "2026-11-20T22:40:18+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "SIDOOR 5m flow pressure 0.487 buyers 20 large-net $319.05 (0 large selling)",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:40:23+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.555 buyers 126 large-net $522.39 (6 large selling)",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
   }
 ]
