@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T23:40:00Z",
+  "published_at": "2026-11-20T23:41:02Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,23 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check NOSE",
-        "updated": "2026-11-20T23:39:46+00:00"
+        "detail": "deep check THANKS",
+        "updated": "2026-11-20T23:40:39+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "0 candidates scored; trading open; Growth mode: on until $100",
-        "updated": "2026-11-20T23:39:55+00:00"
+        "detail": "1 candidates scored; trading open; Growth mode: on until $100",
+        "updated": "2026-11-20T23:40:50+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 0 open across 4 books",
-        "updated": "2026-11-20T23:39:50+00:00"
+        "updated": "2026-11-20T23:40:50+00:00"
       },
       "Scanner": {
         "state": "running",
         "detail": "tier 1 fast pass",
-        "updated": "2026-11-20T23:39:56+00:00"
+        "updated": "2026-11-20T23:40:56+00:00"
       }
     },
     "limits": {
