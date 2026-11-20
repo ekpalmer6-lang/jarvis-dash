@@ -1,7 +1,7 @@
 {
   "source": "api.geckoterminal.com",
   "tf": "1m",
-  "published_at": "2026-11-20T23:21:09Z",
+  "published_at": "2026-11-20T23:22:12Z",
   "pools": {
     "65eyzrLgqEjqZ5NMoFntrE6XE6SvxS9zggzaBiew4n8n": {
       "source": "api.geckoterminal.com",
@@ -485,8 +485,8 @@
           0.00043723613999634554,
           0.00043723613999634554,
           0.0003916398506039927,
-          0.0004267085544557934,
-          6667.57634673819
+          0.0004027549957249922,
+          8890.416962604391
         ]
       ]
     }

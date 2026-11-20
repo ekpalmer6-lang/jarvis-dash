@@ -3118,5 +3118,58 @@
     "prior_30m_avg_1m": 5.65,
     "url": "https://dexscreener.com/solana/edf56ksnujqwremgym3c6eq3urpdf9ypbm28szfkyqtp",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:21:18+00:00",
+    "ts": 1795216878,
+    "kind": "fast",
+    "mint": "GvidL6qnJs9VRPkGViWjiPBwJJzzNsdTAS28Lw33pump",
+    "symbol": "NTA",
+    "msg": "NTA +72% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 71.91,
+    "mc_usd": 3380.48,
+    "url": "https://dexscreener.com/solana/4ih7c6sxunqathvchnriqvqtpkbxckc5xtdmgiphmzql",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:21:18+00:00",
+    "ts": 1795216878,
+    "kind": "fast",
+    "mint": "AxkbrDdSReLYJwyBycuLkvZ7mMV36Q8obkMY5pKKip2M",
+    "symbol": "PACKS",
+    "msg": "PACKS +60% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 59.9,
+    "mc_usd": 3192.81,
+    "url": "https://dexscreener.com/solana/6jtwqb5rxmladrevbrldyx9zpsjfgefev6dbvf4gvlvq",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:21:58+00:00",
+    "ts": 1795216918,
+    "kind": "spike",
+    "mint": "9bTJtrBxELeztFBMdf8LrDM4ZvLymrVBr6Qf5A2fpump",
+    "symbol": "GTAFOX",
+    "msg": "GTAFOX volume spike 11.7x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.666,
+    "last_1m": 107.09,
+    "prior_30m_avg_1m": 9.18,
+    "url": "https://dexscreener.com/solana/2rdh8cjgq5ydcangheihxm99tolftttpdxorgurucux6",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:21:58+00:00",
+    "ts": 1795216918,
+    "kind": "fast",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+    "symbol": "PATRICK",
+    "msg": "PATRICK +28% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 28.48,
+    "mc_usd": 141440,
+    "url": "https://dexscreener.com/solana/bcgr8mwldxeg9sh9hwgzk9kmbuvn6bq3tjunugfbz6bz",
+    "watch": "scan"
   }
 ]
