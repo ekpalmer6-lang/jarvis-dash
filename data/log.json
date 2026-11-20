@@ -16467,5 +16467,23 @@
         "signals": []
       }
     }
+  },
+  {
+    "t": "2026-11-20T22:28:49+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: BUY MONKE $10 at 9.5e-05 (post-graduation pullback; held up over 15s (price +0.0%, 419/264 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T22:28:49+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:28:49+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
   }
 ]
