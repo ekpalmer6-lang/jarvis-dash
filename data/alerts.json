@@ -1082,5 +1082,100 @@
     "flags": [
       "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
     ]
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "fast",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump",
+    "symbol": "SIDOOR",
+    "msg": "SIDOOR +33% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 33.27,
+    "mc_usd": 2828.38,
+    "url": "https://dexscreener.com/solana/98ow3tarbpkqykir2oiqjemh1gvpe819adtevgmq5d16",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "spike",
+    "mint": "JAqT3SAmEuKhzLcH4eWesMMCJgbFBX9dFwYfS8Lrpump",
+    "symbol": "$NOJOB",
+    "msg": "$NOJOB volume spike 469.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 469.817,
+    "last_1m": 77.05,
+    "prior_30m_avg_1m": 0.16,
+    "url": "https://dexscreener.com/solana/5x9h5nyofkwzag212acmmhb1fuqjcqxtokghwryc9vxm",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "spike",
+    "mint": "Az5MEjCwqCGgXjXyRZt546dyk7Aj5624o4kiAFzApump",
+    "symbol": "fg",
+    "msg": "fg volume spike 11.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 11.607,
+    "last_1m": 24.82,
+    "prior_30m_avg_1m": 2.14,
+    "url": "https://dexscreener.com/solana/n5w4booqepwnswc1mkxtjygwytodzofyqeukbosd1mi",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "fast",
+    "mint": "7fgF6VpWo1gVHQNTYLpMHie7by2eck79vBbqird1pump",
+    "symbol": "SAVPIR",
+    "msg": "SAVPIR +149% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 149,
+    "mc_usd": 4836.6,
+    "url": "https://dexscreener.com/solana/hgdgypv9dmpqgtqu9k7rk9ce36nzslsaizwukzezue1q",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "spike",
+    "mint": "6QfwkqQnyDX7khtNRwF5C2Zd2ypdenwskB5Mv2cepump",
+    "symbol": "FUCKRUGGER",
+    "msg": "FUCKRUGGER volume spike 10.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.282,
+    "last_1m": 5.76,
+    "prior_30m_avg_1m": 0.56,
+    "url": "https://dexscreener.com/solana/hk8dumunxgi3ejp2mbnenthkfqxhpujzauboo1g5vhg3",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:15+00:00",
+    "ts": 1795214055,
+    "kind": "spike",
+    "mint": "GM92oGTsUjGCsEgsRameZULnhYCtwnfNHi6obbpEpump",
+    "symbol": "KIRA",
+    "msg": "KIRA volume spike 570.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 570.167,
+    "last_1m": 0.62,
+    "prior_30m_avg_1m": 0.0,
+    "url": "https://dexscreener.com/solana/gndwqcpwfcltfdrlxqzjp3guucshy1coz529aymbxlax",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:34:35+00:00",
+    "ts": 1795214075,
+    "kind": "fast",
+    "mint": "GC7fLrwZbazDFLnTPdr2T5oyfNCGzf7YgNKj8WG7pump",
+    "symbol": "GTZZ",
+    "msg": "GTZZ +367% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 367,
+    "mc_usd": 9038.84,
+    "url": "https://dexscreener.com/solana/j7gk2y4nzwc7mftwvuysammvtev9vrlt7w9wpuk7dkq",
+    "watch": "scan"
   }
 ]

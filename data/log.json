@@ -17787,5 +17787,142 @@
     "agent": "Hype Meter",
     "level": "warn",
     "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T22:34:12+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9500ms: 258 mints, 42 cheap rows, 27 moving"
+  },
+  {
+    "t": "2026-11-20T22:34:14+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "SIDOOR 5m flow pressure 0.898 buyers 13 large-net $0 (0 large selling)",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:34:17+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "PATRICK 5m flow pressure 0.53 buyers 116 large-net $271.34 (4 large selling)",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T22:34:18+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "enu 5m flow: 23 buys / 8 sells, pressure 0.792, 17 unique buyers, large-wallet net $227.9",
+    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
+  },
+  {
+    "t": "2026-11-20T22:34:22+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "chud 5m flow: 2 buys / 8 sells, pressure 0.293, 2 unique buyers, large-wallet net $-264.53",
+    "mint": "EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump"
+  },
+  {
+    "t": "2026-11-20T22:34:22+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: BUY SIDOOR $10 at 3.11e-05 (curve momentum; held up over 15s (price +11.8%, 13/3 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T22:34:22+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: watching 6fTESQ for 15s ($10, curve momentum)"
+  },
+  {
+    "t": "2026-11-20T22:34:24+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 126 buys / 95 sells, pressure 0.483, 79 unique buyers, large-wallet net $223.84",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T22:34:24+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 67 early-vs-trending, 3 with flow"
+  },
+  {
+    "t": "2026-11-20T22:34:33+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:34:38+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] curve_momentum: pass on $MCBAG: price fell 66.6% during watch"
+  },
+  {
+    "t": "2026-11-20T22:34:38+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: watching 7fgF6V for 15s ($10, curve momentum)"
+  },
+  {
+    "t": "2026-11-20T22:34:43+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10432ms: 275 mints, 44 cheap rows, 28 moving"
+  },
+  {
+    "t": "2026-11-20T22:34:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: BUY SAVPIR $10 at 5.33e-05 (curve momentum; held up over 15s (price +0.0%, 12/10 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T22:34:53+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: watching DVV5qp for 15s ($10, curve momentum)"
+  },
+  {
+    "t": "2026-11-20T22:35:03+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:35:08+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: BUY DOLLAR $10 at 2.17e-05 (curve momentum; held up over 15s (price +0.0%, 3/1 buys/sells 5m))"
+  },
+  {
+    "t": "2026-11-20T22:35:08+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 28nGQM cap"
+  },
+  {
+    "t": "2026-11-20T22:35:08+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:35:09+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: SELL 100% SIDOOR: hard stop -12% ($-0.01)"
+  },
+  {
+    "t": "2026-11-20T22:35:09+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: SELL 100% SAVPIR: hard stop -12% ($-0.01)"
+  },
+  {
+    "t": "2026-11-20T22:35:09+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: SELL 100% DOLLAR: hard stop -12% ($-0.01)"
   }
 ]
