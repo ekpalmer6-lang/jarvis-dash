@@ -2930,5 +2930,32 @@
     "mc_usd": 2657.31,
     "url": "https://dexscreener.com/solana/dwwyxtfvuslwpte43ajjnej93rusktujmnyfsatgydh4",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:12:52+00:00",
+    "ts": 1795216372,
+    "kind": "spike",
+    "mint": "ESer26PVXziWeCJzkrs5SnS2F5uvrA5RiUGPxzfypump",
+    "symbol": "Bear",
+    "msg": "Bear volume spike 45.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 45.571,
+    "last_1m": 0.06,
+    "prior_30m_avg_1m": 0.0,
+    "url": "https://dexscreener.com/solana/hnw1acbcq8k9jmsgafecjtebi1pgivhjarh9ycr1kahb",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:13:33+00:00",
+    "ts": 1795216413,
+    "kind": "fast",
+    "mint": "DZSkBmSrf6WuLk7EVmouXCgrznJgrUGe46fqMNqBpump",
+    "symbol": "GAK",
+    "msg": "GAK +29% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 28.68,
+    "mc_usd": 3159.78,
+    "url": "https://dexscreener.com/solana/79x6hsk2av9naudoncrasefxdarelwwbbrusogzukzgm",
+    "watch": "scan"
   }
 ]
