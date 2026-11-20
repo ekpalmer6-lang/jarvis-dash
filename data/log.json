@@ -1923,5 +1923,55 @@
     "mint": "Mint1111111111111111111111111111111111111",
     "strategy": "test",
     "fee_usd": 0.1
+  },
+  {
+    "t": "2026-11-20T20:02:39+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DYSON 5m flow pressure 0.502 buyers 126 large-net $-2472.38 (6 large selling)",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T20:02:41+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 11.76% held by linked wallets",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump",
+    "symbol": "DYSON",
+    "reason": "too bundled: 11.76% held by linked wallets",
+    "clustered_pct": 11.76,
+    "cluster_count": 5
+  },
+  {
+    "t": "2026-11-20T20:02:44+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "DYSON: avoid, size $0, dev: bad: serial launcher, most coins dead, whales 5 selling / 0 accumulating",
+    "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump"
+  },
+  {
+    "t": "2026-11-20T20:02:55+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "GTA 5m flow pressure 0.598 buyers 259 large-net $-603.51 (3 large selling)",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
+  },
+  {
+    "t": "2026-11-20T20:03:05+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 36.15% held by linked wallets",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
+    "symbol": "GTA",
+    "reason": "too bundled: 36.15% held by linked wallets",
+    "clustered_pct": 36.15,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T20:03:08+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "GTA: avoid, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
   }
 ]
