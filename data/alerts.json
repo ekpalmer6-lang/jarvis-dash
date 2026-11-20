@@ -2984,5 +2984,19 @@
     "prior_30m_avg_1m": 0.01,
     "url": "https://dexscreener.com/solana/bgb9r524y8cgvocvtimiwtlcacrwghk2hwykqx6by9b",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:15:34+00:00",
+    "ts": 1795216534,
+    "kind": "spike",
+    "mint": "FfKuZKnAichYH9mn5PrE6dK5qDWcXU3MJjLbweNQDd4k",
+    "symbol": "MENTALIST",
+    "msg": "MENTALIST volume spike 10.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.939,
+    "last_1m": 0.36,
+    "prior_30m_avg_1m": 0.03,
+    "url": "https://dexscreener.com/solana/dmv1ouaplrmez5nnqljxd6gcfng3zxw8kxlatzt6kf8e",
+    "watch": "scan"
   }
 ]
