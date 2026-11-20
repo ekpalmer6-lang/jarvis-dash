@@ -2,21 +2,21 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
     "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
     "symbol": "Trader",
-    "updated": "2026-11-20T22:29:52+00:00",
+    "updated": "2026-11-20T22:30:44+00:00",
     "confidence": 43,
     "size_usd": 0.0,
     "verdict": "Do not buy Trader (confidence 43/100). Safety checks: large wallets selling.",
     "scan_verdict": "candidate",
     "regime": {
-      "risk_off": false,
-      "reason": "risk-on",
-      "sol_chg1h": 1.76
+      "risk_off": true,
+      "reason": "risk-off: new-launch 5m vol $111,068 vs prior $227,864 (down 51%)",
+      "sol_chg1h": 1.92
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 8.528,
-      "impact_pct": 2.0282,
+      "rt_cost_pct": 8.527,
+      "impact_pct": 2.0266,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -46,7 +46,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "pass",
-        "value": "$79,191",
+        "value": "$76,002",
         "pts": 9.0,
         "max": 11.25
       },
@@ -54,7 +54,7 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "warn",
-        "value": "64% buys in 5m",
+        "value": "62% buys in 5m",
         "pts": 6.19,
         "max": 11.25
       },
@@ -62,7 +62,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+10.9% in 5m, steady",
+        "value": "-2.1% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -99,8 +99,8 @@
       {
         "id": "regime",
         "label": "Market regime",
-        "status": "pass",
-        "value": "risk-on"
+        "status": "warn",
+        "value": "risk-off: new-launch 5m vol $111,068 vs prior $227,864 (down 51%)"
       },
       {
         "id": "organic",

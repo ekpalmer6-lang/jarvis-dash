@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T22:29:59Z",
+  "published_at": "2026-11-20T22:31:02Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,8 +16,8 @@
     "status": {
       "Scanner": {
         "state": "idle",
-        "detail": "cycle 21.24s, 5 moving, 2 deep, 1 candidates, 0 buy-ready",
-        "updated": "2026-11-20T22:29:52+00:00"
+        "detail": "hype feed: 71 watchlist mints",
+        "updated": "2026-11-20T22:30:49+00:00"
       },
       "Executor": {
         "state": "off",
@@ -36,18 +36,18 @@
       },
       "Rug Check": {
         "state": "running",
-        "detail": "deep check MONKE",
-        "updated": "2026-11-20T22:29:40+00:00"
+        "detail": "tier 2 on 1 mint(s)",
+        "updated": "2026-11-20T22:30:43+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "1 candidates scored; trading open; Growth mode: on until $100",
-        "updated": "2026-11-20T22:29:52+00:00"
+        "detail": "guard tick: 0 open, 1 watched, 0 events",
+        "updated": "2026-11-20T22:31:00+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 2 open across 4 books",
-        "updated": "2026-11-20T22:29:50+00:00"
+        "updated": "2026-11-20T22:30:50+00:00"
       }
     },
     "limits": {
