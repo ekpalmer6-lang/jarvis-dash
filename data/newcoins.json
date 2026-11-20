@@ -1,8 +1,45 @@
 {
   "source": "wss://pumpportal.fun/api/data",
   "method": "subscribeNewToken",
-  "updated": "2026-11-20T23:56:40Z",
+  "updated": "2026-11-20T23:57:36Z",
   "tokens": [
+    {
+      "mint": "4YjARQyrg99QifhDMMrVc8ZZ6C6BfgM99Bo8yMfQpump",
+      "received_at": "2026-11-20T23:57:36Z",
+      "source": "pumpportal.fun",
+      "name": "AURACOIN",
+      "symbol": "$AURA",
+      "uri": "https://ipfs.io/ipfs/QmZg9jBiceyo7Mhy3EmpqvVczQCFGhBJXYagxFQtWdroHN",
+      "marketCapSol": 28.607028103095537,
+      "vSolInBondingCurve": 30.34567901099999,
+      "vTokensInBondingCurve": 1060777054.562907,
+      "solAmount": 0.345679011,
+      "initialBuy": 12222945.437093,
+      "bondingCurveKey": "DLNemcPYGYpG1QPyGQgGghZhvjsUnJbw9V3GNeRsC8Uk",
+      "pool": "pump",
+      "is_mayhem_mode": true,
+      "traderPublicKey": "BprSsZHyvweK7HVkrezEeYLzUuiWRH5TKHhXKwsQU5FG",
+      "last_tx": "create",
+      "last_tx_at": "2026-11-20T23:57:36Z",
+      "txType": "create",
+      "curve_pct": 0.40668118941175385
+    },
+    {
+      "mint": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+      "received_at": "2026-11-20T23:43:44Z",
+      "source": "pumpportal.fun",
+      "marketCapSol": 6036.297451212403,
+      "solAmount": 0,
+      "initialBuy": 999999999.1749519,
+      "pool": "bonk",
+      "traderPublicKey": "9sHpTfmVpCfP2zexRNK6j38NBchMv1RWpdXPK5NEcZan",
+      "last_tx": "create",
+      "last_tx_at": "2026-11-20T23:56:55Z",
+      "txType": "create",
+      "name": "BANDANA INU",
+      "symbol": "BANDANA",
+      "uri": "https://rings.run/api/launch/meta/5dFopQ3P6aqGMimT6cXX9onHGWsANLkmNAuNMPwEXuWd.json"
+    },
     {
       "mint": "HHYzwH751BxvnzsG7mW9QCvdM8NCzJGqTjEbdo1ArvPu",
       "received_at": "2026-11-20T23:56:40Z",
@@ -128,22 +165,6 @@
       "last_tx_at": "2026-11-20T23:56:08Z",
       "txType": "create",
       "curve_pct": 4.647785037647029
-    },
-    {
-      "mint": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
-      "received_at": "2026-11-20T23:43:44Z",
-      "source": "pumpportal.fun",
-      "marketCapSol": 6036.297519414103,
-      "solAmount": 0,
-      "initialBuy": 999999999.5874953,
-      "pool": "bonk",
-      "traderPublicKey": "9sHpTfmVpCfP2zexRNK6j38NBchMv1RWpdXPK5NEcZan",
-      "last_tx": "create",
-      "last_tx_at": "2026-11-20T23:55:33Z",
-      "txType": "create",
-      "name": "BANDANA INU",
-      "symbol": "BANDANA",
-      "uri": "https://rings.run/api/launch/meta/5dFopQ3P6aqGMimT6cXX9onHGWsANLkmNAuNMPwEXuWd.json"
     },
     {
       "mint": "BcJ9CCzVRjMhq55wfcgsTAZ6GTvfFY7NyAJKjGLHpump",
@@ -2060,27 +2081,6 @@
       "last_tx_at": "2026-11-20T23:37:38Z",
       "txType": "create",
       "curve_pct": 0.0
-    },
-    {
-      "mint": "7KJmK9xyEcdDhS3keEBtGmdBSZebhshDuHHubBqTpump",
-      "received_at": "2026-11-20T23:37:37Z",
-      "source": "pumpportal.fun",
-      "name": "Generational Taste",
-      "symbol": "$OLDMONEY",
-      "uri": "https://ipfs.io/ipfs/bafkreifoqhkxca42gnfihctmb7g2zrdboicwsh46cth4coiajsqceuaj7q",
-      "marketCapSol": 28.069557848389476,
-      "vSolInBondingCurve": 30.059259257999976,
-      "vTokensInBondingCurve": 1070884672.297204,
-      "solAmount": 0.059259258,
-      "initialBuy": 2115327.702796,
-      "bondingCurveKey": "35YTJGEyexskcQmKPP9M62HbVVNobQN2RNNHmRrX5LMw",
-      "pool": "pump",
-      "is_mayhem_mode": true,
-      "traderPublicKey": "42nx7krcZY538v8jQ6sENasJBegSCJ8X5GKnR8bKw9m8",
-      "last_tx": "create",
-      "last_tx_at": "2026-11-20T23:37:37Z",
-      "txType": "create",
-      "curve_pct": 0.06971677411761881
     }
   ]
 }

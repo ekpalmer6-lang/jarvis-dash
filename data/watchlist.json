@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T23:56:39+00:00",
-  "partial": true,
+  "updated": "2026-11-20T23:56:51+00:00",
+  "partial": false,
   "sources": {
     "telegram": {
       "ok": true,
@@ -36,8 +36,8 @@
       "error": "no live X API in feeds.py; optional out/x_raw.jsonl not present"
     },
     "onchain_flow": {
-      "ok": false,
-      "mints_measured": 0
+      "ok": true,
+      "mints_measured": 2
     },
     "dex_trending_count": 49
   },
@@ -68,7 +68,66 @@
           "t": "2026-11-20T23:51:45+00:00",
           "ticker": "$TRADER"
         }
-      ]
+      ],
+      "symbol": "Trader",
+      "pair": "65eyzrLgqEjqZ5NMoFntrE6XE6SvxS9zggzaBiew4n8n",
+      "dex": "raydium",
+      "flow": {
+        "pair": "65eyzrLgqEjqZ5NMoFntrE6XE6SvxS9zggzaBiew4n8n",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 37,
+            "buys": 14,
+            "sells": 23,
+            "buy_usd": 199.1,
+            "sell_usd": 840.16,
+            "buy_pressure": 0.192,
+            "unique_buyers": 10,
+            "unique_sellers": 13,
+            "large_wallets": 1,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 1,
+            "large_wallet_net_usd": -552.24,
+            "max_buyer_share": 0.679,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 300,
+            "buys": 160,
+            "sells": 140,
+            "buy_usd": 6617.26,
+            "sell_usd": 5821.05,
+            "buy_pressure": 0.532,
+            "unique_buyers": 88,
+            "unique_sellers": 75,
+            "large_wallets": 6,
+            "large_wallets_buying": 3,
+            "large_wallets_selling": 3,
+            "large_wallet_net_usd": 1630.9,
+            "max_buyer_share": 0.265,
+            "window_complete": false
+          },
+          "15m": {
+            "trades": 300,
+            "buys": 160,
+            "sells": 140,
+            "buy_usd": 6617.26,
+            "sell_usd": 5821.05,
+            "buy_pressure": 0.532,
+            "unique_buyers": 88,
+            "unique_sellers": 75,
+            "large_wallets": 6,
+            "large_wallets_buying": 3,
+            "large_wallets_selling": 3,
+            "large_wallet_net_usd": 1630.9,
+            "max_buyer_share": 0.265,
+            "window_complete": false
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
     },
     {
       "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M",
@@ -89,7 +148,66 @@
           "t": "2026-11-20T22:07:20+00:00",
           "ticker": "$70"
         }
-      ]
+      ],
+      "symbol": "MONKE",
+      "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+      "dex": "raydium",
+      "flow": {
+        "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 4,
+            "buys": 0,
+            "sells": 4,
+            "buy_usd": 0,
+            "sell_usd": 24.34,
+            "buy_pressure": 0.0,
+            "unique_buyers": 0,
+            "unique_sellers": 4,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 33,
+            "buys": 2,
+            "sells": 31,
+            "buy_usd": 35.64,
+            "sell_usd": 424.63,
+            "buy_pressure": 0.077,
+            "unique_buyers": 2,
+            "unique_sellers": 31,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": 0.998,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 150,
+            "buys": 33,
+            "sells": 117,
+            "buy_usd": 253.42,
+            "sell_usd": 2252.58,
+            "buy_pressure": 0.101,
+            "unique_buyers": 17,
+            "unique_sellers": 100,
+            "large_wallets": 3,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 3,
+            "large_wallet_net_usd": -841.81,
+            "max_buyer_share": 0.305,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
     },
     {
       "mint": "3k5ssodruz8qgznfhmpckapue472jwngexrmemgsmyye",
@@ -152,7 +270,16 @@
           "t": "2026-11-20T21:17:41+00:00",
           "ticker": "$ENU"
         }
-      ]
+      ],
+      "symbol": "enu",
+      "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "F8Ykd7drw4ytfNpG9L5r7XrRHwoYSNXFfR469U3LvjGp",
@@ -194,7 +321,16 @@
           "t": "2026-11-20T21:16:20+00:00",
           "ticker": "$67"
         }
-      ]
+      ],
+      "symbol": "chud",
+      "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "HQBfT5FrSDKj1scAUC62uqvxrzrM4F9FHooT9u4pCfj2",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
@@ -215,7 +351,16 @@
           "t": "2026-11-20T21:15:44+00:00",
           "ticker": "$SINGULARITY"
         }
-      ]
+      ],
+      "symbol": "Singularity",
+      "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "58XqWPXDGp3GfU9DAFxs8C1GJwTLdHdQhJRofAF5yWTV",

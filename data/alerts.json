@@ -4002,5 +4002,33 @@
     "prior_30m_avg_1m": 0.37,
     "url": "https://dexscreener.com/solana/dvurktditlnb46viiasd536wfvytakovute46vg6jd3d",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:57:03+00:00",
+    "ts": 1795219023,
+    "kind": "spike",
+    "mint": "6trGfQcpjWazE7it2BnRY7dHXaedRw2AU8pUX1dvpump",
+    "symbol": "Rasonque",
+    "msg": "Rasonque volume spike 115.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 115.376,
+    "last_1m": 46.44,
+    "prior_30m_avg_1m": 0.4,
+    "url": "https://dexscreener.com/solana/2onywbpdjde4shegy2cjrnexcflj1dapclh2nuxa14bk",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:57:44+00:00",
+    "ts": 1795219064,
+    "kind": "spike",
+    "mint": "EjJUrTSZhLfa1pRSrtk1Bh5962r7R4T9Xs4okMhUpump",
+    "symbol": "Moka",
+    "msg": "Moka volume spike 54.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 54.317,
+    "last_1m": 917.53,
+    "prior_30m_avg_1m": 16.89,
+    "url": "https://dexscreener.com/solana/ft1uqzexxws19bypfpwvedkpdda6aphudxrh2mrm4jjs",
+    "watch": "scan"
   }
 ]
