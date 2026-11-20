@@ -1,7 +1,7 @@
 {
   "source": "api.geckoterminal.com",
   "tf": "1m",
-  "published_at": "2026-11-20T19:49:39Z",
+  "published_at": "2026-11-20T19:50:42Z",
   "pools": {
     "Bfiq9eaLcMjpEKcgm16GSzzGdedCpcFhRAFvivRP4QkY": {
       "source": "api.geckoterminal.com",
@@ -10,7 +10,7 @@
       "candles": [
         [
           1795200600,
-          0.0002738334837074419,
+          0.00027726180921982385,
           0.00028545193631584326,
           0.0002735945497447118,
           0.00028545193631584326,
