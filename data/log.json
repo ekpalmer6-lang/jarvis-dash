@@ -19193,5 +19193,235 @@
     "level": "info",
     "msg": "MONKE 5m flow pressure 0.211 buyers 63 large-net $-6256.91 (16 large selling)",
     "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
+  },
+  {
+    "t": "2026-11-20T22:43:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:43:42+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T22:43:45+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: SELL 100% MONKE: hard stop -12% ($5.95)"
+  },
+  {
+    "t": "2026-11-20T22:43:54+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 113 mint mentions"
+  },
+  {
+    "t": "2026-11-20T22:43:59+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 16497ms: 284 mints, 88 cheap rows, 51 moving"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoMoonShots/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Et9hLY cash"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:44:00+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching CUfphq for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:44:06+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SolanaMemeCoins/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:09+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/solana/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:09+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "SIDOOR 5m flow pressure 0.463 buyers 58 large-net $-2.49 (1 large selling)",
+    "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:44:10+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "1000X 5m flow pressure 0.498 buyers 2 large-net $0 (0 large selling)",
+    "mint": "WNUUVPaaWF8aSaGgq5TF5bJVJCLU4BjwdmqmARKpump"
+  },
+  {
+    "t": "2026-11-20T22:44:12+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/memecoins/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:15+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow pressure 0.519 buyers 139 large-net $-4685.82 (4 large selling)",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump"
+  },
+  {
+    "t": "2026-11-20T22:44:15+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/CryptoCurrency/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:15+00:00",
+    "agent": "Paper",
+    "level": "warn",
+    "msg": "[PAPER-LOOP] grad_pullback: pass on BTC: sell-heavy 5m flow (475 buys / 656 sells)"
+  },
+  {
+    "t": "2026-11-20T22:44:15+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 15.86% held by linked wallets",
+    "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+    "symbol": "MONKE",
+    "reason": "too bundled: 15.86% held by linked wallets",
+    "clustered_pct": 15.86,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T22:44:18+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/pumpfun/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:20+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:44:21+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: HTTP 429 on https://www.reddit.com/r/SatoshiStreetBets/new/.rss; backing off 90s"
+  },
+  {
+    "t": "2026-11-20T22:44:21+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public RSS/Atom also failed or was rate-limited from this machine; no workaround used. The only legitimate alternative is a Reddit OAuth API app on the user's own Reddit account."
+  },
+  {
+    "t": "2026-11-20T22:44:21+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T22:44:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "MONKE 5m flow: 215 buys / 85 sells, pressure 0.645, 166 unique buyers, large-wallet net $252.03",
+    "mint": "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M"
+  },
+  {
+    "t": "2026-11-20T22:44:30+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10294ms: 298 mints, 94 cheap rows, 52 moving"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 72qYAW cash"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Go5TGz cash"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5GDPVE cash"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 8y7Hn8 cash"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 37cWhn cash"
+  },
+  {
+    "t": "2026-11-20T22:44:31+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: watching CUfphq for 15s ($10, post-graduation pullback)"
+  },
+  {
+    "t": "2026-11-20T22:44:32+00:00",
+    "agent": "Risk",
+    "level": "info",
+    "msg": "too bundled: 17.15% held by linked wallets",
+    "mint": "72qYAWwXd8pTFMh85nH3AozBnkQFj4RL6UZKUSiSpump",
+    "symbol": "bwp",
+    "reason": "too bundled: 17.15% held by linked wallets",
+    "clustered_pct": 17.15,
+    "cluster_count": 2
+  },
+  {
+    "t": "2026-11-20T22:44:34+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 71 mints, 0 under 30s, 0 coordinated, 66 early-vs-trending, 1 with flow"
   }
 ]
