@@ -3906,5 +3906,61 @@
     "mc_usd": 3056.54,
     "url": "https://dexscreener.com/solana/ft1uqzexxws19bypfpwvedkpdda6aphudxrh2mrm4jjs",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:53:40+00:00",
+    "ts": 1795218820,
+    "kind": "spike",
+    "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
+    "symbol": "SBS",
+    "msg": "SBS volume spike 1203.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 1203.862,
+    "last_1m": 16978.61,
+    "prior_30m_avg_1m": 14.1,
+    "url": "https://dexscreener.com/solana/asztn7gufcodmjnfkcqgarc2bb6qniup9hzy4j2pkkl2",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:54:29+00:00",
+    "ts": 1795218869,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 19.8,
+        "stale": false,
+        "at": "2026-11-20T23:54:10+00:00",
+        "at_et": "Nov 21, 7:54 AM AWST",
+        "at_awst": "Nov 21, 7:54 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 51.5,
+        "stale": false,
+        "at": "2026-11-20T23:53:38+00:00",
+        "at_et": "Nov 21, 7:53 AM AWST",
+        "at_awst": "Nov 21, 7:53 AM AWST"
+      },
+      "scan": {
+        "age_s": 47.8,
+        "stale": false,
+        "at": "2026-11-20T23:53:42+00:00",
+        "at_et": "Nov 21, 7:53 AM AWST",
+        "at_awst": "Nov 21, 7:53 AM AWST"
+      },
+      "status": {
+        "age_s": 2.8,
+        "stale": false,
+        "at": "2026-11-20T23:54:27+00:00",
+        "at_et": "Nov 21, 7:54 AM AWST",
+        "at_awst": "Nov 21, 7:54 AM AWST"
+      }
+    }
   }
 ]

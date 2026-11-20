@@ -1,1 +1,151 @@
-{}
+{
+  "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu": {
+    "mint": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
+    "symbol": "SBS",
+    "updated": "2026-11-20T23:54:38+00:00",
+    "confidence": 54,
+    "size_usd": 0.0,
+    "verdict": "Do not buy SBS (confidence 54/100). Cost gate: round-trip cost 11.10% > 10%; price impact 4.60% > 4%.",
+    "scan_verdict": "candidate",
+    "regime": {
+      "risk_off": false,
+      "reason": "risk-on",
+      "sol_chg1h": -0.58
+    },
+    "paused": false,
+    "cost": {
+      "ok": false,
+      "rt_cost_pct": 12.56,
+      "impact_pct": 4.5654,
+      "min_sensible_size": 3.64,
+      "reason": "round-trip cost 12.56% > 10%; price impact 4.57% > 4%",
+      "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
+      "source": "lite-api.jup.ag"
+    },
+    "notes": [],
+    "checks": [
+      {
+        "id": "safety",
+        "label": "Safety checks",
+        "status": "warn",
+        "value": "mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable",
+        "pts": 15.75,
+        "max": 18.75
+      },
+      {
+        "id": "cluster",
+        "label": "Cluster / sniper hold",
+        "status": "pass",
+        "value": "bundle+sniper 2.2%, insiders 0%",
+        "pts": 11.25,
+        "max": 11.25
+      },
+      {
+        "id": "liquidity",
+        "label": "Liquidity depth",
+        "status": "warn",
+        "value": "$18,545 thin",
+        "pts": 2.25,
+        "max": 11.25
+      },
+      {
+        "id": "pressure",
+        "label": "Buy pressure",
+        "status": "warn",
+        "value": "59% buys in 5m",
+        "pts": 6.19,
+        "max": 11.25
+      },
+      {
+        "id": "chart",
+        "label": "Chart steadiness",
+        "status": "warn",
+        "value": "+109% in 5m (chasing)",
+        "pts": 2.25,
+        "max": 7.5
+      },
+      {
+        "id": "caller",
+        "label": "Caller quality / first-call",
+        "status": "warn",
+        "value": "no caller / first-call data",
+        "pts": 3.75,
+        "max": 7.5
+      },
+      {
+        "id": "cost",
+        "label": "Cost gate",
+        "status": "fail",
+        "value": "round-trip cost 11.10% > 10%; price impact 4.60% > 4%",
+        "pts": 0.0,
+        "max": 7.5
+      },
+      {
+        "id": "chart_signals",
+        "label": "Chart signals (1m)",
+        "status": "warn",
+        "value": "50/100 only 6 one-minute bars, chart not readable yet | timing: wait",
+        "pts": 12.5,
+        "max": 25
+      },
+      {
+        "id": "pause",
+        "label": "Trading pause",
+        "status": "pass",
+        "value": "not paused"
+      },
+      {
+        "id": "regime",
+        "label": "Market regime",
+        "status": "pass",
+        "value": "risk-on"
+      },
+      {
+        "id": "organic",
+        "label": "Organic activity",
+        "status": "warn",
+        "value": "empty-SOL holder check unavailable"
+      },
+      {
+        "id": "theme",
+        "label": "Theme leader",
+        "status": "pass",
+        "value": "only mint or cluster leader"
+      },
+      {
+        "id": "buzz",
+        "label": "Buzz sources",
+        "status": "warn",
+        "value": "no independent 30m sources"
+      },
+      {
+        "id": "entry",
+        "label": "Entry timing",
+        "status": "fail",
+        "value": "entry needs buzz from 2+ independent sources in 30m or chart score >= 60"
+      },
+      {
+        "id": "exit_profile",
+        "label": "Exit profile",
+        "status": "pass",
+        "value": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+      }
+    ],
+    "exit_profile": "standard",
+    "exit_plan": {
+      "profile": "standard",
+      "why": "standard exit: \u221212% stop, TP_HALF +40%, 15m time, 15% trail after +20%"
+    },
+    "chart": {
+      "score": 50,
+      "verdict": "too_young",
+      "timing": "wait",
+      "timing_why": null,
+      "exit_hints": [],
+      "summary": "only 6 one-minute bars, chart not readable yet",
+      "bars": 6,
+      "tf": "1m",
+      "signals": []
+    }
+  }
+}
