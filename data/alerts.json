@@ -3733,5 +3733,18 @@
     "mc_usd": 3178.84,
     "url": "https://dexscreener.com/solana/9ukwkr9qx7no67fqaozppyaqfwjzgdmpcxqgxapxxqzf",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:43:14+00:00",
+    "ts": 1795218194,
+    "kind": "fast",
+    "mint": "B8pZGuMVA8J2rKtPSGMRxnrEqVRoHrpBRwNkP5f2pump",
+    "symbol": "VICEPEPE",
+    "msg": "VICEPEPE +26% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 25.56,
+    "mc_usd": 3138.9,
+    "url": "https://dexscreener.com/solana/hwrjbve3mamqej2smqizm5agbnu6vhhafkftfz8xskc2",
+    "watch": "scan"
   }
 ]
