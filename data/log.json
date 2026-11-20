@@ -1973,5 +1973,33 @@
     "level": "warn",
     "msg": "GTA: avoid, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
     "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
+  },
+  {
+    "t": "2026-11-20T20:03:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LOOSY 5m flow pressure 0.367 buyers 32 large-net $-1872.38 (6 large selling)",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:03:25+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:04:06+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "HUSS 5m flow pressure 0.731 buyers 14 large-net $360.48 (1 large selling)",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T20:04:12+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0, dev: no prior launches on record, whales 0 selling / 3 accumulating",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
   }
 ]
