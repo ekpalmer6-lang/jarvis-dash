@@ -3893,5 +3893,18 @@
     "prior_30m_avg_1m": 1.4,
     "url": "https://dexscreener.com/solana/6axrt6rgrfzsm2jh8chswcnch2fbvuzhoepb9bbygpm7",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:52:40+00:00",
+    "ts": 1795218760,
+    "kind": "fast",
+    "mint": "EjJUrTSZhLfa1pRSrtk1Bh5962r7R4T9Xs4okMhUpump",
+    "symbol": "Moka",
+    "msg": "Moka +35% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 35.39,
+    "mc_usd": 3056.54,
+    "url": "https://dexscreener.com/solana/ft1uqzexxws19bypfpwvedkpdda6aphudxrh2mrm4jjs",
+    "watch": "scan"
   }
 ]
