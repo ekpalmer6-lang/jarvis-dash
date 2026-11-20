@@ -3370,5 +3370,87 @@
     "level": "info",
     "msg": "LOOSY 5m flow pressure 0.336 buyers 75 large-net $-209.06 (1 large selling)",
     "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:53:26+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow pressure 0.098 buyers 10 large-net $-495.19 (2 large selling)",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T20:53:32+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:53:32+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:53:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9800ms: 240 mints, 12 cheap rows, 7 moving"
+  },
+  {
+    "t": "2026-11-20T20:53:43+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 110 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:54:01+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:54:01+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:54:02+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:54:07+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow: 84 buys / 41 sells, pressure 0.328, 46 unique buyers, large-wallet net $-3470.15",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:54:09+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:54:11+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 8618ms: 236 mints, 12 cheap rows, 7 moving"
+  },
+  {
+    "t": "2026-11-20T20:54:11+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 11 buys / 17 sells, pressure 0.58, 9 unique buyers, large-wallet net $385.01",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:54:16+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 65 mints, 0 under 30s, 0 coordinated, 60 early-vs-trending, 3 with flow"
   }
 ]
