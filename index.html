@@ -288,6 +288,29 @@ html[data-theme=light] .depbtn{background:#10B981;color:#fff!important;box-shado
 html[data-theme=light] .nbtn{background:#10B981;color:#fff}html[data-theme=light] .nbtn.ghost{background:#fff;color:#0b0b0c}
 html[data-theme=light] .digestk div{background:#fff}
 @media(max-width:560px){.nbtn{width:100%}}
+
+/* health strip, stale banner, checklist / chart blocks, strategy stats */
+.hstrip{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;background:var(--glass);border:1px solid var(--line);font:600 11.5px/1.3 Inter,system-ui,sans-serif;color:var(--dim);margin:0 0 10px}
+.hstrip.ok{border-color:rgba(49,202,119,.35)}.hstrip.bad{border-color:rgba(255,84,112,.45);color:var(--txt)}
+.hitem{display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:999px;background:var(--glass2);border:1px solid var(--line);text-transform:lowercase}
+.hitem i{width:7px;height:7px;border-radius:50%;background:#7c8aa3;display:inline-block}
+.hitem.ok i{background:#31ca77}.hitem.mid i{background:#ffc145}.hitem.bad i{background:#ff4d5e}
+#staleBanner{display:none;padding:10px 14px;border-radius:12px;margin:0 0 12px;background:rgba(255,193,69,.12);border:1px solid rgba(255,193,69,.4);color:var(--amb);font:600 12px/1.4 Inter,system-ui,sans-serif}
+.ck{margin-top:8px;padding:8px 10px;border-radius:10px;background:var(--glass2);border:1px solid var(--line);font-size:11.5px;color:var(--dim)}
+.ck-verdict{font:700 12px/1.35 Inter,system-ui,sans-serif;color:var(--txt);margin-bottom:4px}
+.ck-lines{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.ck-i{padding:2px 7px;border-radius:999px;border:1px solid var(--line);font:600 10px/1.4 ui-monospace,monospace}
+.ck-i.pass{color:var(--neon);border-color:rgba(49,202,119,.3)}
+.ck-i.warn{color:var(--amb);border-color:rgba(255,193,69,.35)}
+.ck-i.fail{color:var(--red);border-color:rgba(255,84,112,.35)}
+.ck-chart{margin-top:6px;padding-top:6px;border-top:1px solid var(--line)}
+.k-health{background:rgba(155,123,255,.16);color:#c4b5ff}
+.k-spike{background:rgba(255,129,24,.16);color:#ff9a3c}
+#eqCaption{margin:6px 0 0;font:600 11px/1 Inter,system-ui,sans-serif;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
+.stratg{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin-top:4px}
+.stratg div{padding:10px 12px;border-radius:12px;background:var(--glass2);border:1px solid var(--line)}
+.stratg b{display:block;font:800 15px/1.2 Inter,system-ui,sans-serif;margin-top:2px}
+@media(max-width:560px){.hstrip{font-size:11px}}
 </style></head><body>
 <div id="splash"><div class="mark"><span>J</span></div><div class="brand">JARVIS TERMINAL</div><div class="sub" id="splashMsg">booting agents… loading real data</div></div>
 <canvas id="confetti"></canvas><div id="toasts"></div>
@@ -304,7 +327,9 @@ html[data-theme=light] .digestk div{background:#fff}
   <button class="iconbtn" id="themeBtn" aria-label="toggle theme">◐</button>
   <div class="pill"><span class="pulse" id="hb"></span><span id="clock" class="mono">–</span></div>
 </header>
+<div id="healthStrip" class="hstrip" aria-live="polite"><span class="hitem mid"><i></i>health</span><span class="sub">waiting for first status…</span></div>
 <div class="banner" id="banner"></div>
+<div id="staleBanner">Data may be stale.</div>
 <div class="grid">
   <section class="card s8" data-tab="live">
     <div class="hero">
@@ -317,6 +342,7 @@ html[data-theme=light] .digestk div{background:#fff}
       </div>
     </div>
     <div id="chartBox"><canvas id="chart"></canvas><div class="chartEmpty" id="chartEmpty"></div></div>
+    <div id="eqCaption">Equity curve · from state/equity.jsonl</div>
   </section>
   <section class="card s4" data-tab="live">
     <h3><span class="pulse idle"></span>Session summary<span class="r" id="sumWhen"></span></h3>
@@ -358,6 +384,9 @@ html[data-theme=light] .digestk div{background:#fff}
   </section>
   <section class="card s12" data-tab="trades">
     <h3>P&amp;L · after fees<span class="r" id="pnlMode"></span></h3><div id="pnlBody"></div>
+  </section>
+  <section class="card s12" data-tab="trades">
+    <h3>Strategy stats<span class="r">from state/stats.json</span></h3><div id="stratStats"></div>
   </section>
   <section class="card s5" data-tab="trades">
     <h3>Open positions<span class="r">live price · DexScreener</span></h3><div id="positions"></div>
@@ -452,10 +481,54 @@ function chip(label,val,good,bad,suffix="%"){if(val==null)return`<span class="ch
 function taxCsvHref(){return document.documentElement.dataset.static==="1"?"data/tax_log.csv":"/api/tax.csv"}
 function parseCsv(text){const rows=[];let row=[],cur="",q=false;for(let i=0;i<text.length;i++){const ch=text[i];if(q){if(ch==='"'&&text[i+1]==='"'){cur+='"';i++;}else if(ch==='"')q=false;else cur+=ch;}else{if(ch==='"')q=true;else if(ch===','){row.push(cur);cur="";}else if(ch==='\n'||ch==='\r'){if(ch==='\r'&&text[i+1]==='\n')i++;row.push(cur);if(row.some(x=>x!==""))rows.push(row);row=[];cur="";}else cur+=ch;}}if(cur||row.length){row.push(cur);if(row.some(x=>x!==""))rows.push(row);}return rows;}
 async function renderTax(){const a=$("taxDownload"),box=$("taxList");if(a)a.href=taxCsvHref();if(!box)return;try{const r=await fetch(taxCsvHref(),{cache:"no-store"});if(!r.ok)throw 0;const rows=parseCsv(await r.text()).filter(x=>x[0]&&!String(x[0]).startsWith("#"));if(rows.length<=1){box.innerHTML='<div class="sub">No trades in the tax log yet.</div>';return;}const hdr=rows[0],idx=Object.fromEntries(hdr.map((h,i)=>[h,i]));const body=rows.slice(1);box.innerHTML=`<div class="scroll"><table class="tbl"><tr><th>Time (ET)</th><th>Type</th><th>Coin</th><th>Qty</th><th>USD</th><th>Gain/loss</th><th>Hold</th></tr>${body.slice().reverse().slice(0,40).map(c=>{const g=c[idx.gain_loss_usd]||"",cls=g===""?"":(Number(g)>=0?"g":"rd");return `<tr><td class="mono sub">${esc(c[idx.date_time_ET]||"")}</td><td>${esc(c[idx.type]||"")}</td><td class="mono">${esc(c[idx.coin_symbol]||"")}</td><td class="mono">${esc(c[idx.quantity]||"")}</td><td class="mono">${esc(c[idx.usd_amount]||"")}</td><td class="mono ${cls}">${esc(g)}</td><td class="sub">${esc(c[idx.holding_period]||"")}</td></tr>`;}).join("")}</table></div>`;}catch(e){box.innerHTML='<div class="sub">Tax log unavailable.</div>';}}
+
+function checkBlock(mint){
+  const doc=(window.__checks||{})[mint];
+  if(!doc)return `<div class="ck"><div class="sub">No pre-entry checklist yet.</div></div>`;
+  const ch=doc.chart;
+  const lines=(doc.checks||[]).map(c=>`<span class="ck-i ${esc(c.status||"")}">${esc(c.label||c.id)}: ${esc(c.value||c.status||"")}</span>`).join("");
+  let h=`<div class="ck"><div class="ck-verdict">${esc(doc.verdict||"")}</div><div class="sub">confidence ${doc.confidence??"–"} · size ${usd(doc.size_usd)}</div><div class="ck-lines">${lines}</div>`;
+  if(ch&&(ch.score!=null||ch.timing||ch.summary)){
+    const hints=(ch.exit_hints||[]).filter(Boolean);
+    h+=`<div class="ck-chart"><b>Chart ${ch.score??"–"}</b>${ch.timing?` · ${esc(ch.timing)}`:""}${ch.verdict?` · ${esc(ch.verdict)}`:""}<div class="sub">${esc(ch.timing_why||ch.summary||"")}</div>${hints.length?`<div class="sub">Exit: ${esc(hints.join("; "))}</div>`:""}</div>`;
+  }
+  return h+`</div>`;
+}
+function paintHealth(h){
+  const el=$("healthStrip");if(!el)return;
+  if(!h||h.empty){el.className="hstrip";el.innerHTML='<span class="hitem mid"><i></i>health</span><span class="sub">Watchdog has not written a status yet.</span>';return}
+  const procs=h.processes||{}, names=["guard","serve","publish"].concat(procs.notifier?["notifier"]:[]);
+  const bits=names.map(n=>{const p=procs[n]||{};const cls=p.alive&&!p.stale?"ok":p.alive?"mid":"bad";const lab=p.alive?(p.stale?" stale":""):" down";return `<span class="hitem ${cls}"><i></i>${n}${lab}</span>`}).join("");
+  el.className="hstrip"+(h.ok?" ok":" bad");
+  el.innerHTML=`${bits}<span class="sub"> · ${h.ok?"all green":"attention"} · last update ${esc(h.updated_et||((h.updated?dt(h.updated)+" ET":"–")))}</span>`;
+}
+function paintStale(health,scan){
+  const el=$("staleBanner");if(!el)return;
+  const ts=(health&&health.updated)||(scan&&scan.meta&&scan.meta.scanned_at_utc);
+  if(!ts){el.style.display="none";return}
+  const age=(Date.now()-+new Date(ts))/1000;
+  if(!isFinite(age)||age<=180){el.style.display="none";return}
+  el.style.display="";
+  el.textContent=`Data may be stale — last update ${dt(ts)} ET (${Math.max(1,Math.round(age/60))} min ago).`;
+}
+function paintStratStats(s){
+  const el=$("stratStats");if(!el)return;
+  const by=s&&s.by_strategy;
+  if(!s||s.empty||!by||!Object.keys(by).length){el.innerHTML=emptyBox("No strategy stats yet","Win rate, expectancy and profit factor per strategy appear after the first closed trades.");return}
+  const fmt=(v,p)=>v==null||isNaN(v)?"–":(p?((v>=0?"+":"")+Number(v).toFixed(1)+"%"):usd(v));
+  const head=`<div class="sub" style="margin-bottom:8px">Overall win rate ${s.win_rate==null?"–":Math.round(s.win_rate*100)+"%"}${s.expectancy_usd!=null?` · expectancy ${usd(s.expectancy_usd)} after fees`:""}${s.updated?` · as of ${dt(s.updated)} ET`:""}</div>`;
+  el.innerHTML=head+`<div class="stratg">`+Object.entries(by).map(([k,v])=>{
+    const wr=v.win_rate==null?"–":Math.round(v.win_rate*100)+"%";
+    return `<div><div class="lbl">${esc(k)}</div><b>${wr} win</b><div class="sub">${v.n_closed||0} closed · expectancy ${v.expectancy_usd==null?"–":usd(v.expectancy_usd)}${v.profit_factor!=null?` · PF ${Number(v.profit_factor).toFixed(2)}`:""}</div></div>`;
+  }).join("")+`</div>`;
+}
 async function tick(){
+
  $("clock").textContent=tm(Date.now())+" ET";
  const base="/data/"+MODE+"/";
- const [bal,pos,trades,eq,status,log,limits,scan]=await Promise.all([j(base+"balance.json"),j(base+"positions.json"),jl(base+"trades.jsonl"),jl(base+"equity.jsonl"),j("/data/live/status.json"),jl("/data/live/log.jsonl"),j("/data/live/limits.json"),j("/data/latest.json")]);
+ const [bal,pos,trades,eq,status,log,limits,scan,health,stats,checklists]=await Promise.all([j(base+"balance.json"),j(base+"positions.json"),jl(base+"trades.jsonl"),jl(base+"equity.jsonl"),j("/data/live/status.json"),jl("/data/live/log.jsonl"),j("/data/live/limits.json"),j("/data/latest.json"),j("/api/health"),j("/api/stats"),j("/api/checklists")]);
+ window.__checks=checklists||{};
+ paintHealth(health);paintStale(health,scan);paintStratStats(stats);
  $("hb").className="pulse"+(status?"":" off");
  $("banner").className="banner"+(MODE==="paper"?" paper":"");
  $("banner").innerHTML=MODE==="live"?`<span class="pulse idle"></span>LIVE · real account files only. Nothing on this view is simulated.`:`<span class="pulse warn"></span>PAPER · simulated fills from papertrade.py on live DexScreener prices. No real money.`;
@@ -501,7 +574,7 @@ async function tick(){
   const ti=A.findIndex(a=>a[0]===n);return`<div class="agent ${esc(s.state)}"><div class="top"><span class="pulse ${st}"></span><span class="badge2 tint${ti}">${n}</span><span class="st ${s.state==="running"?"g":s.state==="idle"?"bl":s.state==="error"?"rd":""}">${esc(s.state)}</span></div><div class="d">${esc(s.detail)}${s.updated?` <span style="color:var(--mute)">· ${tm(s.updated)}</span>`:""}</div></div>`}).join("");
  // positions
  $("positions").innerHTML=P.length?P.map(p=>{const q=live[p.mint]||{},val=q.price_usd?p.qty*q.price_usd:null,ch=q.price_usd&&p.entry_price_usd?(q.price_usd/p.entry_price_usd-1)*100:null;
-  return`<div class="pos">${av(p.symbol,p.mint)}<div style="min-width:0;flex:1"><b class="mono">${esc(p.symbol)}</b><div class="sub">entry ${px(p.entry_price_usd)} · now ${px(q.price_usd)} · stop ${px(p.stop_price)}</div></div><div style="text-align:right"><b class="mono">${usd(val)}</b><div class="mono ${ch==null?"":ch>=0?"g":"rd"}" style="font-size:12px">${ch==null?"–":(ch>=0?"+":"")+ch.toFixed(1)+"%"}</div></div></div>`}).join("")
+  return`<div class="pos" style="flex-wrap:wrap">${av(p.symbol,p.mint)}<div style="min-width:0;flex:1"><b class="mono">${esc(p.symbol)}</b><div class="sub">entry ${px(p.entry_price_usd)} · now ${px(q.price_usd)} · stop ${px(p.stop_price)}</div></div><div style="text-align:right"><b class="mono">${usd(val)}</b><div class="mono ${ch==null?"":ch>=0?"g":"rd"}" style="font-size:12px">${ch==null?"–":(ch>=0?"+":"")+ch.toFixed(1)+"%"}</div></div><div style="flex-basis:100%">${checkBlock(p.mint)}</div></div>`}).join("")
   :emptyBox("No open positions",MODE==="live"?"Waiting for a token that passes every check.":"No paper positions right now.");
  // log
  const L=log.filter(e=>MODE==="paper"||!/\[PAPER\]/.test(e.msg)).slice(-160),box=$("log"),bottom=box.scrollTop+box.clientHeight>=box.scrollHeight-30;
@@ -528,7 +601,7 @@ async function tick(){
    <div class="stats"><div>MC<b>${kfmt(r.mc_usd)}</b></div><div>Liq<b>${kfmt(r.liq_usd)}</b></div><div>Vol 5m<b>${kfmt(r.vol5m)}</b></div><div>1h<b class="${ch==null?"":ch>=0?"g":"rd"}">${ch==null?"–":(ch>=0?"+":"")+Math.round(ch)+"%"}</b></div></div>
    <div class="chips">${chip("bundle",bs,5,20)}${chip("dev",r.dev_pct,1,5)}${chip("insiders",r.insider_hold_pct,5,15)}${lp}${wh}${devrep}${r.rc_score!=null?`<span class="chip ${r.rc_score<=10?"ok":r.rc_score>=50?"bad":"mid"}">rugcheck ${r.rc_score}</span>`:""}</div>
    <div class="why">${esc(r.red_flags||r.positives||"")}</div>
-   <div class="ft"><span class="size ${r.size_usd>0?"go":""}">size $${r.size_usd??0}</span><span class="sub" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(r.size_reason||"")}</span><button class="pinbtn ${PINS.has(r.mint)?"on":""}" onclick="togglePin('${esc(r.mint)}','${esc(r.symbol)}')">📌</button><a target="_blank" href="${esc(r.url)}">chart ↗</a></div></div>`}).join("")}
+   <div class="ft"><span class="size ${r.size_usd>0?"go":""}">size $${r.size_usd??0}</span><span class="sub" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(r.size_reason||"")}</span><button class="pinbtn ${PINS.has(r.mint)?"on":""}" onclick="togglePin('${esc(r.mint)}','${esc(r.symbol)}')">📌</button><a target="_blank" href="${esc(r.url)}">chart ↗</a></div>${(r.verdict==="candidate"||r.verdict==="paused"||(window.__checks||{})[r.mint])?checkBlock(r.mint):""}</div>`}).join("")}
  else $("scan").innerHTML=emptyBox("Scanning…","No scan file yet. Run python3 memescan.py");
 }
 

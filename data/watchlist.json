@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T19:56:50+00:00",
-  "partial": true,
+  "updated": "2026-11-20T19:57:02+00:00",
+  "partial": false,
   "sources": {
     "telegram": {
       "ok": true,
@@ -38,8 +38,8 @@
       "error": "no live X API in feeds.py; optional out/x_raw.jsonl not present"
     },
     "onchain_flow": {
-      "ok": false,
-      "mints_measured": 0
+      "ok": true,
+      "mints_measured": 2
     },
     "dex_trending_count": 42
   },
@@ -70,7 +70,66 @@
           "t": "2026-11-20T18:56:35+00:00",
           "ticker": "$55"
         }
-      ]
+      ],
+      "symbol": "Singularity",
+      "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "J4zp5MFhLB9LJAvopg7XTCRsU2AUCFQucrmvmUMQZtYF",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          },
+          "5m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          },
+          "15m": {
+            "trades": 0,
+            "buys": 0,
+            "sells": 0,
+            "buy_usd": 0,
+            "sell_usd": 0,
+            "buy_pressure": null,
+            "unique_buyers": 0,
+            "unique_sellers": 0,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": null,
+            "window_complete": false
+          }
+        },
+        "error": null,
+        "trades_returned": 0
+      }
     },
     {
       "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
@@ -90,7 +149,66 @@
           "t": "2026-11-20T18:35:36+00:00",
           "ticker": "$HUSS"
         }
-      ]
+      ],
+      "symbol": "Huss",
+      "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {
+          "1m": {
+            "trades": 2,
+            "buys": 1,
+            "sells": 1,
+            "buy_usd": 0.3,
+            "sell_usd": 14.32,
+            "buy_pressure": 0.02,
+            "unique_buyers": 1,
+            "unique_sellers": 1,
+            "large_wallets": 0,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 0,
+            "large_wallet_net_usd": 0,
+            "max_buyer_share": 1.0,
+            "window_complete": true
+          },
+          "5m": {
+            "trades": 67,
+            "buys": 52,
+            "sells": 15,
+            "buy_usd": 1025.2,
+            "sell_usd": 1268.2,
+            "buy_pressure": 0.447,
+            "unique_buyers": 52,
+            "unique_sellers": 15,
+            "large_wallets": 2,
+            "large_wallets_buying": 0,
+            "large_wallets_selling": 2,
+            "large_wallet_net_usd": -899.53,
+            "max_buyer_share": 0.126,
+            "window_complete": true
+          },
+          "15m": {
+            "trades": 177,
+            "buys": 111,
+            "sells": 66,
+            "buy_usd": 4086.15,
+            "sell_usd": 4093.11,
+            "buy_pressure": 0.5,
+            "unique_buyers": 98,
+            "unique_sellers": 55,
+            "large_wallets": 13,
+            "large_wallets_buying": 5,
+            "large_wallets_selling": 8,
+            "large_wallet_net_usd": -752.03,
+            "max_buyer_share": 0.164,
+            "window_complete": true
+          }
+        },
+        "error": null,
+        "trades_returned": 300
+      }
     },
     {
       "mint": "gkhcyzexdi2sveqnagsg3qxrkzshdr5dxrd482km2hxx",
@@ -265,7 +383,16 @@
           "t": "2026-11-20T19:53:57+00:00",
           "ticker": "$12"
         }
-      ]
+      ],
+      "symbol": "PATRICK",
+      "pair": "BCgR8mwLDXeg9Sh9HWGzk9kMbuVN6bQ3TjUnUgfbZ6Bz",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "BCgR8mwLDXeg9Sh9HWGzk9kMbuVN6bQ3TjUnUgfbZ6Bz",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump",
@@ -286,7 +413,16 @@
           "t": "2026-11-20T17:42:21+00:00",
           "ticker": "$CATPOOP"
         }
-      ]
+      ],
+      "symbol": "CATPOOP",
+      "pair": "AYzjWPga74yrpQsKqC6JurNfifWCBk3LKBCuSpAg4W2p",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "AYzjWPga74yrpQsKqC6JurNfifWCBk3LKBCuSpAg4W2p",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "AYzjWPga74yrpQsKqC6JurNfifWCBk3LKBCuSpAg4W2p",
@@ -328,7 +464,16 @@
           "t": "2026-11-20T17:26:38+00:00",
           "ticker": "$DOOMSDAY"
         }
-      ]
+      ],
+      "symbol": "DOOMSDAY",
+      "pair": "G81JD3ALyy4y1yknAyYyCz3aRZkQEEma2sH1oQcMx33h",
+      "dex": "pumpswap",
+      "flow": {
+        "pair": "G81JD3ALyy4y1yknAyYyCz3aRZkQEEma2sH1oQcMx33h",
+        "source": "api.geckoterminal.com/pools/.../trades",
+        "windows": {},
+        "error": "HTTP 429"
+      }
     },
     {
       "mint": "G81JD3ALyy4y1yknAyYyCz3aRZkQEEma2sH1oQcMx33h",
