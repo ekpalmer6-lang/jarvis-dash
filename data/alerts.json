@@ -3198,5 +3198,18 @@
     "mc_usd": 4620.29,
     "url": "https://dexscreener.com/solana/9nvmbdspmp4rjeenkis2nhneifp3pbljhsskwyveccov",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:23:19+00:00",
+    "ts": 1795216999,
+    "kind": "fast",
+    "mint": "GwLn6ZMQsnpjBiZkDAHc8gufXpeN8gZ4yg1jDwpXpump",
+    "symbol": "TIT",
+    "msg": "TIT +45% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 45.17,
+    "mc_usd": 2888.55,
+    "url": "https://dexscreener.com/solana/6ubjzwc8c9vyygkmmxpkhvndz4k1agmgmdcnkczdo2dg",
+    "watch": "scan"
   }
 ]
