@@ -3102,5 +3102,49 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 done in 9462ms: 229 mints, 14 cheap rows, 8 moving"
+  },
+  {
+    "t": "2026-11-20T20:47:09+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BTC 5m flow pressure 0.741 buyers 163 large-net $12791.72 (2 large selling)",
+    "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump"
+  },
+  {
+    "t": "2026-11-20T20:47:13+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 55.14% held by linked wallets",
+    "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
+    "symbol": "BTC",
+    "reason": "too bundled: 55.14% held by linked wallets",
+    "clustered_pct": 55.14,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T20:47:28+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DCTY 5m flow pressure 0.648 buyers 101 large-net $3069.88 (7 large selling)",
+    "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:47:36+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:47:46+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9779ms: 240 mints, 12 cheap rows, 7 moving"
+  },
+  {
+    "t": "2026-11-20T20:47:57+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.471 buyers 113 large-net $-1092.38 (11 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
   }
 ]

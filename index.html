@@ -388,6 +388,9 @@ html[data-theme=light] .digestk div{background:#fff}
   <section class="card s12" data-tab="trades">
     <h3>Strategy stats<span class="r">from state/stats.json</span></h3><div id="stratStats"></div>
   </section>
+  <section class="card s12" data-tab="trades">
+    <h3>Paper strategy leaderboard<span class="r">forward test after Fomo fees</span></h3><div id="paperBoard"></div>
+  </section>
   <section class="card s5" data-tab="trades">
     <h3>Open positions<span class="r">live price · DexScreener</span></h3><div id="positions"></div>
   </section>
@@ -497,7 +500,8 @@ function checkBlock(mint){
 function paintHealth(h){
   const el=$("healthStrip");if(!el)return;
   if(!h||h.empty){el.className="hstrip";el.innerHTML='<span class="hitem mid"><i></i>health</span><span class="sub">Watchdog has not written a status yet.</span>';return}
-  const procs=h.processes||{}, names=["guard","serve","publish"].concat(procs.notifier?["notifier"]:[]);
+  const procs=h.processes||{}, prefer=["guard","serve","publish","scanloop","papertrade","notifier"];
+  const names=prefer.filter(n=>procs[n]).concat(Object.keys(procs).filter(n=>!prefer.includes(n)));
   const bits=names.map(n=>{const p=procs[n]||{};const cls=p.alive&&!p.stale?"ok":p.alive?"mid":"bad";const lab=p.alive?(p.stale?" stale":""):" down";return `<span class="hitem ${cls}"><i></i>${n}${lab}</span>`}).join("");
   el.className="hstrip"+(h.ok?" ok":" bad");
   el.innerHTML=`${bits}<span class="sub"> · ${h.ok?"all green":"attention"} · last update ${esc(h.updated_awst||h.updated_et||((h.updated?dt(h.updated)+" AWST":"–")))}</span>`;
@@ -516,19 +520,36 @@ function paintStratStats(s){
   const by=s&&s.by_strategy;
   if(!s||s.empty||!by||!Object.keys(by).length){el.innerHTML=emptyBox("No strategy stats yet","Win rate, expectancy and profit factor per strategy appear after the first closed trades.");return}
   const fmt=(v,p)=>v==null||isNaN(v)?"–":(p?((v>=0?"+":"")+Number(v).toFixed(1)+"%"):usd(v));
-  const head=`<div class="sub" style="margin-bottom:8px">Overall win rate ${s.win_rate==null?"–":Math.round(s.win_rate*100)+"%"}${s.expectancy_usd!=null?` · expectancy ${usd(s.expectancy_usd)} after fees`:""}${s.updated?` · as of ${dt(s.updated)} AWST`:""}</div>`;
+  const slip=s.slippage, feeA=s.fee_audit;
+  const extra=[slip&&slip.n?`slippage avg ${Number(slip.avg_pct).toFixed(2)}% over ${slip.n} fill${slip.n===1?"":"s"}`:null,
+               feeA&&feeA.n?`fee gap avg ${feeA.avg_gap_points==null?"–":Number(feeA.avg_gap_points).toFixed(2)+" pts"} (${feeA.flagged||0} flagged)`:null].filter(Boolean).join(" · ");
+  const head=`<div class="sub" style="margin-bottom:8px">Overall win rate ${s.win_rate==null?"–":Math.round(s.win_rate*100)+"%"}${s.expectancy_usd!=null?` · expectancy ${usd(s.expectancy_usd)} after fees`:""}${extra?` · ${extra}`:""}${s.updated?` · as of ${dt(s.updated)} AWST`:""}</div>`;
   el.innerHTML=head+`<div class="stratg">`+Object.entries(by).map(([k,v])=>{
     const wr=v.win_rate==null?"–":Math.round(v.win_rate*100)+"%";
     return `<div><div class="lbl">${esc(k)}</div><b>${wr} win</b><div class="sub">${v.n_closed||0} closed · expectancy ${v.expectancy_usd==null?"–":usd(v.expectancy_usd)}${v.profit_factor!=null?` · PF ${Number(v.profit_factor).toFixed(2)}`:""}</div></div>`;
+  }).join("")+`</div>`;
+}
+
+function paintPaperBoard(doc){
+  const el=$("paperBoard");if(!el)return;
+  const by=(doc&&doc.strategies)||{};
+  const names=Object.keys(by);
+  if(!doc||!names.length){el.innerHTML=emptyBox("No paper results yet","Every strategy is forward-tested 24/7 on live scan candidates. Win rate and expectancy after Fomo fees show up after the first closed paper trades.");return}
+  const best=doc.best, reason=doc.best_reason||"";
+  const head=`<div class="sub" style="margin-bottom:8px">${best?`Best so far: <b>${esc(best)}</b>. `:""}${esc(reason||"A book needs 5 closed paper trades before it can be ranked.")}${doc.updated?` · as of ${dt(doc.updated)} AWST`:""}</div>`;
+  el.innerHTML=head+`<div class="stratg">`+names.map(k=>{
+    const v=by[k]||{}, exp=v.expectancy_usd!=null?v.expectancy_usd:v.avg_pnl_usd;
+    const wr=v.win_rate==null?"–":Math.round(v.win_rate*100)+"%";
+    return `<div><div class="lbl">${esc(v.label||k)}${k===best?" · best":""}</div><b>${wr} win</b><div class="sub">${v.closed_trades||0} closed · expectancy ${exp==null?"–":usd(exp)} after fees${v.open_positions?` · ${v.open_positions} open`:""}</div></div>`;
   }).join("")+`</div>`;
 }
 async function tick(){
 
  $("clock").textContent=tm(Date.now())+" AWST";
  const base="/data/"+MODE+"/";
- const [bal,pos,trades,eq,status,log,limits,scan,health,stats,checklists]=await Promise.all([j(base+"balance.json"),j(base+"positions.json"),jl(base+"trades.jsonl"),jl(base+"equity.jsonl"),j("/data/live/status.json"),jl("/data/live/log.jsonl"),j("/data/live/limits.json"),j("/data/latest.json"),j("/api/health"),j("/api/stats"),j("/api/checklists")]);
+ const [bal,pos,trades,eq,status,log,limits,scan,health,stats,checklists,paperBoard]=await Promise.all([j(base+"balance.json"),j(base+"positions.json"),jl(base+"trades.jsonl"),jl(base+"equity.jsonl"),j("/data/live/status.json"),jl("/data/live/log.jsonl"),j("/data/live/limits.json"),j("/data/latest.json"),j("/api/health"),j("/api/stats"),j("/api/checklists"),j("/data/strategies.json")]);
  window.__checks=checklists||{};
- paintHealth(health);paintStale(health,scan);paintStratStats(stats);
+ paintHealth(health);paintStale(health,scan);paintStratStats(stats);paintPaperBoard(paperBoard);
  $("hb").className="pulse"+(status?"":" off");
  $("banner").className="banner"+(MODE==="paper"?" paper":"");
  $("banner").innerHTML=MODE==="live"?`<span class="pulse idle"></span>LIVE · real account files only. Nothing on this view is simulated.`:`<span class="pulse warn"></span>PAPER · simulated fills from papertrade.py on live DexScreener prices. No real money.`;
@@ -794,10 +815,11 @@ function renderDigest(latest,idx,focusDate){
   const skip=scan.best_skipped,trades=d.trades||[];
   const pnlTxt=pnl==null?"–":((pnl>=0?"+":"")+usd(pnl))+(d.realized_pnl_pct!=null?` (${d.realized_pnl_pct>=0?"+":""}${d.realized_pnl_pct}%)`:"");
   body.innerHTML=`<div class="sub">${esc(d.headline||"")}</div>
-    <div class="digestk"><div><div class="lbl">Start</div><b>${usd(d.start_balance_usd)}</b></div><div><div class="lbl">End</div><b>${usd(d.end_balance_usd)}</b></div><div><div class="lbl">Realised P&amp;L</div><b class="${cls}">${pnlTxt}</b></div><div><div class="lbl">Win rate</div><b>${wr}</b></div></div>
+    <div class="digestk"><div><div class="lbl">Cash</div><b>${usd(d.end_cash_usd!=null?d.end_cash_usd:d.cash_usd)}</b></div><div><div class="lbl">Portfolio</div><b>${usd(d.end_portfolio_usd!=null?d.end_portfolio_usd:d.portfolio_usd)}</b></div><div><div class="lbl">Portfolio start → end</div><b>${usd(d.start_portfolio_usd!=null?d.start_portfolio_usd:d.start_balance_usd)} → ${usd(d.end_portfolio_usd!=null?d.end_portfolio_usd:d.end_balance_usd)}</b></div><div><div class="lbl">Realised P&amp;L</div><b class="${cls}">${pnlTxt}</b></div><div><div class="lbl">Win rate</div><b>${wr}</b></div></div>
     ${trades.length?`<div class="scroll" style="margin-top:10px"><table class="tbl"><tr><th>Time (AWST)</th><th>Side</th><th>Coin</th><th>USD</th><th>Reason</th></tr>${trades.slice().reverse().map(tr=>`<tr><td class="mono sub">${esc(tr.t_awst||tr.t_et||dt(tr.t))}</td><td>${esc((tr.side||"").toUpperCase())}</td><td class="mono">${esc(tr.symbol)}</td><td class="mono">${usd(tr.usd)}</td><td class="sub">${esc(tr.reason||"")}</td></tr>`).join("")}</table></div>`:`<div class="sub" style="margin-top:8px">${esc(d.summary||"No trades today.")}</div>`}
     <div class="sub" style="margin-top:10px">Scanner: ${scan.scans||0} pass${(scan.scans||0)===1?"":"es"} · ${scan.unique_coins||0} coins · ${scan.unique_candidates||0} candidate${(scan.unique_candidates||0)===1?"":"s"} · ${scan.avoid_sightings||0} rejects. Rugs ${scan.rug_alerts||0} · volume spikes ${scan.spike_alerts||0}. Top reject reasons: ${rejects}.</div>
-    ${skip?`<div class="sub">Best skipped: <b>${esc(skip.symbol)}</b> (score ${esc(skip.score)})${skip.why?` — ${esc(skip.why)}`:""}. Not bought.</div>`:""}`;
+    ${skip?`<div class="sub">Best skipped: <b>${esc(skip.symbol)}</b> (score ${esc(skip.score)})${skip.why?` — ${esc(skip.why)}`:""}. Not bought.</div>`:""}
+    ${(()=>{const lb=d.paper_strategies,by=lb&&lb.strategies;if(!by||!Object.keys(by).length)return "";const bits=Object.entries(by).map(([k,v])=>{const exp=v.expectancy_usd!=null?v.expectancy_usd:v.avg_pnl_usd;const wr=v.win_rate==null?"–":Math.round(v.win_rate*100)+"%";return `${esc(k)} ${wr} win, expectancy ${exp==null?"–":usd(exp)} after fees (${v.closed_trades||0} closed)`;}).join(" · ");return `<div class="sub" style="margin-top:8px">Paper leaderboard${lb.best?` · best ${esc(lb.best)}`:""}: ${bits}. ${esc(lb.best_reason||"")}</div>`;})()}`;
   if(hist){hist.innerHTML=days.length?`<div class="lbl" style="width:100%;margin-bottom:4px">History</div>`+days.map(x=>`<button class="chip ${x.date===(d.date)?"ok":""}" data-digest="${esc(x.date)}" type="button">${esc(x.date)} · ${esc((x.headline||"").slice(0,48))}</button>`).join(""):"";
     hist.querySelectorAll("[data-digest]").forEach(b=>b.onclick=()=>openDigest(b.getAttribute("data-digest")))}
 }

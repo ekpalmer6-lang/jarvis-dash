@@ -437,5 +437,17 @@
         "at_awst": "Nov 21, 4:35 AM AWST"
       }
     }
+  },
+  {
+    "t": "2026-11-20T20:47:14+00:00",
+    "ts": 1795207634,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
   }
 ]
