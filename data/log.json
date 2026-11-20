@@ -3045,5 +3045,31 @@
     "level": "info",
     "msg": "LOOSY 5m flow pressure 0.295 buyers 71 large-net $-498.89 (2 large selling)",
     "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:45:20+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "RUDY 5m flow pressure 0.814 buyers 14 large-net $205.96 (0 large selling)",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T20:45:43+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "HUSS 5m flow pressure 0.202 buyers 15 large-net $-257.51 (1 large selling)",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T20:45:50+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:46:01+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11248ms: 229 mints, 13 cheap rows, 6 moving"
   }
 ]
