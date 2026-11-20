@@ -3485,5 +3485,32 @@
     "prior_30m_avg_1m": 95.4,
     "url": "https://dexscreener.com/solana/4ggger9vvxwrawdqxnldfcmr2genfct95p9uft3gcjjv",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:35:49+00:00",
+    "ts": 1795217749,
+    "kind": "spike",
+    "mint": "HEEgqinrk5i1p1fcGL83vx4JvsbV8mbT43hhTD6k4LPF",
+    "symbol": "PUNCH",
+    "msg": "PUNCH volume spike 10.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.486,
+    "last_1m": 62.9,
+    "prior_30m_avg_1m": 6.0,
+    "url": "https://dexscreener.com/solana/56chnsfakc7utekzvp6m3azoweg7aqnzy2npgvzcuije",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T23:36:29+00:00",
+    "ts": 1795217789,
+    "kind": "fast",
+    "mint": "5S4xrh1VR3kmXip6b7mQPrYxgzozdFfdywwygRFRpump",
+    "symbol": "ok",
+    "msg": "ok +33% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 33.15,
+    "mc_usd": 2920.6,
+    "url": "https://dexscreener.com/solana/ewnxondthjzqopd71fk15x19nmdhvuyr9xg9jkx5dxya",
+    "watch": "scan"
   }
 ]
