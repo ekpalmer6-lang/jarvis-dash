@@ -1205,5 +1205,18 @@
     "prior_30m_avg_1m": 0.0,
     "url": "https://dexscreener.com/solana/91x6zq3so5xkhpxlp3pid4vfgnqfdg3wmubs3pre3gkt",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-20T22:36:56+00:00",
+    "ts": 1795214216,
+    "kind": "fast",
+    "mint": "5GNQQcKmfqtDukUk8rZpYT33Nc2rg3sweEKhTdWupump",
+    "symbol": "$MOMM",
+    "msg": "$MOMM +172% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 172,
+    "mc_usd": 5257.5,
+    "url": "https://dexscreener.com/solana/6my4fvjs4amcgwzyvydddpzwsl98vccwgrrocsn27j5y",
+    "watch": "scan"
   }
 ]

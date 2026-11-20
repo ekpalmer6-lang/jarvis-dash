@@ -18060,5 +18060,121 @@
     "level": "info",
     "msg": "SIDOOR 5m flow pressure 0.888 buyers 18 large-net $0 (0 large selling)",
     "mint": "ApVCoLV6q15xYbgB9rJXXgK6a1JRD1Jokv8dDUUpump"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FGMLBG cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip FtrmLR cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip MnnXS9 cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:36:24+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:36:33+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T22:36:42+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 9494ms: 286 mints, 55 cheap rows, 40 moving"
+  },
+  {
+    "t": "2026-11-20T22:36:44+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "YIN PEPE 5m flow pressure 1.0 buyers 1 large-net $0 (0 large selling)",
+    "mint": "G1EKFTpRezUKgZsRNKsAMuvAuvvNSXkYAHyUqQqxpump"
+  },
+  {
+    "t": "2026-11-20T22:36:50+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.429 buyers 49 large-net $-135.5 (4 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip G1EKFT cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip Gw7H9A cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip F4fNPp cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 2v1FjW cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] curve_momentum: skip 5GNQQc cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip EV7J2Q cash"
+  },
+  {
+    "t": "2026-11-20T22:36:55+00:00",
+    "agent": "Paper",
+    "level": "info",
+    "msg": "[PAPER-LOOP] grad_pullback: skip CUfphq cash"
+  },
+  {
+    "t": "2026-11-20T22:37:03+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
   }
 ]
