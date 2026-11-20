@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-20T20:41:56Z",
+  "published_at": "2026-11-20T20:42:58Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -15,9 +15,9 @@
     "positions": [],
     "status": {
       "Scanner": {
-        "state": "idle",
-        "detail": "hype feed: 65 watchlist mints",
-        "updated": "2026-11-20T20:41:41+00:00"
+        "state": "running",
+        "detail": "refreshing hype feed",
+        "updated": "2026-11-20T20:42:50+00:00"
       },
       "Executor": {
         "state": "off",
@@ -32,17 +32,17 @@
       "Sizer": {
         "state": "idle",
         "detail": "0 tokens sized above $0",
-        "updated": "2026-11-20T20:35:03+00:00"
+        "updated": "2026-11-20T20:42:49+00:00"
       },
       "Rug Check": {
-        "state": "running",
-        "detail": "deep check LOOSY",
-        "updated": "2026-11-20T20:41:44+00:00"
+        "state": "idle",
+        "detail": "9 reports, 4 deep checks",
+        "updated": "2026-11-20T20:42:49+00:00"
       },
       "Risk": {
         "state": "idle",
-        "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-20T20:41:38+00:00"
+        "detail": "0 candidates scored; trading open; risk-off: new-launch 5m vol $34,383 vs prior $249,550 (down 86%)",
+        "updated": "2026-11-20T20:42:49+00:00"
       }
     },
     "limits": {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T20:35:03+00:00",
+  "updated": "2026-11-20T20:42:49+00:00",
   "empty": true,
   "n_buys": 0,
   "n_sells": 0,
@@ -15,5 +15,18 @@
   "worst_usd": null,
   "realized_pnl_usd": 0,
   "fees_usd": 0,
-  "by_strategy": {}
+  "by_strategy": {},
+  "fee_audit": {
+    "n": 0,
+    "flagged": 0,
+    "avg_gap_points": null,
+    "last": null,
+    "add_points": 0.0
+  },
+  "slippage": {
+    "n": 0,
+    "avg_pct": null,
+    "avg_adverse_pct": null,
+    "last": null
+  }
 }

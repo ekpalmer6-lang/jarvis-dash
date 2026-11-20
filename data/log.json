@@ -2753,5 +2753,216 @@
     "level": "info",
     "msg": "DCTY: watch, size $0, dev: no prior launches on record, whales 0 selling / 0 accumulating",
     "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k"
+  },
+  {
+    "t": "2026-11-20T20:41:56+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow pressure 0.429 buyers 52 large-net $-792.46 (4 large selling)",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AI: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "SANTA: watch, size $0",
+    "mint": "A6tuVRQaWWkXoPzE7SQry3YK995tJVt4NdgduQuBpump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "PATRICK: avoid, size $0",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "FIONA: avoid, size $0",
+    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "risk-off: risk-off: new-launch 5m vol $34,383 vs prior $249,550 (down 86%)",
+    "sol_chg1h": -0.89,
+    "launch_volume": {
+      "current": 34383.0,
+      "previous": 249550.0,
+      "drop_pct": 86.2,
+      "current_n": 3,
+      "previous_n": 4,
+      "reason": "new-launch 5m vol $34,383 vs prior $249,550 (down 86%)"
+    }
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 9 evaluated, 0 candidate, 0 paused, 7 watch, 2 avoid"
+  },
+  {
+    "t": "2026-11-20T20:42:02+00:00",
+    "agent": "Executor",
+    "level": "info",
+    "msg": "routine check: 0 open, 0 exit req, 0 rug alerts, 0 buy-ready, verdicts {'watch': 7, 'avoid': 2}"
+  },
+  {
+    "t": "2026-11-20T20:42:04+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "LOOSY: watch, size $0, dev: no prior launches on record, whales 0 selling / 5 accumulating",
+    "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump"
+  },
+  {
+    "t": "2026-11-20T20:42:16+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow pressure 0.536 buyers 76 large-net $1331.99 (10 large selling)",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:42:21+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "Singularity: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+  },
+  {
+    "t": "2026-11-20T20:42:38+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "buy-ready TEST: size $4.87, confidence 72",
+    "mint": "Mint111111111111111111111111111111111111111",
+    "symbol": "TEST",
+    "size_usd": 4.87,
+    "confidence": 72
+  },
+  {
+    "t": "2026-11-20T20:42:38+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "buy-ready TEST: size $4.87, confidence 72",
+    "mint": "Mint111111111111111111111111111111111111111",
+    "symbol": "TEST",
+    "size_usd": 4.87,
+    "confidence": 72
+  },
+  {
+    "t": "2026-11-20T20:42:44+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "AI 5m flow pressure 0.324 buyers 44 large-net $-1798.51 (5 large selling)",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "AI: watch, size $0, dev: no prior launches on record, whales 0 selling / 1 accumulating",
+    "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "SANTA: watch, size $0",
+    "mint": "A6tuVRQaWWkXoPzE7SQry3YK995tJVt4NdgduQuBpump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "HUSS: watch, size $0",
+    "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "info",
+    "msg": "RUDY: watch, size $0",
+    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "PATRICK: avoid, size $0",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "FIONA: avoid, size $0",
+    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "risk-off: risk-off: new-launch 5m vol $34,383 vs prior $249,550 (down 86%)",
+    "sol_chg1h": -0.97,
+    "launch_volume": {
+      "current": 34383.0,
+      "previous": 249550.0,
+      "drop_pct": 86.2,
+      "current_n": 3,
+      "previous_n": 4,
+      "reason": "new-launch 5m vol $34,383 vs prior $249,550 (down 86%)"
+    }
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scan done: 9 evaluated, 0 candidate, 0 paused, 7 watch, 2 avoid"
+  },
+  {
+    "t": "2026-11-20T20:42:49+00:00",
+    "agent": "Executor",
+    "level": "info",
+    "msg": "routine check: 0 open, 0 exit req, 0 rug alerts, 0 buy-ready, verdicts {'watch': 7, 'avoid': 2}"
+  },
+  {
+    "t": "2026-11-20T20:42:50+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "scanloop started (24/7)"
+  },
+  {
+    "t": "2026-11-20T20:42:50+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-20T20:42:50+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "feed refresh started"
   }
 ]
