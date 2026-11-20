@@ -1,13 +1,12 @@
 {
-  "updated": "2026-11-20T20:16:37+00:00",
-  "updated_et": "Nov 21, 4:16 AM AWST",
-  "updated_awst": "Nov 21, 4:16 AM AWST",
+  "updated": "2026-11-20T20:17:37+00:00",
+  "updated_et": "Nov 21, 4:17 AM AWST",
+  "updated_awst": "Nov 21, 4:17 AM AWST",
   "ok": false,
   "stale": true,
   "down": [],
   "stale_processes": [
-    "serve",
-    "notifier"
+    "serve"
   ],
   "processes": {
     "guard": {
@@ -22,9 +21,9 @@
       "port_ok": null,
       "stale": false,
       "age_s": 19.3,
-      "last": "2026-11-20T20:16:18+00:00",
-      "last_et": "Nov 21, 4:16 AM AWST",
-      "last_awst": "Nov 21, 4:16 AM AWST"
+      "last": "2026-11-20T20:17:18+00:00",
+      "last_et": "Nov 21, 4:17 AM AWST",
+      "last_awst": "Nov 21, 4:17 AM AWST"
     },
     "serve": {
       "alive": true,
@@ -37,7 +36,7 @@
       "cmd": "python3 /workspace/memescan/serve.py 8787",
       "port_ok": true,
       "stale": true,
-      "age_s": 969.9,
+      "age_s": 1029.9,
       "last": "2026-11-20T20:00:27+00:00",
       "last_et": "Nov 21, 4:00 AM AWST",
       "last_awst": "Nov 21, 4:00 AM AWST"
@@ -53,10 +52,10 @@
       "cmd": "python3 /workspace/memescan/publish.py --loop 60",
       "port_ok": null,
       "stale": false,
-      "age_s": 45.5,
-      "last": "2026-11-20T20:15:51+00:00",
-      "last_et": "Nov 21, 4:15 AM AWST",
-      "last_awst": "Nov 21, 4:15 AM AWST"
+      "age_s": 43.1,
+      "last": "2026-11-20T20:16:54+00:00",
+      "last_et": "Nov 21, 4:16 AM AWST",
+      "last_awst": "Nov 21, 4:16 AM AWST"
     },
     "notifier": {
       "alive": true,
@@ -68,41 +67,41 @@
       ],
       "cmd": "/workspace/memescan/.venv/bin/python /workspace/memescan/notifier.py",
       "port_ok": null,
-      "stale": true,
-      "age_s": 656.4,
-      "last": "2026-11-20T20:05:40+00:00",
-      "last_et": "Nov 21, 4:05 AM AWST",
-      "last_awst": "Nov 21, 4:05 AM AWST"
+      "stale": false,
+      "age_s": 35.8,
+      "last": "2026-11-20T20:17:01+00:00",
+      "last_et": "Nov 21, 4:17 AM AWST",
+      "last_awst": "Nov 21, 4:17 AM AWST"
     }
   },
   "freshness": {
     "guard": {
       "age_s": 19.3,
       "stale": false,
-      "at": "2026-11-20T20:16:18+00:00",
+      "at": "2026-11-20T20:17:18+00:00",
+      "at_et": "Nov 21, 4:17 AM AWST",
+      "at_awst": "Nov 21, 4:17 AM AWST"
+    },
+    "publish_log": {
+      "age_s": 43.1,
+      "stale": false,
+      "at": "2026-11-20T20:16:54+00:00",
       "at_et": "Nov 21, 4:16 AM AWST",
       "at_awst": "Nov 21, 4:16 AM AWST"
     },
-    "publish_log": {
-      "age_s": 45.5,
-      "stale": false,
-      "at": "2026-11-20T20:15:51+00:00",
-      "at_et": "Nov 21, 4:15 AM AWST",
-      "at_awst": "Nov 21, 4:15 AM AWST"
-    },
     "scan": {
-      "age_s": 1223.6,
+      "age_s": 1283.6,
       "stale": true,
       "at": "2026-11-20T19:56:13+00:00",
       "at_et": "Nov 21, 3:56 AM AWST",
       "at_awst": "Nov 21, 3:56 AM AWST"
     },
     "status": {
-      "age_s": 19.3,
+      "age_s": 3.3,
       "stale": false,
-      "at": "2026-11-20T20:16:18+00:00",
-      "at_et": "Nov 21, 4:16 AM AWST",
-      "at_awst": "Nov 21, 4:16 AM AWST"
+      "at": "2026-11-20T20:17:34+00:00",
+      "at_et": "Nov 21, 4:17 AM AWST",
+      "at_awst": "Nov 21, 4:17 AM AWST"
     }
   },
   "reconcile": {

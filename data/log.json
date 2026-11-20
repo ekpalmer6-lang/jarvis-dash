@@ -2039,5 +2039,81 @@
     "agent": "Hype Meter",
     "level": "info",
     "msg": "feed refresh started"
+  },
+  {
+    "t": "2026-11-20T20:16:58+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "telegram: 8/8 channels, 112 mint mentions"
+  },
+  {
+    "t": "2026-11-20T20:17:04+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 15677ms: 245 mints, 12 cheap rows, 4 moving"
+  },
+  {
+    "t": "2026-11-20T20:17:17+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "reddit: public .json endpoints returned 403 from this machine; no workaround used"
+  },
+  {
+    "t": "2026-11-20T20:17:17+00:00",
+    "agent": "Hype Meter",
+    "level": "warn",
+    "msg": "x: no live X API in feeds.py; optional out/x_raw.jsonl not present"
+  },
+  {
+    "t": "2026-11-20T20:17:23+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "PATRICK 5m flow: 193 buys / 107 sells, pressure 0.469, 144 unique buyers, large-wallet net $-1877.76",
+    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump"
+  },
+  {
+    "t": "2026-11-20T20:17:25+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Singularity 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "6UejfT1GX2hUU8vfpvNfYNS3KsGEuuiypqK21Dwppump"
+  },
+  {
+    "t": "2026-11-20T20:17:29+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Huss 5m flow: 8 buys / 9 sells, pressure 0.686, 8 unique buyers, large-wallet net $0",
+    "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump"
+  },
+  {
+    "t": "2026-11-20T20:17:32+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "CATPOOP 5m flow: 0 buys / 0 sells, pressure None, 0 unique buyers, large-wallet net $0",
+    "mint": "GjjKKfd4NBY2eWsCcabZy156MwTSWW43HxP59YZDpump"
+  },
+  {
+    "t": "2026-11-20T20:17:34+00:00",
+    "agent": "Hype Meter",
+    "level": "info",
+    "msg": "watchlist written: 67 mints, 0 under 30s, 0 coordinated, 61 early-vs-trending, 4 with flow"
+  },
+  {
+    "t": "2026-11-20T20:17:39+00:00",
+    "agent": "Risk",
+    "level": "warn",
+    "msg": "too bundled: 38.19% held by linked wallets",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
+    "symbol": "GTA",
+    "reason": "too bundled: 38.19% held by linked wallets",
+    "clustered_pct": 38.19,
+    "cluster_count": 1
+  },
+  {
+    "t": "2026-11-20T20:17:42+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "GTA: avoid, size $0, bundle 0.0%+0.0%, dev: no prior launches on record, whales 5 selling / 0 accumulating",
+    "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
   }
 ]
