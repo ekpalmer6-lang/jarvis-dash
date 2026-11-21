@@ -4522,5 +4522,19 @@
     "prior_30m_avg_1m": 6.22,
     "url": "https://dexscreener.com/solana/fuzkl7exvz1gpermnqj1z8bpadc3qvcbjfyfstva9fsk",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:17:15+00:00",
+    "ts": 1795220235,
+    "kind": "spike",
+    "mint": "7LB7Jx5sEqwLSpsQ9k9iw1JxjpRAqAK57NdFEF1epump",
+    "symbol": "BAGWORK",
+    "msg": "BAGWORK volume spike 14.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 14.867,
+    "last_1m": 83.24,
+    "prior_30m_avg_1m": 5.6,
+    "url": "https://dexscreener.com/solana/78yxa3zuz913er3uvnmfhd97seyw2psua22tssltmoyn",
+    "watch": "scan"
   }
 ]
