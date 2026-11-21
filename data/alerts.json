@@ -4386,5 +4386,31 @@
     "prior_30m_avg_1m": 2.32,
     "url": "https://dexscreener.com/solana/2huckyn9ugsmioypwkh9csgjwmhhoxho58kxcdr2mywb",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:11:31+00:00",
+    "ts": 1795219891,
+    "kind": "pass",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+    "symbol": "Trader",
+    "msg": "Trader passed all safety checks \u00b7 size $0.0",
+    "source": "out/latest.json",
+    "mc_usd": 293857,
+    "liq_usd": 90373,
+    "url": "https://dexscreener.com/solana/65eyzrlgqejqz5nmofntre6xe6svxs9zggzabiew4n8n"
+  },
+  {
+    "t": "2026-11-21T00:11:52+00:00",
+    "ts": 1795219912,
+    "kind": "spike",
+    "mint": "2iCeMnVfhJRVNncxtewqGNXbYCGfZBNLpMSwf4bepump",
+    "symbol": "COOK",
+    "msg": "COOK volume spike 111.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 111.892,
+    "last_1m": 222.64,
+    "prior_30m_avg_1m": 1.99,
+    "url": "https://dexscreener.com/solana/dyx1gagrpkkmp354w9oswnpkddqtdgcnravj78ttgzvb",
+    "watch": "scan"
   }
 ]
