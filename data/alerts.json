@@ -4247,5 +4247,32 @@
     "prior_30m_avg_1m": 12.73,
     "url": "https://dexscreener.com/solana/chr2azn8x8m24jnl3fxcvis9eadpekatecdgwr4xbz1w",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:07:51+00:00",
+    "ts": 1795219671,
+    "kind": "fast",
+    "mint": "91PsdehPntFGxMvnfguRcJXTs378VFb1Y42Uz8cCpump",
+    "symbol": "VGD",
+    "msg": "VGD +37% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 36.85,
+    "mc_usd": 3557.17,
+    "url": "https://dexscreener.com/solana/8onukqbzmwpwkjlxox8bjxwqrhk66jem7swoqn4pgpsi",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:08:11+00:00",
+    "ts": 1795219691,
+    "kind": "spike",
+    "mint": "8FbYPBBNaH6n9ijUoYMUp4RsmmeERxYRSFxyWMUjTcqS",
+    "symbol": "DEODORANT",
+    "msg": "DEODORANT volume spike 10.6x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.591,
+    "last_1m": 10.57,
+    "prior_30m_avg_1m": 1.0,
+    "url": "https://dexscreener.com/solana/bbxupvjmvf7hj3suct3quibfkpruasm7ehb6c8orzauw",
+    "watch": "scan"
   }
 ]
