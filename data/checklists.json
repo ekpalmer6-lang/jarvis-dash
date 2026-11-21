@@ -2,23 +2,23 @@
   "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump": {
     "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
     "symbol": "WEZID",
-    "updated": "2026-11-21T00:00:42+00:00",
-    "confidence": 54,
+    "updated": "2026-11-21T00:01:45+00:00",
+    "confidence": 58,
     "size_usd": 0.0,
-    "verdict": "Do not buy WEZID (confidence 54/100). Cost gate: round-trip cost 17.42% > 10%; price impact 10.92% > 4%.",
+    "verdict": "Do not buy WEZID (confidence 58/100). Cost gate: round-trip cost 13.20% > 10%; price impact 6.70% > 4%.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": -0.78
+      "sol_chg1h": -0.71
     },
     "paused": false,
     "cost": {
-      "ok": false,
-      "rt_cost_pct": 11.244,
-      "impact_pct": 3.2494,
+      "ok": true,
+      "rt_cost_pct": 9.297,
+      "impact_pct": 2.7975,
       "min_sensible_size": 3.64,
-      "reason": "round-trip cost 11.24% > 10%",
+      "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
       "source": "lite-api.jup.ag"
     },
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "warn",
-        "value": "$16,769 thin",
+        "value": "$15,932 thin",
         "pts": 2.25,
         "max": 11.25
       },
@@ -52,16 +52,16 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "pass",
-        "value": "72% buys in 5m",
+        "value": "73% buys in 5m",
         "pts": 11.25,
         "max": 11.25
       },
       {
         "id": "chart",
         "label": "Chart steadiness",
-        "status": "warn",
-        "value": "+35.9% in 5m",
-        "pts": 4.5,
+        "status": "pass",
+        "value": "+3.7% in 5m, steady",
+        "pts": 7.5,
         "max": 7.5
       },
       {
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "fail",
-        "value": "round-trip cost 17.42% > 10%; price impact 10.92% > 4%",
+        "value": "round-trip cost 13.20% > 10%; price impact 6.70% > 4%",
         "pts": 0.0,
         "max": 7.5
       },

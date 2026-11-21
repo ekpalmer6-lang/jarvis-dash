@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-21T00:00:56Z",
+  "published_at": "2026-11-21T00:01:59Z",
   "live": {
     "balance": {
       "mode": "live",
@@ -16,23 +16,23 @@
     "status": {
       "Rug Check": {
         "state": "running",
-        "detail": "deep check SNAP",
-        "updated": "2026-11-21T00:00:34+00:00"
+        "detail": "deep check CHADMOON",
+        "updated": "2026-11-21T00:01:22+00:00"
       },
       "Paper": {
         "state": "running",
         "detail": "[PAPER-LOOP] 0 open across 4 books",
-        "updated": "2026-11-21T00:00:41+00:00"
+        "updated": "2026-11-21T00:01:56+00:00"
       },
       "Risk": {
         "state": "idle",
         "detail": "guard tick: 0 open, 1 watched, 0 events",
-        "updated": "2026-11-21T00:00:50+00:00"
+        "updated": "2026-11-21T00:01:50+00:00"
       },
       "Scanner": {
-        "state": "idle",
-        "detail": "cycle 11.38s, 61 moving, 13 deep, 1 candidates, 0 buy-ready",
-        "updated": "2026-11-21T00:00:42+00:00"
+        "state": "running",
+        "detail": "refreshing hype feed",
+        "updated": "2026-11-21T00:01:46+00:00"
       }
     },
     "limits": {
