@@ -4412,5 +4412,19 @@
     "prior_30m_avg_1m": 1.99,
     "url": "https://dexscreener.com/solana/dyx1gagrpkkmp354w9oswnpkddqtdgcnravj78ttgzvb",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:12:32+00:00",
+    "ts": 1795219952,
+    "kind": "spike",
+    "mint": "4vnKGoaES7C29bcJrF6HfmazDLf5wEei4kTidizzpump",
+    "symbol": "Mine",
+    "msg": "Mine volume spike 10.9x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.919,
+    "last_1m": 0.27,
+    "prior_30m_avg_1m": 0.02,
+    "url": "https://dexscreener.com/solana/2swgclq2bjiqtyfbmmbcmwjn5ung6vsqakx5rpaeytcm",
+    "watch": "scan"
   }
 ]
