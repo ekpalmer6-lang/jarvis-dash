@@ -4494,5 +4494,33 @@
     "mc_usd": 2853.57,
     "url": "https://dexscreener.com/solana/d2hgdbnzum1pdn29j1f4jqktf1vbcgj9lxsbkhalonqj",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:16:34+00:00",
+    "ts": 1795220194,
+    "kind": "spike",
+    "mint": "Gj6j7EJEoEzyc4sk8yhjm5UyzzSwcPygZ6ZbnPhkWKVA",
+    "symbol": "AURA",
+    "msg": "AURA volume spike 31.7x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 31.706,
+    "last_1m": 0.39,
+    "prior_30m_avg_1m": 0.01,
+    "url": "https://dexscreener.com/solana/f6fbyzjv3hdju8auwne7fqcjgnqa3bvhrvnduofkapqm",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:16:34+00:00",
+    "ts": 1795220194,
+    "kind": "spike",
+    "mint": "HqvKnBRDdjUwec1x3uhoLN5FwzdhNvBa3Je5aZWCpump",
+    "symbol": "Hackinu",
+    "msg": "Hackinu volume spike 27.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 27.054,
+    "last_1m": 168.24,
+    "prior_30m_avg_1m": 6.22,
+    "url": "https://dexscreener.com/solana/fuzkl7exvz1gpermnqj1z8bpadc3qvcbjfyfstva9fsk",
+    "watch": "scan"
   }
 ]
