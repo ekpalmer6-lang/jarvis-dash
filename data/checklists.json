@@ -2,7 +2,7 @@
   "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump": {
     "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
     "symbol": "WEZID",
-    "updated": "2026-11-21T00:06:05+00:00",
+    "updated": "2026-11-21T00:06:46+00:00",
     "confidence": 62,
     "size_usd": 0.0,
     "verdict": "Do not buy WEZID (confidence 62/100). Safety checks: mint/freeze closed, sell route, LP locked; empty-SOL holder check unavailable.",
@@ -10,13 +10,13 @@
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": -0.94
+      "sol_chg1h": -0.77
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 9.244,
-      "impact_pct": 2.7443,
+      "rt_cost_pct": 9.263,
+      "impact_pct": 2.7632,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "warn",
-        "value": "$17,460 thin",
+        "value": "$16,148 thin",
         "pts": 2.25,
         "max": 11.25
       },
@@ -52,7 +52,7 @@
         "id": "pressure",
         "label": "Buy pressure",
         "status": "pass",
-        "value": "70% buys in 5m",
+        "value": "71% buys in 5m",
         "pts": 11.25,
         "max": 11.25
       },
@@ -60,7 +60,7 @@
         "id": "chart",
         "label": "Chart steadiness",
         "status": "pass",
-        "value": "+3.4% in 5m, steady",
+        "value": "-6.4% in 5m, steady",
         "pts": 7.5,
         "max": 7.5
       },
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "warn",
-        "value": "RT 9.00%, impact 2.50% (tight)",
+        "value": "RT 9.27%, impact 2.76% (tight)",
         "pts": 4.5,
         "max": 7.5
       },

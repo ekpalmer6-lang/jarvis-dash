@@ -4233,5 +4233,19 @@
     "prior_30m_avg_1m": 39.74,
     "url": "https://dexscreener.com/solana/hn2hce4ws3ytcgrknfwgsp8niojykkar4lp7mxpyuwwt",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:06:50+00:00",
+    "ts": 1795219610,
+    "kind": "spike",
+    "mint": "5TV58pBX8Zkj3vdTbLM5DQ7coP2HwtjMGgrLgjVupump",
+    "symbol": "OPTIC",
+    "msg": "OPTIC volume spike 18.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 18.766,
+    "last_1m": 238.81,
+    "prior_30m_avg_1m": 12.73,
+    "url": "https://dexscreener.com/solana/chr2azn8x8m24jnl3fxcvis9eadpekatecdgwr4xbz1w",
+    "watch": "scan"
   }
 ]
