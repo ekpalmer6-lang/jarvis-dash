@@ -4274,5 +4274,33 @@
     "prior_30m_avg_1m": 1.0,
     "url": "https://dexscreener.com/solana/bbxupvjmvf7hj3suct3quibfkpruasm7ehb6c8orzauw",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:08:31+00:00",
+    "ts": 1795219711,
+    "kind": "spike",
+    "mint": "GTsjw9kBUpjUghv8ibjxBKjpsB1r9W9on1hNHPhKpump",
+    "symbol": "LOVE",
+    "msg": "LOVE volume spike 6.5x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 6.459,
+    "last_1m": 0.4,
+    "prior_30m_avg_1m": 0.06,
+    "url": "https://dexscreener.com/solana/89stxzwkuqmvkmrjgp2utz1m1yrhgwewca9vydlowtba",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:09:11+00:00",
+    "ts": 1795219751,
+    "kind": "spike",
+    "mint": "HtgTgo9FU3Ns4ZcSKp9UsNkKEK5C4udHoRDPqUF1pump",
+    "symbol": "MARKET",
+    "msg": "MARKET volume spike 7.1x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.125,
+    "last_1m": 14.93,
+    "prior_30m_avg_1m": 2.1,
+    "url": "https://dexscreener.com/solana/hjwjffrjncfphcuighchgp2srcb21s3viufnocfsxu2r",
+    "watch": "scan"
   }
 ]
