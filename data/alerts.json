@@ -4536,5 +4536,59 @@
     "prior_30m_avg_1m": 5.6,
     "url": "https://dexscreener.com/solana/78yxa3zuz913er3uvnmfhd97seyw2psua22tssltmoyn",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:18:52+00:00",
+    "ts": 1795220332,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
+  },
+  {
+    "t": "2026-11-21T00:19:17+00:00",
+    "ts": 1795220357,
+    "kind": "spike",
+    "mint": "vqKibCWAvaD93G7JfjmxavmmSzVmuPVwGjDg9Yppump",
+    "symbol": "MAPLY",
+    "msg": "MAPLY volume spike 16.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 15.975,
+    "last_1m": 176.23,
+    "prior_30m_avg_1m": 11.03,
+    "url": "https://dexscreener.com/solana/4fdv3eresq7f6ewyh4nqrdanas1qvkjfwucote3ukzas",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:19:37+00:00",
+    "ts": 1795220377,
+    "kind": "spike",
+    "mint": "G7eZuQHk7Gb7rjaF67Bvgdn66wn6eQ2fijCV7CZypump",
+    "symbol": "LUCIA",
+    "msg": "LUCIA volume spike 118.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 118.276,
+    "last_1m": 49.16,
+    "prior_30m_avg_1m": 0.42,
+    "url": "https://dexscreener.com/solana/7wgpqes55jqmex7i8x2kpudgnyue2rtyvvatvs9hdzns",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:19:37+00:00",
+    "ts": 1795220377,
+    "kind": "spike",
+    "mint": "DEReyNunFTVSPfWwRSqmXU6HfttRfcaCJ1J7vQStpump",
+    "symbol": "REDHULK",
+    "msg": "REDHULK volume spike 25674.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 25674.0,
+    "last_1m": 4.67,
+    "prior_30m_avg_1m": 0.0,
+    "url": "https://dexscreener.com/solana/9mx7xdkh2happnoadaw8uwcu26zgspejxf3zqyu2pydf",
+    "watch": "scan"
   }
 ]

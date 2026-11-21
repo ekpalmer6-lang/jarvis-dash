@@ -1,109 +1,5 @@
 [
   {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip ADfcd9 cash"
-  },
-  {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 28kpfi cash"
-  },
-  {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip 5Hxbur cash"
-  },
-  {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip Epwrz3 cash"
-  },
-  {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] curve_momentum: skip FSkouA cash"
-  },
-  {
-    "t": "2026-11-20T23:04:01+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: watching J4Szca for 15s ($10, post-graduation pullback)"
-  },
-  {
-    "t": "2026-11-20T23:04:16+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: BUY GOD $10 at 6.58e-09 (post-graduation pullback; held up over 15s (price +0.0%, 2/0 buys/sells 5m))"
-  },
-  {
-    "t": "2026-11-20T23:04:16+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: skip 7DQQej cash"
-  },
-  {
-    "t": "2026-11-20T23:04:16+00:00",
-    "agent": "Paper",
-    "level": "info",
-    "msg": "[PAPER-LOOP] grad_pullback: SELL 100% GOD: hard stop -12% ($0.48)"
-  },
-  {
-    "t": "2026-11-20T23:04:17+00:00",
-    "agent": "Scanner",
-    "level": "info",
-    "msg": "tier 1 done in 21531ms: 415 mints, 210 cheap rows, 98 moving"
-  },
-  {
-    "t": "2026-11-20T23:04:19+00:00",
-    "agent": "Risk",
-    "level": "warn",
-    "msg": "snipers still hold 13.01% of supply",
-    "mint": "38Y4Ek98uhYvb3WMsUqhFARGcg6E1mhuN9BNGNBVpump",
-    "symbol": "Jobless",
-    "still_holding": 13.01,
-    "sniper_wallets": 0
-  },
-  {
-    "t": "2026-11-20T23:04:19+00:00",
-    "agent": "Risk",
-    "level": "warn",
-    "msg": "launch wallets still hold 13.01% of supply",
-    "mint": "38Y4Ek98uhYvb3WMsUqhFARGcg6E1mhuN9BNGNBVpump",
-    "symbol": "Jobless",
-    "launch_wallets_still_holding_pct": 13.01
-  },
-  {
-    "t": "2026-11-20T23:04:19+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Jobless 5m flow pressure 0.485 buyers 95 large-net $982.1 (9 large selling)",
-    "mint": "38Y4Ek98uhYvb3WMsUqhFARGcg6E1mhuN9BNGNBVpump"
-  },
-  {
-    "t": "2026-11-20T23:04:20+00:00",
-    "agent": "Risk",
-    "level": "warn",
-    "msg": "too bundled: 35.19% held by linked wallets",
-    "mint": "38Y4Ek98uhYvb3WMsUqhFARGcg6E1mhuN9BNGNBVpump",
-    "symbol": "Jobless",
-    "reason": "too bundled: 35.19% held by linked wallets",
-    "clustered_pct": 35.19,
-    "cluster_count": 1
-  },
-  {
-    "t": "2026-11-20T23:04:23+00:00",
-    "agent": "Wallet Watch",
-    "level": "info",
-    "msg": "Trader 5m flow pressure 0.559 buyers 117 large-net $291.36 (6 large selling)",
-    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
-  },
-  {
     "t": "2026-11-20T23:04:31+00:00",
     "agent": "Paper",
     "level": "info",
@@ -29120,5 +29016,107 @@
     "agent": "Scanner",
     "level": "info",
     "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-21T00:18:51+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 11019ms: 387 mints, 165 cheap rows, 76 moving"
+  },
+  {
+    "t": "2026-11-21T00:18:52+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Hackinu 5m flow pressure None buyers 0 large-net $0 (0 large selling)",
+    "mint": "9mnpM34HYm9qfraVt29YpziApb85uzNb6i4bUUXdpump"
+  },
+  {
+    "t": "2026-11-21T00:18:52+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Hackinu 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "HqvKnBRDdjUwec1x3uhoLN5FwzdhNvBa3Je5aZWCpump"
+  },
+  {
+    "t": "2026-11-21T00:18:52+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "DLD 5m flow pressure None buyers 0 large-net $0 (0 large selling)",
+    "mint": "FuqmadKZw8yY9YZ84qaBU1Ww1Pq8wnaU38Su33sLpump"
+  },
+  {
+    "t": "2026-11-21T00:19:10+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 started"
+  },
+  {
+    "t": "2026-11-21T00:19:21+00:00",
+    "agent": "Scanner",
+    "level": "info",
+    "msg": "tier 1 done in 10955ms: 371 mints, 163 cheap rows, 79 moving"
+  },
+  {
+    "t": "2026-11-21T00:19:21+00:00",
+    "agent": "Rug Check",
+    "level": "warn",
+    "msg": "tier 2 failed for titcoin: [Errno 2] No such file or directory: '/workspace/memescan/state/status.json.tmp' -> '/workspace/memescan/state/status.json'",
+    "mint": "CbWVRB1moXi331kpoj9ypvj4517Bn7Sbe6qVn2bFpump"
+  },
+  {
+    "t": "2026-11-21T00:19:22+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BUTTPILL 5m flow pressure 0.686 buyers 2 large-net $0 (0 large selling)",
+    "mint": "GqBfYNHzgA1uquUrYrsS7BehydxMQAroFpUSA6EfpXgs"
+  },
+  {
+    "t": "2026-11-21T00:19:22+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "LUCIA 5m flow pressure 0.473 buyers 4 large-net $0.06 (0 large selling)",
+    "mint": "G7eZuQHk7Gb7rjaF67Bvgdn66wn6eQ2fijCV7CZypump"
+  },
+  {
+    "t": "2026-11-21T00:19:23+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "BRKNG  5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "CnTMjWRaBSCSSdYZitqoSZGCr5fyizau1Z9eiSfrpump"
+  },
+  {
+    "t": "2026-11-21T00:19:23+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "35FISH 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "AstejbJGKjt2GuAUbcp7zx2C1ECBrLKifS3FEJwGpump"
+  },
+  {
+    "t": "2026-11-21T00:19:23+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Vickiisick 5m flow pressure 0.51 buyers 16 large-net $-61.81 (1 large selling)",
+    "mint": "487dK5TN8kXyxYrwQQSX7Sf8XZLvdCBaiQuctzRQpump"
+  },
+  {
+    "t": "2026-11-21T00:19:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "Trader 5m flow pressure 0.407 buyers 100 large-net $-4181.58 (8 large selling)",
+    "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX"
+  },
+  {
+    "t": "2026-11-21T00:19:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "patcat 5m flow pressure 0.0 buyers 0 large-net $0 (0 large selling)",
+    "mint": "nZKF6wNzETxQbZX9W7uSqiFKeGtA89PZdZiELABpump"
+  },
+  {
+    "t": "2026-11-21T00:19:27+00:00",
+    "agent": "Wallet Watch",
+    "level": "info",
+    "msg": "enu 5m flow pressure 0.419 buyers 8 large-net $5.99 (0 large selling)",
+    "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump"
   }
 ]
