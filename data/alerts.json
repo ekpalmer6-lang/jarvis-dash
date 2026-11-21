@@ -4590,5 +4590,142 @@
     "prior_30m_avg_1m": 0.0,
     "url": "https://dexscreener.com/solana/9mx7xdkh2happnoadaw8uwcu26zgspejxf3zqyu2pydf",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:32+00:00",
+    "ts": 1795220672,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "stale process data: serve",
+    "key": "stale",
+    "stale_processes": [
+      "serve"
+    ],
+    "freshness": {
+      "guard": {
+        "age_s": 0.4,
+        "stale": false,
+        "at": "2026-11-21T00:24:32+00:00",
+        "at_et": "Nov 21, 8:24 AM AWST",
+        "at_awst": "Nov 21, 8:24 AM AWST"
+      },
+      "publish_log": {
+        "age_s": 17.1,
+        "stale": false,
+        "at": "2026-11-21T00:24:15+00:00",
+        "at_et": "Nov 21, 8:24 AM AWST",
+        "at_awst": "Nov 21, 8:24 AM AWST"
+      },
+      "scan": {
+        "age_s": 322.4,
+        "stale": false,
+        "at": "2026-11-21T00:19:10+00:00",
+        "at_et": "Nov 21, 8:19 AM AWST",
+        "at_awst": "Nov 21, 8:19 AM AWST"
+      },
+      "status": {
+        "age_s": 0.4,
+        "stale": false,
+        "at": "2026-11-21T00:24:32+00:00",
+        "at_et": "Nov 21, 8:24 AM AWST",
+        "at_awst": "Nov 21, 8:24 AM AWST"
+      }
+    }
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "spike",
+    "mint": "4nG4ES5LEvjGTi4Zz4cbHchB9mishustzASUToobpump",
+    "symbol": "Meow",
+    "msg": "Meow volume spike 13.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 13.012,
+    "last_1m": 231.55,
+    "prior_30m_avg_1m": 17.8,
+    "url": "https://dexscreener.com/solana/ft2grwyjldtb9f75tz8tehbymrgb7sqfvwz1aaqfuln3",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "spike",
+    "mint": "AneCbt9W8ziRC5qd8yeUT3dk14K4BcWnKzruD2eSpump",
+    "symbol": "Forecast",
+    "msg": "Forecast volume spike 7.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.046,
+    "last_1m": 739.33,
+    "prior_30m_avg_1m": 104.93,
+    "url": "https://dexscreener.com/solana/d2hgdbnzum1pdn29j1f4jqktf1vbcgj9lxsbkhalonqj",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "fast",
+    "mint": "HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump",
+    "symbol": "Mandy",
+    "msg": "Mandy +40% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 39.81,
+    "mc_usd": 20606.68,
+    "url": "https://dexscreener.com/solana/4z3qwlkzkpmrz2t6ufhcjyeb7w1trgbzjg46y3mg32sx",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "spike",
+    "mint": "DSosUJQE9NCJJy2vstK6Whn3uYVJyVTBEXJuaCAhpump",
+    "symbol": "ADHD",
+    "msg": "ADHD volume spike 29.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 29.212,
+    "last_1m": 46.14,
+    "prior_30m_avg_1m": 1.58,
+    "url": "https://dexscreener.com/solana/44fqseggggpnehymfn9msuzzxroaw1isa6mq8pwanpff",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "spike",
+    "mint": "2d9f9xBWy8xHU6ZpXehVbNUNpPPUXfJuoVfRF36tpump",
+    "symbol": "ShyPepe",
+    "msg": "ShyPepe volume spike 5.3x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 5.285,
+    "last_1m": 0.54,
+    "prior_30m_avg_1m": 0.1,
+    "url": "https://dexscreener.com/solana/gqgdqxzgyg5z8vzdhiur8hkaqcmkgs9s5sprdlxvob5c",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:24:33+00:00",
+    "ts": 1795220673,
+    "kind": "fast",
+    "mint": "2NLRZaaqt8CnnfjDv8ZRGpi9N1Crvw62qSsZ9bnypump",
+    "symbol": "BetOnBlak",
+    "msg": "BetOnBlak +689% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 689,
+    "mc_usd": 85,
+    "url": "https://dexscreener.com/solana/ep6e64c41qnn1ibv5sprxmecflgs3hlgez13ggycdvdn",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:25:29+00:00",
+    "ts": 1795220729,
+    "kind": "fast",
+    "mint": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+    "symbol": "JENSEN",
+    "msg": "JENSEN +55% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 55.22,
+    "mc_usd": 865139,
+    "url": "https://dexscreener.com/solana/7fy71w6jdyias1w66sqscxvuutyh2n29bkcggaln4kxt",
+    "watch": "scan"
   }
 ]
