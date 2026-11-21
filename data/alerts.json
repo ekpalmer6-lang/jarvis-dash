@@ -4149,5 +4149,89 @@
     "flags": [
       "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
     ]
+  },
+  {
+    "t": "2026-11-21T00:05:29+00:00",
+    "ts": 1795219529,
+    "kind": "spike",
+    "mint": "HR9bt8UpZ4ftGXF2pwyN7aouEDweSqibTudqbeiVpump",
+    "symbol": "RingsWIF",
+    "msg": "RingsWIF volume spike 11.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 10.999,
+    "last_1m": 29.69,
+    "prior_30m_avg_1m": 2.7,
+    "url": "https://dexscreener.com/solana/anmeirxkv7jugakrpnem7oozwesck4s91glsb3g7jmwg",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:05:49+00:00",
+    "ts": 1795219549,
+    "kind": "spike",
+    "mint": "2oBMNC7KeAnpQpsHZrhv9LWtwnMYicDs9iVjNDYrpump",
+    "symbol": "CHADMOON",
+    "msg": "CHADMOON volume spike 7.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.033,
+    "last_1m": 3.11,
+    "prior_30m_avg_1m": 0.44,
+    "url": "https://dexscreener.com/solana/fc4nggcuvtkarpu4z2esprvgroqej9xpuwninhfq5qsv",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:05:49+00:00",
+    "ts": 1795219549,
+    "kind": "spike",
+    "mint": "2A7u6C3gTjALMKkpJapot8RM55vs9Bu8CSeEVPaKpump",
+    "symbol": "Stable",
+    "msg": "Stable volume spike 8.0x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 7.98,
+    "last_1m": 1099.43,
+    "prior_30m_avg_1m": 137.77,
+    "url": "https://dexscreener.com/solana/d4vpwn5itdmbhhsd9rgt7daxx3qbafesyb4j5mbhhn26",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:05:49+00:00",
+    "ts": 1795219549,
+    "kind": "spike",
+    "mint": "7QgwrKj3uqCby1FMmvp17qSzTRT1EAEYFQgvvwVapump",
+    "symbol": "oskkpu",
+    "msg": "oskkpu volume spike 97.8x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 97.757,
+    "last_1m": 257.81,
+    "prior_30m_avg_1m": 2.64,
+    "url": "https://dexscreener.com/solana/djfjyq49a24etmyzcdpocbxc1h6vkmtnrqq2xskvyxqe",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:05:49+00:00",
+    "ts": 1795219549,
+    "kind": "spike",
+    "mint": "9x5R3TcU6rAKag8y9S4SW6np3uGgMo6fAVcyzSsPpump",
+    "symbol": "Play",
+    "msg": "Play volume spike 14.2x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 14.154,
+    "last_1m": 0.35,
+    "prior_30m_avg_1m": 0.02,
+    "url": "https://dexscreener.com/solana/7oplapuy42vn4rri88kcjmfcknsyywqcwpdhoyxcaeun",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:06:10+00:00",
+    "ts": 1795219570,
+    "kind": "spike",
+    "mint": "AaZQowDUpZxPWyyr9gbAWYkYkZUb5Ev8L9V3TnFjpump",
+    "symbol": "LOCKED",
+    "msg": "LOCKED volume spike 13.4x the prior 30-min average",
+    "source": "dexscreener vol5m/vol1h (already fetched)",
+    "ratio": 13.405,
+    "last_1m": 532.76,
+    "prior_30m_avg_1m": 39.74,
+    "url": "https://dexscreener.com/solana/hn2hce4ws3ytcgrknfwgsp8niojykkar4lp7mxpyuwwt",
+    "watch": "scan"
   }
 ]
