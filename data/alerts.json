@@ -4124,5 +4124,30 @@
     "prior_30m_avg_1m": 70.68,
     "url": "https://dexscreener.com/solana/nebtfxf57efetesxppgxzhcpclijhtfek58az5wdcmv",
     "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:03:27+00:00",
+    "ts": 1795219407,
+    "kind": "fast",
+    "mint": "AaZQowDUpZxPWyyr9gbAWYkYkZUb5Ev8L9V3TnFjpump",
+    "symbol": "LOCKED",
+    "msg": "LOCKED +30% in 5m",
+    "source": "api.dexscreener.com",
+    "chg5m": 30.38,
+    "mc_usd": 2610.93,
+    "url": "https://dexscreener.com/solana/hn2hce4ws3ytcgrknfwgsp8niojykkar4lp7mxpyuwwt",
+    "watch": "scan"
+  },
+  {
+    "t": "2026-11-21T00:03:50+00:00",
+    "ts": 1795219430,
+    "kind": "health",
+    "mint": "system",
+    "symbol": "JARVIS",
+    "msg": "Books look inconsistent: portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)",
+    "key": "reconcile",
+    "flags": [
+      "portfolio $20.41 != cash $19.50 + position cost $0.00 (= $19.50)"
+    ]
   }
 ]
