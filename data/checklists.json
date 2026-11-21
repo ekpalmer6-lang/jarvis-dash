@@ -2,21 +2,21 @@
   "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump": {
     "mint": "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump",
     "symbol": "WEZID",
-    "updated": "2026-11-21T00:01:45+00:00",
-    "confidence": 58,
+    "updated": "2026-11-21T00:02:36+00:00",
+    "confidence": 54,
     "size_usd": 0.0,
-    "verdict": "Do not buy WEZID (confidence 58/100). Cost gate: round-trip cost 13.20% > 10%; price impact 6.70% > 4%.",
+    "verdict": "Do not buy WEZID (confidence 54/100). Cost gate: round-trip cost 12.63% > 10%; price impact 6.13% > 4%.",
     "scan_verdict": "candidate",
     "regime": {
       "risk_off": false,
       "reason": "risk-on",
-      "sol_chg1h": -0.71
+      "sol_chg1h": -0.88
     },
     "paused": false,
     "cost": {
       "ok": true,
-      "rt_cost_pct": 9.297,
-      "impact_pct": 2.7975,
+      "rt_cost_pct": 9.348,
+      "impact_pct": 2.8484,
       "min_sensible_size": 3.64,
       "reason": "passes cost gate",
       "priority_fee": "n/a \u2014 Fomo pays network/priority fees itself",
@@ -36,7 +36,7 @@
         "id": "cluster",
         "label": "Cluster / sniper hold",
         "status": "warn",
-        "value": "launch block not measured; clustered 11.83%, still holding None%",
+        "value": "launch block not measured",
         "pts": 4.5,
         "max": 11.25
       },
@@ -44,7 +44,7 @@
         "id": "liquidity",
         "label": "Liquidity depth",
         "status": "warn",
-        "value": "$15,932 thin",
+        "value": "$16,421 thin",
         "pts": 2.25,
         "max": 11.25
       },
@@ -59,9 +59,9 @@
       {
         "id": "chart",
         "label": "Chart steadiness",
-        "status": "pass",
-        "value": "+3.7% in 5m, steady",
-        "pts": 7.5,
+        "status": "warn",
+        "value": "+15.5% in 5m",
+        "pts": 4.5,
         "max": 7.5
       },
       {
@@ -76,7 +76,7 @@
         "id": "cost",
         "label": "Cost gate",
         "status": "fail",
-        "value": "round-trip cost 13.20% > 10%; price impact 6.70% > 4%",
+        "value": "round-trip cost 12.63% > 10%; price impact 6.13% > 4%",
         "pts": 0.0,
         "max": 7.5
       },
@@ -84,7 +84,7 @@
         "id": "chart_signals",
         "label": "Chart signals (1m)",
         "status": "warn",
-        "value": "50/100 only 7 one-minute bars, chart not readable yet | timing: wait",
+        "value": "50/100 only 10 one-minute bars, chart not readable yet | timing: wait",
         "pts": 12.5,
         "max": 25
       },
@@ -142,8 +142,8 @@
       "timing": "wait",
       "timing_why": null,
       "exit_hints": [],
-      "summary": "only 7 one-minute bars, chart not readable yet",
-      "bars": 7,
+      "summary": "only 10 one-minute bars, chart not readable yet",
+      "bars": 10,
       "tf": "1m",
       "signals": []
     }

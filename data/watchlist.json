@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:56:51+00:00",
+  "updated": "2026-11-21T00:02:43+00:00",
   "partial": false,
   "sources": {
     "telegram": {
@@ -24,7 +24,13 @@
       "mentions": 0,
       "posts": 0,
       "errors": {
-        "backoff": "reddit backoff until 2026-11-20T23:57:18.011726+00:00"
+        "CryptoMoonShots": "HTTP 429 Too Many Requests",
+        "SolanaMemeCoins": "HTTP 429 Too Many Requests",
+        "solana": "HTTP 429 Too Many Requests",
+        "memecoins": "HTTP 429 Too Many Requests",
+        "CryptoCurrency": "HTTP 429 Too Many Requests",
+        "pumpfun": "HTTP 429 Too Many Requests",
+        "SatoshiStreetBets": "HTTP 429 Too Many Requests"
       },
       "blocked": true,
       "method": "rss",
@@ -36,8 +42,8 @@
       "error": "no live X API in feeds.py; optional out/x_raw.jsonl not present"
     },
     "onchain_flow": {
-      "ok": true,
-      "mints_measured": 2
+      "ok": false,
+      "mints_measured": 0
     },
     "dex_trending_count": 49
   },
@@ -54,7 +60,7 @@
       "ticker": "$TRADER",
       "first_seen": "2026-11-20T23:51:45+00:00",
       "last_seen": "2026-11-20T23:51:45+00:00",
-      "age_sec": 294,
+      "age_sec": 647,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -75,58 +81,8 @@
       "flow": {
         "pair": "65eyzrLgqEjqZ5NMoFntrE6XE6SvxS9zggzaBiew4n8n",
         "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {
-          "1m": {
-            "trades": 37,
-            "buys": 14,
-            "sells": 23,
-            "buy_usd": 199.1,
-            "sell_usd": 840.16,
-            "buy_pressure": 0.192,
-            "unique_buyers": 10,
-            "unique_sellers": 13,
-            "large_wallets": 1,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 1,
-            "large_wallet_net_usd": -552.24,
-            "max_buyer_share": 0.679,
-            "window_complete": true
-          },
-          "5m": {
-            "trades": 300,
-            "buys": 160,
-            "sells": 140,
-            "buy_usd": 6617.26,
-            "sell_usd": 5821.05,
-            "buy_pressure": 0.532,
-            "unique_buyers": 88,
-            "unique_sellers": 75,
-            "large_wallets": 6,
-            "large_wallets_buying": 3,
-            "large_wallets_selling": 3,
-            "large_wallet_net_usd": 1630.9,
-            "max_buyer_share": 0.265,
-            "window_complete": false
-          },
-          "15m": {
-            "trades": 300,
-            "buys": 160,
-            "sells": 140,
-            "buy_usd": 6617.26,
-            "sell_usd": 5821.05,
-            "buy_pressure": 0.532,
-            "unique_buyers": 88,
-            "unique_sellers": 75,
-            "large_wallets": 6,
-            "large_wallets_buying": 3,
-            "large_wallets_selling": 3,
-            "large_wallet_net_usd": 1630.9,
-            "max_buyer_share": 0.265,
-            "window_complete": false
-          }
-        },
-        "error": null,
-        "trades_returned": 300
+        "windows": {},
+        "error": "HTTP 429"
       }
     },
     {
@@ -134,7 +90,7 @@
       "ticker": "$70",
       "first_seen": "2026-11-20T22:07:20+00:00",
       "last_seen": "2026-11-20T22:07:20+00:00",
-      "age_sec": 6559,
+      "age_sec": 6912,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -155,58 +111,8 @@
       "flow": {
         "pair": "9cvvdqjibjFKi8129XvBaGk11KjLUCRhx8wW2vHwzDHD",
         "source": "api.geckoterminal.com/pools/.../trades",
-        "windows": {
-          "1m": {
-            "trades": 4,
-            "buys": 0,
-            "sells": 4,
-            "buy_usd": 0,
-            "sell_usd": 24.34,
-            "buy_pressure": 0.0,
-            "unique_buyers": 0,
-            "unique_sellers": 4,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": null,
-            "window_complete": true
-          },
-          "5m": {
-            "trades": 33,
-            "buys": 2,
-            "sells": 31,
-            "buy_usd": 35.64,
-            "sell_usd": 424.63,
-            "buy_pressure": 0.077,
-            "unique_buyers": 2,
-            "unique_sellers": 31,
-            "large_wallets": 0,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 0,
-            "large_wallet_net_usd": 0,
-            "max_buyer_share": 0.998,
-            "window_complete": true
-          },
-          "15m": {
-            "trades": 150,
-            "buys": 33,
-            "sells": 117,
-            "buy_usd": 253.42,
-            "sell_usd": 2252.58,
-            "buy_pressure": 0.101,
-            "unique_buyers": 17,
-            "unique_sellers": 100,
-            "large_wallets": 3,
-            "large_wallets_buying": 0,
-            "large_wallets_selling": 3,
-            "large_wallet_net_usd": -841.81,
-            "max_buyer_share": 0.305,
-            "window_complete": true
-          }
-        },
-        "error": null,
-        "trades_returned": 300
+        "windows": {},
+        "error": "HTTP 429"
       }
     },
     {
@@ -214,7 +120,7 @@
       "ticker": "$SOUVENIR",
       "first_seen": "2026-11-20T21:26:04+00:00",
       "last_seen": "2026-11-20T21:26:04+00:00",
-      "age_sec": 9035,
+      "age_sec": 9388,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -235,7 +141,7 @@
       "ticker": "$TRADER",
       "first_seen": "2026-11-20T21:20:26+00:00",
       "last_seen": "2026-11-20T21:20:26+00:00",
-      "age_sec": 9373,
+      "age_sec": 9726,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -256,7 +162,7 @@
       "ticker": "$ENU",
       "first_seen": "2026-11-20T21:17:41+00:00",
       "last_seen": "2026-11-20T21:17:41+00:00",
-      "age_sec": 9538,
+      "age_sec": 9891,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -286,7 +192,7 @@
       "ticker": "$ENU",
       "first_seen": "2026-11-20T21:17:41+00:00",
       "last_seen": "2026-11-20T21:17:41+00:00",
-      "age_sec": 9538,
+      "age_sec": 9891,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -307,7 +213,7 @@
       "ticker": "$67",
       "first_seen": "2026-11-20T21:16:20+00:00",
       "last_seen": "2026-11-20T21:16:20+00:00",
-      "age_sec": 9619,
+      "age_sec": 9972,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -337,7 +243,7 @@
       "ticker": "$SINGULARITY",
       "first_seen": "2026-11-20T21:15:44+00:00",
       "last_seen": "2026-11-20T21:15:44+00:00",
-      "age_sec": 9655,
+      "age_sec": 10008,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -367,7 +273,7 @@
       "ticker": "$SINGULARITY",
       "first_seen": "2026-11-20T21:15:44+00:00",
       "last_seen": "2026-11-20T21:15:44+00:00",
-      "age_sec": 9655,
+      "age_sec": 10008,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -388,7 +294,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T21:04:53+00:00",
       "last_seen": "2026-11-20T21:04:53+00:00",
-      "age_sec": 10306,
+      "age_sec": 10659,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -409,7 +315,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T21:04:53+00:00",
       "last_seen": "2026-11-20T21:04:53+00:00",
-      "age_sec": 10306,
+      "age_sec": 10659,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -430,7 +336,7 @@
       "ticker": "$126K",
       "first_seen": "2026-11-20T20:35:43+00:00",
       "last_seen": "2026-11-20T20:35:46+00:00",
-      "age_sec": 12056,
+      "age_sec": 12409,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -458,7 +364,7 @@
       "ticker": "$55",
       "first_seen": "2026-11-20T18:56:35+00:00",
       "last_seen": "2026-11-20T18:56:35+00:00",
-      "age_sec": 18004,
+      "age_sec": 18357,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -479,7 +385,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T18:35:36+00:00",
       "last_seen": "2026-11-20T18:35:36+00:00",
-      "age_sec": 19263,
+      "age_sec": 19616,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -495,7 +401,7 @@
         {
           "kind": "geckoterminal",
           "source": "trending_pools",
-          "t": "2026-11-20T23:56:36+00:00"
+          "t": "2026-11-21T00:02:29+00:00"
         }
       ]
     },
@@ -504,7 +410,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T18:35:36+00:00",
       "last_seen": "2026-11-20T18:35:36+00:00",
-      "age_sec": 19263,
+      "age_sec": 19616,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -525,7 +431,7 @@
       "ticker": "$CATPOOP",
       "first_seen": "2026-11-20T17:42:21+00:00",
       "last_seen": "2026-11-20T17:42:21+00:00",
-      "age_sec": 22458,
+      "age_sec": 22811,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -546,7 +452,7 @@
       "ticker": "$CATPOOP",
       "first_seen": "2026-11-20T17:42:21+00:00",
       "last_seen": "2026-11-20T17:42:21+00:00",
-      "age_sec": 22458,
+      "age_sec": 22811,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -567,7 +473,7 @@
       "ticker": "$DOOMSDAY",
       "first_seen": "2026-11-20T17:26:38+00:00",
       "last_seen": "2026-11-20T17:26:38+00:00",
-      "age_sec": 23401,
+      "age_sec": 23754,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -588,7 +494,7 @@
       "ticker": "$DOOMSDAY",
       "first_seen": "2026-11-20T17:26:38+00:00",
       "last_seen": "2026-11-20T17:26:38+00:00",
-      "age_sec": 23401,
+      "age_sec": 23754,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -609,7 +515,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T17:21:52+00:00",
       "last_seen": "2026-11-20T17:21:52+00:00",
-      "age_sec": 23687,
+      "age_sec": 24040,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -630,7 +536,7 @@
       "ticker": "$H4CK",
       "first_seen": "2026-11-20T17:19:15+00:00",
       "last_seen": "2026-11-20T17:19:15+00:00",
-      "age_sec": 23844,
+      "age_sec": 24197,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -651,7 +557,7 @@
       "ticker": "$H4CK",
       "first_seen": "2026-11-20T17:19:15+00:00",
       "last_seen": "2026-11-20T17:19:15+00:00",
-      "age_sec": 23844,
+      "age_sec": 24197,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -672,7 +578,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T17:18:46+00:00",
       "last_seen": "2026-11-20T17:18:46+00:00",
-      "age_sec": 23873,
+      "age_sec": 24226,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -693,7 +599,7 @@
       "ticker": "$BITCAT",
       "first_seen": "2026-11-20T17:11:22+00:00",
       "last_seen": "2026-11-20T17:11:22+00:00",
-      "age_sec": 24317,
+      "age_sec": 24670,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -714,7 +620,7 @@
       "ticker": "$BITCAT",
       "first_seen": "2026-11-20T17:11:22+00:00",
       "last_seen": "2026-11-20T17:11:22+00:00",
-      "age_sec": 24317,
+      "age_sec": 24670,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -735,7 +641,7 @@
       "ticker": "$115K",
       "first_seen": "2026-11-20T17:05:46+00:00",
       "last_seen": "2026-11-20T17:05:46+00:00",
-      "age_sec": 24653,
+      "age_sec": 25006,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -756,7 +662,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T17:05:15+00:00",
       "last_seen": "2026-11-20T17:05:15+00:00",
-      "age_sec": 24684,
+      "age_sec": 25037,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -777,7 +683,7 @@
       "ticker": "$NIO",
       "first_seen": "2026-11-20T16:41:09+00:00",
       "last_seen": "2026-11-20T16:41:09+00:00",
-      "age_sec": 26130,
+      "age_sec": 26483,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -798,7 +704,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T16:21:22+00:00",
       "last_seen": "2026-11-20T16:21:22+00:00",
-      "age_sec": 27317,
+      "age_sec": 27670,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -819,7 +725,7 @@
       "ticker": "$HUSS",
       "first_seen": "2026-11-20T16:16:41+00:00",
       "last_seen": "2026-11-20T17:21:52+00:00",
-      "age_sec": 27598,
+      "age_sec": 27951,
       "n_sources": 2,
       "flags": [
         "stale_over_30s",
@@ -868,7 +774,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T15:16:02+00:00",
       "last_seen": "2026-11-20T15:16:02+00:00",
-      "age_sec": 31237,
+      "age_sec": 31590,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -889,7 +795,7 @@
       "ticker": "$91",
       "first_seen": "2026-11-20T15:00:30+00:00",
       "last_seen": "2026-11-20T15:00:30+00:00",
-      "age_sec": 32169,
+      "age_sec": 32522,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -910,7 +816,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:55:37+00:00",
       "last_seen": "2026-11-20T14:55:37+00:00",
-      "age_sec": 32462,
+      "age_sec": 32815,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -931,7 +837,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:30:40+00:00",
       "last_seen": "2026-11-20T14:30:40+00:00",
-      "age_sec": 33959,
+      "age_sec": 34312,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -952,7 +858,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T14:30:01+00:00",
       "last_seen": "2026-11-20T17:52:58+00:00",
-      "age_sec": 33998,
+      "age_sec": 34351,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -980,7 +886,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T12:16:44+00:00",
       "last_seen": "2026-11-20T12:16:44+00:00",
-      "age_sec": 41995,
+      "age_sec": 42348,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1001,7 +907,7 @@
       "ticker": "$ZOL",
       "first_seen": "2026-11-20T11:40:17+00:00",
       "last_seen": "2026-11-20T11:40:17+00:00",
-      "age_sec": 44182,
+      "age_sec": 44535,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1022,7 +928,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T10:46:51+00:00",
       "last_seen": "2026-11-20T10:46:51+00:00",
-      "age_sec": 47388,
+      "age_sec": 47741,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1043,7 +949,7 @@
       "ticker": "$AMC",
       "first_seen": "2026-11-20T10:39:17+00:00",
       "last_seen": "2026-11-20T10:58:59+00:00",
-      "age_sec": 47842,
+      "age_sec": 48195,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1071,7 +977,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T09:25:32+00:00",
       "last_seen": "2026-11-20T09:25:32+00:00",
-      "age_sec": 52267,
+      "age_sec": 52620,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1092,7 +998,7 @@
       "ticker": "$patrick",
       "first_seen": "2026-11-20T08:52:48+00:00",
       "last_seen": "2026-11-20T20:27:48+00:00",
-      "age_sec": 54231,
+      "age_sec": 54584,
       "n_sources": 2,
       "flags": [
         "stale_over_30s",
@@ -1246,7 +1152,7 @@
       "ticker": null,
       "first_seen": "2026-11-20T08:47:41+00:00",
       "last_seen": "2026-11-20T08:52:22+00:00",
-      "age_sec": 54538,
+      "age_sec": 54891,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1274,7 +1180,7 @@
       "ticker": "$APCY",
       "first_seen": "2026-11-20T07:52:38+00:00",
       "last_seen": "2026-11-20T07:52:38+00:00",
-      "age_sec": 57841,
+      "age_sec": 58194,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1295,7 +1201,7 @@
       "ticker": "$APCY",
       "first_seen": "2026-11-20T07:52:38+00:00",
       "last_seen": "2026-11-20T07:52:38+00:00",
-      "age_sec": 57841,
+      "age_sec": 58194,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1316,7 +1222,7 @@
       "ticker": "$89",
       "first_seen": "2026-11-20T00:00:44+00:00",
       "last_seen": "2026-11-20T00:00:44+00:00",
-      "age_sec": 86155,
+      "age_sec": 86508,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1337,7 +1243,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T23:27:55+00:00",
       "last_seen": "2026-11-20T18:23:55+00:00",
-      "age_sec": 88124,
+      "age_sec": 88477,
       "n_sources": 1,
       "flags": [
         "stale_over_30s"
@@ -1395,13 +1301,13 @@
         {
           "kind": "dexscreener",
           "source": "community-takeovers/latest/v1",
-          "t": "2026-11-20T23:56:36+00:00",
+          "t": "2026-11-21T00:02:29+00:00",
           "url": "https://api.dexscreener.com/community-takeovers/latest/v1"
         },
         {
           "kind": "geckoterminal",
           "source": "trending_pools",
-          "t": "2026-11-20T23:56:36+00:00"
+          "t": "2026-11-21T00:02:29+00:00"
         }
       ]
     },
@@ -1410,7 +1316,7 @@
       "ticker": "$WTA6",
       "first_seen": "2026-11-19T22:36:50+00:00",
       "last_seen": "2026-11-19T22:54:03+00:00",
-      "age_sec": 91189,
+      "age_sec": 91542,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1445,7 +1351,7 @@
       "ticker": "$370",
       "first_seen": "2026-11-19T20:53:17+00:00",
       "last_seen": "2026-11-19T20:53:17+00:00",
-      "age_sec": 97402,
+      "age_sec": 97755,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1466,7 +1372,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T17:11:25+00:00",
       "last_seen": "2026-11-20T21:28:59+00:00",
-      "age_sec": 110714,
+      "age_sec": 111067,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1508,7 +1414,7 @@
       "ticker": "$AI",
       "first_seen": "2026-11-19T16:50:29+00:00",
       "last_seen": "2026-11-19T16:50:29+00:00",
-      "age_sec": 111970,
+      "age_sec": 112323,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1529,7 +1435,7 @@
       "ticker": "$LUCKYCOIN",
       "first_seen": "2026-11-19T16:38:44+00:00",
       "last_seen": "2026-11-19T16:38:44+00:00",
-      "age_sec": 112675,
+      "age_sec": 113028,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1550,7 +1456,7 @@
       "ticker": "$83",
       "first_seen": "2026-11-19T16:36:19+00:00",
       "last_seen": "2026-11-19T16:36:19+00:00",
-      "age_sec": 112820,
+      "age_sec": 113173,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1571,7 +1477,7 @@
       "ticker": "$110",
       "first_seen": "2026-11-19T16:33:39+00:00",
       "last_seen": "2026-11-19T16:33:39+00:00",
-      "age_sec": 112980,
+      "age_sec": 113333,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1592,7 +1498,7 @@
       "ticker": "$150",
       "first_seen": "2026-11-19T16:31:45+00:00",
       "last_seen": "2026-11-19T16:31:45+00:00",
-      "age_sec": 113094,
+      "age_sec": 113447,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1613,7 +1519,7 @@
       "ticker": "$159",
       "first_seen": "2026-11-19T16:31:07+00:00",
       "last_seen": "2026-11-19T16:31:07+00:00",
-      "age_sec": 113132,
+      "age_sec": 113485,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1634,7 +1540,7 @@
       "ticker": "$AI",
       "first_seen": "2026-11-19T16:19:39+00:00",
       "last_seen": "2026-11-19T16:19:39+00:00",
-      "age_sec": 113820,
+      "age_sec": 114173,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1655,7 +1561,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T12:00:21+00:00",
       "last_seen": "2026-11-19T12:00:21+00:00",
-      "age_sec": 129378,
+      "age_sec": 129731,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1676,7 +1582,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T11:46:28+00:00",
       "last_seen": "2026-11-19T11:46:28+00:00",
-      "age_sec": 130211,
+      "age_sec": 130564,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1697,7 +1603,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T08:47:23+00:00",
       "last_seen": "2026-11-19T08:47:23+00:00",
-      "age_sec": 140956,
+      "age_sec": 141309,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1718,7 +1624,7 @@
       "ticker": "$79",
       "first_seen": "2026-11-19T08:44:35+00:00",
       "last_seen": "2026-11-20T14:07:16+00:00",
-      "age_sec": 141124,
+      "age_sec": 141477,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1746,7 +1652,7 @@
       "ticker": null,
       "first_seen": "2026-11-19T05:09:47+00:00",
       "last_seen": "2026-11-19T05:10:11+00:00",
-      "age_sec": 154012,
+      "age_sec": 154365,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1774,7 +1680,7 @@
       "ticker": "$CRIME",
       "first_seen": "2026-11-18T21:30:07+00:00",
       "last_seen": "2026-11-18T21:30:07+00:00",
-      "age_sec": 181592,
+      "age_sec": 181945,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1795,7 +1701,7 @@
       "ticker": null,
       "first_seen": "2026-11-18T16:29:25+00:00",
       "last_seen": "2026-11-18T16:29:25+00:00",
-      "age_sec": 199634,
+      "age_sec": 199987,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1816,7 +1722,7 @@
       "ticker": "$108",
       "first_seen": "2026-11-18T16:00:30+00:00",
       "last_seen": "2026-11-18T16:00:30+00:00",
-      "age_sec": 201369,
+      "age_sec": 201722,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1837,7 +1743,7 @@
       "ticker": "$225",
       "first_seen": "2026-11-18T11:10:33+00:00",
       "last_seen": "2026-11-18T11:10:33+00:00",
-      "age_sec": 218766,
+      "age_sec": 219119,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1858,7 +1764,7 @@
       "ticker": "$65",
       "first_seen": "2026-11-18T11:03:12+00:00",
       "last_seen": "2026-11-18T11:06:18+00:00",
-      "age_sec": 219207,
+      "age_sec": 219560,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1886,7 +1792,7 @@
       "ticker": "$398",
       "first_seen": "2026-11-16T19:04:53+00:00",
       "last_seen": "2026-11-16T19:05:45+00:00",
-      "age_sec": 363106,
+      "age_sec": 363459,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1914,7 +1820,7 @@
       "ticker": "$59",
       "first_seen": "2026-11-16T16:58:41+00:00",
       "last_seen": "2026-11-16T16:58:41+00:00",
-      "age_sec": 370678,
+      "age_sec": 371031,
       "n_sources": 1,
       "flags": [
         "stale_over_30s",
@@ -1936,20 +1842,20 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump": [
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -1957,13 +1863,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -1971,13 +1877,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -1985,26 +1891,26 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       },
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": [
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -2012,13 +1918,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2026,7 +1932,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -2034,13 +1940,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2048,13 +1954,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2062,13 +1968,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2076,21 +1982,15 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
-      },
-      {
-        "kind": "dexscreener",
-        "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
-        "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
     "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": [
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -2098,13 +1998,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2112,13 +2012,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2126,13 +2026,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2140,7 +2040,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -2148,13 +2048,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2162,13 +2062,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2176,13 +2076,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2190,13 +2090,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2204,13 +2104,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2218,13 +2118,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2232,13 +2132,13 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       },
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2246,7 +2146,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/top/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/top/v1"
       }
     ],
@@ -2254,7 +2154,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2262,7 +2162,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2270,7 +2170,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2278,7 +2178,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2286,7 +2186,7 @@
       {
         "kind": "dexscreener",
         "source": "token-boosts/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/token-boosts/latest/v1"
       }
     ],
@@ -2294,7 +2194,7 @@
       {
         "kind": "dexscreener",
         "source": "community-takeovers/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/community-takeovers/latest/v1"
       }
     ],
@@ -2302,132 +2202,132 @@
       {
         "kind": "dexscreener",
         "source": "community-takeovers/latest/v1",
-        "t": "2026-11-20T23:56:36+00:00",
+        "t": "2026-11-21T00:02:29+00:00",
         "url": "https://api.dexscreener.com/community-takeovers/latest/v1"
       },
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
-      }
-    ],
-    "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": [
-      {
-        "kind": "geckoterminal",
-        "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
+      }
+    ],
+    "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": [
+      {
+        "kind": "geckoterminal",
+        "source": "trending_pools",
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ],
     "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": [
       {
         "kind": "geckoterminal",
         "source": "trending_pools",
-        "t": "2026-11-20T23:56:36+00:00"
+        "t": "2026-11-21T00:02:29+00:00"
       }
     ]
   }
